@@ -1,0 +1,744 @@
+{
+  "id": "vampire",
+  "name": "Vampire",
+  "source": "https://tabletopaudio.com/vampire_sp.html",
+  "coverRemote": "https://images.tabletopaudio.com/sb/vampire_sp2.jpg",
+  "cover": "modules/tabletop-audio-soundpads/audio-cache/vampire/vampire_sp2.jpg",
+  "headerRemote": "https://images.tabletopaudio.com/sb/dungeon/vampire_header1a.png",
+  "header": "modules/tabletop-audio-soundpads/audio-cache/vampire/vampire_header1a.png",
+  "categories": [
+    "backgrounds",
+    "events",
+    "tones",
+    "music"
+  ],
+  "layerCount": 40,
+  "layers": [
+    {
+      "id": "bg_1",
+      "label": "Traffic: Distant",
+      "icon": "modules/tabletop-audio-soundpads/audio-cache/vampire/icons/highway_icon.png",
+      "iconRemote": "https://images.tabletopaudio.com/sb/dungeon/highway_icon.png",
+      "category": "backgrounds",
+      "type": "loop",
+      "loop": true,
+      "gain": 0.2,
+      "repeatDefault": 0,
+      "url": "https://sounds.tabletopaudio.com/vampire/streets1_lp.ogg",
+      "ogg": "https://sounds.tabletopaudio.com/vampire/streets1_lp.ogg",
+      "mp3": "https://sounds.tabletopaudio.com/vampire/streets1_lp.mp3",
+      "local": "modules/tabletop-audio-soundpads/audio-cache/vampire/streets1_lp.ogg"
+    },
+    {
+      "id": "bg_2",
+      "label": "Elevated Rail",
+      "icon": "modules/tabletop-audio-soundpads/audio-cache/vampire/icons/subway_icon.png",
+      "iconRemote": "https://images.tabletopaudio.com/sb/dungeon/subway_icon.png",
+      "category": "backgrounds",
+      "type": "oneshot",
+      "loop": false,
+      "gain": 0.2,
+      "repeatDefault": 0,
+      "url": "https://sounds.tabletopaudio.com/vampire/elevated_rail_pass.ogg",
+      "ogg": "https://sounds.tabletopaudio.com/vampire/elevated_rail_pass.ogg",
+      "mp3": "https://sounds.tabletopaudio.com/vampire/elevated_rail_pass.mp3",
+      "local": "modules/tabletop-audio-soundpads/audio-cache/vampire/elevated_rail_pass.ogg"
+    },
+    {
+      "id": "bg_3",
+      "label": "Under Overpass",
+      "icon": "modules/tabletop-audio-soundpads/audio-cache/vampire/icons/bridge_icon.png",
+      "iconRemote": "https://images.tabletopaudio.com/sb/dungeon/bridge_icon.png",
+      "category": "backgrounds",
+      "type": "loop",
+      "loop": true,
+      "gain": 0.2,
+      "repeatDefault": 0,
+      "url": "https://sounds.tabletopaudio.com/vampire/under_overpass_lp.ogg",
+      "ogg": "https://sounds.tabletopaudio.com/vampire/under_overpass_lp.ogg",
+      "mp3": "https://sounds.tabletopaudio.com/vampire/under_overpass_lp.mp3",
+      "local": "modules/tabletop-audio-soundpads/audio-cache/vampire/under_overpass_lp.ogg"
+    },
+    {
+      "id": "bg_23",
+      "label": "Metro Tunnel",
+      "icon": "modules/tabletop-audio-soundpads/audio-cache/vampire/icons/tunnel_icon.png",
+      "iconRemote": "https://images.tabletopaudio.com/sb/dungeon/tunnel_icon.png",
+      "category": "backgrounds",
+      "type": "loop",
+      "loop": true,
+      "gain": 0.4,
+      "repeatDefault": 0,
+      "url": "https://sounds.tabletopaudio.com/vampire/metro_tunnel_lp.ogg",
+      "ogg": "https://sounds.tabletopaudio.com/vampire/metro_tunnel_lp.ogg",
+      "mp3": "https://sounds.tabletopaudio.com/vampire/metro_tunnel_lp.mp3",
+      "local": "modules/tabletop-audio-soundpads/audio-cache/vampire/metro_tunnel_lp.ogg"
+    },
+    {
+      "id": "bg_32",
+      "label": "Harbor / Docks",
+      "icon": "modules/tabletop-audio-soundpads/audio-cache/vampire/icons/harbor_icon.png",
+      "iconRemote": "https://images.tabletopaudio.com/sb/dungeon/harbor_icon.png",
+      "category": "backgrounds",
+      "type": "loop",
+      "loop": true,
+      "gain": 0.3,
+      "repeatDefault": 0,
+      "url": "https://sounds.tabletopaudio.com/vampire/harbor_docks.ogg",
+      "ogg": "https://sounds.tabletopaudio.com/vampire/harbor_docks.ogg",
+      "mp3": "https://sounds.tabletopaudio.com/vampire/harbor_docks.mp3",
+      "local": "modules/tabletop-audio-soundpads/audio-cache/vampire/harbor_docks.ogg"
+    },
+    {
+      "id": "bg_33",
+      "label": "Highrise Rooftop",
+      "icon": "modules/tabletop-audio-soundpads/audio-cache/vampire/icons/building_icon.png",
+      "iconRemote": "https://images.tabletopaudio.com/sb/dungeon/building_icon.png",
+      "category": "backgrounds",
+      "type": "loop",
+      "loop": true,
+      "gain": 0.3,
+      "repeatDefault": 0,
+      "url": "https://sounds.tabletopaudio.com/vampire/highrise_rooftop.ogg",
+      "ogg": "https://sounds.tabletopaudio.com/vampire/highrise_rooftop.ogg",
+      "mp3": "https://sounds.tabletopaudio.com/vampire/highrise_rooftop.mp3",
+      "local": "modules/tabletop-audio-soundpads/audio-cache/vampire/highrise_rooftop.ogg"
+    },
+    {
+      "id": "bg_36",
+      "label": "Urban Park: Night",
+      "icon": "modules/tabletop-audio-soundpads/audio-cache/vampire/icons/park_icon.png",
+      "iconRemote": "https://images.tabletopaudio.com/sb/dungeon/park_icon.png",
+      "category": "backgrounds",
+      "type": "loop",
+      "loop": true,
+      "gain": 0.4,
+      "repeatDefault": 0,
+      "url": "https://sounds.tabletopaudio.com/vampire/urban_park_night.ogg",
+      "ogg": "https://sounds.tabletopaudio.com/vampire/urban_park_night.ogg",
+      "mp3": "https://sounds.tabletopaudio.com/vampire/urban_park_night.mp3",
+      "local": "modules/tabletop-audio-soundpads/audio-cache/vampire/urban_park_night.ogg"
+    },
+    {
+      "id": "bg_24",
+      "label": "Light Rain",
+      "icon": "modules/tabletop-audio-soundpads/audio-cache/vampire/icons/rain_icon.png",
+      "iconRemote": "https://images.tabletopaudio.com/sb/dungeon/rain_icon.png",
+      "category": "backgrounds",
+      "type": "loop",
+      "loop": true,
+      "gain": 0.2,
+      "repeatDefault": 0,
+      "url": "https://sounds.tabletopaudio.com/vampire/rain2.ogg",
+      "ogg": "https://sounds.tabletopaudio.com/vampire/rain2.ogg",
+      "mp3": "https://sounds.tabletopaudio.com/vampire/rain2.mp3",
+      "local": "modules/tabletop-audio-soundpads/audio-cache/vampire/rain2.ogg"
+    },
+    {
+      "id": "bg_25",
+      "label": "Thunder Clap",
+      "icon": "modules/tabletop-audio-soundpads/audio-cache/vampire/icons/thunder_icon.png",
+      "iconRemote": "https://images.tabletopaudio.com/sb/dungeon/thunder_icon.png",
+      "category": "events",
+      "type": "oneshot",
+      "loop": false,
+      "gain": 0.5,
+      "repeatDefault": 0,
+      "url": "https://sounds.tabletopaudio.com/vampire/thunder.ogg",
+      "ogg": "https://sounds.tabletopaudio.com/vampire/thunder.ogg",
+      "mp3": "https://sounds.tabletopaudio.com/vampire/thunder.mp3",
+      "local": "modules/tabletop-audio-soundpads/audio-cache/vampire/thunder.ogg"
+    },
+    {
+      "id": "bg_5",
+      "label": "Helicopter Hover",
+      "icon": "modules/tabletop-audio-soundpads/audio-cache/vampire/icons/helicopter_icon.png",
+      "iconRemote": "https://images.tabletopaudio.com/sb/dungeon/helicopter_icon.png",
+      "category": "backgrounds",
+      "type": "loop",
+      "loop": true,
+      "gain": 0.2,
+      "repeatDefault": 0,
+      "url": "https://sounds.tabletopaudio.com/vampire/helicopter_hover.ogg",
+      "ogg": "https://sounds.tabletopaudio.com/vampire/helicopter_hover.ogg",
+      "mp3": "https://sounds.tabletopaudio.com/vampire/helicopter_hover.mp3",
+      "local": "modules/tabletop-audio-soundpads/audio-cache/vampire/helicopter_hover.ogg"
+    },
+    {
+      "id": "bg_6",
+      "label": "Helicopter Passby",
+      "icon": "modules/tabletop-audio-soundpads/audio-cache/vampire/icons/helicopter_icon.png",
+      "iconRemote": "https://images.tabletopaudio.com/sb/dungeon/helicopter_icon.png",
+      "category": "events",
+      "type": "oneshot",
+      "loop": false,
+      "gain": 0.3,
+      "repeatDefault": 0,
+      "url": "https://sounds.tabletopaudio.com/vampire/helicopter_passby.ogg",
+      "ogg": "https://sounds.tabletopaudio.com/vampire/helicopter_passby.ogg",
+      "mp3": "https://sounds.tabletopaudio.com/vampire/helicopter_passby.mp3",
+      "local": "modules/tabletop-audio-soundpads/audio-cache/vampire/helicopter_passby.ogg"
+    },
+    {
+      "id": "bg_18",
+      "label": "Car Idle: Ext.",
+      "icon": "modules/tabletop-audio-soundpads/audio-cache/vampire/icons/car_icon.png",
+      "iconRemote": "https://images.tabletopaudio.com/sb/dungeon/car_icon.png",
+      "category": "backgrounds",
+      "type": "loop",
+      "loop": true,
+      "gain": 0.3,
+      "repeatDefault": 0,
+      "url": "https://sounds.tabletopaudio.com/vampire/car_idle_lp.ogg",
+      "ogg": "https://sounds.tabletopaudio.com/vampire/car_idle_lp.ogg",
+      "mp3": "https://sounds.tabletopaudio.com/vampire/car_idle_lp.mp3",
+      "local": "modules/tabletop-audio-soundpads/audio-cache/vampire/car_idle_lp.ogg"
+    },
+    {
+      "id": "bg_14",
+      "label": "Car Driving: Int.",
+      "icon": "modules/tabletop-audio-soundpads/audio-cache/vampire/icons/car_icon.png",
+      "iconRemote": "https://images.tabletopaudio.com/sb/dungeon/car_icon.png",
+      "category": "backgrounds",
+      "type": "loop",
+      "loop": true,
+      "gain": 0.6,
+      "repeatDefault": 0,
+      "url": "https://sounds.tabletopaudio.com/vampire/car_driving_interior_lp.ogg",
+      "ogg": "https://sounds.tabletopaudio.com/vampire/car_driving_interior_lp.ogg",
+      "mp3": "https://sounds.tabletopaudio.com/vampire/car_driving_interior_lp.mp3",
+      "local": "modules/tabletop-audio-soundpads/audio-cache/vampire/car_driving_interior_lp.ogg"
+    },
+    {
+      "id": "bg_4",
+      "label": "Cage Elevator",
+      "icon": "modules/tabletop-audio-soundpads/audio-cache/vampire/icons/elevator2_icon.png",
+      "iconRemote": "https://images.tabletopaudio.com/sb/dungeon/elevator2_icon.png",
+      "category": "events",
+      "type": "oneshot",
+      "loop": false,
+      "gain": 0.3,
+      "repeatDefault": 0,
+      "url": "https://sounds.tabletopaudio.com/vampire/cage_elevator.ogg",
+      "ogg": "https://sounds.tabletopaudio.com/vampire/cage_elevator.ogg",
+      "mp3": "https://sounds.tabletopaudio.com/vampire/cage_elevator.mp3",
+      "local": "modules/tabletop-audio-soundpads/audio-cache/vampire/cage_elevator.ogg"
+    },
+    {
+      "id": "bg_17",
+      "label": "Hotel Lobby",
+      "icon": "modules/tabletop-audio-soundpads/audio-cache/vampire/icons/hotel_lobby_icon.png",
+      "iconRemote": "https://images.tabletopaudio.com/sb/dungeon/hotel_lobby_icon.png",
+      "category": "backgrounds",
+      "type": "loop",
+      "loop": true,
+      "gain": 0.5,
+      "repeatDefault": 0,
+      "url": "https://sounds.tabletopaudio.com/vampire/hotel_lounge.ogg",
+      "ogg": "https://sounds.tabletopaudio.com/vampire/hotel_lounge.ogg",
+      "mp3": "https://sounds.tabletopaudio.com/vampire/hotel_lounge.mp3",
+      "local": "modules/tabletop-audio-soundpads/audio-cache/vampire/hotel_lounge.ogg"
+    },
+    {
+      "id": "bg_8",
+      "label": "Lounge Ambience",
+      "icon": "modules/tabletop-audio-soundpads/audio-cache/vampire/icons/whiskey_icon.png",
+      "iconRemote": "https://images.tabletopaudio.com/sb/dungeon/whiskey_icon.png",
+      "category": "backgrounds",
+      "type": "loop",
+      "loop": true,
+      "gain": 0.3,
+      "repeatDefault": 0,
+      "url": "https://sounds.tabletopaudio.com/vampire/bar_interior_lp.ogg",
+      "ogg": "https://sounds.tabletopaudio.com/vampire/bar_interior_lp.ogg",
+      "mp3": "https://sounds.tabletopaudio.com/vampire/bar_interior_lp.mp3",
+      "local": "modules/tabletop-audio-soundpads/audio-cache/vampire/bar_interior_lp.ogg"
+    },
+    {
+      "id": "bg_19",
+      "label": "Club: VIP Room",
+      "icon": "modules/tabletop-audio-soundpads/audio-cache/vampire/icons/champagne_icon.png",
+      "iconRemote": "https://images.tabletopaudio.com/sb/dungeon/champagne_icon.png",
+      "category": "backgrounds",
+      "type": "loop",
+      "loop": true,
+      "gain": 0.6,
+      "repeatDefault": 0,
+      "url": "https://sounds.tabletopaudio.com/vampire/club_vip_room.ogg",
+      "ogg": "https://sounds.tabletopaudio.com/vampire/club_vip_room.ogg",
+      "mp3": "https://sounds.tabletopaudio.com/vampire/club_vip_room.mp3",
+      "local": "modules/tabletop-audio-soundpads/audio-cache/vampire/club_vip_room.ogg"
+    },
+    {
+      "id": "bg_27",
+      "label": "Cell Phone",
+      "icon": "modules/tabletop-audio-soundpads/audio-cache/vampire/icons/cel_phone_icon.png",
+      "iconRemote": "https://images.tabletopaudio.com/sb/dungeon/cel_phone_icon.png",
+      "category": "events",
+      "type": "oneshot",
+      "loop": false,
+      "gain": 0.3,
+      "repeatDefault": 0,
+      "url": "https://sounds.tabletopaudio.com/vampire/cell_phone.ogg",
+      "ogg": "https://sounds.tabletopaudio.com/vampire/cell_phone.ogg",
+      "mp3": "https://sounds.tabletopaudio.com/vampire/cell_phone.mp3",
+      "local": "modules/tabletop-audio-soundpads/audio-cache/vampire/cell_phone.ogg"
+    },
+    {
+      "id": "bg_9",
+      "label": "Run In: Boots",
+      "icon": "modules/tabletop-audio-soundpads/audio-cache/vampire/icons/boots.png",
+      "iconRemote": "https://images.tabletopaudio.com/sb/dungeon/boots.png",
+      "category": "events",
+      "type": "oneshot",
+      "loop": false,
+      "gain": 0.2,
+      "repeatDefault": 0,
+      "url": "https://sounds.tabletopaudio.com/vampire/man_approach.ogg",
+      "ogg": "https://sounds.tabletopaudio.com/vampire/man_approach.ogg",
+      "mp3": "https://sounds.tabletopaudio.com/vampire/man_approach.mp3",
+      "local": "modules/tabletop-audio-soundpads/audio-cache/vampire/man_approach.ogg"
+    },
+    {
+      "id": "bg_10",
+      "label": "Run Out: Boots",
+      "icon": "modules/tabletop-audio-soundpads/audio-cache/vampire/icons/boots.png",
+      "iconRemote": "https://images.tabletopaudio.com/sb/dungeon/boots.png",
+      "category": "events",
+      "type": "oneshot",
+      "loop": false,
+      "gain": 0.2,
+      "repeatDefault": 0,
+      "url": "https://sounds.tabletopaudio.com/vampire/man_run_away.ogg",
+      "ogg": "https://sounds.tabletopaudio.com/vampire/man_run_away.ogg",
+      "mp3": "https://sounds.tabletopaudio.com/vampire/man_run_away.mp3",
+      "local": "modules/tabletop-audio-soundpads/audio-cache/vampire/man_run_away.ogg"
+    },
+    {
+      "id": "bg_11",
+      "label": "Run In: Heels",
+      "icon": "modules/tabletop-audio-soundpads/audio-cache/vampire/icons/high_heels_icon.png",
+      "iconRemote": "https://images.tabletopaudio.com/sb/dungeon/high_heels_icon.png",
+      "category": "events",
+      "type": "oneshot",
+      "loop": false,
+      "gain": 0.2,
+      "repeatDefault": 0,
+      "url": "https://sounds.tabletopaudio.com/vampire/woman_approach.ogg",
+      "ogg": "https://sounds.tabletopaudio.com/vampire/woman_approach.ogg",
+      "mp3": "https://sounds.tabletopaudio.com/vampire/woman_approach.mp3",
+      "local": "modules/tabletop-audio-soundpads/audio-cache/vampire/woman_approach.ogg"
+    },
+    {
+      "id": "bg_12",
+      "label": "Run Out: Heels",
+      "icon": "modules/tabletop-audio-soundpads/audio-cache/vampire/icons/high_heels_icon.png",
+      "iconRemote": "https://images.tabletopaudio.com/sb/dungeon/high_heels_icon.png",
+      "category": "events",
+      "type": "oneshot",
+      "loop": false,
+      "gain": 0.2,
+      "repeatDefault": 0,
+      "url": "https://sounds.tabletopaudio.com/vampire/woman_run_away.ogg",
+      "ogg": "https://sounds.tabletopaudio.com/vampire/woman_run_away.ogg",
+      "mp3": "https://sounds.tabletopaudio.com/vampire/woman_run_away.mp3",
+      "local": "modules/tabletop-audio-soundpads/audio-cache/vampire/woman_run_away.ogg"
+    },
+    {
+      "id": "bg_34",
+      "label": "Swoop In",
+      "icon": "modules/tabletop-audio-soundpads/audio-cache/vampire/icons/swoop_in_icon.png",
+      "iconRemote": "https://images.tabletopaudio.com/sb/dungeon/swoop_in_icon.png",
+      "category": "events",
+      "type": "oneshot",
+      "loop": false,
+      "gain": 0.4,
+      "repeatDefault": 0,
+      "url": "https://sounds.tabletopaudio.com/vampire/swoop_in.ogg",
+      "ogg": "https://sounds.tabletopaudio.com/vampire/swoop_in.ogg",
+      "mp3": "https://sounds.tabletopaudio.com/vampire/swoop_in.mp3",
+      "local": "modules/tabletop-audio-soundpads/audio-cache/vampire/swoop_in.ogg"
+    },
+    {
+      "id": "bg_35",
+      "label": "Swoop Out",
+      "icon": "modules/tabletop-audio-soundpads/audio-cache/vampire/icons/swoop_out_icon.png",
+      "iconRemote": "https://images.tabletopaudio.com/sb/dungeon/swoop_out_icon.png",
+      "category": "events",
+      "type": "oneshot",
+      "loop": false,
+      "gain": 0.4,
+      "repeatDefault": 0,
+      "url": "https://sounds.tabletopaudio.com/vampire/swoop_out.ogg",
+      "ogg": "https://sounds.tabletopaudio.com/vampire/swoop_out.ogg",
+      "mp3": "https://sounds.tabletopaudio.com/vampire/swoop_out.mp3",
+      "local": "modules/tabletop-audio-soundpads/audio-cache/vampire/swoop_out.ogg"
+    },
+    {
+      "id": "bg_7",
+      "label": "Stake In Heart x4",
+      "icon": "modules/tabletop-audio-soundpads/audio-cache/vampire/icons/dagger_icon.png",
+      "iconRemote": "https://images.tabletopaudio.com/sb/dungeon/dagger_icon.png",
+      "category": "events",
+      "type": "oneshot",
+      "loop": false,
+      "gain": 0.5,
+      "repeatDefault": 0,
+      "url": "https://sounds.tabletopaudio.com/vampire/stake_heart_x4.ogg",
+      "ogg": "https://sounds.tabletopaudio.com/vampire/stake_heart_x4.ogg",
+      "mp3": "https://sounds.tabletopaudio.com/vampire/stake_heart_x4.mp3",
+      "local": "modules/tabletop-audio-soundpads/audio-cache/vampire/stake_heart_x4.ogg",
+      "sprites": [
+        {
+          "offset": 0,
+          "duration": 2.943
+        },
+        {
+          "offset": 3.197,
+          "duration": 2.671
+        },
+        {
+          "offset": 5.961,
+          "duration": 2.487
+        },
+        {
+          "offset": 9.165,
+          "duration": 2.206
+        }
+      ]
+    },
+    {
+      "id": "bg_31",
+      "label": "Decapitation x2",
+      "icon": "modules/tabletop-audio-soundpads/audio-cache/vampire/icons/decapitation_icon.png",
+      "iconRemote": "https://images.tabletopaudio.com/sb/dungeon/decapitation_icon.png",
+      "category": "events",
+      "type": "oneshot",
+      "loop": false,
+      "gain": 0.4,
+      "repeatDefault": 0,
+      "url": "https://sounds.tabletopaudio.com/vampire/decapitation_x2.ogg",
+      "ogg": "https://sounds.tabletopaudio.com/vampire/decapitation_x2.ogg",
+      "mp3": "https://sounds.tabletopaudio.com/vampire/decapitation_x2.mp3",
+      "local": "modules/tabletop-audio-soundpads/audio-cache/vampire/decapitation_x2.ogg",
+      "sprites": [
+        {
+          "offset": 0,
+          "duration": 2.958
+        },
+        {
+          "offset": 3.012,
+          "duration": 2.962
+        },
+        {
+          "offset": 0,
+          "duration": 2.958
+        },
+        {
+          "offset": 3.012,
+          "duration": 2.962
+        }
+      ]
+    },
+    {
+      "id": "bg_28",
+      "label": "Immolation x2",
+      "icon": "modules/tabletop-audio-soundpads/audio-cache/vampire/icons/fire.png",
+      "iconRemote": "https://images.tabletopaudio.com/sb/dungeon/fire.png",
+      "category": "events",
+      "type": "oneshot",
+      "loop": false,
+      "gain": 0.4,
+      "repeatDefault": 0,
+      "url": "https://sounds.tabletopaudio.com/vampire/immolation_x2.ogg",
+      "ogg": "https://sounds.tabletopaudio.com/vampire/immolation_x2.ogg",
+      "mp3": "https://sounds.tabletopaudio.com/vampire/immolation_x2.mp3",
+      "local": "modules/tabletop-audio-soundpads/audio-cache/vampire/immolation_x2.ogg",
+      "sprites": [
+        {
+          "offset": 0,
+          "duration": 6.81
+        },
+        {
+          "offset": 6.91,
+          "duration": 7.495
+        },
+        {
+          "offset": 0,
+          "duration": 6.81
+        },
+        {
+          "offset": 6.91,
+          "duration": 7.495
+        }
+      ]
+    },
+    {
+      "id": "bg_29",
+      "label": "Door Break",
+      "icon": "modules/tabletop-audio-soundpads/audio-cache/vampire/icons/break_in_icon.png",
+      "iconRemote": "https://images.tabletopaudio.com/sb/dungeon/break_in_icon.png",
+      "category": "events",
+      "type": "oneshot",
+      "loop": false,
+      "gain": 0.4,
+      "repeatDefault": 0,
+      "url": "https://sounds.tabletopaudio.com/vampire/door_break.ogg",
+      "ogg": "https://sounds.tabletopaudio.com/vampire/door_break.ogg",
+      "mp3": "https://sounds.tabletopaudio.com/vampire/door_break.mp3",
+      "local": "modules/tabletop-audio-soundpads/audio-cache/vampire/door_break.ogg"
+    },
+    {
+      "id": "bg_30",
+      "label": "Window Break",
+      "icon": "modules/tabletop-audio-soundpads/audio-cache/vampire/icons/window_break_icon.png",
+      "iconRemote": "https://images.tabletopaudio.com/sb/dungeon/window_break_icon.png",
+      "category": "events",
+      "type": "oneshot",
+      "loop": false,
+      "gain": 0.3,
+      "repeatDefault": 0,
+      "url": "https://sounds.tabletopaudio.com/vampire/window_break.ogg",
+      "ogg": "https://sounds.tabletopaudio.com/vampire/window_break.ogg",
+      "mp3": "https://sounds.tabletopaudio.com/vampire/window_break.mp3",
+      "local": "modules/tabletop-audio-soundpads/audio-cache/vampire/window_break.ogg"
+    },
+    {
+      "id": "bg_13",
+      "label": "Bite x2",
+      "icon": "modules/tabletop-audio-soundpads/audio-cache/vampire/icons/teeth.png",
+      "iconRemote": "https://images.tabletopaudio.com/sb/dungeon/teeth.png",
+      "category": "events",
+      "type": "oneshot",
+      "loop": false,
+      "gain": 0.5,
+      "repeatDefault": 0,
+      "url": "https://sounds.tabletopaudio.com/vampire/bite_x2.ogg",
+      "ogg": "https://sounds.tabletopaudio.com/vampire/bite_x2.ogg",
+      "mp3": "https://sounds.tabletopaudio.com/vampire/bite_x2.mp3",
+      "local": "modules/tabletop-audio-soundpads/audio-cache/vampire/bite_x2.ogg",
+      "sprites": [
+        {
+          "offset": 0,
+          "duration": 6.687
+        },
+        {
+          "offset": 6.795,
+          "duration": 6.846
+        },
+        {
+          "offset": 0,
+          "duration": 6.687
+        },
+        {
+          "offset": 6.795,
+          "duration": 6.846
+        }
+      ]
+    },
+    {
+      "id": "bg_15",
+      "label": "Hiss x4",
+      "icon": "modules/tabletop-audio-soundpads/audio-cache/vampire/icons/teeth.png",
+      "iconRemote": "https://images.tabletopaudio.com/sb/dungeon/teeth.png",
+      "category": "events",
+      "type": "oneshot",
+      "loop": false,
+      "gain": 0.4,
+      "repeatDefault": 0,
+      "url": "https://sounds.tabletopaudio.com/vampire/vampire_hiss2_x4.ogg",
+      "ogg": "https://sounds.tabletopaudio.com/vampire/vampire_hiss2_x4.ogg",
+      "mp3": "https://sounds.tabletopaudio.com/vampire/vampire_hiss2_x4.mp3",
+      "local": "modules/tabletop-audio-soundpads/audio-cache/vampire/vampire_hiss2_x4.ogg",
+      "sprites": [
+        {
+          "offset": 0,
+          "duration": 4.351
+        },
+        {
+          "offset": 4.375,
+          "duration": 4.379
+        },
+        {
+          "offset": 8.722,
+          "duration": 4.445
+        },
+        {
+          "offset": 13.148,
+          "duration": 2.899
+        }
+      ]
+    },
+    {
+      "id": "bg_16",
+      "label": "Automatic Fire x4",
+      "icon": "modules/tabletop-audio-soundpads/audio-cache/vampire/icons/assault_weapon_icon.png",
+      "iconRemote": "https://images.tabletopaudio.com/sb/dungeon/assault_weapon_icon.png",
+      "category": "events",
+      "type": "oneshot",
+      "loop": false,
+      "gain": 0.4,
+      "repeatDefault": 0,
+      "url": "https://sounds.tabletopaudio.com/vampire/automatic_fire_x4.ogg",
+      "ogg": "https://sounds.tabletopaudio.com/vampire/automatic_fire_x4.ogg",
+      "mp3": "https://sounds.tabletopaudio.com/vampire/automatic_fire_x4.mp3",
+      "local": "modules/tabletop-audio-soundpads/audio-cache/vampire/automatic_fire_x4.ogg",
+      "sprites": [
+        {
+          "offset": 0,
+          "duration": 4.121
+        },
+        {
+          "offset": 4.133,
+          "duration": 4.051
+        },
+        {
+          "offset": 8.463,
+          "duration": 3.633
+        },
+        {
+          "offset": 12.434,
+          "duration": 5.565
+        }
+      ]
+    },
+    {
+      "id": "bg_26",
+      "label": "Single Fire x4",
+      "icon": "modules/tabletop-audio-soundpads/audio-cache/vampire/icons/hand_gun_icon.png",
+      "iconRemote": "https://images.tabletopaudio.com/sb/dungeon/hand_gun_icon.png",
+      "category": "events",
+      "type": "oneshot",
+      "loop": false,
+      "gain": 0.4,
+      "repeatDefault": 0,
+      "url": "https://sounds.tabletopaudio.com/vampire/single_fire_x4.ogg",
+      "ogg": "https://sounds.tabletopaudio.com/vampire/single_fire_x4.ogg",
+      "mp3": "https://sounds.tabletopaudio.com/vampire/single_fire_x4.mp3",
+      "local": "modules/tabletop-audio-soundpads/audio-cache/vampire/single_fire_x4.ogg",
+      "sprites": [
+        {
+          "offset": 0,
+          "duration": 1.06
+        },
+        {
+          "offset": 1.076,
+          "duration": 1.229
+        },
+        {
+          "offset": 2.341,
+          "duration": 1.376
+        },
+        {
+          "offset": 3.773,
+          "duration": 1.407
+        }
+      ]
+    },
+    {
+      "id": "bg_20",
+      "label": "Lo Tone",
+      "icon": "modules/tabletop-audio-soundpads/audio-cache/vampire/icons/bass_tone.png",
+      "iconRemote": "https://images.tabletopaudio.com/sb/dungeon/bass_tone.png",
+      "category": "tones",
+      "type": "loop",
+      "loop": true,
+      "gain": 0.4,
+      "repeatDefault": 0,
+      "url": "https://sounds.tabletopaudio.com/vampire/tone1_lp.ogg",
+      "ogg": "https://sounds.tabletopaudio.com/vampire/tone1_lp.ogg",
+      "mp3": "https://sounds.tabletopaudio.com/vampire/tone1_lp.mp3",
+      "local": "modules/tabletop-audio-soundpads/audio-cache/vampire/tone1_lp.ogg"
+    },
+    {
+      "id": "bg_21",
+      "label": "Pulse Tone",
+      "icon": "modules/tabletop-audio-soundpads/audio-cache/vampire/icons/bass_tone.png",
+      "iconRemote": "https://images.tabletopaudio.com/sb/dungeon/bass_tone.png",
+      "category": "tones",
+      "type": "loop",
+      "loop": true,
+      "gain": 0.5,
+      "repeatDefault": 0,
+      "url": "https://sounds.tabletopaudio.com/vampire/tone2.ogg",
+      "ogg": "https://sounds.tabletopaudio.com/vampire/tone2.ogg",
+      "mp3": "https://sounds.tabletopaudio.com/vampire/tone2.mp3",
+      "local": "modules/tabletop-audio-soundpads/audio-cache/vampire/tone2.ogg"
+    },
+    {
+      "id": "bg_22",
+      "label": "Eerie Tone",
+      "icon": "modules/tabletop-audio-soundpads/audio-cache/vampire/icons/treble_tone.png",
+      "iconRemote": "https://images.tabletopaudio.com/sb/dungeon/treble_tone.png",
+      "category": "tones",
+      "type": "loop",
+      "loop": true,
+      "gain": 0.4,
+      "repeatDefault": 0,
+      "url": "https://sounds.tabletopaudio.com/vampire/tone3_lp.ogg",
+      "ogg": "https://sounds.tabletopaudio.com/vampire/tone3_lp.ogg",
+      "mp3": "https://sounds.tabletopaudio.com/vampire/tone3_lp.mp3",
+      "local": "modules/tabletop-audio-soundpads/audio-cache/vampire/tone3_lp.ogg"
+    },
+    {
+      "id": "bg_37",
+      "label": "Music: Theme",
+      "icon": "modules/tabletop-audio-soundpads/audio-cache/vampire/icons/music.png",
+      "iconRemote": "https://images.tabletopaudio.com/sb/dungeon/music.png",
+      "category": "music",
+      "type": "music",
+      "loop": true,
+      "gain": 0.6,
+      "repeatDefault": 0,
+      "url": "https://sounds.tabletopaudio.com/vampire/music2.ogg",
+      "ogg": "https://sounds.tabletopaudio.com/vampire/music2.ogg",
+      "mp3": "https://sounds.tabletopaudio.com/vampire/music2.mp3",
+      "local": "modules/tabletop-audio-soundpads/audio-cache/vampire/music2.ogg"
+    },
+    {
+      "id": "bg_38",
+      "label": "Music: Club",
+      "icon": "modules/tabletop-audio-soundpads/audio-cache/vampire/icons/music.png",
+      "iconRemote": "https://images.tabletopaudio.com/sb/dungeon/music.png",
+      "category": "music",
+      "type": "music",
+      "loop": true,
+      "gain": 0.5,
+      "repeatDefault": 0,
+      "url": "https://sounds.tabletopaudio.com/vampire/music_club.ogg",
+      "ogg": "https://sounds.tabletopaudio.com/vampire/music_club.ogg",
+      "mp3": "https://sounds.tabletopaudio.com/vampire/music_club.mp3",
+      "local": "modules/tabletop-audio-soundpads/audio-cache/vampire/music_club.ogg"
+    },
+    {
+      "id": "bg_39",
+      "label": "Music: Chase",
+      "icon": "modules/tabletop-audio-soundpads/audio-cache/vampire/icons/music.png",
+      "iconRemote": "https://images.tabletopaudio.com/sb/dungeon/music.png",
+      "category": "music",
+      "type": "music",
+      "loop": true,
+      "gain": 0.5,
+      "repeatDefault": 0,
+      "url": "https://sounds.tabletopaudio.com/vampire/music3a.ogg",
+      "ogg": "https://sounds.tabletopaudio.com/vampire/music3a.ogg",
+      "mp3": "https://sounds.tabletopaudio.com/vampire/music3a.mp3",
+      "local": "modules/tabletop-audio-soundpads/audio-cache/vampire/music3a.ogg"
+    },
+    {
+      "id": "bg_40",
+      "label": "Music: Mournful",
+      "icon": "modules/tabletop-audio-soundpads/audio-cache/vampire/icons/music.png",
+      "iconRemote": "https://images.tabletopaudio.com/sb/dungeon/music.png",
+      "category": "music",
+      "type": "music",
+      "loop": true,
+      "gain": 0.5,
+      "repeatDefault": 0,
+      "url": "https://sounds.tabletopaudio.com/vampire/music4_mournful.ogg",
+      "ogg": "https://sounds.tabletopaudio.com/vampire/music4_mournful.ogg",
+      "mp3": "https://sounds.tabletopaudio.com/vampire/music4_mournful.mp3",
+      "local": "modules/tabletop-audio-soundpads/audio-cache/vampire/music4_mournful.ogg"
+    }
+  ]
+}

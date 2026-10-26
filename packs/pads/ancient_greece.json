@@ -1,0 +1,648 @@
+{
+  "id": "ancient_greece",
+  "name": "Ancient Greece",
+  "source": "https://tabletopaudio.com/ancient_greece_sp.html",
+  "coverRemote": "https://images.tabletopaudio.com/sb/ancient_greece_sp2.jpg",
+  "cover": "modules/tabletop-audio-soundpads/audio-cache/ancient_greece/ancient_greece_sp2.jpg",
+  "headerRemote": "https://images.tabletopaudio.com/sb/ancient_greece_header1.png",
+  "header": "modules/tabletop-audio-soundpads/audio-cache/ancient_greece/ancient_greece_header1.png",
+  "categories": [
+    "backgrounds",
+    "tones",
+    "events",
+    "music"
+  ],
+  "layerCount": 36,
+  "layers": [
+    {
+      "id": "bg_1",
+      "label": "Countryside:Day",
+      "icon": "modules/tabletop-audio-soundpads/audio-cache/ancient_greece/icons/bird_icon.png",
+      "iconRemote": "https://images.tabletopaudio.com/sb/dungeon/bird_icon.png",
+      "category": "backgrounds",
+      "type": "loop",
+      "loop": true,
+      "gain": 0.2,
+      "repeatDefault": 0,
+      "url": "https://sounds.tabletopaudio.com/ancient_greece/Ancient_Greece-countryside-day.ogg",
+      "ogg": "https://sounds.tabletopaudio.com/ancient_greece/Ancient_Greece-countryside-day.ogg",
+      "mp3": "https://sounds.tabletopaudio.com/ancient_greece/Ancient_Greece-countryside-day.mp3",
+      "local": "modules/tabletop-audio-soundpads/audio-cache/ancient_greece/Ancient_Greece-countryside-day.ogg"
+    },
+    {
+      "id": "bg_4",
+      "label": "Hilltop:Night",
+      "icon": "modules/tabletop-audio-soundpads/audio-cache/ancient_greece/icons/wind_icon2.png",
+      "iconRemote": "https://images.tabletopaudio.com/sb/dungeon/wind_icon2.png",
+      "category": "backgrounds",
+      "type": "loop",
+      "loop": true,
+      "gain": 0.4,
+      "repeatDefault": 0,
+      "url": "https://sounds.tabletopaudio.com/ancient_greece/Ancient_Greece-hilltop_night_loop.ogg",
+      "ogg": "https://sounds.tabletopaudio.com/ancient_greece/Ancient_Greece-hilltop_night_loop.ogg",
+      "mp3": "https://sounds.tabletopaudio.com/ancient_greece/Ancient_Greece-hilltop_night_loop.mp3",
+      "local": "modules/tabletop-audio-soundpads/audio-cache/ancient_greece/Ancient_Greece-hilltop_night_loop.ogg"
+    },
+    {
+      "id": "bg_2",
+      "label": "Distant Sea",
+      "icon": "modules/tabletop-audio-soundpads/audio-cache/ancient_greece/icons/wave_icon.png",
+      "iconRemote": "https://images.tabletopaudio.com/sb/dungeon/wave_icon.png",
+      "category": "backgrounds",
+      "type": "loop",
+      "loop": true,
+      "gain": 0.4,
+      "repeatDefault": 0,
+      "url": "https://sounds.tabletopaudio.com/ancient_greece/Ancient_Greece-distant_sea.ogg",
+      "ogg": "https://sounds.tabletopaudio.com/ancient_greece/Ancient_Greece-distant_sea.ogg",
+      "mp3": "https://sounds.tabletopaudio.com/ancient_greece/Ancient_Greece-distant_sea.mp3",
+      "local": "modules/tabletop-audio-soundpads/audio-cache/ancient_greece/Ancient_Greece-distant_sea.ogg"
+    },
+    {
+      "id": "bg_28",
+      "label": "Goat Farm",
+      "icon": "modules/tabletop-audio-soundpads/audio-cache/ancient_greece/icons/goat_icon.png",
+      "iconRemote": "https://images.tabletopaudio.com/sb/dungeon/goat_icon.png",
+      "category": "backgrounds",
+      "type": "loop",
+      "loop": true,
+      "gain": 0.4,
+      "repeatDefault": 0,
+      "url": "https://sounds.tabletopaudio.com/ancient_greece/Ancient_Greece-goat_farm.ogg",
+      "ogg": "https://sounds.tabletopaudio.com/ancient_greece/Ancient_Greece-goat_farm.ogg",
+      "mp3": "https://sounds.tabletopaudio.com/ancient_greece/Ancient_Greece-goat_farm.mp3",
+      "local": "modules/tabletop-audio-soundpads/audio-cache/ancient_greece/Ancient_Greece-goat_farm.ogg"
+    },
+    {
+      "id": "bg_3",
+      "label": "Town Square",
+      "icon": "modules/tabletop-audio-soundpads/audio-cache/ancient_greece/icons/crowd_sm.png",
+      "iconRemote": "https://images.tabletopaudio.com/sb/dungeon/crowd_sm.png",
+      "category": "backgrounds",
+      "type": "loop",
+      "loop": true,
+      "gain": 0.4,
+      "repeatDefault": 0,
+      "url": "https://sounds.tabletopaudio.com/ancient_greece/Ancient_Greece-town_square.ogg",
+      "ogg": "https://sounds.tabletopaudio.com/ancient_greece/Ancient_Greece-town_square.ogg",
+      "mp3": "https://sounds.tabletopaudio.com/ancient_greece/Ancient_Greece-town_square.mp3",
+      "local": "modules/tabletop-audio-soundpads/audio-cache/ancient_greece/Ancient_Greece-town_square.ogg"
+    },
+    {
+      "id": "bg_5",
+      "label": "Harbor",
+      "icon": "modules/tabletop-audio-soundpads/audio-cache/ancient_greece/icons/harbor_icon2.png",
+      "iconRemote": "https://images.tabletopaudio.com/sb/dungeon/harbor_icon2.png",
+      "category": "backgrounds",
+      "type": "loop",
+      "loop": true,
+      "gain": 0.4,
+      "repeatDefault": 0,
+      "url": "https://sounds.tabletopaudio.com/ancient_greece/Ancient_Greece-harbor.ogg",
+      "ogg": "https://sounds.tabletopaudio.com/ancient_greece/Ancient_Greece-harbor.ogg",
+      "mp3": "https://sounds.tabletopaudio.com/ancient_greece/Ancient_Greece-harbor.mp3",
+      "local": "modules/tabletop-audio-soundpads/audio-cache/ancient_greece/Ancient_Greece-harbor.ogg"
+    },
+    {
+      "id": "bg_6",
+      "label": "The Agora",
+      "icon": "modules/tabletop-audio-soundpads/audio-cache/ancient_greece/icons/columns_icon.png",
+      "iconRemote": "https://images.tabletopaudio.com/sb/dungeon/columns_icon.png",
+      "category": "backgrounds",
+      "type": "loop",
+      "loop": true,
+      "gain": 0.4,
+      "repeatDefault": 0,
+      "url": "https://sounds.tabletopaudio.com/ancient_greece/Ancient_Greece-agora.ogg",
+      "ogg": "https://sounds.tabletopaudio.com/ancient_greece/Ancient_Greece-agora.ogg",
+      "mp3": "https://sounds.tabletopaudio.com/ancient_greece/Ancient_Greece-agora.mp3",
+      "local": "modules/tabletop-audio-soundpads/audio-cache/ancient_greece/Ancient_Greece-agora.ogg"
+    },
+    {
+      "id": "bg_7",
+      "label": "Temple of Apollo",
+      "icon": "modules/tabletop-audio-soundpads/audio-cache/ancient_greece/icons/temple_icon.png",
+      "iconRemote": "https://images.tabletopaudio.com/sb/dungeon/temple_icon.png",
+      "category": "backgrounds",
+      "type": "loop",
+      "loop": true,
+      "gain": 0.5,
+      "repeatDefault": 0,
+      "url": "https://sounds.tabletopaudio.com/ancient_greece/Ancient_Greece-temple_of_apollo.ogg",
+      "ogg": "https://sounds.tabletopaudio.com/ancient_greece/Ancient_Greece-temple_of_apollo.ogg",
+      "mp3": "https://sounds.tabletopaudio.com/ancient_greece/Ancient_Greece-temple_of_apollo.mp3",
+      "local": "modules/tabletop-audio-soundpads/audio-cache/ancient_greece/Ancient_Greece-temple_of_apollo.ogg"
+    },
+    {
+      "id": "bg_8",
+      "label": "Garden/Fountains",
+      "icon": "modules/tabletop-audio-soundpads/audio-cache/ancient_greece/icons/fountain_icon.png",
+      "iconRemote": "https://images.tabletopaudio.com/sb/dungeon/fountain_icon.png",
+      "category": "backgrounds",
+      "type": "loop",
+      "loop": true,
+      "gain": 0.4,
+      "repeatDefault": 0,
+      "url": "https://sounds.tabletopaudio.com/ancient_greece/Ancient_Greece-garden_fountains_loop.ogg",
+      "ogg": "https://sounds.tabletopaudio.com/ancient_greece/Ancient_Greece-garden_fountains_loop.ogg",
+      "mp3": "https://sounds.tabletopaudio.com/ancient_greece/Ancient_Greece-garden_fountains_loop.mp3",
+      "local": "modules/tabletop-audio-soundpads/audio-cache/ancient_greece/Ancient_Greece-garden_fountains_loop.ogg"
+    },
+    {
+      "id": "bg_24",
+      "label": "Symposium",
+      "icon": "modules/tabletop-audio-soundpads/audio-cache/ancient_greece/icons/champagne_icon.png",
+      "iconRemote": "https://images.tabletopaudio.com/sb/dungeon/champagne_icon.png",
+      "category": "backgrounds",
+      "type": "loop",
+      "loop": true,
+      "gain": 0.4,
+      "repeatDefault": 0,
+      "url": "https://sounds.tabletopaudio.com/ancient_greece/Ancient_Greece-symposium.ogg",
+      "ogg": "https://sounds.tabletopaudio.com/ancient_greece/Ancient_Greece-symposium.ogg",
+      "mp3": "https://sounds.tabletopaudio.com/ancient_greece/Ancient_Greece-symposium.mp3",
+      "local": "modules/tabletop-audio-soundpads/audio-cache/ancient_greece/Ancient_Greece-symposium.ogg"
+    },
+    {
+      "id": "bg_25",
+      "label": "Cultist Cavern",
+      "icon": "modules/tabletop-audio-soundpads/audio-cache/ancient_greece/icons/cave_icon.png",
+      "iconRemote": "https://images.tabletopaudio.com/sb/dungeon/cave_icon.png",
+      "category": "backgrounds",
+      "type": "loop",
+      "loop": true,
+      "gain": 0.3,
+      "repeatDefault": 0,
+      "url": "https://sounds.tabletopaudio.com/ancient_greece/Ancient_Greece-cultist_cavern.ogg",
+      "ogg": "https://sounds.tabletopaudio.com/ancient_greece/Ancient_Greece-cultist_cavern.ogg",
+      "mp3": "https://sounds.tabletopaudio.com/ancient_greece/Ancient_Greece-cultist_cavern.mp3",
+      "local": "modules/tabletop-audio-soundpads/audio-cache/ancient_greece/Ancient_Greece-cultist_cavern.ogg"
+    },
+    {
+      "id": "bg_10",
+      "label": "Chariot Race",
+      "icon": "modules/tabletop-audio-soundpads/audio-cache/ancient_greece/icons/chariot_icon.png",
+      "iconRemote": "https://images.tabletopaudio.com/sb/dungeon/chariot_icon.png",
+      "category": "tones",
+      "type": "loop",
+      "loop": true,
+      "gain": 0.5,
+      "repeatDefault": 0,
+      "url": "https://sounds.tabletopaudio.com/ancient_greece/Ancient_Greece-chariot_race.ogg",
+      "ogg": "https://sounds.tabletopaudio.com/ancient_greece/Ancient_Greece-chariot_race.ogg",
+      "mp3": "https://sounds.tabletopaudio.com/ancient_greece/Ancient_Greece-chariot_race.mp3",
+      "local": "modules/tabletop-audio-soundpads/audio-cache/ancient_greece/Ancient_Greece-chariot_race.ogg"
+    },
+    {
+      "id": "bg_9",
+      "label": "Forge",
+      "icon": "modules/tabletop-audio-soundpads/audio-cache/ancient_greece/icons/blacksmith_icon.png",
+      "iconRemote": "https://images.tabletopaudio.com/sb/dungeon/blacksmith_icon.png",
+      "category": "backgrounds",
+      "type": "loop",
+      "loop": true,
+      "gain": 0.3,
+      "repeatDefault": 0,
+      "url": "https://sounds.tabletopaudio.com/ancient_greece/Ancient_Greece-forge.ogg",
+      "ogg": "https://sounds.tabletopaudio.com/ancient_greece/Ancient_Greece-forge.ogg",
+      "mp3": "https://sounds.tabletopaudio.com/ancient_greece/Ancient_Greece-forge.mp3",
+      "local": "modules/tabletop-audio-soundpads/audio-cache/ancient_greece/Ancient_Greece-forge.ogg"
+    },
+    {
+      "id": "bg_15",
+      "label": "Training",
+      "icon": "modules/tabletop-audio-soundpads/audio-cache/ancient_greece/icons/sword_fight_icon.png",
+      "iconRemote": "https://images.tabletopaudio.com/sb/dungeon/sword_fight_icon.png",
+      "category": "events",
+      "type": "loop",
+      "loop": true,
+      "gain": 0.3,
+      "repeatDefault": 0,
+      "url": "https://sounds.tabletopaudio.com/ancient_greece/Ancient_Greece-training.ogg",
+      "ogg": "https://sounds.tabletopaudio.com/ancient_greece/Ancient_Greece-training.ogg",
+      "mp3": "https://sounds.tabletopaudio.com/ancient_greece/Ancient_Greece-training.mp3",
+      "local": "modules/tabletop-audio-soundpads/audio-cache/ancient_greece/Ancient_Greece-training.ogg"
+    },
+    {
+      "id": "bg_11",
+      "label": "Trireme: Oars",
+      "icon": "modules/tabletop-audio-soundpads/audio-cache/ancient_greece/icons/trireme_oars_icon.png",
+      "iconRemote": "https://images.tabletopaudio.com/sb/dungeon/trireme_oars_icon.png",
+      "category": "tones",
+      "type": "loop",
+      "loop": true,
+      "gain": 0.4,
+      "repeatDefault": 0,
+      "url": "https://sounds.tabletopaudio.com/ancient_greece/Ancient_Greece-trireme_oars.ogg",
+      "ogg": "https://sounds.tabletopaudio.com/ancient_greece/Ancient_Greece-trireme_oars.ogg",
+      "mp3": "https://sounds.tabletopaudio.com/ancient_greece/Ancient_Greece-trireme_oars.mp3",
+      "local": "modules/tabletop-audio-soundpads/audio-cache/ancient_greece/Ancient_Greece-trireme_oars.ogg"
+    },
+    {
+      "id": "bg_21",
+      "label": "Trireme: Sails",
+      "icon": "modules/tabletop-audio-soundpads/audio-cache/ancient_greece/icons/trireme_sail_icon.png",
+      "iconRemote": "https://images.tabletopaudio.com/sb/dungeon/trireme_sail_icon.png",
+      "category": "tones",
+      "type": "loop",
+      "loop": true,
+      "gain": 0.4,
+      "repeatDefault": 0,
+      "url": "https://sounds.tabletopaudio.com/ancient_greece/Ancient_Greece-trireme_sailing.ogg",
+      "ogg": "https://sounds.tabletopaudio.com/ancient_greece/Ancient_Greece-trireme_sailing.ogg",
+      "mp3": "https://sounds.tabletopaudio.com/ancient_greece/Ancient_Greece-trireme_sailing.mp3",
+      "local": "modules/tabletop-audio-soundpads/audio-cache/ancient_greece/Ancient_Greece-trireme_sailing.ogg"
+    },
+    {
+      "id": "bg_18",
+      "label": "Battle:Distant",
+      "icon": "modules/tabletop-audio-soundpads/audio-cache/ancient_greece/icons/blades_icon.png",
+      "iconRemote": "https://images.tabletopaudio.com/sb/dungeon/blades_icon.png",
+      "category": "tones",
+      "type": "loop",
+      "loop": true,
+      "gain": 0.4,
+      "repeatDefault": 0,
+      "url": "https://sounds.tabletopaudio.com/ancient_greece/Ancient_Greece-battle_distant.ogg",
+      "ogg": "https://sounds.tabletopaudio.com/ancient_greece/Ancient_Greece-battle_distant.ogg",
+      "mp3": "https://sounds.tabletopaudio.com/ancient_greece/Ancient_Greece-battle_distant.mp3",
+      "local": "modules/tabletop-audio-soundpads/audio-cache/ancient_greece/Ancient_Greece-battle_distant.ogg"
+    },
+    {
+      "id": "bg_22",
+      "label": "Battle: Close",
+      "icon": "modules/tabletop-audio-soundpads/audio-cache/ancient_greece/icons/blades_icon.png",
+      "iconRemote": "https://images.tabletopaudio.com/sb/dungeon/blades_icon.png",
+      "category": "tones",
+      "type": "loop",
+      "loop": true,
+      "gain": 0.5,
+      "repeatDefault": 0,
+      "url": "https://sounds.tabletopaudio.com/ancient_greece/Ancient_Greece-battle_close.ogg",
+      "ogg": "https://sounds.tabletopaudio.com/ancient_greece/Ancient_Greece-battle_close.ogg",
+      "mp3": "https://sounds.tabletopaudio.com/ancient_greece/Ancient_Greece-battle_close.mp3",
+      "local": "modules/tabletop-audio-soundpads/audio-cache/ancient_greece/Ancient_Greece-battle_close.ogg"
+    },
+    {
+      "id": "bg_12",
+      "label": "Phalanx: Distant",
+      "icon": "modules/tabletop-audio-soundpads/audio-cache/ancient_greece/icons/helmet_icon2.png",
+      "iconRemote": "https://images.tabletopaudio.com/sb/dungeon/helmet_icon2.png",
+      "category": "events",
+      "type": "loop",
+      "loop": true,
+      "gain": 0.3,
+      "repeatDefault": 0,
+      "url": "https://sounds.tabletopaudio.com/ancient_greece/Ancient_Greece-phalanx_far.ogg",
+      "ogg": "https://sounds.tabletopaudio.com/ancient_greece/Ancient_Greece-phalanx_far.ogg",
+      "mp3": "https://sounds.tabletopaudio.com/ancient_greece/Ancient_Greece-phalanx_far.mp3",
+      "local": "modules/tabletop-audio-soundpads/audio-cache/ancient_greece/Ancient_Greece-phalanx_far.ogg"
+    },
+    {
+      "id": "bg_13",
+      "label": "Phalanx: Close",
+      "icon": "modules/tabletop-audio-soundpads/audio-cache/ancient_greece/icons/helmet_icon2.png",
+      "iconRemote": "https://images.tabletopaudio.com/sb/dungeon/helmet_icon2.png",
+      "category": "events",
+      "type": "loop",
+      "loop": true,
+      "gain": 0.3,
+      "repeatDefault": 0,
+      "url": "https://sounds.tabletopaudio.com/ancient_greece/Ancient_Greece-phalanx_close.ogg",
+      "ogg": "https://sounds.tabletopaudio.com/ancient_greece/Ancient_Greece-phalanx_close.ogg",
+      "mp3": "https://sounds.tabletopaudio.com/ancient_greece/Ancient_Greece-phalanx_close.mp3",
+      "local": "modules/tabletop-audio-soundpads/audio-cache/ancient_greece/Ancient_Greece-phalanx_close.ogg"
+    },
+    {
+      "id": "bg_29",
+      "label": "Vocal Tone",
+      "icon": "modules/tabletop-audio-soundpads/audio-cache/ancient_greece/icons/treble_tone.png",
+      "iconRemote": "https://images.tabletopaudio.com/sb/dungeon/treble_tone.png",
+      "category": "backgrounds",
+      "type": "loop",
+      "loop": true,
+      "gain": 0.4,
+      "repeatDefault": 0,
+      "url": "https://sounds.tabletopaudio.com/ancient_greece/Ancient_Greece-vocal_tone.ogg",
+      "ogg": "https://sounds.tabletopaudio.com/ancient_greece/Ancient_Greece-vocal_tone.ogg",
+      "mp3": "https://sounds.tabletopaudio.com/ancient_greece/Ancient_Greece-vocal_tone.mp3",
+      "local": "modules/tabletop-audio-soundpads/audio-cache/ancient_greece/Ancient_Greece-vocal_tone.ogg"
+    },
+    {
+      "id": "bg_33",
+      "label": "Flute Tone",
+      "icon": "modules/tabletop-audio-soundpads/audio-cache/ancient_greece/icons/treble_tone.png",
+      "iconRemote": "https://images.tabletopaudio.com/sb/dungeon/treble_tone.png",
+      "category": "backgrounds",
+      "type": "loop",
+      "loop": true,
+      "gain": 0.2,
+      "repeatDefault": 0,
+      "url": "https://sounds.tabletopaudio.com/ancient_greece/Ancient_Greece-flute_tone.ogg",
+      "ogg": "https://sounds.tabletopaudio.com/ancient_greece/Ancient_Greece-flute_tone.ogg",
+      "mp3": "https://sounds.tabletopaudio.com/ancient_greece/Ancient_Greece-flute_tone.mp3",
+      "local": "modules/tabletop-audio-soundpads/audio-cache/ancient_greece/Ancient_Greece-flute_tone.ogg"
+    },
+    {
+      "id": "bg_30",
+      "label": "Dulcimer Tone",
+      "icon": "modules/tabletop-audio-soundpads/audio-cache/ancient_greece/icons/treble_tone.png",
+      "iconRemote": "https://images.tabletopaudio.com/sb/dungeon/treble_tone.png",
+      "category": "backgrounds",
+      "type": "loop",
+      "loop": true,
+      "gain": 0.3,
+      "repeatDefault": 0,
+      "url": "https://sounds.tabletopaudio.com/ancient_greece/Ancient_Greece-dulcimer_tone.ogg",
+      "ogg": "https://sounds.tabletopaudio.com/ancient_greece/Ancient_Greece-dulcimer_tone.ogg",
+      "mp3": "https://sounds.tabletopaudio.com/ancient_greece/Ancient_Greece-dulcimer_tone.mp3",
+      "local": "modules/tabletop-audio-soundpads/audio-cache/ancient_greece/Ancient_Greece-dulcimer_tone.ogg"
+    },
+    {
+      "id": "bg_31",
+      "label": "Drum Tone",
+      "icon": "modules/tabletop-audio-soundpads/audio-cache/ancient_greece/icons/drum_icon.png",
+      "iconRemote": "https://images.tabletopaudio.com/sb/dungeon/drum_icon.png",
+      "category": "backgrounds",
+      "type": "loop",
+      "loop": true,
+      "gain": 0.6,
+      "repeatDefault": 0,
+      "url": "https://sounds.tabletopaudio.com/ancient_greece/Ancient_Greece-drum_tone.ogg",
+      "ogg": "https://sounds.tabletopaudio.com/ancient_greece/Ancient_Greece-drum_tone.ogg",
+      "mp3": "https://sounds.tabletopaudio.com/ancient_greece/Ancient_Greece-drum_tone.mp3",
+      "local": "modules/tabletop-audio-soundpads/audio-cache/ancient_greece/Ancient_Greece-drum_tone.ogg"
+    },
+    {
+      "id": "bg_14",
+      "label": "Shield Wall x4",
+      "icon": "modules/tabletop-audio-soundpads/audio-cache/ancient_greece/icons/shield_wall_icon.png",
+      "iconRemote": "https://images.tabletopaudio.com/sb/dungeon/shield_wall_icon.png",
+      "category": "events",
+      "type": "oneshot",
+      "loop": false,
+      "gain": 0.4,
+      "repeatDefault": 0,
+      "url": "https://sounds.tabletopaudio.com/ancient_greece/Ancient_Greece-shield_wall_x4.ogg",
+      "ogg": "https://sounds.tabletopaudio.com/ancient_greece/Ancient_Greece-shield_wall_x4.ogg",
+      "mp3": "https://sounds.tabletopaudio.com/ancient_greece/Ancient_Greece-shield_wall_x4.mp3",
+      "local": "modules/tabletop-audio-soundpads/audio-cache/ancient_greece/Ancient_Greece-shield_wall_x4.ogg",
+      "sprites": [
+        {
+          "offset": 0,
+          "duration": 1.907
+        },
+        {
+          "offset": 2.078,
+          "duration": 2.086
+        },
+        {
+          "offset": 4.424,
+          "duration": 1.891
+        },
+        {
+          "offset": 6.607,
+          "duration": 1.98
+        }
+      ]
+    },
+    {
+      "id": "bg_23",
+      "label": "Spear Thrust x4",
+      "icon": "modules/tabletop-audio-soundpads/audio-cache/ancient_greece/icons/spear_icon.png",
+      "iconRemote": "https://images.tabletopaudio.com/sb/dungeon/spear_icon.png",
+      "category": "events",
+      "type": "oneshot",
+      "loop": false,
+      "gain": 0.6,
+      "repeatDefault": 0,
+      "url": "https://sounds.tabletopaudio.com/ancient_greece/Ancient_Greece-spear_thrust_x4.ogg",
+      "ogg": "https://sounds.tabletopaudio.com/ancient_greece/Ancient_Greece-spear_thrust_x4.ogg",
+      "mp3": "https://sounds.tabletopaudio.com/ancient_greece/Ancient_Greece-spear_thrust_x4.mp3",
+      "local": "modules/tabletop-audio-soundpads/audio-cache/ancient_greece/Ancient_Greece-spear_thrust_x4.ogg",
+      "sprites": [
+        {
+          "offset": 0,
+          "duration": 2.516
+        },
+        {
+          "offset": 3.143,
+          "duration": 2.403
+        },
+        {
+          "offset": 6.487,
+          "duration": 2.385
+        },
+        {
+          "offset": 9.212,
+          "duration": 3.779
+        }
+      ]
+    },
+    {
+      "id": "bg_27",
+      "label": "Warhammer x4",
+      "icon": "modules/tabletop-audio-soundpads/audio-cache/ancient_greece/icons/warhammer_icon.png",
+      "iconRemote": "https://images.tabletopaudio.com/sb/dungeon/warhammer_icon.png",
+      "category": "events",
+      "type": "oneshot",
+      "loop": false,
+      "gain": 0.5,
+      "repeatDefault": 0,
+      "url": "https://sounds.tabletopaudio.com/ancient_greece/Ancient_Greece-warhammer_x4.ogg",
+      "ogg": "https://sounds.tabletopaudio.com/ancient_greece/Ancient_Greece-warhammer_x4.ogg",
+      "mp3": "https://sounds.tabletopaudio.com/ancient_greece/Ancient_Greece-warhammer_x4.mp3",
+      "local": "modules/tabletop-audio-soundpads/audio-cache/ancient_greece/Ancient_Greece-warhammer_x4.ogg",
+      "sprites": [
+        {
+          "offset": 0,
+          "duration": 1.845
+        },
+        {
+          "offset": 2.04,
+          "duration": 2.011
+        },
+        {
+          "offset": 4.167,
+          "duration": 2.055
+        },
+        {
+          "offset": 6.367,
+          "duration": 1.572
+        }
+      ]
+    },
+    {
+      "id": "bg_16",
+      "label": "Archers: Draw",
+      "icon": "modules/tabletop-audio-soundpads/audio-cache/ancient_greece/icons/bow_draw_icon.png",
+      "iconRemote": "https://images.tabletopaudio.com/sb/dungeon/bow_draw_icon.png",
+      "category": "events",
+      "type": "oneshot",
+      "loop": false,
+      "gain": 0.5,
+      "repeatDefault": 0,
+      "url": "https://sounds.tabletopaudio.com/ancient_greece/Ancient_Greece-archers_draw.ogg",
+      "ogg": "https://sounds.tabletopaudio.com/ancient_greece/Ancient_Greece-archers_draw.ogg",
+      "mp3": "https://sounds.tabletopaudio.com/ancient_greece/Ancient_Greece-archers_draw.mp3",
+      "local": "modules/tabletop-audio-soundpads/audio-cache/ancient_greece/Ancient_Greece-archers_draw.ogg"
+    },
+    {
+      "id": "bg_26",
+      "label": "Archers:Shot x2",
+      "icon": "modules/tabletop-audio-soundpads/audio-cache/ancient_greece/icons/bow_single_icon.png",
+      "iconRemote": "https://images.tabletopaudio.com/sb/dungeon/bow_single_icon.png",
+      "category": "events",
+      "type": "oneshot",
+      "loop": false,
+      "gain": 0.4,
+      "repeatDefault": 0,
+      "url": "https://sounds.tabletopaudio.com/ancient_greece/Ancient_Greece-arrow_shot_x2.ogg",
+      "ogg": "https://sounds.tabletopaudio.com/ancient_greece/Ancient_Greece-arrow_shot_x2.ogg",
+      "mp3": "https://sounds.tabletopaudio.com/ancient_greece/Ancient_Greece-arrow_shot_x2.mp3",
+      "local": "modules/tabletop-audio-soundpads/audio-cache/ancient_greece/Ancient_Greece-arrow_shot_x2.ogg",
+      "sprites": [
+        {
+          "offset": 0,
+          "duration": 1.305
+        },
+        {
+          "offset": 1.631,
+          "duration": 1.361
+        },
+        {
+          "offset": 0,
+          "duration": 1.305
+        },
+        {
+          "offset": 1.631,
+          "duration": 1.361
+        }
+      ]
+    },
+    {
+      "id": "bg_17",
+      "label": "Archers: Volley",
+      "icon": "modules/tabletop-audio-soundpads/audio-cache/ancient_greece/icons/incoming_arrows_icon.png",
+      "iconRemote": "https://images.tabletopaudio.com/sb/dungeon/incoming_arrows_icon.png",
+      "category": "events",
+      "type": "oneshot",
+      "loop": false,
+      "gain": 0.5,
+      "repeatDefault": 0,
+      "url": "https://sounds.tabletopaudio.com/ancient_greece/Ancient_Greece-archers_loose.ogg",
+      "ogg": "https://sounds.tabletopaudio.com/ancient_greece/Ancient_Greece-archers_loose.ogg",
+      "mp3": "https://sounds.tabletopaudio.com/ancient_greece/Ancient_Greece-archers_loose.mp3",
+      "local": "modules/tabletop-audio-soundpads/audio-cache/ancient_greece/Ancient_Greece-archers_loose.ogg"
+    },
+    {
+      "id": "bg_32",
+      "label": "Hawk Attack x2",
+      "icon": "modules/tabletop-audio-soundpads/audio-cache/ancient_greece/icons/talon_icon.png",
+      "iconRemote": "https://images.tabletopaudio.com/sb/dungeon/talon_icon.png",
+      "category": "events",
+      "type": "oneshot",
+      "loop": false,
+      "gain": 0.6,
+      "repeatDefault": 0,
+      "url": "https://sounds.tabletopaudio.com/ancient_greece/Ancient_Greece-hawk_attack_x2.ogg",
+      "ogg": "https://sounds.tabletopaudio.com/ancient_greece/Ancient_Greece-hawk_attack_x2.ogg",
+      "mp3": "https://sounds.tabletopaudio.com/ancient_greece/Ancient_Greece-hawk_attack_x2.mp3",
+      "local": "modules/tabletop-audio-soundpads/audio-cache/ancient_greece/Ancient_Greece-hawk_attack_x2.ogg",
+      "sprites": [
+        {
+          "offset": 0,
+          "duration": 3.522
+        },
+        {
+          "offset": 4.005,
+          "duration": 3.417
+        },
+        {
+          "offset": 0,
+          "duration": 3.522
+        },
+        {
+          "offset": 4.005,
+          "duration": 3.417
+        }
+      ]
+    },
+    {
+      "id": "bg_19",
+      "label": "City Gates: Open",
+      "icon": "modules/tabletop-audio-soundpads/audio-cache/ancient_greece/icons/heavy_gate.png",
+      "iconRemote": "https://images.tabletopaudio.com/sb/dungeon/heavy_gate.png",
+      "category": "events",
+      "type": "oneshot",
+      "loop": false,
+      "gain": 0.5,
+      "repeatDefault": 0,
+      "url": "https://sounds.tabletopaudio.com/ancient_greece/Ancient_Greece-city_gate_open.ogg",
+      "ogg": "https://sounds.tabletopaudio.com/ancient_greece/Ancient_Greece-city_gate_open.ogg",
+      "mp3": "https://sounds.tabletopaudio.com/ancient_greece/Ancient_Greece-city_gate_open.mp3",
+      "local": "modules/tabletop-audio-soundpads/audio-cache/ancient_greece/Ancient_Greece-city_gate_open.ogg"
+    },
+    {
+      "id": "bg_20",
+      "label": "City Gates: Close",
+      "icon": "modules/tabletop-audio-soundpads/audio-cache/ancient_greece/icons/heavy_gate.png",
+      "iconRemote": "https://images.tabletopaudio.com/sb/dungeon/heavy_gate.png",
+      "category": "events",
+      "type": "oneshot",
+      "loop": false,
+      "gain": 0.5,
+      "repeatDefault": 0,
+      "url": "https://sounds.tabletopaudio.com/ancient_greece/Ancient_Greece-city_gate_close.ogg",
+      "ogg": "https://sounds.tabletopaudio.com/ancient_greece/Ancient_Greece-city_gate_close.ogg",
+      "mp3": "https://sounds.tabletopaudio.com/ancient_greece/Ancient_Greece-city_gate_close.mp3",
+      "local": "modules/tabletop-audio-soundpads/audio-cache/ancient_greece/Ancient_Greece-city_gate_close.ogg"
+    },
+    {
+      "id": "bg_34",
+      "label": "Dusk Over Delphi",
+      "icon": "modules/tabletop-audio-soundpads/audio-cache/ancient_greece/icons/music.png",
+      "iconRemote": "https://images.tabletopaudio.com/sb/dungeon/music.png",
+      "category": "music",
+      "type": "music",
+      "loop": true,
+      "gain": 0.3,
+      "repeatDefault": 0,
+      "url": "https://sounds.tabletopaudio.com/ancient_greece/Ancient_Greece-music_dusk_over_delphi.ogg",
+      "ogg": "https://sounds.tabletopaudio.com/ancient_greece/Ancient_Greece-music_dusk_over_delphi.ogg",
+      "mp3": "https://sounds.tabletopaudio.com/ancient_greece/Ancient_Greece-music_dusk_over_delphi.mp3",
+      "local": "modules/tabletop-audio-soundpads/audio-cache/ancient_greece/Ancient_Greece-music_dusk_over_delphi.ogg"
+    },
+    {
+      "id": "bg_35",
+      "label": "Far From Home",
+      "icon": "modules/tabletop-audio-soundpads/audio-cache/ancient_greece/icons/music.png",
+      "iconRemote": "https://images.tabletopaudio.com/sb/dungeon/music.png",
+      "category": "music",
+      "type": "music",
+      "loop": true,
+      "gain": 0.3,
+      "repeatDefault": 0,
+      "url": "https://sounds.tabletopaudio.com/ancient_greece/Ancient_Greece-music_far_from_home.ogg",
+      "ogg": "https://sounds.tabletopaudio.com/ancient_greece/Ancient_Greece-music_far_from_home.ogg",
+      "mp3": "https://sounds.tabletopaudio.com/ancient_greece/Ancient_Greece-music_far_from_home.mp3",
+      "local": "modules/tabletop-audio-soundpads/audio-cache/ancient_greece/Ancient_Greece-music_far_from_home.ogg"
+    },
+    {
+      "id": "bg_36",
+      "label": "Ares Commands",
+      "icon": "modules/tabletop-audio-soundpads/audio-cache/ancient_greece/icons/music.png",
+      "iconRemote": "https://images.tabletopaudio.com/sb/dungeon/music.png",
+      "category": "music",
+      "type": "music",
+      "loop": true,
+      "gain": 0.3,
+      "repeatDefault": 0,
+      "url": "https://sounds.tabletopaudio.com/ancient_greece/Ancient_Greece-music_ares_commands.ogg",
+      "ogg": "https://sounds.tabletopaudio.com/ancient_greece/Ancient_Greece-music_ares_commands.ogg",
+      "mp3": "https://sounds.tabletopaudio.com/ancient_greece/Ancient_Greece-music_ares_commands.mp3",
+      "local": "modules/tabletop-audio-soundpads/audio-cache/ancient_greece/Ancient_Greece-music_ares_commands.ogg"
+    }
+  ]
+}

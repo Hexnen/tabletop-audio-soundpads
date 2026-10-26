@@ -1,0 +1,545 @@
+{
+  "id": "tavern",
+  "name": "Tavern",
+  "source": "https://tabletopaudio.com/tavern_sp.html",
+  "coverRemote": "https://images.tabletopaudio.com/sb/the_tavern_sp2.jpg",
+  "cover": "modules/tabletop-audio-soundpads/audio-cache/tavern/the_tavern_sp2.jpg",
+  "headerRemote": "https://images.tabletopaudio.com/sb/tavern_header1.png",
+  "header": "modules/tabletop-audio-soundpads/audio-cache/tavern/tavern_header1.png",
+  "categories": [
+    "backgrounds",
+    "events",
+    "music"
+  ],
+  "layerCount": 28,
+  "layers": [
+    {
+      "id": "bg_4",
+      "label": "Small Crowd",
+      "icon": "modules/tabletop-audio-soundpads/audio-cache/tavern/icons/crowd_sm.png",
+      "iconRemote": "https://images.tabletopaudio.com/sb/dungeon/crowd_sm.png",
+      "category": "backgrounds",
+      "type": "loop",
+      "loop": true,
+      "gain": 0.3,
+      "repeatDefault": 0,
+      "url": "https://sounds.tabletopaudio.com/tavern2/tavern_loop_lite_a.ogg",
+      "ogg": "https://sounds.tabletopaudio.com/tavern2/tavern_loop_lite_a.ogg",
+      "mp3": "https://sounds.tabletopaudio.com/tavern2/tavern_loop_lite_a.mp3",
+      "local": "modules/tabletop-audio-soundpads/audio-cache/tavern/tavern_loop_lite_a.ogg"
+    },
+    {
+      "id": "bg_1",
+      "label": "Medium Crowd",
+      "icon": "modules/tabletop-audio-soundpads/audio-cache/tavern/icons/crowd_lg.png",
+      "iconRemote": "https://images.tabletopaudio.com/sb/dungeon/crowd_lg.png",
+      "category": "backgrounds",
+      "type": "loop",
+      "loop": true,
+      "gain": 0.2,
+      "repeatDefault": 0,
+      "url": "https://sounds.tabletopaudio.com/tavern2/background_walla1b.ogg",
+      "ogg": "https://sounds.tabletopaudio.com/tavern2/background_walla1b.ogg",
+      "mp3": "https://sounds.tabletopaudio.com/tavern2/background_walla1b.mp3",
+      "local": "modules/tabletop-audio-soundpads/audio-cache/tavern/background_walla1b.ogg"
+    },
+    {
+      "id": "bg_2",
+      "label": "Fireplace",
+      "icon": "modules/tabletop-audio-soundpads/audio-cache/tavern/icons/fireplace_icon.png",
+      "iconRemote": "https://images.tabletopaudio.com/sb/dungeon/fireplace_icon.png",
+      "category": "backgrounds",
+      "type": "loop",
+      "loop": true,
+      "gain": 0.3,
+      "repeatDefault": 0,
+      "url": "https://sounds.tabletopaudio.com/tavern2/fireplace_loop_c.ogg",
+      "ogg": "https://sounds.tabletopaudio.com/tavern2/fireplace_loop_c.ogg",
+      "mp3": "https://sounds.tabletopaudio.com/tavern2/fireplace_loop_c.mp3",
+      "local": "modules/tabletop-audio-soundpads/audio-cache/tavern/fireplace_loop_c.ogg"
+    },
+    {
+      "id": "bg_3",
+      "label": "Cups and Plates",
+      "icon": "modules/tabletop-audio-soundpads/audio-cache/tavern/icons/cups_dishes_icon.png",
+      "iconRemote": "https://images.tabletopaudio.com/sb/dungeon/cups_dishes_icon.png",
+      "category": "backgrounds",
+      "type": "loop",
+      "loop": true,
+      "gain": 0.4,
+      "repeatDefault": 0,
+      "url": "https://sounds.tabletopaudio.com/tavern2/glasses_stacking.ogg",
+      "ogg": "https://sounds.tabletopaudio.com/tavern2/glasses_stacking.ogg",
+      "mp3": "https://sounds.tabletopaudio.com/tavern2/glasses_stacking.mp3",
+      "local": "modules/tabletop-audio-soundpads/audio-cache/tavern/glasses_stacking.ogg"
+    },
+    {
+      "id": "bg_9",
+      "label": "Rain on Roof",
+      "icon": "modules/tabletop-audio-soundpads/audio-cache/tavern/icons/rain_roof_icon.png",
+      "iconRemote": "https://images.tabletopaudio.com/sb/dungeon/rain_roof_icon.png",
+      "category": "backgrounds",
+      "type": "loop",
+      "loop": true,
+      "gain": 0.2,
+      "repeatDefault": 0,
+      "url": "https://sounds.tabletopaudio.com/tavern2/rain_on_roofb.ogg",
+      "ogg": "https://sounds.tabletopaudio.com/tavern2/rain_on_roofb.ogg",
+      "mp3": "https://sounds.tabletopaudio.com/tavern2/rain_on_roofb.mp3",
+      "local": "modules/tabletop-audio-soundpads/audio-cache/tavern/rain_on_roofb.ogg"
+    },
+    {
+      "id": "bg_22",
+      "label": "Wind Outside",
+      "icon": "modules/tabletop-audio-soundpads/audio-cache/tavern/icons/wind_roof_icon.png",
+      "iconRemote": "https://images.tabletopaudio.com/sb/dungeon/wind_roof_icon.png",
+      "category": "backgrounds",
+      "type": "loop",
+      "loop": true,
+      "gain": 0.4,
+      "repeatDefault": 0,
+      "url": "https://sounds.tabletopaudio.com/tavern2/wind_outside.ogg",
+      "ogg": "https://sounds.tabletopaudio.com/tavern2/wind_outside.ogg",
+      "mp3": "https://sounds.tabletopaudio.com/tavern2/wind_outside.mp3",
+      "local": "modules/tabletop-audio-soundpads/audio-cache/tavern/wind_outside.ogg"
+    },
+    {
+      "id": "bg_8",
+      "label": "Tavern Door (rain)",
+      "icon": "modules/tabletop-audio-soundpads/audio-cache/tavern/icons/door_rain_icon.png",
+      "iconRemote": "https://images.tabletopaudio.com/sb/dungeon/door_rain_icon.png",
+      "category": "events",
+      "type": "oneshot",
+      "loop": false,
+      "gain": 0.3,
+      "repeatDefault": 0,
+      "url": "https://sounds.tabletopaudio.com/tavern2/tavern_door.ogg",
+      "ogg": "https://sounds.tabletopaudio.com/tavern2/tavern_door.ogg",
+      "mp3": "https://sounds.tabletopaudio.com/tavern2/tavern_door.mp3",
+      "local": "modules/tabletop-audio-soundpads/audio-cache/tavern/tavern_door.ogg"
+    },
+    {
+      "id": "bg_18",
+      "label": "Tavern Door (wind)",
+      "icon": "modules/tabletop-audio-soundpads/audio-cache/tavern/icons/door_wind_icon.png",
+      "iconRemote": "https://images.tabletopaudio.com/sb/dungeon/door_wind_icon.png",
+      "category": "events",
+      "type": "oneshot",
+      "loop": false,
+      "gain": 0.3,
+      "repeatDefault": 0,
+      "url": "https://sounds.tabletopaudio.com/tavern2/tavern_door_wind.ogg",
+      "ogg": "https://sounds.tabletopaudio.com/tavern2/tavern_door_wind.ogg",
+      "mp3": "https://sounds.tabletopaudio.com/tavern2/tavern_door_wind.mp3",
+      "local": "modules/tabletop-audio-soundpads/audio-cache/tavern/tavern_door_wind.ogg"
+    },
+    {
+      "id": "bg_27",
+      "label": "Footsteps X4",
+      "icon": "modules/tabletop-audio-soundpads/audio-cache/tavern/icons/boots.png",
+      "iconRemote": "https://images.tabletopaudio.com/sb/dungeon/boots.png",
+      "category": "events",
+      "type": "oneshot",
+      "loop": false,
+      "gain": 0.6,
+      "repeatDefault": 0,
+      "url": "https://sounds.tabletopaudio.com/tavern2/footsteps_x4.ogg",
+      "ogg": "https://sounds.tabletopaudio.com/tavern2/footsteps_x4.ogg",
+      "mp3": "https://sounds.tabletopaudio.com/tavern2/footsteps_x4.mp3",
+      "local": "modules/tabletop-audio-soundpads/audio-cache/tavern/footsteps_x4.ogg",
+      "sprites": [
+        {
+          "offset": 0,
+          "duration": 6.45
+        },
+        {
+          "offset": 6.85,
+          "duration": 5.644
+        },
+        {
+          "offset": 12.453,
+          "duration": 6.032
+        },
+        {
+          "offset": 18.515,
+          "duration": 5.507
+        }
+      ]
+    },
+    {
+      "id": "bg_5",
+      "label": "Laughter X4",
+      "icon": "modules/tabletop-audio-soundpads/audio-cache/tavern/icons/laughter_icon.png",
+      "iconRemote": "https://images.tabletopaudio.com/sb/dungeon/laughter_icon.png",
+      "category": "events",
+      "type": "oneshot",
+      "loop": false,
+      "gain": 0.5,
+      "repeatDefault": 0,
+      "url": "https://sounds.tabletopaudio.com/tavern2/laughter_b_x4.ogg",
+      "ogg": "https://sounds.tabletopaudio.com/tavern2/laughter_b_x4.ogg",
+      "mp3": "https://sounds.tabletopaudio.com/tavern2/laughter_b_x4.mp3",
+      "local": "modules/tabletop-audio-soundpads/audio-cache/tavern/laughter_b_x4.ogg",
+      "sprites": [
+        {
+          "offset": 0,
+          "duration": 6.31
+        },
+        {
+          "offset": 6.649,
+          "duration": 4.336
+        },
+        {
+          "offset": 11.065,
+          "duration": 3.675
+        },
+        {
+          "offset": 15.639,
+          "duration": 3.612
+        }
+      ]
+    },
+    {
+      "id": "bg_10",
+      "label": "Snoring Patron",
+      "icon": "modules/tabletop-audio-soundpads/audio-cache/tavern/icons/snoring_icon.png",
+      "iconRemote": "https://images.tabletopaudio.com/sb/dungeon/snoring_icon.png",
+      "category": "backgrounds",
+      "type": "loop",
+      "loop": true,
+      "gain": 0.2,
+      "repeatDefault": 0,
+      "url": "https://sounds.tabletopaudio.com/tavern2/snoring.ogg",
+      "ogg": "https://sounds.tabletopaudio.com/tavern2/snoring.ogg",
+      "mp3": "https://sounds.tabletopaudio.com/tavern2/snoring.mp3",
+      "local": "modules/tabletop-audio-soundpads/audio-cache/tavern/snoring.ogg"
+    },
+    {
+      "id": "bg_6",
+      "label": "Inkeeper 1 X4",
+      "icon": "modules/tabletop-audio-soundpads/audio-cache/tavern/icons/innkeeper_icon.png",
+      "iconRemote": "https://images.tabletopaudio.com/sb/dungeon/innkeeper_icon.png",
+      "category": "backgrounds",
+      "type": "oneshot",
+      "loop": false,
+      "gain": 0.4,
+      "repeatDefault": 0,
+      "url": "https://sounds.tabletopaudio.com/tavern2/innkeeper_1_x4.ogg",
+      "ogg": "https://sounds.tabletopaudio.com/tavern2/innkeeper_1_x4.ogg",
+      "mp3": "https://sounds.tabletopaudio.com/tavern2/innkeeper_1_x4.mp3",
+      "local": "modules/tabletop-audio-soundpads/audio-cache/tavern/innkeeper_1_x4.ogg",
+      "sprites": [
+        {
+          "offset": 0,
+          "duration": 2.718
+        },
+        {
+          "offset": 2.774,
+          "duration": 2.494
+        },
+        {
+          "offset": 5.334,
+          "duration": 2.774
+        },
+        {
+          "offset": 8.174,
+          "duration": 2.288
+        }
+      ]
+    },
+    {
+      "id": "bg_7",
+      "label": "Innkeeper 2 X4",
+      "icon": "modules/tabletop-audio-soundpads/audio-cache/tavern/icons/innkeeper_icon.png",
+      "iconRemote": "https://images.tabletopaudio.com/sb/dungeon/innkeeper_icon.png",
+      "category": "backgrounds",
+      "type": "oneshot",
+      "loop": false,
+      "gain": 0.4,
+      "repeatDefault": 0,
+      "url": "https://sounds.tabletopaudio.com/tavern2/innkeeper_2_x4.ogg",
+      "ogg": "https://sounds.tabletopaudio.com/tavern2/innkeeper_2_x4.ogg",
+      "mp3": "https://sounds.tabletopaudio.com/tavern2/innkeeper_2_x4.mp3",
+      "local": "modules/tabletop-audio-soundpads/audio-cache/tavern/innkeeper_2_x4.ogg",
+      "sprites": [
+        {
+          "offset": 0,
+          "duration": 2.373
+        },
+        {
+          "offset": 2.382,
+          "duration": 4.248
+        },
+        {
+          "offset": 6.675,
+          "duration": 1.653
+        },
+        {
+          "offset": 8.328,
+          "duration": 2.525
+        }
+      ]
+    },
+    {
+      "id": "bg_14",
+      "label": "Coins on Bar",
+      "icon": "modules/tabletop-audio-soundpads/audio-cache/tavern/icons/coins_icon.png",
+      "iconRemote": "https://images.tabletopaudio.com/sb/dungeon/coins_icon.png",
+      "category": "events",
+      "type": "oneshot",
+      "loop": false,
+      "gain": 0.3,
+      "repeatDefault": 0,
+      "url": "https://sounds.tabletopaudio.com/tavern2/coins_on_bar.ogg",
+      "ogg": "https://sounds.tabletopaudio.com/tavern2/coins_on_bar.ogg",
+      "mp3": "https://sounds.tabletopaudio.com/tavern2/coins_on_bar.mp3",
+      "local": "modules/tabletop-audio-soundpads/audio-cache/tavern/coins_on_bar.ogg"
+    },
+    {
+      "id": "bg_15",
+      "label": "Pour Ale",
+      "icon": "modules/tabletop-audio-soundpads/audio-cache/tavern/icons/ale_icon.png",
+      "iconRemote": "https://images.tabletopaudio.com/sb/dungeon/ale_icon.png",
+      "category": "events",
+      "type": "oneshot",
+      "loop": false,
+      "gain": 0.5,
+      "repeatDefault": 0,
+      "url": "https://sounds.tabletopaudio.com/tavern2/pour_drink.ogg",
+      "ogg": "https://sounds.tabletopaudio.com/tavern2/pour_drink.ogg",
+      "mp3": "https://sounds.tabletopaudio.com/tavern2/pour_drink.mp3",
+      "local": "modules/tabletop-audio-soundpads/audio-cache/tavern/pour_drink.ogg"
+    },
+    {
+      "id": "bg_24",
+      "label": "Serve Stew",
+      "icon": "modules/tabletop-audio-soundpads/audio-cache/tavern/icons/stew_icon.png",
+      "iconRemote": "https://images.tabletopaudio.com/sb/dungeon/stew_icon.png",
+      "category": "events",
+      "type": "oneshot",
+      "loop": false,
+      "gain": 0.3,
+      "repeatDefault": 0,
+      "url": "https://sounds.tabletopaudio.com/tavern2/serving_stew.ogg",
+      "ogg": "https://sounds.tabletopaudio.com/tavern2/serving_stew.ogg",
+      "mp3": "https://sounds.tabletopaudio.com/tavern2/serving_stew.mp3",
+      "local": "modules/tabletop-audio-soundpads/audio-cache/tavern/serving_stew.ogg"
+    },
+    {
+      "id": "bg_16",
+      "label": "Sharpen Knife",
+      "icon": "modules/tabletop-audio-soundpads/audio-cache/tavern/icons/knife_icon.png",
+      "iconRemote": "https://images.tabletopaudio.com/sb/dungeon/knife_icon.png",
+      "category": "events",
+      "type": "oneshot",
+      "loop": false,
+      "gain": 0.3,
+      "repeatDefault": 0,
+      "url": "https://sounds.tabletopaudio.com/tavern2/knife_sharpening.ogg",
+      "ogg": "https://sounds.tabletopaudio.com/tavern2/knife_sharpening.ogg",
+      "mp3": "https://sounds.tabletopaudio.com/tavern2/knife_sharpening.mp3",
+      "local": "modules/tabletop-audio-soundpads/audio-cache/tavern/knife_sharpening.ogg"
+    },
+    {
+      "id": "bg_17",
+      "label": "\"Psst...\" X4",
+      "icon": "modules/tabletop-audio-soundpads/audio-cache/tavern/icons/stranger_icon.png",
+      "iconRemote": "https://images.tabletopaudio.com/sb/dungeon/stranger_icon.png",
+      "category": "backgrounds",
+      "type": "oneshot",
+      "loop": false,
+      "gain": 0.4,
+      "repeatDefault": 0,
+      "url": "https://sounds.tabletopaudio.com/tavern2/psst.ogg",
+      "ogg": "https://sounds.tabletopaudio.com/tavern2/psst.ogg",
+      "mp3": "https://sounds.tabletopaudio.com/tavern2/psst.mp3",
+      "local": "modules/tabletop-audio-soundpads/audio-cache/tavern/psst.ogg",
+      "sprites": [
+        {
+          "offset": 0,
+          "duration": 3.387
+        },
+        {
+          "offset": 3.413,
+          "duration": 2.69
+        },
+        {
+          "offset": 6.1,
+          "duration": 3.091
+        },
+        {
+          "offset": 9.29,
+          "duration": 3.195
+        }
+      ]
+    },
+    {
+      "id": "bg_23",
+      "label": "Old Drunk X4",
+      "icon": "modules/tabletop-audio-soundpads/audio-cache/tavern/icons/old_drunk_icon.png",
+      "iconRemote": "https://images.tabletopaudio.com/sb/dungeon/old_drunk_icon.png",
+      "category": "backgrounds",
+      "type": "oneshot",
+      "loop": false,
+      "gain": 0.4,
+      "repeatDefault": 0,
+      "url": "https://sounds.tabletopaudio.com/tavern2/old_drunk_c_x4.ogg",
+      "ogg": "https://sounds.tabletopaudio.com/tavern2/old_drunk_c_x4.ogg",
+      "mp3": "https://sounds.tabletopaudio.com/tavern2/old_drunk_c_x4.mp3",
+      "local": "modules/tabletop-audio-soundpads/audio-cache/tavern/old_drunk_c_x4.ogg",
+      "sprites": [
+        {
+          "offset": 0,
+          "duration": 3.755
+        },
+        {
+          "offset": 3.761,
+          "duration": 4.405
+        },
+        {
+          "offset": 8.428,
+          "duration": 6.06
+        },
+        {
+          "offset": 14.437,
+          "duration": 3.517
+        }
+      ]
+    },
+    {
+      "id": "bg_19",
+      "label": "Table Flip",
+      "icon": "modules/tabletop-audio-soundpads/audio-cache/tavern/icons/table_flip_icon.png",
+      "iconRemote": "https://images.tabletopaudio.com/sb/dungeon/table_flip_icon.png",
+      "category": "events",
+      "type": "oneshot",
+      "loop": false,
+      "gain": 0.3,
+      "repeatDefault": 0,
+      "url": "https://sounds.tabletopaudio.com/tavern2/table_flip.ogg",
+      "ogg": "https://sounds.tabletopaudio.com/tavern2/table_flip.ogg",
+      "mp3": "https://sounds.tabletopaudio.com/tavern2/table_flip.mp3",
+      "local": "modules/tabletop-audio-soundpads/audio-cache/tavern/table_flip.ogg"
+    },
+    {
+      "id": "bg_20",
+      "label": "Horse Outside",
+      "icon": "modules/tabletop-audio-soundpads/audio-cache/tavern/icons/scared_horse_icon.png",
+      "iconRemote": "https://images.tabletopaudio.com/sb/dungeon/scared_horse_icon.png",
+      "category": "events",
+      "type": "oneshot",
+      "loop": false,
+      "gain": 0.4,
+      "repeatDefault": 0,
+      "url": "https://sounds.tabletopaudio.com/tavern2/horses_outside.ogg",
+      "ogg": "https://sounds.tabletopaudio.com/tavern2/horses_outside.ogg",
+      "mp3": "https://sounds.tabletopaudio.com/tavern2/horses_outside.mp3",
+      "local": "modules/tabletop-audio-soundpads/audio-cache/tavern/horses_outside.ogg"
+    },
+    {
+      "id": "bg_21",
+      "label": "Light Applause",
+      "icon": "modules/tabletop-audio-soundpads/audio-cache/tavern/icons/applause_icon.png",
+      "iconRemote": "https://images.tabletopaudio.com/sb/dungeon/applause_icon.png",
+      "category": "events",
+      "type": "oneshot",
+      "loop": false,
+      "gain": 0.2,
+      "repeatDefault": 0,
+      "url": "https://sounds.tabletopaudio.com/tavern2/light_applause.ogg",
+      "ogg": "https://sounds.tabletopaudio.com/tavern2/light_applause.ogg",
+      "mp3": "https://sounds.tabletopaudio.com/tavern2/light_applause.mp3",
+      "local": "modules/tabletop-audio-soundpads/audio-cache/tavern/light_applause.ogg"
+    },
+    {
+      "id": "bg_28",
+      "label": "Chugging Contest",
+      "icon": "modules/tabletop-audio-soundpads/audio-cache/tavern/icons/chugging_icon.png",
+      "iconRemote": "https://images.tabletopaudio.com/sb/dungeon/chugging_icon.png",
+      "category": "events",
+      "type": "oneshot",
+      "loop": false,
+      "gain": 0.4,
+      "repeatDefault": 0,
+      "url": "https://sounds.tabletopaudio.com/tavern2/drinking_game.ogg",
+      "ogg": "https://sounds.tabletopaudio.com/tavern2/drinking_game.ogg",
+      "mp3": "https://sounds.tabletopaudio.com/tavern2/drinking_game.mp3",
+      "local": "modules/tabletop-audio-soundpads/audio-cache/tavern/drinking_game.ogg"
+    },
+    {
+      "id": "bg_25",
+      "label": "Cheers",
+      "icon": "modules/tabletop-audio-soundpads/audio-cache/tavern/icons/thumbs_up_icon.png",
+      "iconRemote": "https://images.tabletopaudio.com/sb/dungeon/thumbs_up_icon.png",
+      "category": "events",
+      "type": "oneshot",
+      "loop": false,
+      "gain": 0.4,
+      "repeatDefault": 0,
+      "url": "https://sounds.tabletopaudio.com/tavern2/cheers.ogg",
+      "ogg": "https://sounds.tabletopaudio.com/tavern2/cheers.ogg",
+      "mp3": "https://sounds.tabletopaudio.com/tavern2/cheers.mp3",
+      "local": "modules/tabletop-audio-soundpads/audio-cache/tavern/cheers.ogg"
+    },
+    {
+      "id": "bg_26",
+      "label": "Jeers",
+      "icon": "modules/tabletop-audio-soundpads/audio-cache/tavern/icons/thumbs_down_icon.png",
+      "iconRemote": "https://images.tabletopaudio.com/sb/dungeon/thumbs_down_icon.png",
+      "category": "events",
+      "type": "oneshot",
+      "loop": false,
+      "gain": 0.4,
+      "repeatDefault": 0,
+      "url": "https://sounds.tabletopaudio.com/tavern2/boos.ogg",
+      "ogg": "https://sounds.tabletopaudio.com/tavern2/boos.ogg",
+      "mp3": "https://sounds.tabletopaudio.com/tavern2/boos.mp3",
+      "local": "modules/tabletop-audio-soundpads/audio-cache/tavern/boos.ogg"
+    },
+    {
+      "id": "bg_13",
+      "label": "Bard Ballad",
+      "icon": "modules/tabletop-audio-soundpads/audio-cache/tavern/icons/music.png",
+      "iconRemote": "https://images.tabletopaudio.com/sb/dungeon/music.png",
+      "category": "music",
+      "type": "music",
+      "loop": true,
+      "gain": 0.3,
+      "repeatDefault": 0,
+      "url": "https://sounds.tabletopaudio.com/tavern2/lute_ballad.ogg",
+      "ogg": "https://sounds.tabletopaudio.com/tavern2/lute_ballad.ogg",
+      "mp3": "https://sounds.tabletopaudio.com/tavern2/lute_ballad.mp3",
+      "local": "modules/tabletop-audio-soundpads/audio-cache/tavern/lute_ballad.ogg"
+    },
+    {
+      "id": "bg_11",
+      "label": "Bard Lively 1",
+      "icon": "modules/tabletop-audio-soundpads/audio-cache/tavern/icons/music.png",
+      "iconRemote": "https://images.tabletopaudio.com/sb/dungeon/music.png",
+      "category": "music",
+      "type": "music",
+      "loop": true,
+      "gain": 0.3,
+      "repeatDefault": 0,
+      "url": "https://sounds.tabletopaudio.com/tavern2/lute_music_1.ogg",
+      "ogg": "https://sounds.tabletopaudio.com/tavern2/lute_music_1.ogg",
+      "mp3": "https://sounds.tabletopaudio.com/tavern2/lute_music_1.mp3",
+      "local": "modules/tabletop-audio-soundpads/audio-cache/tavern/lute_music_1.ogg"
+    },
+    {
+      "id": "bg_12",
+      "label": "Bard Lively 2",
+      "icon": "modules/tabletop-audio-soundpads/audio-cache/tavern/icons/music.png",
+      "iconRemote": "https://images.tabletopaudio.com/sb/dungeon/music.png",
+      "category": "music",
+      "type": "music",
+      "loop": true,
+      "gain": 0.3,
+      "repeatDefault": 0,
+      "url": "https://sounds.tabletopaudio.com/tavern2/lute_music_2.ogg",
+      "ogg": "https://sounds.tabletopaudio.com/tavern2/lute_music_2.ogg",
+      "mp3": "https://sounds.tabletopaudio.com/tavern2/lute_music_2.mp3",
+      "local": "modules/tabletop-audio-soundpads/audio-cache/tavern/lute_music_2.ogg"
+    }
+  ]
+}

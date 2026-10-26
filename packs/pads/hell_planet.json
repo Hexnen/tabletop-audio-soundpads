@@ -1,0 +1,726 @@
+{
+  "id": "hell_planet",
+  "name": "Hell Planet",
+  "source": "https://tabletopaudio.com/hell_planet_sp.html",
+  "coverRemote": "https://images.tabletopaudio.com/sb/hell_planet_sp2.jpg",
+  "cover": "modules/tabletop-audio-soundpads/audio-cache/hell_planet/hell_planet_sp2.jpg",
+  "headerRemote": "https://images.tabletopaudio.com/sb/hell_planet2a.png",
+  "header": "modules/tabletop-audio-soundpads/audio-cache/hell_planet/hell_planet2a.png",
+  "categories": [
+    "backgrounds",
+    "events",
+    "tones",
+    "music"
+  ],
+  "layerCount": 40,
+  "layers": [
+    {
+      "id": "bg_1",
+      "label": "Wind",
+      "icon": "modules/tabletop-audio-soundpads/audio-cache/hell_planet/icons/wind_icon2.png",
+      "iconRemote": "https://images.tabletopaudio.com/sb/dungeon/wind_icon2.png",
+      "category": "backgrounds",
+      "type": "loop",
+      "loop": true,
+      "gain": 0.3,
+      "repeatDefault": 0,
+      "url": "https://sounds.tabletopaudio.com/hell_planet/dark_wind1_lp.ogg",
+      "ogg": "https://sounds.tabletopaudio.com/hell_planet/dark_wind1_lp.ogg",
+      "mp3": "https://sounds.tabletopaudio.com/hell_planet/dark_wind1_lp.mp3",
+      "local": "modules/tabletop-audio-soundpads/audio-cache/hell_planet/dark_wind1_lp.ogg"
+    },
+    {
+      "id": "bg_2",
+      "label": "River of Blood",
+      "icon": "modules/tabletop-audio-soundpads/audio-cache/hell_planet/icons/water.png",
+      "iconRemote": "https://images.tabletopaudio.com/sb/dungeon/water.png",
+      "category": "backgrounds",
+      "type": "loop",
+      "loop": true,
+      "gain": 0.2,
+      "repeatDefault": 0,
+      "url": "https://sounds.tabletopaudio.com/hell_planet/river_of_blood_lp.ogg",
+      "ogg": "https://sounds.tabletopaudio.com/hell_planet/river_of_blood_lp.ogg",
+      "mp3": "https://sounds.tabletopaudio.com/hell_planet/river_of_blood_lp.mp3",
+      "local": "modules/tabletop-audio-soundpads/audio-cache/hell_planet/river_of_blood_lp.ogg"
+    },
+    {
+      "id": "bg_25",
+      "label": "Pool of Ichor",
+      "icon": "modules/tabletop-audio-soundpads/audio-cache/hell_planet/icons/bubbles.png",
+      "iconRemote": "https://images.tabletopaudio.com/sb/dungeon/bubbles.png",
+      "category": "backgrounds",
+      "type": "loop",
+      "loop": true,
+      "gain": 0.3,
+      "repeatDefault": 0,
+      "url": "https://sounds.tabletopaudio.com/hell_planet/ichor_pool_lp.ogg",
+      "ogg": "https://sounds.tabletopaudio.com/hell_planet/ichor_pool_lp.ogg",
+      "mp3": "https://sounds.tabletopaudio.com/hell_planet/ichor_pool_lp.mp3",
+      "local": "modules/tabletop-audio-soundpads/audio-cache/hell_planet/ichor_pool_lp.ogg"
+    },
+    {
+      "id": "bg_30",
+      "label": "Portal",
+      "icon": "modules/tabletop-audio-soundpads/audio-cache/hell_planet/icons/forcefield_up_icon.png",
+      "iconRemote": "https://images.tabletopaudio.com/sb/dungeon/forcefield_up_icon.png",
+      "category": "events",
+      "type": "oneshot",
+      "loop": false,
+      "gain": 0.4,
+      "repeatDefault": 0,
+      "url": "https://sounds.tabletopaudio.com/hell_planet/portal1a.ogg",
+      "ogg": "https://sounds.tabletopaudio.com/hell_planet/portal1a.ogg",
+      "mp3": "https://sounds.tabletopaudio.com/hell_planet/portal1a.mp3",
+      "local": "modules/tabletop-audio-soundpads/audio-cache/hell_planet/portal1a.ogg"
+    },
+    {
+      "id": "bg_4",
+      "label": "Flame Strike x4",
+      "icon": "modules/tabletop-audio-soundpads/audio-cache/hell_planet/icons/flame_strike_icon.png",
+      "iconRemote": "https://images.tabletopaudio.com/sb/dungeon/flame_strike_icon.png",
+      "category": "events",
+      "type": "oneshot",
+      "loop": false,
+      "gain": 0.5,
+      "repeatDefault": 0,
+      "url": "https://sounds.tabletopaudio.com/hell_planet/fireballs_incoming_x4.ogg",
+      "ogg": "https://sounds.tabletopaudio.com/hell_planet/fireballs_incoming_x4.ogg",
+      "mp3": "https://sounds.tabletopaudio.com/hell_planet/fireballs_incoming_x4.mp3",
+      "local": "modules/tabletop-audio-soundpads/audio-cache/hell_planet/fireballs_incoming_x4.ogg",
+      "sprites": [
+        {
+          "offset": 0,
+          "duration": 5.442
+        },
+        {
+          "offset": 5.733,
+          "duration": 6.38
+        },
+        {
+          "offset": 12.228,
+          "duration": 5.295
+        },
+        {
+          "offset": 17.6,
+          "duration": 5.239
+        }
+      ]
+    },
+    {
+      "id": "bg_40",
+      "label": "Rolling Market",
+      "icon": "modules/tabletop-audio-soundpads/audio-cache/hell_planet/icons/rolling_market_icon.png",
+      "iconRemote": "https://images.tabletopaudio.com/sb/dungeon/rolling_market_icon.png",
+      "category": "backgrounds",
+      "type": "loop",
+      "loop": true,
+      "gain": 0.2,
+      "repeatDefault": 0,
+      "url": "https://sounds.tabletopaudio.com/hell_planet/wheeled_market_2a_lp.ogg",
+      "ogg": "https://sounds.tabletopaudio.com/hell_planet/wheeled_market_2a_lp.ogg",
+      "mp3": "https://sounds.tabletopaudio.com/hell_planet/wheeled_market_2a_lp.mp3",
+      "local": "modules/tabletop-audio-soundpads/audio-cache/hell_planet/wheeled_market_2a_lp.ogg"
+    },
+    {
+      "id": "bg_12",
+      "label": "Distant Crowds",
+      "icon": "modules/tabletop-audio-soundpads/audio-cache/hell_planet/icons/crowd_lg.png",
+      "iconRemote": "https://images.tabletopaudio.com/sb/dungeon/crowd_lg.png",
+      "category": "backgrounds",
+      "type": "loop",
+      "loop": true,
+      "gain": 0.3,
+      "repeatDefault": 0,
+      "url": "https://sounds.tabletopaudio.com/hell_planet/distant_crowds_lp.ogg",
+      "ogg": "https://sounds.tabletopaudio.com/hell_planet/distant_crowds_lp.ogg",
+      "mp3": "https://sounds.tabletopaudio.com/hell_planet/distant_crowds_lp.mp3",
+      "local": "modules/tabletop-audio-soundpads/audio-cache/hell_planet/distant_crowds_lp.ogg"
+    },
+    {
+      "id": "bg_13",
+      "label": "Distant Chaos",
+      "icon": "modules/tabletop-audio-soundpads/audio-cache/hell_planet/icons/chaos_icon.png",
+      "iconRemote": "https://images.tabletopaudio.com/sb/dungeon/chaos_icon.png",
+      "category": "backgrounds",
+      "type": "loop",
+      "loop": true,
+      "gain": 0.4,
+      "repeatDefault": 0,
+      "url": "https://sounds.tabletopaudio.com/hell_planet/distant_chaos_lp.ogg",
+      "ogg": "https://sounds.tabletopaudio.com/hell_planet/distant_chaos_lp.ogg",
+      "mp3": "https://sounds.tabletopaudio.com/hell_planet/distant_chaos_lp.mp3",
+      "local": "modules/tabletop-audio-soundpads/audio-cache/hell_planet/distant_chaos_lp.ogg"
+    },
+    {
+      "id": "bg_3",
+      "label": "Distant Machines",
+      "icon": "modules/tabletop-audio-soundpads/audio-cache/hell_planet/icons/highway_icon.png",
+      "iconRemote": "https://images.tabletopaudio.com/sb/dungeon/highway_icon.png",
+      "category": "backgrounds",
+      "type": "loop",
+      "loop": true,
+      "gain": 0.2,
+      "repeatDefault": 0,
+      "url": "https://sounds.tabletopaudio.com/hell_planet/moto_bg_lp.ogg",
+      "ogg": "https://sounds.tabletopaudio.com/hell_planet/moto_bg_lp.ogg",
+      "mp3": "https://sounds.tabletopaudio.com/hell_planet/moto_bg_lp.mp3",
+      "local": "modules/tabletop-audio-soundpads/audio-cache/hell_planet/moto_bg_lp.ogg"
+    },
+    {
+      "id": "bg_37",
+      "label": "Winged Demon",
+      "icon": "modules/tabletop-audio-soundpads/audio-cache/hell_planet/icons/winged_demon_icon.png",
+      "iconRemote": "https://images.tabletopaudio.com/sb/dungeon/winged_demon_icon.png",
+      "category": "backgrounds",
+      "type": "oneshot",
+      "loop": false,
+      "gain": 0.2,
+      "repeatDefault": 0,
+      "url": "https://sounds.tabletopaudio.com/hell_planet/winged_demon2_lp.ogg",
+      "ogg": "https://sounds.tabletopaudio.com/hell_planet/winged_demon2_lp.ogg",
+      "mp3": "https://sounds.tabletopaudio.com/hell_planet/winged_demon2_lp.mp3",
+      "local": "modules/tabletop-audio-soundpads/audio-cache/hell_planet/winged_demon2_lp.ogg"
+    },
+    {
+      "id": "bg_38",
+      "label": "Demon Horde",
+      "icon": "modules/tabletop-audio-soundpads/audio-cache/hell_planet/icons/demon_icon.png",
+      "iconRemote": "https://images.tabletopaudio.com/sb/dungeon/demon_icon.png",
+      "category": "backgrounds",
+      "type": "loop",
+      "loop": true,
+      "gain": 0.3,
+      "repeatDefault": 0,
+      "url": "https://sounds.tabletopaudio.com/hell_planet/distant_demons_lp.ogg",
+      "ogg": "https://sounds.tabletopaudio.com/hell_planet/distant_demons_lp.ogg",
+      "mp3": "https://sounds.tabletopaudio.com/hell_planet/distant_demons_lp.mp3",
+      "local": "modules/tabletop-audio-soundpads/audio-cache/hell_planet/distant_demons_lp.ogg"
+    },
+    {
+      "id": "bg_39",
+      "label": "Pillar of Skulls",
+      "icon": "modules/tabletop-audio-soundpads/audio-cache/hell_planet/icons/skulls_icon.png",
+      "iconRemote": "https://images.tabletopaudio.com/sb/dungeon/skulls_icon.png",
+      "category": "backgrounds",
+      "type": "loop",
+      "loop": true,
+      "gain": 0.2,
+      "repeatDefault": 0,
+      "url": "https://sounds.tabletopaudio.com/hell_planet/pillar_of_skulls_lp.ogg",
+      "ogg": "https://sounds.tabletopaudio.com/hell_planet/pillar_of_skulls_lp.ogg",
+      "mp3": "https://sounds.tabletopaudio.com/hell_planet/pillar_of_skulls_lp.mp3",
+      "local": "modules/tabletop-audio-soundpads/audio-cache/hell_planet/pillar_of_skulls_lp.ogg"
+    },
+    {
+      "id": "bg_29",
+      "label": "Voice of Doom x4",
+      "icon": "modules/tabletop-audio-soundpads/audio-cache/hell_planet/icons/demon_icon.png",
+      "iconRemote": "https://images.tabletopaudio.com/sb/dungeon/demon_icon.png",
+      "category": "events",
+      "type": "oneshot",
+      "loop": false,
+      "gain": 0.2,
+      "repeatDefault": 0,
+      "url": "https://sounds.tabletopaudio.com/hell_planet/devil_voice2_x4.ogg",
+      "ogg": "https://sounds.tabletopaudio.com/hell_planet/devil_voice2_x4.ogg",
+      "mp3": "https://sounds.tabletopaudio.com/hell_planet/devil_voice2_x4.mp3",
+      "local": "modules/tabletop-audio-soundpads/audio-cache/hell_planet/devil_voice2_x4.ogg",
+      "sprites": [
+        {
+          "offset": 0,
+          "duration": 6.988
+        },
+        {
+          "offset": 7.083,
+          "duration": 6.964
+        },
+        {
+          "offset": 14.094,
+          "duration": 8.405
+        },
+        {
+          "offset": 22.569,
+          "duration": 7.547
+        }
+      ]
+    },
+    {
+      "id": "bg_5",
+      "label": "Engine 1 Idle",
+      "icon": "modules/tabletop-audio-soundpads/audio-cache/hell_planet/icons/engine_icon.png",
+      "iconRemote": "https://images.tabletopaudio.com/sb/dungeon/engine_icon.png",
+      "category": "backgrounds",
+      "type": "loop",
+      "loop": true,
+      "gain": 0.3,
+      "repeatDefault": 0,
+      "url": "https://sounds.tabletopaudio.com/hell_planet/engine_1b_lp.ogg",
+      "ogg": "https://sounds.tabletopaudio.com/hell_planet/engine_1b_lp.ogg",
+      "mp3": "https://sounds.tabletopaudio.com/hell_planet/engine_1b_lp.mp3",
+      "local": "modules/tabletop-audio-soundpads/audio-cache/hell_planet/engine_1b_lp.ogg"
+    },
+    {
+      "id": "bg_7",
+      "label": "Engine 2 Idle",
+      "icon": "modules/tabletop-audio-soundpads/audio-cache/hell_planet/icons/engine_icon.png",
+      "iconRemote": "https://images.tabletopaudio.com/sb/dungeon/engine_icon.png",
+      "category": "backgrounds",
+      "type": "loop",
+      "loop": true,
+      "gain": 0.3,
+      "repeatDefault": 0,
+      "url": "https://sounds.tabletopaudio.com/hell_planet/engine_2b_lp.ogg",
+      "ogg": "https://sounds.tabletopaudio.com/hell_planet/engine_2b_lp.ogg",
+      "mp3": "https://sounds.tabletopaudio.com/hell_planet/engine_2b_lp.mp3",
+      "local": "modules/tabletop-audio-soundpads/audio-cache/hell_planet/engine_2b_lp.ogg"
+    },
+    {
+      "id": "bg_6",
+      "label": "Engine 1 Run",
+      "icon": "modules/tabletop-audio-soundpads/audio-cache/hell_planet/icons/engine_on_icon.png",
+      "iconRemote": "https://images.tabletopaudio.com/sb/dungeon/engine_on_icon.png",
+      "category": "backgrounds",
+      "type": "loop",
+      "loop": true,
+      "gain": 0.4,
+      "repeatDefault": 0,
+      "url": "https://sounds.tabletopaudio.com/hell_planet/engine_drive_a_lp.ogg",
+      "ogg": "https://sounds.tabletopaudio.com/hell_planet/engine_drive_a_lp.ogg",
+      "mp3": "https://sounds.tabletopaudio.com/hell_planet/engine_drive_a_lp.mp3",
+      "local": "modules/tabletop-audio-soundpads/audio-cache/hell_planet/engine_drive_a_lp.ogg"
+    },
+    {
+      "id": "bg_8",
+      "label": "Engine 2 Run",
+      "icon": "modules/tabletop-audio-soundpads/audio-cache/hell_planet/icons/engine_on_icon.png",
+      "iconRemote": "https://images.tabletopaudio.com/sb/dungeon/engine_on_icon.png",
+      "category": "backgrounds",
+      "type": "loop",
+      "loop": true,
+      "gain": 0.4,
+      "repeatDefault": 0,
+      "url": "https://sounds.tabletopaudio.com/hell_planet/engine_2a_drive_lp.ogg",
+      "ogg": "https://sounds.tabletopaudio.com/hell_planet/engine_2a_drive_lp.ogg",
+      "mp3": "https://sounds.tabletopaudio.com/hell_planet/engine_2a_drive_lp.mp3",
+      "local": "modules/tabletop-audio-soundpads/audio-cache/hell_planet/engine_2a_drive_lp.ogg"
+    },
+    {
+      "id": "bg_9",
+      "label": "Motorbike 1",
+      "icon": "modules/tabletop-audio-soundpads/audio-cache/hell_planet/icons/motorbike_icon.png",
+      "iconRemote": "https://images.tabletopaudio.com/sb/dungeon/motorbike_icon.png",
+      "category": "backgrounds",
+      "type": "loop",
+      "loop": true,
+      "gain": 0.3,
+      "repeatDefault": 0,
+      "url": "https://sounds.tabletopaudio.com/hell_planet/motorbike_1_lp.ogg",
+      "ogg": "https://sounds.tabletopaudio.com/hell_planet/motorbike_1_lp.ogg",
+      "mp3": "https://sounds.tabletopaudio.com/hell_planet/motorbike_1_lp.mp3",
+      "local": "modules/tabletop-audio-soundpads/audio-cache/hell_planet/motorbike_1_lp.ogg"
+    },
+    {
+      "id": "bg_14",
+      "label": "Engine Revs x4",
+      "icon": "modules/tabletop-audio-soundpads/audio-cache/hell_planet/icons/machine_icon.png",
+      "iconRemote": "https://images.tabletopaudio.com/sb/dungeon/machine_icon.png",
+      "category": "events",
+      "type": "oneshot",
+      "loop": false,
+      "gain": 0.3,
+      "repeatDefault": 0,
+      "url": "https://sounds.tabletopaudio.com/hell_planet/engine_rev_x4.ogg",
+      "ogg": "https://sounds.tabletopaudio.com/hell_planet/engine_rev_x4.ogg",
+      "mp3": "https://sounds.tabletopaudio.com/hell_planet/engine_rev_x4.mp3",
+      "local": "modules/tabletop-audio-soundpads/audio-cache/hell_planet/engine_rev_x4.ogg",
+      "sprites": [
+        {
+          "offset": 0,
+          "duration": 6.341
+        },
+        {
+          "offset": 6.634,
+          "duration": 5.82
+        },
+        {
+          "offset": 12.683,
+          "duration": 5.09
+        },
+        {
+          "offset": 17.878,
+          "duration": 7.149
+        }
+      ]
+    },
+    {
+      "id": "bg_10",
+      "label": "Hi Servo",
+      "icon": "modules/tabletop-audio-soundpads/audio-cache/hell_planet/icons/gears_icon.png",
+      "iconRemote": "https://images.tabletopaudio.com/sb/dungeon/gears_icon.png",
+      "category": "events",
+      "type": "oneshot",
+      "loop": false,
+      "gain": 0.2,
+      "repeatDefault": 0,
+      "url": "https://sounds.tabletopaudio.com/hell_planet/hi_servo.ogg",
+      "ogg": "https://sounds.tabletopaudio.com/hell_planet/hi_servo.ogg",
+      "mp3": "https://sounds.tabletopaudio.com/hell_planet/hi_servo.mp3",
+      "local": "modules/tabletop-audio-soundpads/audio-cache/hell_planet/hi_servo.ogg"
+    },
+    {
+      "id": "bg_11",
+      "label": "Tire Noise",
+      "icon": "modules/tabletop-audio-soundpads/audio-cache/hell_planet/icons/tire_icon.png",
+      "iconRemote": "https://images.tabletopaudio.com/sb/dungeon/tire_icon.png",
+      "category": "backgrounds",
+      "type": "loop",
+      "loop": true,
+      "gain": 0.5,
+      "repeatDefault": 0,
+      "url": "https://sounds.tabletopaudio.com/hell_planet/tire_noise.ogg",
+      "ogg": "https://sounds.tabletopaudio.com/hell_planet/tire_noise.ogg",
+      "mp3": "https://sounds.tabletopaudio.com/hell_planet/tire_noise.mp3",
+      "local": "modules/tabletop-audio-soundpads/audio-cache/hell_planet/tire_noise.ogg"
+    },
+    {
+      "id": "bg_26",
+      "label": "Tank Treads",
+      "icon": "modules/tabletop-audio-soundpads/audio-cache/hell_planet/icons/tank_tread_icon.png",
+      "iconRemote": "https://images.tabletopaudio.com/sb/dungeon/tank_tread_icon.png",
+      "category": "backgrounds",
+      "type": "loop",
+      "loop": true,
+      "gain": 0.3,
+      "repeatDefault": 0,
+      "url": "https://sounds.tabletopaudio.com/hell_planet/tank_tread_lp.ogg",
+      "ogg": "https://sounds.tabletopaudio.com/hell_planet/tank_tread_lp.ogg",
+      "mp3": "https://sounds.tabletopaudio.com/hell_planet/tank_tread_lp.mp3",
+      "local": "modules/tabletop-audio-soundpads/audio-cache/hell_planet/tank_tread_lp.ogg"
+    },
+    {
+      "id": "bg_15",
+      "label": "War Drums",
+      "icon": "modules/tabletop-audio-soundpads/audio-cache/hell_planet/icons/drum_icon.png",
+      "iconRemote": "https://images.tabletopaudio.com/sb/dungeon/drum_icon.png",
+      "category": "tones",
+      "type": "loop",
+      "loop": true,
+      "gain": 0.5,
+      "repeatDefault": 0,
+      "url": "https://sounds.tabletopaudio.com/hell_planet/war_drums2.ogg",
+      "ogg": "https://sounds.tabletopaudio.com/hell_planet/war_drums2.ogg",
+      "mp3": "https://sounds.tabletopaudio.com/hell_planet/war_drums2.mp3",
+      "local": "modules/tabletop-audio-soundpads/audio-cache/hell_planet/war_drums2.ogg"
+    },
+    {
+      "id": "bg_24",
+      "label": "Bass Tone",
+      "icon": "modules/tabletop-audio-soundpads/audio-cache/hell_planet/icons/bass_tone.png",
+      "iconRemote": "https://images.tabletopaudio.com/sb/dungeon/bass_tone.png",
+      "category": "tones",
+      "type": "loop",
+      "loop": true,
+      "gain": 0.4,
+      "repeatDefault": 0,
+      "url": "https://sounds.tabletopaudio.com/hell_planet/bass_tone1.ogg",
+      "ogg": "https://sounds.tabletopaudio.com/hell_planet/bass_tone1.ogg",
+      "mp3": "https://sounds.tabletopaudio.com/hell_planet/bass_tone1.mp3",
+      "local": "modules/tabletop-audio-soundpads/audio-cache/hell_planet/bass_tone1.ogg"
+    },
+    {
+      "id": "bg_16",
+      "label": "Guitar Tone",
+      "icon": "modules/tabletop-audio-soundpads/audio-cache/hell_planet/icons/guitar_icon.png",
+      "iconRemote": "https://images.tabletopaudio.com/sb/dungeon/guitar_icon.png",
+      "category": "tones",
+      "type": "loop",
+      "loop": true,
+      "gain": 0.4,
+      "repeatDefault": 0,
+      "url": "https://sounds.tabletopaudio.com/hell_planet/distort.ogg",
+      "ogg": "https://sounds.tabletopaudio.com/hell_planet/distort.ogg",
+      "mp3": "https://sounds.tabletopaudio.com/hell_planet/distort.mp3",
+      "local": "modules/tabletop-audio-soundpads/audio-cache/hell_planet/distort.ogg"
+    },
+    {
+      "id": "bg_17",
+      "label": "Explosion x2",
+      "icon": "modules/tabletop-audio-soundpads/audio-cache/hell_planet/icons/explosion_icon.png",
+      "iconRemote": "https://images.tabletopaudio.com/sb/dungeon/explosion_icon.png",
+      "category": "events",
+      "type": "oneshot",
+      "loop": false,
+      "gain": 0.5,
+      "repeatDefault": 0,
+      "url": "https://sounds.tabletopaudio.com/hell_planet/explosion_x2.ogg",
+      "ogg": "https://sounds.tabletopaudio.com/hell_planet/explosion_x2.ogg",
+      "mp3": "https://sounds.tabletopaudio.com/hell_planet/explosion_x2.mp3",
+      "local": "modules/tabletop-audio-soundpads/audio-cache/hell_planet/explosion_x2.ogg",
+      "sprites": [
+        {
+          "offset": 0,
+          "duration": 4.502
+        },
+        {
+          "offset": 4.764,
+          "duration": 5.035
+        },
+        {
+          "offset": 0,
+          "duration": 4.502
+        },
+        {
+          "offset": 4.764,
+          "duration": 5.035
+        }
+      ]
+    },
+    {
+      "id": "bg_32",
+      "label": "Destruction",
+      "icon": "modules/tabletop-audio-soundpads/audio-cache/hell_planet/icons/rubble_icon.png",
+      "iconRemote": "https://images.tabletopaudio.com/sb/dungeon/rubble_icon.png",
+      "category": "events",
+      "type": "oneshot",
+      "loop": false,
+      "gain": 0.4,
+      "repeatDefault": 0,
+      "url": "https://sounds.tabletopaudio.com/hell_planet/destruction1.ogg",
+      "ogg": "https://sounds.tabletopaudio.com/hell_planet/destruction1.ogg",
+      "mp3": "https://sounds.tabletopaudio.com/hell_planet/destruction1.mp3",
+      "local": "modules/tabletop-audio-soundpads/audio-cache/hell_planet/destruction1.ogg"
+    },
+    {
+      "id": "bg_27",
+      "label": "Turret Cannon x2",
+      "icon": "modules/tabletop-audio-soundpads/audio-cache/hell_planet/icons/turret_icon.png",
+      "iconRemote": "https://images.tabletopaudio.com/sb/dungeon/turret_icon.png",
+      "category": "backgrounds",
+      "type": "oneshot",
+      "loop": false,
+      "gain": 0.5,
+      "repeatDefault": 0,
+      "url": "https://sounds.tabletopaudio.com/hell_planet/turret_shot_x2.ogg",
+      "ogg": "https://sounds.tabletopaudio.com/hell_planet/turret_shot_x2.ogg",
+      "mp3": "https://sounds.tabletopaudio.com/hell_planet/turret_shot_x2.mp3",
+      "local": "modules/tabletop-audio-soundpads/audio-cache/hell_planet/turret_shot_x2.ogg",
+      "sprites": [
+        {
+          "offset": 0,
+          "duration": 6.9
+        },
+        {
+          "offset": 7.51,
+          "duration": 4.568
+        },
+        {
+          "offset": 0,
+          "duration": 6.9
+        },
+        {
+          "offset": 7.51,
+          "duration": 4.568
+        }
+      ]
+    },
+    {
+      "id": "bg_19",
+      "label": "Cutting Blade",
+      "icon": "modules/tabletop-audio-soundpads/audio-cache/hell_planet/icons/cutting_blade_icon.png",
+      "iconRemote": "https://images.tabletopaudio.com/sb/dungeon/cutting_blade_icon.png",
+      "category": "backgrounds",
+      "type": "oneshot",
+      "loop": false,
+      "gain": 0.4,
+      "repeatDefault": 0,
+      "url": "https://sounds.tabletopaudio.com/hell_planet/cutting_blade2a.ogg",
+      "ogg": "https://sounds.tabletopaudio.com/hell_planet/cutting_blade2a.ogg",
+      "mp3": "https://sounds.tabletopaudio.com/hell_planet/cutting_blade2a.mp3",
+      "local": "modules/tabletop-audio-soundpads/audio-cache/hell_planet/cutting_blade2a.ogg"
+    },
+    {
+      "id": "bg_18",
+      "label": "Metal Jaws",
+      "icon": "modules/tabletop-audio-soundpads/audio-cache/hell_planet/icons/metal_teeth_icon.png",
+      "iconRemote": "https://images.tabletopaudio.com/sb/dungeon/metal_teeth_icon.png",
+      "category": "backgrounds",
+      "type": "oneshot",
+      "loop": false,
+      "gain": 0.5,
+      "repeatDefault": 0,
+      "url": "https://sounds.tabletopaudio.com/hell_planet/metal_jaws.ogg",
+      "ogg": "https://sounds.tabletopaudio.com/hell_planet/metal_jaws.ogg",
+      "mp3": "https://sounds.tabletopaudio.com/hell_planet/metal_jaws.mp3",
+      "local": "modules/tabletop-audio-soundpads/audio-cache/hell_planet/metal_jaws.ogg"
+    },
+    {
+      "id": "bg_20",
+      "label": "Wrecking Ball",
+      "icon": "modules/tabletop-audio-soundpads/audio-cache/hell_planet/icons/wrecking_ball_icon.png",
+      "iconRemote": "https://images.tabletopaudio.com/sb/dungeon/wrecking_ball_icon.png",
+      "category": "backgrounds",
+      "type": "oneshot",
+      "loop": false,
+      "gain": 0.5,
+      "repeatDefault": 0,
+      "url": "https://sounds.tabletopaudio.com/hell_planet/wrecking_ball.ogg",
+      "ogg": "https://sounds.tabletopaudio.com/hell_planet/wrecking_ball.ogg",
+      "mp3": "https://sounds.tabletopaudio.com/hell_planet/wrecking_ball.mp3",
+      "local": "modules/tabletop-audio-soundpads/audio-cache/hell_planet/wrecking_ball.ogg"
+    },
+    {
+      "id": "bg_21",
+      "label": "Acid Spray",
+      "icon": "modules/tabletop-audio-soundpads/audio-cache/hell_planet/icons/acid_attack_icon.png",
+      "iconRemote": "https://images.tabletopaudio.com/sb/dungeon/acid_attack_icon.png",
+      "category": "backgrounds",
+      "type": "oneshot",
+      "loop": false,
+      "gain": 0.5,
+      "repeatDefault": 0,
+      "url": "https://sounds.tabletopaudio.com/hell_planet/acid_spray.ogg",
+      "ogg": "https://sounds.tabletopaudio.com/hell_planet/acid_spray.ogg",
+      "mp3": "https://sounds.tabletopaudio.com/hell_planet/acid_spray.mp3",
+      "local": "modules/tabletop-audio-soundpads/audio-cache/hell_planet/acid_spray.ogg"
+    },
+    {
+      "id": "bg_22",
+      "label": "Flame Thrower",
+      "icon": "modules/tabletop-audio-soundpads/audio-cache/hell_planet/icons/fire.png",
+      "iconRemote": "https://images.tabletopaudio.com/sb/dungeon/fire.png",
+      "category": "backgrounds",
+      "type": "oneshot",
+      "loop": false,
+      "gain": 0.5,
+      "repeatDefault": 0,
+      "url": "https://sounds.tabletopaudio.com/hell_planet/flame_thrower.ogg",
+      "ogg": "https://sounds.tabletopaudio.com/hell_planet/flame_thrower.ogg",
+      "mp3": "https://sounds.tabletopaudio.com/hell_planet/flame_thrower.mp3",
+      "local": "modules/tabletop-audio-soundpads/audio-cache/hell_planet/flame_thrower.ogg"
+    },
+    {
+      "id": "bg_23",
+      "label": "Harpoon Gun",
+      "icon": "modules/tabletop-audio-soundpads/audio-cache/hell_planet/icons/harpoon_gun_icon.png",
+      "iconRemote": "https://images.tabletopaudio.com/sb/dungeon/harpoon_gun_icon.png",
+      "category": "backgrounds",
+      "type": "oneshot",
+      "loop": false,
+      "gain": 0.5,
+      "repeatDefault": 0,
+      "url": "https://sounds.tabletopaudio.com/hell_planet/harpoon_gun.ogg",
+      "ogg": "https://sounds.tabletopaudio.com/hell_planet/harpoon_gun.ogg",
+      "mp3": "https://sounds.tabletopaudio.com/hell_planet/harpoon_gun.mp3",
+      "local": "modules/tabletop-audio-soundpads/audio-cache/hell_planet/harpoon_gun.ogg"
+    },
+    {
+      "id": "bg_28",
+      "label": "Bomb Minion x2",
+      "icon": "modules/tabletop-audio-soundpads/audio-cache/hell_planet/icons/gnome_bomber_icon.png",
+      "iconRemote": "https://images.tabletopaudio.com/sb/dungeon/gnome_bomber_icon.png",
+      "category": "backgrounds",
+      "type": "oneshot",
+      "loop": false,
+      "gain": 0.5,
+      "repeatDefault": 0,
+      "url": "https://sounds.tabletopaudio.com/hell_planet/bomb_minion_x2.ogg",
+      "ogg": "https://sounds.tabletopaudio.com/hell_planet/bomb_minion_x2.ogg",
+      "mp3": "https://sounds.tabletopaudio.com/hell_planet/bomb_minion_x2.mp3",
+      "local": "modules/tabletop-audio-soundpads/audio-cache/hell_planet/bomb_minion_x2.ogg",
+      "sprites": [
+        {
+          "offset": 0,
+          "duration": 4.893
+        },
+        {
+          "offset": 5.21,
+          "duration": 6.641
+        },
+        {
+          "offset": 0,
+          "duration": 4.893
+        },
+        {
+          "offset": 5.21,
+          "duration": 6.641
+        }
+      ]
+    },
+    {
+      "id": "bg_31",
+      "label": "Screamer",
+      "icon": "modules/tabletop-audio-soundpads/audio-cache/hell_planet/icons/stun_gun_icon.png",
+      "iconRemote": "https://images.tabletopaudio.com/sb/dungeon/stun_gun_icon.png",
+      "category": "backgrounds",
+      "type": "oneshot",
+      "loop": false,
+      "gain": 0.4,
+      "repeatDefault": 0,
+      "url": "https://sounds.tabletopaudio.com/hell_planet/screamer.ogg",
+      "ogg": "https://sounds.tabletopaudio.com/hell_planet/screamer.ogg",
+      "mp3": "https://sounds.tabletopaudio.com/hell_planet/screamer.mp3",
+      "local": "modules/tabletop-audio-soundpads/audio-cache/hell_planet/screamer.ogg"
+    },
+    {
+      "id": "bg_33",
+      "label": "Chain Buzzer",
+      "icon": "modules/tabletop-audio-soundpads/audio-cache/hell_planet/icons/chain_saw_icon.png",
+      "iconRemote": "https://images.tabletopaudio.com/sb/dungeon/chain_saw_icon.png",
+      "category": "backgrounds",
+      "type": "oneshot",
+      "loop": false,
+      "gain": 0.4,
+      "repeatDefault": 0,
+      "url": "https://sounds.tabletopaudio.com/hell_planet/chain_blade1.ogg",
+      "ogg": "https://sounds.tabletopaudio.com/hell_planet/chain_blade1.ogg",
+      "mp3": "https://sounds.tabletopaudio.com/hell_planet/chain_blade1.mp3",
+      "local": "modules/tabletop-audio-soundpads/audio-cache/hell_planet/chain_blade1.ogg"
+    },
+    {
+      "id": "bg_34",
+      "label": "Drama",
+      "icon": "modules/tabletop-audio-soundpads/audio-cache/hell_planet/icons/music.png",
+      "iconRemote": "https://images.tabletopaudio.com/sb/dungeon/music.png",
+      "category": "music",
+      "type": "music",
+      "loop": true,
+      "gain": 0.3,
+      "repeatDefault": 0,
+      "url": "https://sounds.tabletopaudio.com/hell_planet/music5.ogg",
+      "ogg": "https://sounds.tabletopaudio.com/hell_planet/music5.ogg",
+      "mp3": "https://sounds.tabletopaudio.com/hell_planet/music5.mp3",
+      "local": "modules/tabletop-audio-soundpads/audio-cache/hell_planet/music5.ogg"
+    },
+    {
+      "id": "bg_35",
+      "label": "Action",
+      "icon": "modules/tabletop-audio-soundpads/audio-cache/hell_planet/icons/music.png",
+      "iconRemote": "https://images.tabletopaudio.com/sb/dungeon/music.png",
+      "category": "music",
+      "type": "music",
+      "loop": true,
+      "gain": 0.4,
+      "repeatDefault": 0,
+      "url": "https://sounds.tabletopaudio.com/hell_planet/music1a.ogg",
+      "ogg": "https://sounds.tabletopaudio.com/hell_planet/music1a.ogg",
+      "mp3": "https://sounds.tabletopaudio.com/hell_planet/music1a.mp3",
+      "local": "modules/tabletop-audio-soundpads/audio-cache/hell_planet/music1a.ogg"
+    },
+    {
+      "id": "bg_36",
+      "label": "Grind",
+      "icon": "modules/tabletop-audio-soundpads/audio-cache/hell_planet/icons/music.png",
+      "iconRemote": "https://images.tabletopaudio.com/sb/dungeon/music.png",
+      "category": "music",
+      "type": "music",
+      "loop": true,
+      "gain": 0.4,
+      "repeatDefault": 0,
+      "url": "https://sounds.tabletopaudio.com/hell_planet/music_bass_riff_oz.ogg",
+      "ogg": "https://sounds.tabletopaudio.com/hell_planet/music_bass_riff_oz.ogg",
+      "mp3": "https://sounds.tabletopaudio.com/hell_planet/music_bass_riff_oz.mp3",
+      "local": "modules/tabletop-audio-soundpads/audio-cache/hell_planet/music_bass_riff_oz.ogg"
+    }
+  ]
+}

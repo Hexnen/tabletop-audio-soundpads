@@ -1,0 +1,738 @@
+{
+  "id": "combat_siege",
+  "name": "Combat Siege",
+  "source": "https://tabletopaudio.com/combat_siege_sp.html",
+  "coverRemote": "https://images.tabletopaudio.com/sb/combat_siege_sp2.jpg",
+  "cover": "modules/tabletop-audio-soundpads/audio-cache/combat_siege/combat_siege_sp2.jpg",
+  "headerRemote": "https://images.tabletopaudio.com/sb/siege1.png",
+  "header": "modules/tabletop-audio-soundpads/audio-cache/combat_siege/siege1.png",
+  "categories": [
+    "backgrounds",
+    "events",
+    "tones",
+    "music"
+  ],
+  "layerCount": 36,
+  "layers": [
+    {
+      "id": "bg_1",
+      "label": "Distant Army",
+      "icon": "modules/tabletop-audio-soundpads/audio-cache/combat_siege/icons/crowd_lg.png",
+      "iconRemote": "https://images.tabletopaudio.com/sb/dungeon/crowd_lg.png",
+      "category": "backgrounds",
+      "type": "loop",
+      "loop": true,
+      "gain": 0.2,
+      "repeatDefault": 0,
+      "url": "https://sounds.tabletopaudio.com/combat_siege/distant_army_lp.ogg",
+      "ogg": "https://sounds.tabletopaudio.com/combat_siege/distant_army_lp.ogg",
+      "mp3": "https://sounds.tabletopaudio.com/combat_siege/distant_army_lp.mp3",
+      "local": "modules/tabletop-audio-soundpads/audio-cache/combat_siege/distant_army_lp.ogg"
+    },
+    {
+      "id": "bg_2",
+      "label": "Banners Flapping",
+      "icon": "modules/tabletop-audio-soundpads/audio-cache/combat_siege/icons/flag_icon.png",
+      "iconRemote": "https://images.tabletopaudio.com/sb/dungeon/flag_icon.png",
+      "category": "backgrounds",
+      "type": "loop",
+      "loop": true,
+      "gain": 0.3,
+      "repeatDefault": 0,
+      "url": "https://sounds.tabletopaudio.com/combat_siege/standards_flapping.ogg",
+      "ogg": "https://sounds.tabletopaudio.com/combat_siege/standards_flapping.ogg",
+      "mp3": "https://sounds.tabletopaudio.com/combat_siege/standards_flapping.mp3",
+      "local": "modules/tabletop-audio-soundpads/audio-cache/combat_siege/standards_flapping.ogg"
+    },
+    {
+      "id": "bg_5",
+      "label": "Soldiers March",
+      "icon": "modules/tabletop-audio-soundpads/audio-cache/combat_siege/icons/boots.png",
+      "iconRemote": "https://images.tabletopaudio.com/sb/dungeon/boots.png",
+      "category": "backgrounds",
+      "type": "loop",
+      "loop": true,
+      "gain": 0.4,
+      "repeatDefault": 0,
+      "url": "https://sounds.tabletopaudio.com/combat_siege/soldiers_march_2.ogg",
+      "ogg": "https://sounds.tabletopaudio.com/combat_siege/soldiers_march_2.ogg",
+      "mp3": "https://sounds.tabletopaudio.com/combat_siege/soldiers_march_2.mp3",
+      "local": "modules/tabletop-audio-soundpads/audio-cache/combat_siege/soldiers_march_2.ogg"
+    },
+    {
+      "id": "bg_4",
+      "label": "Horses Gallop",
+      "icon": "modules/tabletop-audio-soundpads/audio-cache/combat_siege/icons/horse_icon.png",
+      "iconRemote": "https://images.tabletopaudio.com/sb/dungeon/horse_icon.png",
+      "category": "backgrounds",
+      "type": "loop",
+      "loop": true,
+      "gain": 0.3,
+      "repeatDefault": 0,
+      "url": "https://sounds.tabletopaudio.com/combat_siege/horses_gallop_lp.ogg",
+      "ogg": "https://sounds.tabletopaudio.com/combat_siege/horses_gallop_lp.ogg",
+      "mp3": "https://sounds.tabletopaudio.com/combat_siege/horses_gallop_lp.mp3",
+      "local": "modules/tabletop-audio-soundpads/audio-cache/combat_siege/horses_gallop_lp.ogg"
+    },
+    {
+      "id": "bg_3",
+      "label": "Distant Shouting",
+      "icon": "modules/tabletop-audio-soundpads/audio-cache/combat_siege/icons/crowd_lg.png",
+      "iconRemote": "https://images.tabletopaudio.com/sb/dungeon/crowd_lg.png",
+      "category": "backgrounds",
+      "type": "loop",
+      "loop": true,
+      "gain": 0.3,
+      "repeatDefault": 0,
+      "url": "https://sounds.tabletopaudio.com/combat_siege/soldiers_shouting_lp.ogg",
+      "ogg": "https://sounds.tabletopaudio.com/combat_siege/soldiers_shouting_lp.ogg",
+      "mp3": "https://sounds.tabletopaudio.com/combat_siege/soldiers_shouting_lp.mp3",
+      "local": "modules/tabletop-audio-soundpads/audio-cache/combat_siege/soldiers_shouting_lp.ogg"
+    },
+    {
+      "id": "bg_28",
+      "label": "Distant Combat",
+      "icon": "modules/tabletop-audio-soundpads/audio-cache/combat_siege/icons/crowd_lg.png",
+      "iconRemote": "https://images.tabletopaudio.com/sb/dungeon/crowd_lg.png",
+      "category": "backgrounds",
+      "type": "loop",
+      "loop": true,
+      "gain": 0.3,
+      "repeatDefault": 0,
+      "url": "https://sounds.tabletopaudio.com/combat_siege/distant_combat_lp.ogg",
+      "ogg": "https://sounds.tabletopaudio.com/combat_siege/distant_combat_lp.ogg",
+      "mp3": "https://sounds.tabletopaudio.com/combat_siege/distant_combat_lp.mp3",
+      "local": "modules/tabletop-audio-soundpads/audio-cache/combat_siege/distant_combat_lp.ogg"
+    },
+    {
+      "id": "bg_15",
+      "label": "Close Combat",
+      "icon": "modules/tabletop-audio-soundpads/audio-cache/combat_siege/icons/crowd_sm.png",
+      "iconRemote": "https://images.tabletopaudio.com/sb/dungeon/crowd_sm.png",
+      "category": "backgrounds",
+      "type": "loop",
+      "loop": true,
+      "gain": 0.3,
+      "repeatDefault": 0,
+      "url": "https://sounds.tabletopaudio.com/combat_siege/close_combat_lp.ogg",
+      "ogg": "https://sounds.tabletopaudio.com/combat_siege/close_combat_lp.ogg",
+      "mp3": "https://sounds.tabletopaudio.com/combat_siege/close_combat_lp.mp3",
+      "local": "modules/tabletop-audio-soundpads/audio-cache/combat_siege/close_combat_lp.ogg"
+    },
+    {
+      "id": "bg_29",
+      "label": "Winch",
+      "icon": "modules/tabletop-audio-soundpads/audio-cache/combat_siege/icons/gears_icon.png",
+      "iconRemote": "https://images.tabletopaudio.com/sb/dungeon/gears_icon.png",
+      "category": "events",
+      "type": "oneshot",
+      "loop": false,
+      "gain": 0.3,
+      "repeatDefault": 0,
+      "url": "https://sounds.tabletopaudio.com/combat_siege/winch.ogg",
+      "ogg": "https://sounds.tabletopaudio.com/combat_siege/winch.ogg",
+      "mp3": "https://sounds.tabletopaudio.com/combat_siege/winch.mp3",
+      "local": "modules/tabletop-audio-soundpads/audio-cache/combat_siege/winch.ogg"
+    },
+    {
+      "id": "bg_17",
+      "label": "Portcullis",
+      "icon": "modules/tabletop-audio-soundpads/audio-cache/combat_siege/icons/portcullis_icon.png",
+      "iconRemote": "https://images.tabletopaudio.com/sb/dungeon/portcullis_icon.png",
+      "category": "events",
+      "type": "oneshot",
+      "loop": false,
+      "gain": 0.2,
+      "repeatDefault": 0,
+      "url": "https://sounds.tabletopaudio.com/combat_siege/portcullis.ogg",
+      "ogg": "https://sounds.tabletopaudio.com/combat_siege/portcullis.ogg",
+      "mp3": "https://sounds.tabletopaudio.com/combat_siege/portcullis.mp3",
+      "local": "modules/tabletop-audio-soundpads/audio-cache/combat_siege/portcullis.ogg"
+    },
+    {
+      "id": "bg_7",
+      "label": "Bell",
+      "icon": "modules/tabletop-audio-soundpads/audio-cache/combat_siege/icons/bell_icon.png",
+      "iconRemote": "https://images.tabletopaudio.com/sb/dungeon/bell_icon.png",
+      "category": "events",
+      "type": "oneshot",
+      "loop": false,
+      "gain": 0.3,
+      "repeatDefault": 0,
+      "url": "https://sounds.tabletopaudio.com/combat_siege/church_bell.ogg",
+      "ogg": "https://sounds.tabletopaudio.com/combat_siege/church_bell.ogg",
+      "mp3": "https://sounds.tabletopaudio.com/combat_siege/church_bell.mp3",
+      "local": "modules/tabletop-audio-soundpads/audio-cache/combat_siege/church_bell.ogg"
+    },
+    {
+      "id": "bg_8",
+      "label": "Repairs",
+      "icon": "modules/tabletop-audio-soundpads/audio-cache/combat_siege/icons/construction_icon.png",
+      "iconRemote": "https://images.tabletopaudio.com/sb/dungeon/construction_icon.png",
+      "category": "backgrounds",
+      "type": "loop",
+      "loop": true,
+      "gain": 0.2,
+      "repeatDefault": 0,
+      "url": "https://sounds.tabletopaudio.com/combat_siege/repairs.ogg",
+      "ogg": "https://sounds.tabletopaudio.com/combat_siege/repairs.ogg",
+      "mp3": "https://sounds.tabletopaudio.com/combat_siege/repairs.mp3",
+      "local": "modules/tabletop-audio-soundpads/audio-cache/combat_siege/repairs.ogg"
+    },
+    {
+      "id": "bg_33",
+      "label": "Mangonel x2",
+      "icon": "modules/tabletop-audio-soundpads/audio-cache/combat_siege/icons/mangonel_icon.png",
+      "iconRemote": "https://images.tabletopaudio.com/sb/dungeon/mangonel_icon.png",
+      "category": "events",
+      "type": "oneshot",
+      "loop": false,
+      "gain": 0.3,
+      "repeatDefault": 0,
+      "url": "https://sounds.tabletopaudio.com/combat_siege/catapult_x2.ogg",
+      "ogg": "https://sounds.tabletopaudio.com/combat_siege/catapult_x2.ogg",
+      "mp3": "https://sounds.tabletopaudio.com/combat_siege/catapult_x2.mp3",
+      "local": "modules/tabletop-audio-soundpads/audio-cache/combat_siege/catapult_x2.ogg",
+      "sprites": [
+        {
+          "offset": 0,
+          "duration": 4.702
+        },
+        {
+          "offset": 5.403,
+          "duration": 4.383
+        },
+        {
+          "offset": 0,
+          "duration": 4.702
+        },
+        {
+          "offset": 5.403,
+          "duration": 4.383
+        }
+      ]
+    },
+    {
+      "id": "bg_9",
+      "label": "Trebuchet x2",
+      "icon": "modules/tabletop-audio-soundpads/audio-cache/combat_siege/icons/trebuchet_icon.png",
+      "iconRemote": "https://images.tabletopaudio.com/sb/dungeon/trebuchet_icon.png",
+      "category": "events",
+      "type": "oneshot",
+      "loop": false,
+      "gain": 0.5,
+      "repeatDefault": 0,
+      "url": "https://sounds.tabletopaudio.com/combat_siege/trebuchet_2x.ogg",
+      "ogg": "https://sounds.tabletopaudio.com/combat_siege/trebuchet_2x.ogg",
+      "mp3": "https://sounds.tabletopaudio.com/combat_siege/trebuchet_2x.mp3",
+      "local": "modules/tabletop-audio-soundpads/audio-cache/combat_siege/trebuchet_2x.ogg",
+      "sprites": [
+        {
+          "offset": 0,
+          "duration": 5.567
+        },
+        {
+          "offset": 5.607,
+          "duration": 4.333
+        },
+        {
+          "offset": 0,
+          "duration": 5.567
+        },
+        {
+          "offset": 5.607,
+          "duration": 4.333
+        }
+      ]
+    },
+    {
+      "id": "bg_10",
+      "label": "Treb. Damage x2",
+      "icon": "modules/tabletop-audio-soundpads/audio-cache/combat_siege/icons/trebuchet_icon.png",
+      "iconRemote": "https://images.tabletopaudio.com/sb/dungeon/trebuchet_icon.png",
+      "category": "events",
+      "type": "oneshot",
+      "loop": false,
+      "gain": 0.5,
+      "repeatDefault": 0,
+      "url": "https://sounds.tabletopaudio.com/combat_siege/trebuchet_dmg_x2.ogg",
+      "ogg": "https://sounds.tabletopaudio.com/combat_siege/trebuchet_dmg_x2.ogg",
+      "mp3": "https://sounds.tabletopaudio.com/combat_siege/trebuchet_dmg_x2.mp3",
+      "local": "modules/tabletop-audio-soundpads/audio-cache/combat_siege/trebuchet_dmg_x2.ogg",
+      "sprites": [
+        {
+          "offset": 0,
+          "duration": 7.129
+        },
+        {
+          "offset": 7.963,
+          "duration": 8.14
+        },
+        {
+          "offset": 0,
+          "duration": 7.129
+        },
+        {
+          "offset": 7.963,
+          "duration": 8.14
+        }
+      ]
+    },
+    {
+      "id": "bg_12",
+      "label": "Battering Ram x4",
+      "icon": "modules/tabletop-audio-soundpads/audio-cache/combat_siege/icons/battering_ram_icon.png",
+      "iconRemote": "https://images.tabletopaudio.com/sb/dungeon/battering_ram_icon.png",
+      "category": "events",
+      "type": "oneshot",
+      "loop": false,
+      "gain": 0.6,
+      "repeatDefault": 0,
+      "url": "https://sounds.tabletopaudio.com/combat_siege/battering_ram_x4.ogg",
+      "ogg": "https://sounds.tabletopaudio.com/combat_siege/battering_ram_x4.ogg",
+      "mp3": "https://sounds.tabletopaudio.com/combat_siege/battering_ram_x4.mp3",
+      "local": "modules/tabletop-audio-soundpads/audio-cache/combat_siege/battering_ram_x4.ogg",
+      "sprites": [
+        {
+          "offset": 0,
+          "duration": 3.756
+        },
+        {
+          "offset": 3.989,
+          "duration": 3.795
+        },
+        {
+          "offset": 7.862,
+          "duration": 4.299
+        },
+        {
+          "offset": 12.277,
+          "duration": 4.903
+        }
+      ]
+    },
+    {
+      "id": "bg_19",
+      "label": "Ballista x2",
+      "icon": "modules/tabletop-audio-soundpads/audio-cache/combat_siege/icons/ballista_icon.png",
+      "iconRemote": "https://images.tabletopaudio.com/sb/dungeon/ballista_icon.png",
+      "category": "events",
+      "type": "oneshot",
+      "loop": false,
+      "gain": 0.6,
+      "repeatDefault": 0,
+      "url": "https://sounds.tabletopaudio.com/combat_siege/ballista_2x.ogg",
+      "ogg": "https://sounds.tabletopaudio.com/combat_siege/ballista_2x.ogg",
+      "mp3": "https://sounds.tabletopaudio.com/combat_siege/ballista_2x.mp3",
+      "local": "modules/tabletop-audio-soundpads/audio-cache/combat_siege/ballista_2x.ogg",
+      "sprites": [
+        {
+          "offset": 0,
+          "duration": 4.908
+        },
+        {
+          "offset": 4.911,
+          "duration": 4.741
+        },
+        {
+          "offset": 0,
+          "duration": 4.908
+        },
+        {
+          "offset": 4.911,
+          "duration": 4.741
+        }
+      ]
+    },
+    {
+      "id": "bg_13",
+      "label": "Archer Volley",
+      "icon": "modules/tabletop-audio-soundpads/audio-cache/combat_siege/icons/archer_volley_icon.png",
+      "iconRemote": "https://images.tabletopaudio.com/sb/dungeon/archer_volley_icon.png",
+      "category": "events",
+      "type": "oneshot",
+      "loop": false,
+      "gain": 0.5,
+      "repeatDefault": 0,
+      "url": "https://sounds.tabletopaudio.com/combat_siege/archer_volley.ogg",
+      "ogg": "https://sounds.tabletopaudio.com/combat_siege/archer_volley.ogg",
+      "mp3": "https://sounds.tabletopaudio.com/combat_siege/archer_volley.mp3",
+      "local": "modules/tabletop-audio-soundpads/audio-cache/combat_siege/archer_volley.ogg"
+    },
+    {
+      "id": "bg_14",
+      "label": "Incoming Arrows",
+      "icon": "modules/tabletop-audio-soundpads/audio-cache/combat_siege/icons/incoming_arrows_icon.png",
+      "iconRemote": "https://images.tabletopaudio.com/sb/dungeon/incoming_arrows_icon.png",
+      "category": "events",
+      "type": "oneshot",
+      "loop": false,
+      "gain": 0.5,
+      "repeatDefault": 0,
+      "url": "https://sounds.tabletopaudio.com/combat_siege/incoming_arrows.ogg",
+      "ogg": "https://sounds.tabletopaudio.com/combat_siege/incoming_arrows.ogg",
+      "mp3": "https://sounds.tabletopaudio.com/combat_siege/incoming_arrows.mp3",
+      "local": "modules/tabletop-audio-soundpads/audio-cache/combat_siege/incoming_arrows.ogg"
+    },
+    {
+      "id": "bg_6",
+      "label": "Siege Tower Move",
+      "icon": "modules/tabletop-audio-soundpads/audio-cache/combat_siege/icons/siege_tower_icon.png",
+      "iconRemote": "https://images.tabletopaudio.com/sb/dungeon/siege_tower_icon.png",
+      "category": "events",
+      "type": "oneshot",
+      "loop": false,
+      "gain": 0.4,
+      "repeatDefault": 0,
+      "url": "https://sounds.tabletopaudio.com/combat_siege/siege_tower_move.ogg",
+      "ogg": "https://sounds.tabletopaudio.com/combat_siege/siege_tower_move.ogg",
+      "mp3": "https://sounds.tabletopaudio.com/combat_siege/siege_tower_move.mp3",
+      "local": "modules/tabletop-audio-soundpads/audio-cache/combat_siege/siege_tower_move.ogg"
+    },
+    {
+      "id": "bg_16",
+      "label": "Siege Tower Fall",
+      "icon": "modules/tabletop-audio-soundpads/audio-cache/combat_siege/icons/siege_tower_fall_icon.png",
+      "iconRemote": "https://images.tabletopaudio.com/sb/dungeon/siege_tower_fall_icon.png",
+      "category": "events",
+      "type": "oneshot",
+      "loop": false,
+      "gain": 0.4,
+      "repeatDefault": 0,
+      "url": "https://sounds.tabletopaudio.com/combat_siege/siege_tower_fall2.ogg",
+      "ogg": "https://sounds.tabletopaudio.com/combat_siege/siege_tower_fall2.ogg",
+      "mp3": "https://sounds.tabletopaudio.com/combat_siege/siege_tower_fall2.mp3",
+      "local": "modules/tabletop-audio-soundpads/audio-cache/combat_siege/siege_tower_fall2.ogg"
+    },
+    {
+      "id": "bg_25",
+      "label": "Siege Ladder",
+      "icon": "modules/tabletop-audio-soundpads/audio-cache/combat_siege/icons/siege_ladder_icon.png",
+      "iconRemote": "https://images.tabletopaudio.com/sb/dungeon/siege_ladder_icon.png",
+      "category": "events",
+      "type": "oneshot",
+      "loop": false,
+      "gain": 0.5,
+      "repeatDefault": 0,
+      "url": "https://sounds.tabletopaudio.com/combat_siege/siege_ladder.ogg",
+      "ogg": "https://sounds.tabletopaudio.com/combat_siege/siege_ladder.ogg",
+      "mp3": "https://sounds.tabletopaudio.com/combat_siege/siege_ladder.mp3",
+      "local": "modules/tabletop-audio-soundpads/audio-cache/combat_siege/siege_ladder.ogg"
+    },
+    {
+      "id": "bg_21",
+      "label": "Boiling Pitch",
+      "icon": "modules/tabletop-audio-soundpads/audio-cache/combat_siege/icons/boiling_pitch_icon.png",
+      "iconRemote": "https://images.tabletopaudio.com/sb/dungeon/boiling_pitch_icon.png",
+      "category": "events",
+      "type": "oneshot",
+      "loop": false,
+      "gain": 0.3,
+      "repeatDefault": 0,
+      "url": "https://sounds.tabletopaudio.com/combat_siege/boiling_oil.ogg",
+      "ogg": "https://sounds.tabletopaudio.com/combat_siege/boiling_oil.ogg",
+      "mp3": "https://sounds.tabletopaudio.com/combat_siege/boiling_oil.mp3",
+      "local": "modules/tabletop-audio-soundpads/audio-cache/combat_siege/boiling_oil.ogg"
+    },
+    {
+      "id": "bg_20",
+      "label": "Screams x4",
+      "icon": "modules/tabletop-audio-soundpads/audio-cache/combat_siege/icons/screams.png",
+      "iconRemote": "https://images.tabletopaudio.com/sb/dungeon/screams.png",
+      "category": "events",
+      "type": "oneshot",
+      "loop": false,
+      "gain": 0.3,
+      "repeatDefault": 0,
+      "url": "https://sounds.tabletopaudio.com/combat_siege/screams_x4a.ogg",
+      "ogg": "https://sounds.tabletopaudio.com/combat_siege/screams_x4a.ogg",
+      "mp3": "https://sounds.tabletopaudio.com/combat_siege/screams_x4a.mp3",
+      "local": "modules/tabletop-audio-soundpads/audio-cache/combat_siege/screams_x4a.ogg",
+      "sprites": [
+        {
+          "offset": 0,
+          "duration": 2.459
+        },
+        {
+          "offset": 2.496,
+          "duration": 2.995
+        },
+        {
+          "offset": 5.619,
+          "duration": 3.018
+        },
+        {
+          "offset": 8.777,
+          "duration": 2.881
+        }
+      ]
+    },
+    {
+      "id": "bg_18",
+      "label": "Bombardment",
+      "icon": "modules/tabletop-audio-soundpads/audio-cache/combat_siege/icons/bombardment_icon.png",
+      "iconRemote": "https://images.tabletopaudio.com/sb/dungeon/bombardment_icon.png",
+      "category": "events",
+      "type": "oneshot",
+      "loop": false,
+      "gain": 0.4,
+      "repeatDefault": 0,
+      "url": "https://sounds.tabletopaudio.com/combat_siege/bombardment.ogg",
+      "ogg": "https://sounds.tabletopaudio.com/combat_siege/bombardment.ogg",
+      "mp3": "https://sounds.tabletopaudio.com/combat_siege/bombardment.mp3",
+      "local": "modules/tabletop-audio-soundpads/audio-cache/combat_siege/bombardment.ogg"
+    },
+    {
+      "id": "bg_27",
+      "label": "Explosion x2",
+      "icon": "modules/tabletop-audio-soundpads/audio-cache/combat_siege/icons/explosion_icon.png",
+      "iconRemote": "https://images.tabletopaudio.com/sb/dungeon/explosion_icon.png",
+      "category": "events",
+      "type": "oneshot",
+      "loop": false,
+      "gain": 0.5,
+      "repeatDefault": 0,
+      "url": "https://sounds.tabletopaudio.com/combat_siege/explosion_x2.ogg",
+      "ogg": "https://sounds.tabletopaudio.com/combat_siege/explosion_x2.ogg",
+      "mp3": "https://sounds.tabletopaudio.com/combat_siege/explosion_x2.mp3",
+      "local": "modules/tabletop-audio-soundpads/audio-cache/combat_siege/explosion_x2.ogg",
+      "sprites": [
+        {
+          "offset": 0,
+          "duration": 4.796
+        },
+        {
+          "offset": 5.147,
+          "duration": 4.593
+        },
+        {
+          "offset": 0,
+          "duration": 4.796
+        },
+        {
+          "offset": 5.147,
+          "duration": 4.593
+        }
+      ]
+    },
+    {
+      "id": "bg_11",
+      "label": "Burning",
+      "icon": "modules/tabletop-audio-soundpads/audio-cache/combat_siege/icons/fire.png",
+      "iconRemote": "https://images.tabletopaudio.com/sb/dungeon/fire.png",
+      "category": "backgrounds",
+      "type": "loop",
+      "loop": true,
+      "gain": 0.1,
+      "repeatDefault": 0,
+      "url": "https://sounds.tabletopaudio.com/combat_siege/burning2_lp.ogg",
+      "ogg": "https://sounds.tabletopaudio.com/combat_siege/burning2_lp.ogg",
+      "mp3": "https://sounds.tabletopaudio.com/combat_siege/burning2_lp.mp3",
+      "local": "modules/tabletop-audio-soundpads/audio-cache/combat_siege/burning2_lp.ogg"
+    },
+    {
+      "id": "bg_32",
+      "label": "Wall Collapse",
+      "icon": "modules/tabletop-audio-soundpads/audio-cache/combat_siege/icons/rubble_icon.png",
+      "iconRemote": "https://images.tabletopaudio.com/sb/dungeon/rubble_icon.png",
+      "category": "events",
+      "type": "oneshot",
+      "loop": false,
+      "gain": 0.3,
+      "repeatDefault": 0,
+      "url": "https://sounds.tabletopaudio.com/combat_siege/wall_collapse.ogg",
+      "ogg": "https://sounds.tabletopaudio.com/combat_siege/wall_collapse.ogg",
+      "mp3": "https://sounds.tabletopaudio.com/combat_siege/wall_collapse.mp3",
+      "local": "modules/tabletop-audio-soundpads/audio-cache/combat_siege/wall_collapse.ogg"
+    },
+    {
+      "id": "bg_22",
+      "label": "Drum Tone",
+      "icon": "modules/tabletop-audio-soundpads/audio-cache/combat_siege/icons/drum_icon.png",
+      "iconRemote": "https://images.tabletopaudio.com/sb/dungeon/drum_icon.png",
+      "category": "tones",
+      "type": "loop",
+      "loop": true,
+      "gain": 0.2,
+      "repeatDefault": 0,
+      "url": "https://sounds.tabletopaudio.com/combat_siege/frame_drum.ogg",
+      "ogg": "https://sounds.tabletopaudio.com/combat_siege/frame_drum.ogg",
+      "mp3": "https://sounds.tabletopaudio.com/combat_siege/frame_drum.mp3",
+      "local": "modules/tabletop-audio-soundpads/audio-cache/combat_siege/frame_drum.ogg"
+    },
+    {
+      "id": "bg_23",
+      "label": "Brass Tone",
+      "icon": "modules/tabletop-audio-soundpads/audio-cache/combat_siege/icons/bass_tone.png",
+      "iconRemote": "https://images.tabletopaudio.com/sb/dungeon/bass_tone.png",
+      "category": "tones",
+      "type": "loop",
+      "loop": true,
+      "gain": 0.5,
+      "repeatDefault": 0,
+      "url": "https://sounds.tabletopaudio.com/combat_siege/brass_tone2.ogg",
+      "ogg": "https://sounds.tabletopaudio.com/combat_siege/brass_tone2.ogg",
+      "mp3": "https://sounds.tabletopaudio.com/combat_siege/brass_tone2.mp3",
+      "local": "modules/tabletop-audio-soundpads/audio-cache/combat_siege/brass_tone2.ogg"
+    },
+    {
+      "id": "bg_24",
+      "label": "Choir Tone",
+      "icon": "modules/tabletop-audio-soundpads/audio-cache/combat_siege/icons/treble_tone.png",
+      "iconRemote": "https://images.tabletopaudio.com/sb/dungeon/treble_tone.png",
+      "category": "tones",
+      "type": "loop",
+      "loop": true,
+      "gain": 0.4,
+      "repeatDefault": 0,
+      "url": "https://sounds.tabletopaudio.com/combat_siege/choir_tone2_lp.ogg",
+      "ogg": "https://sounds.tabletopaudio.com/combat_siege/choir_tone2_lp.ogg",
+      "mp3": "https://sounds.tabletopaudio.com/combat_siege/choir_tone2_lp.mp3",
+      "local": "modules/tabletop-audio-soundpads/audio-cache/combat_siege/choir_tone2_lp.ogg"
+    },
+    {
+      "id": "bg_26",
+      "label": "Cheers x4",
+      "icon": "modules/tabletop-audio-soundpads/audio-cache/combat_siege/icons/cheer_icon.png",
+      "iconRemote": "https://images.tabletopaudio.com/sb/dungeon/cheer_icon.png",
+      "category": "events",
+      "type": "oneshot",
+      "loop": false,
+      "gain": 0.2,
+      "repeatDefault": 0,
+      "url": "https://sounds.tabletopaudio.com/combat_siege/cheers_x4a.ogg",
+      "ogg": "https://sounds.tabletopaudio.com/combat_siege/cheers_x4a.ogg",
+      "mp3": "https://sounds.tabletopaudio.com/combat_siege/cheers_x4a.mp3",
+      "local": "modules/tabletop-audio-soundpads/audio-cache/combat_siege/cheers_x4a.ogg",
+      "sprites": [
+        {
+          "offset": 0,
+          "duration": 4.434
+        },
+        {
+          "offset": 4.515,
+          "duration": 4.495
+        },
+        {
+          "offset": 9.031,
+          "duration": 4.251
+        },
+        {
+          "offset": 13.485,
+          "duration": 4.772
+        }
+      ]
+    },
+    {
+      "id": "bg_30",
+      "label": "Defensive Orders x4",
+      "icon": "modules/tabletop-audio-soundpads/audio-cache/combat_siege/icons/shouts.png",
+      "iconRemote": "https://images.tabletopaudio.com/sb/dungeon/shouts.png",
+      "category": "events",
+      "type": "oneshot",
+      "loop": false,
+      "gain": 0.5,
+      "repeatDefault": 0,
+      "url": "https://sounds.tabletopaudio.com/combat_siege/defensive_shouts_x4a.ogg",
+      "ogg": "https://sounds.tabletopaudio.com/combat_siege/defensive_shouts_x4a.ogg",
+      "mp3": "https://sounds.tabletopaudio.com/combat_siege/defensive_shouts_x4a.mp3",
+      "local": "modules/tabletop-audio-soundpads/audio-cache/combat_siege/defensive_shouts_x4a.ogg",
+      "sprites": [
+        {
+          "offset": 0,
+          "duration": 2.84
+        },
+        {
+          "offset": 3.216,
+          "duration": 2.736
+        },
+        {
+          "offset": 6.096,
+          "duration": 2.464
+        },
+        {
+          "offset": 8.768,
+          "duration": 2.814
+        }
+      ]
+    },
+    {
+      "id": "bg_31",
+      "label": "Offensive Orders x4",
+      "icon": "modules/tabletop-audio-soundpads/audio-cache/combat_siege/icons/shouts.png",
+      "iconRemote": "https://images.tabletopaudio.com/sb/dungeon/shouts.png",
+      "category": "events",
+      "type": "oneshot",
+      "loop": false,
+      "gain": 0.4,
+      "repeatDefault": 0,
+      "url": "https://sounds.tabletopaudio.com/combat_siege/offensive_shouts_x4a.ogg",
+      "ogg": "https://sounds.tabletopaudio.com/combat_siege/offensive_shouts_x4a.ogg",
+      "mp3": "https://sounds.tabletopaudio.com/combat_siege/offensive_shouts_x4a.mp3",
+      "local": "modules/tabletop-audio-soundpads/audio-cache/combat_siege/offensive_shouts_x4a.ogg",
+      "sprites": [
+        {
+          "offset": 0,
+          "duration": 3.019
+        },
+        {
+          "offset": 3.128,
+          "duration": 2.647
+        },
+        {
+          "offset": 6.113,
+          "duration": 3.168
+        },
+        {
+          "offset": 9.639,
+          "duration": 3.553
+        }
+      ]
+    },
+    {
+      "id": "bg_34",
+      "label": "Mournful",
+      "icon": "modules/tabletop-audio-soundpads/audio-cache/combat_siege/icons/music.png",
+      "iconRemote": "https://images.tabletopaudio.com/sb/dungeon/music.png",
+      "category": "music",
+      "type": "music",
+      "loop": true,
+      "gain": 0.3,
+      "repeatDefault": 0,
+      "url": "https://sounds.tabletopaudio.com/combat_siege/music4a.ogg",
+      "ogg": "https://sounds.tabletopaudio.com/combat_siege/music4a.ogg",
+      "mp3": "https://sounds.tabletopaudio.com/combat_siege/music4a.mp3",
+      "local": "modules/tabletop-audio-soundpads/audio-cache/combat_siege/music4a.ogg"
+    },
+    {
+      "id": "bg_35",
+      "label": "Action 1",
+      "icon": "modules/tabletop-audio-soundpads/audio-cache/combat_siege/icons/music.png",
+      "iconRemote": "https://images.tabletopaudio.com/sb/dungeon/music.png",
+      "category": "music",
+      "type": "music",
+      "loop": true,
+      "gain": 0.4,
+      "repeatDefault": 0,
+      "url": "https://sounds.tabletopaudio.com/combat_siege/music1b.ogg",
+      "ogg": "https://sounds.tabletopaudio.com/combat_siege/music1b.ogg",
+      "mp3": "https://sounds.tabletopaudio.com/combat_siege/music1b.mp3",
+      "local": "modules/tabletop-audio-soundpads/audio-cache/combat_siege/music1b.ogg"
+    },
+    {
+      "id": "bg_36",
+      "label": "Action 2",
+      "icon": "modules/tabletop-audio-soundpads/audio-cache/combat_siege/icons/music.png",
+      "iconRemote": "https://images.tabletopaudio.com/sb/dungeon/music.png",
+      "category": "music",
+      "type": "music",
+      "loop": true,
+      "gain": 0.5,
+      "repeatDefault": 0,
+      "url": "https://sounds.tabletopaudio.com/combat_siege/music2.ogg",
+      "ogg": "https://sounds.tabletopaudio.com/combat_siege/music2.ogg",
+      "mp3": "https://sounds.tabletopaudio.com/combat_siege/music2.mp3",
+      "local": "modules/tabletop-audio-soundpads/audio-cache/combat_siege/music2.ogg"
+    }
+  ]
+}

@@ -1,0 +1,744 @@
+{
+  "id": "atlantis",
+  "name": "Atlantis",
+  "source": "https://tabletopaudio.com/atlantis_sp.html",
+  "coverRemote": "https://images.tabletopaudio.com/sb/atlantis_sp2.jpg",
+  "cover": "modules/tabletop-audio-soundpads/audio-cache/atlantis/atlantis_sp2.jpg",
+  "headerRemote": "https://images.tabletopaudio.com/sb/atlantis_soundpad_header.png",
+  "header": "modules/tabletop-audio-soundpads/audio-cache/atlantis/atlantis_soundpad_header.png",
+  "categories": [
+    "backgrounds",
+    "events",
+    "tones",
+    "music"
+  ],
+  "layerCount": 40,
+  "layers": [
+    {
+      "id": "bg_1",
+      "label": "Waves: Surface",
+      "icon": "modules/tabletop-audio-soundpads/audio-cache/atlantis/icons/wave_icon.png",
+      "iconRemote": "https://images.tabletopaudio.com/sb/dungeon/wave_icon.png",
+      "category": "backgrounds",
+      "type": "loop",
+      "loop": true,
+      "gain": 0.3,
+      "repeatDefault": 0,
+      "url": "https://sounds.tabletopaudio.com/atlantis/Atlantis-waves_surface.ogg",
+      "ogg": "https://sounds.tabletopaudio.com/atlantis/Atlantis-waves_surface.ogg",
+      "mp3": "https://sounds.tabletopaudio.com/atlantis/Atlantis-waves_surface.mp3",
+      "local": "modules/tabletop-audio-soundpads/audio-cache/atlantis/Atlantis-waves_surface.ogg"
+    },
+    {
+      "id": "bg_13",
+      "label": "Underwater: Top",
+      "icon": "modules/tabletop-audio-soundpads/audio-cache/atlantis/icons/water.png",
+      "iconRemote": "https://images.tabletopaudio.com/sb/dungeon/water.png",
+      "category": "backgrounds",
+      "type": "loop",
+      "loop": true,
+      "gain": 0.3,
+      "repeatDefault": 0,
+      "url": "https://sounds.tabletopaudio.com/atlantis/Atlantis-underwater_top.ogg",
+      "ogg": "https://sounds.tabletopaudio.com/atlantis/Atlantis-underwater_top.ogg",
+      "mp3": "https://sounds.tabletopaudio.com/atlantis/Atlantis-underwater_top.mp3",
+      "local": "modules/tabletop-audio-soundpads/audio-cache/atlantis/Atlantis-underwater_top.ogg"
+    },
+    {
+      "id": "bg_2",
+      "label": "Underwater: Mid",
+      "icon": "modules/tabletop-audio-soundpads/audio-cache/atlantis/icons/water.png",
+      "iconRemote": "https://images.tabletopaudio.com/sb/dungeon/water.png",
+      "category": "backgrounds",
+      "type": "loop",
+      "loop": true,
+      "gain": 0.4,
+      "repeatDefault": 0,
+      "url": "https://sounds.tabletopaudio.com/atlantis/Atlantis-underwater_mid.ogg",
+      "ogg": "https://sounds.tabletopaudio.com/atlantis/Atlantis-underwater_mid.ogg",
+      "mp3": "https://sounds.tabletopaudio.com/atlantis/Atlantis-underwater_mid.mp3",
+      "local": "modules/tabletop-audio-soundpads/audio-cache/atlantis/Atlantis-underwater_mid.ogg"
+    },
+    {
+      "id": "bg_3",
+      "label": "Underwater: Deep",
+      "icon": "modules/tabletop-audio-soundpads/audio-cache/atlantis/icons/water.png",
+      "iconRemote": "https://images.tabletopaudio.com/sb/dungeon/water.png",
+      "category": "backgrounds",
+      "type": "loop",
+      "loop": true,
+      "gain": 0.4,
+      "repeatDefault": 0,
+      "url": "https://sounds.tabletopaudio.com/atlantis/Atlantis-underwater_deep.ogg",
+      "ogg": "https://sounds.tabletopaudio.com/atlantis/Atlantis-underwater_deep.ogg",
+      "mp3": "https://sounds.tabletopaudio.com/atlantis/Atlantis-underwater_deep.mp3",
+      "local": "modules/tabletop-audio-soundpads/audio-cache/atlantis/Atlantis-underwater_deep.ogg"
+    },
+    {
+      "id": "bg_18",
+      "label": "Kelp Forest",
+      "icon": "modules/tabletop-audio-soundpads/audio-cache/atlantis/icons/kelp_icon.png",
+      "iconRemote": "https://images.tabletopaudio.com/sb/dungeon/kelp_icon.png",
+      "category": "backgrounds",
+      "type": "loop",
+      "loop": true,
+      "gain": 0.4,
+      "repeatDefault": 0,
+      "url": "https://sounds.tabletopaudio.com/atlantis/Atlantis-kelp_forest.ogg",
+      "ogg": "https://sounds.tabletopaudio.com/atlantis/Atlantis-kelp_forest.ogg",
+      "mp3": "https://sounds.tabletopaudio.com/atlantis/Atlantis-kelp_forest.mp3",
+      "local": "modules/tabletop-audio-soundpads/audio-cache/atlantis/Atlantis-kelp_forest.ogg"
+    },
+    {
+      "id": "bg_12",
+      "label": "Lava Flow",
+      "icon": "modules/tabletop-audio-soundpads/audio-cache/atlantis/icons/lava_icon.png",
+      "iconRemote": "https://images.tabletopaudio.com/sb/dungeon/lava_icon.png",
+      "category": "backgrounds",
+      "type": "loop",
+      "loop": true,
+      "gain": 0.3,
+      "repeatDefault": 0,
+      "url": "https://sounds.tabletopaudio.com/atlantis/Atlantis-lava_flow.ogg",
+      "ogg": "https://sounds.tabletopaudio.com/atlantis/Atlantis-lava_flow.ogg",
+      "mp3": "https://sounds.tabletopaudio.com/atlantis/Atlantis-lava_flow.mp3",
+      "local": "modules/tabletop-audio-soundpads/audio-cache/atlantis/Atlantis-lava_flow.ogg"
+    },
+    {
+      "id": "bg_15",
+      "label": "Swim: Constant",
+      "icon": "modules/tabletop-audio-soundpads/audio-cache/atlantis/icons/swim_icon.png",
+      "iconRemote": "https://images.tabletopaudio.com/sb/dungeon/swim_icon.png",
+      "category": "backgrounds",
+      "type": "loop",
+      "loop": true,
+      "gain": 0.2,
+      "repeatDefault": 0,
+      "url": "https://sounds.tabletopaudio.com/atlantis/Atlantis-swim_constant.ogg",
+      "ogg": "https://sounds.tabletopaudio.com/atlantis/Atlantis-swim_constant.ogg",
+      "mp3": "https://sounds.tabletopaudio.com/atlantis/Atlantis-swim_constant.mp3",
+      "local": "modules/tabletop-audio-soundpads/audio-cache/atlantis/Atlantis-swim_constant.ogg"
+    },
+    {
+      "id": "bg_11",
+      "label": "Sm. Craft Engine",
+      "icon": "modules/tabletop-audio-soundpads/audio-cache/atlantis/icons/med_ship_icon.png",
+      "iconRemote": "https://images.tabletopaudio.com/sb/dungeon/med_ship_icon.png",
+      "category": "backgrounds",
+      "type": "loop",
+      "loop": true,
+      "gain": 0.3,
+      "repeatDefault": 0,
+      "url": "https://sounds.tabletopaudio.com/atlantis/Atlantis-sm_craft_engine.ogg",
+      "ogg": "https://sounds.tabletopaudio.com/atlantis/Atlantis-sm_craft_engine.ogg",
+      "mp3": "https://sounds.tabletopaudio.com/atlantis/Atlantis-sm_craft_engine.mp3",
+      "local": "modules/tabletop-audio-soundpads/audio-cache/atlantis/Atlantis-sm_craft_engine.ogg"
+    },
+    {
+      "id": "bg_23",
+      "label": "Lg. Craft Engine",
+      "icon": "modules/tabletop-audio-soundpads/audio-cache/atlantis/icons/lg_ship_icon.png",
+      "iconRemote": "https://images.tabletopaudio.com/sb/dungeon/lg_ship_icon.png",
+      "category": "backgrounds",
+      "type": "loop",
+      "loop": true,
+      "gain": 0.3,
+      "repeatDefault": 0,
+      "url": "https://sounds.tabletopaudio.com/atlantis/Atlantis-lg_craft_engine.ogg",
+      "ogg": "https://sounds.tabletopaudio.com/atlantis/Atlantis-lg_craft_engine.ogg",
+      "mp3": "https://sounds.tabletopaudio.com/atlantis/Atlantis-lg_craft_engine.mp3",
+      "local": "modules/tabletop-audio-soundpads/audio-cache/atlantis/Atlantis-lg_craft_engine.ogg"
+    },
+    {
+      "id": "bg_4",
+      "label": "Water Whoosh x2",
+      "icon": "modules/tabletop-audio-soundpads/audio-cache/atlantis/icons/wind_icon2.png",
+      "iconRemote": "https://images.tabletopaudio.com/sb/dungeon/wind_icon2.png",
+      "category": "events",
+      "type": "oneshot",
+      "loop": false,
+      "gain": 0.5,
+      "repeatDefault": 0,
+      "url": "https://sounds.tabletopaudio.com/atlantis/Atlantis-water_whoosh_x2.ogg",
+      "ogg": "https://sounds.tabletopaudio.com/atlantis/Atlantis-water_whoosh_x2.ogg",
+      "mp3": "https://sounds.tabletopaudio.com/atlantis/Atlantis-water_whoosh_x2.mp3",
+      "local": "modules/tabletop-audio-soundpads/audio-cache/atlantis/Atlantis-water_whoosh_x2.ogg",
+      "sprites": [
+        {
+          "offset": 0,
+          "duration": 4.728
+        },
+        {
+          "offset": 4.98,
+          "duration": 4.019
+        },
+        {
+          "offset": 0,
+          "duration": 4.728
+        },
+        {
+          "offset": 4.98,
+          "duration": 4.019
+        }
+      ]
+    },
+    {
+      "id": "bg_37",
+      "label": "Siren's Song x2",
+      "icon": "modules/tabletop-audio-soundpads/audio-cache/atlantis/icons/wailing_icon.png",
+      "iconRemote": "https://images.tabletopaudio.com/sb/dungeon/wailing_icon.png",
+      "category": "events",
+      "type": "oneshot",
+      "loop": false,
+      "gain": 0.3,
+      "repeatDefault": 0,
+      "url": "https://sounds.tabletopaudio.com/atlantis/Atlantis-sirens_song_x2.ogg",
+      "ogg": "https://sounds.tabletopaudio.com/atlantis/Atlantis-sirens_song_x2.ogg",
+      "mp3": "https://sounds.tabletopaudio.com/atlantis/Atlantis-sirens_song_x2.mp3",
+      "local": "modules/tabletop-audio-soundpads/audio-cache/atlantis/Atlantis-sirens_song_x2.ogg",
+      "sprites": [
+        {
+          "offset": 0,
+          "duration": 12.925
+        },
+        {
+          "offset": 13.015,
+          "duration": 14.969
+        },
+        {
+          "offset": 0,
+          "duration": 12.925
+        },
+        {
+          "offset": 13.015,
+          "duration": 14.969
+        }
+      ]
+    },
+    {
+      "id": "bg_5",
+      "label": "Lg. Hatch: Open",
+      "icon": "modules/tabletop-audio-soundpads/audio-cache/atlantis/icons/trapdoor_open_icon.png",
+      "iconRemote": "https://images.tabletopaudio.com/sb/dungeon/trapdoor_open_icon.png",
+      "category": "events",
+      "type": "oneshot",
+      "loop": false,
+      "gain": 0.4,
+      "repeatDefault": 0,
+      "url": "https://sounds.tabletopaudio.com/atlantis/Atlantis-lg_hatch_open.ogg",
+      "ogg": "https://sounds.tabletopaudio.com/atlantis/Atlantis-lg_hatch_open.ogg",
+      "mp3": "https://sounds.tabletopaudio.com/atlantis/Atlantis-lg_hatch_open.mp3",
+      "local": "modules/tabletop-audio-soundpads/audio-cache/atlantis/Atlantis-lg_hatch_open.ogg"
+    },
+    {
+      "id": "bg_28",
+      "label": "Lg. Hatch: Close",
+      "icon": "modules/tabletop-audio-soundpads/audio-cache/atlantis/icons/trapdoor_close_icon.png",
+      "iconRemote": "https://images.tabletopaudio.com/sb/dungeon/trapdoor_close_icon.png",
+      "category": "events",
+      "type": "oneshot",
+      "loop": false,
+      "gain": 0.4,
+      "repeatDefault": 0,
+      "url": "https://sounds.tabletopaudio.com/atlantis/Atlantis-lg_hatch_close.ogg",
+      "ogg": "https://sounds.tabletopaudio.com/atlantis/Atlantis-lg_hatch_close.ogg",
+      "mp3": "https://sounds.tabletopaudio.com/atlantis/Atlantis-lg_hatch_close.mp3",
+      "local": "modules/tabletop-audio-soundpads/audio-cache/atlantis/Atlantis-lg_hatch_close.ogg"
+    },
+    {
+      "id": "bg_29",
+      "label": "Bronze Door: Open",
+      "icon": "modules/tabletop-audio-soundpads/audio-cache/atlantis/icons/door_open_icon.png",
+      "iconRemote": "https://images.tabletopaudio.com/sb/dungeon/door_open_icon.png",
+      "category": "events",
+      "type": "oneshot",
+      "loop": false,
+      "gain": 0.4,
+      "repeatDefault": 0,
+      "url": "https://sounds.tabletopaudio.com/atlantis/Atlantis-bronze_door_open.ogg",
+      "ogg": "https://sounds.tabletopaudio.com/atlantis/Atlantis-bronze_door_open.ogg",
+      "mp3": "https://sounds.tabletopaudio.com/atlantis/Atlantis-bronze_door_open.mp3",
+      "local": "modules/tabletop-audio-soundpads/audio-cache/atlantis/Atlantis-bronze_door_open.ogg"
+    },
+    {
+      "id": "bg_30",
+      "label": "Bronze Door: Close",
+      "icon": "modules/tabletop-audio-soundpads/audio-cache/atlantis/icons/door_icon.png",
+      "iconRemote": "https://images.tabletopaudio.com/sb/dungeon/door_icon.png",
+      "category": "events",
+      "type": "oneshot",
+      "loop": false,
+      "gain": 0.4,
+      "repeatDefault": 0,
+      "url": "https://sounds.tabletopaudio.com/atlantis/Atlantis-bronze_door_close.ogg",
+      "ogg": "https://sounds.tabletopaudio.com/atlantis/Atlantis-bronze_door_close.ogg",
+      "mp3": "https://sounds.tabletopaudio.com/atlantis/Atlantis-bronze_door_close.mp3",
+      "local": "modules/tabletop-audio-soundpads/audio-cache/atlantis/Atlantis-bronze_door_close.ogg"
+    },
+    {
+      "id": "bg_14",
+      "label": "Water Portal",
+      "icon": "modules/tabletop-audio-soundpads/audio-cache/atlantis/icons/water_portal_icon.png",
+      "iconRemote": "https://images.tabletopaudio.com/sb/dungeon/water_portal_icon.png",
+      "category": "events",
+      "type": "oneshot",
+      "loop": false,
+      "gain": 0.4,
+      "repeatDefault": 0,
+      "url": "https://sounds.tabletopaudio.com/atlantis/Atlantis-water_portal.ogg",
+      "ogg": "https://sounds.tabletopaudio.com/atlantis/Atlantis-water_portal.ogg",
+      "mp3": "https://sounds.tabletopaudio.com/atlantis/Atlantis-water_portal.mp3",
+      "local": "modules/tabletop-audio-soundpads/audio-cache/atlantis/Atlantis-water_portal.ogg"
+    },
+    {
+      "id": "bg_10",
+      "label": "Air-filled Chamber",
+      "icon": "modules/tabletop-audio-soundpads/audio-cache/atlantis/icons/room_icon.png",
+      "iconRemote": "https://images.tabletopaudio.com/sb/dungeon/room_icon.png",
+      "category": "backgrounds",
+      "type": "loop",
+      "loop": true,
+      "gain": 0.3,
+      "repeatDefault": 0,
+      "url": "https://sounds.tabletopaudio.com/atlantis/Atlantis-air_filled_chamber.ogg",
+      "ogg": "https://sounds.tabletopaudio.com/atlantis/Atlantis-air_filled_chamber.ogg",
+      "mp3": "https://sounds.tabletopaudio.com/atlantis/Atlantis-air_filled_chamber.mp3",
+      "local": "modules/tabletop-audio-soundpads/audio-cache/atlantis/Atlantis-air_filled_chamber.ogg"
+    },
+    {
+      "id": "bg_36",
+      "label": "Dry Stone Room",
+      "icon": "modules/tabletop-audio-soundpads/audio-cache/atlantis/icons/room_icon.png",
+      "iconRemote": "https://images.tabletopaudio.com/sb/dungeon/room_icon.png",
+      "category": "backgrounds",
+      "type": "loop",
+      "loop": true,
+      "gain": 0.3,
+      "repeatDefault": 0,
+      "url": "https://sounds.tabletopaudio.com/atlantis/Atlantis-dry_stone_room.ogg",
+      "ogg": "https://sounds.tabletopaudio.com/atlantis/Atlantis-dry_stone_room.ogg",
+      "mp3": "https://sounds.tabletopaudio.com/atlantis/Atlantis-dry_stone_room.mp3",
+      "local": "modules/tabletop-audio-soundpads/audio-cache/atlantis/Atlantis-dry_stone_room.ogg"
+    },
+    {
+      "id": "bg_8",
+      "label": "Stone Door: Open",
+      "icon": "modules/tabletop-audio-soundpads/audio-cache/atlantis/icons/stone_door_open_icon.png",
+      "iconRemote": "https://images.tabletopaudio.com/sb/dungeon/stone_door_open_icon.png",
+      "category": "events",
+      "type": "oneshot",
+      "loop": false,
+      "gain": 0.4,
+      "repeatDefault": 0,
+      "url": "https://sounds.tabletopaudio.com/atlantis/Atlantis-stone_door_open.ogg",
+      "ogg": "https://sounds.tabletopaudio.com/atlantis/Atlantis-stone_door_open.ogg",
+      "mp3": "https://sounds.tabletopaudio.com/atlantis/Atlantis-stone_door_open.mp3",
+      "local": "modules/tabletop-audio-soundpads/audio-cache/atlantis/Atlantis-stone_door_open.ogg"
+    },
+    {
+      "id": "bg_9",
+      "label": "Stone Door: Close",
+      "icon": "modules/tabletop-audio-soundpads/audio-cache/atlantis/icons/stone_door_icon.png",
+      "iconRemote": "https://images.tabletopaudio.com/sb/dungeon/stone_door_icon.png",
+      "category": "events",
+      "type": "oneshot",
+      "loop": false,
+      "gain": 0.4,
+      "repeatDefault": 0,
+      "url": "https://sounds.tabletopaudio.com/atlantis/Atlantis-stone_door_close.ogg",
+      "ogg": "https://sounds.tabletopaudio.com/atlantis/Atlantis-stone_door_close.ogg",
+      "mp3": "https://sounds.tabletopaudio.com/atlantis/Atlantis-stone_door_close.mp3",
+      "local": "modules/tabletop-audio-soundpads/audio-cache/atlantis/Atlantis-stone_door_close.ogg"
+    },
+    {
+      "id": "bg_19",
+      "label": "Chain Winch",
+      "icon": "modules/tabletop-audio-soundpads/audio-cache/atlantis/icons/chains_icon.png",
+      "iconRemote": "https://images.tabletopaudio.com/sb/dungeon/chains_icon.png",
+      "category": "events",
+      "type": "oneshot",
+      "loop": false,
+      "gain": 0.4,
+      "repeatDefault": 0,
+      "url": "https://sounds.tabletopaudio.com/atlantis/Atlantis-chain_winch.ogg",
+      "ogg": "https://sounds.tabletopaudio.com/atlantis/Atlantis-chain_winch.ogg",
+      "mp3": "https://sounds.tabletopaudio.com/atlantis/Atlantis-chain_winch.mp3",
+      "local": "modules/tabletop-audio-soundpads/audio-cache/atlantis/Atlantis-chain_winch.ogg"
+    },
+    {
+      "id": "bg_20",
+      "label": "Chest Open",
+      "icon": "modules/tabletop-audio-soundpads/audio-cache/atlantis/icons/chest_icon.png",
+      "iconRemote": "https://images.tabletopaudio.com/sb/dungeon/chest_icon.png",
+      "category": "events",
+      "type": "oneshot",
+      "loop": false,
+      "gain": 0.4,
+      "repeatDefault": 0,
+      "url": "https://sounds.tabletopaudio.com/atlantis/Atlantis-chest_open.ogg",
+      "ogg": "https://sounds.tabletopaudio.com/atlantis/Atlantis-chest_open.ogg",
+      "mp3": "https://sounds.tabletopaudio.com/atlantis/Atlantis-chest_open.mp3",
+      "local": "modules/tabletop-audio-soundpads/audio-cache/atlantis/Atlantis-chest_open.ogg"
+    },
+    {
+      "id": "bg_34",
+      "label": "Water Rising",
+      "icon": "modules/tabletop-audio-soundpads/audio-cache/atlantis/icons/flood_icon.png",
+      "iconRemote": "https://images.tabletopaudio.com/sb/dungeon/flood_icon.png",
+      "category": "backgrounds",
+      "type": "loop",
+      "loop": true,
+      "gain": 0.4,
+      "repeatDefault": 0,
+      "url": "https://sounds.tabletopaudio.com/atlantis/Atlantis-water_rising.ogg",
+      "ogg": "https://sounds.tabletopaudio.com/atlantis/Atlantis-water_rising.ogg",
+      "mp3": "https://sounds.tabletopaudio.com/atlantis/Atlantis-water_rising.mp3",
+      "local": "modules/tabletop-audio-soundpads/audio-cache/atlantis/Atlantis-water_rising.ogg"
+    },
+    {
+      "id": "bg_31",
+      "label": "Net Trap",
+      "icon": "modules/tabletop-audio-soundpads/audio-cache/atlantis/icons/net_trap_icon.png",
+      "iconRemote": "https://images.tabletopaudio.com/sb/dungeon/net_trap_icon.png",
+      "category": "events",
+      "type": "oneshot",
+      "loop": false,
+      "gain": 0.4,
+      "repeatDefault": 0,
+      "url": "https://sounds.tabletopaudio.com/atlantis/Atlantis-net_trap.ogg",
+      "ogg": "https://sounds.tabletopaudio.com/atlantis/Atlantis-net_trap.ogg",
+      "mp3": "https://sounds.tabletopaudio.com/atlantis/Atlantis-net_trap.mp3",
+      "local": "modules/tabletop-audio-soundpads/audio-cache/atlantis/Atlantis-net_trap.ogg"
+    },
+    {
+      "id": "bg_35",
+      "label": "Blade Trap",
+      "icon": "modules/tabletop-audio-soundpads/audio-cache/atlantis/icons/blade_trap_icon.png",
+      "iconRemote": "https://images.tabletopaudio.com/sb/dungeon/blade_trap_icon.png",
+      "category": "events",
+      "type": "oneshot",
+      "loop": false,
+      "gain": 0.5,
+      "repeatDefault": 0,
+      "url": "https://sounds.tabletopaudio.com/atlantis/Atlantis-blade_trap.ogg",
+      "ogg": "https://sounds.tabletopaudio.com/atlantis/Atlantis-blade_trap.ogg",
+      "mp3": "https://sounds.tabletopaudio.com/atlantis/Atlantis-blade_trap.mp3",
+      "local": "modules/tabletop-audio-soundpads/audio-cache/atlantis/Atlantis-blade_trap.ogg"
+    },
+    {
+      "id": "bg_6",
+      "label": "Creature Growl x2",
+      "icon": "modules/tabletop-audio-soundpads/audio-cache/atlantis/icons/teeth.png",
+      "iconRemote": "https://images.tabletopaudio.com/sb/dungeon/teeth.png",
+      "category": "events",
+      "type": "oneshot",
+      "loop": false,
+      "gain": 0.4,
+      "repeatDefault": 0,
+      "url": "https://sounds.tabletopaudio.com/atlantis/Atlantis-creature_growl_x2.ogg",
+      "ogg": "https://sounds.tabletopaudio.com/atlantis/Atlantis-creature_growl_x2.ogg",
+      "mp3": "https://sounds.tabletopaudio.com/atlantis/Atlantis-creature_growl_x2.mp3",
+      "local": "modules/tabletop-audio-soundpads/audio-cache/atlantis/Atlantis-creature_growl_x2.ogg",
+      "sprites": [
+        {
+          "offset": 0,
+          "duration": 5.721
+        },
+        {
+          "offset": 5.775,
+          "duration": 5.233
+        },
+        {
+          "offset": 0,
+          "duration": 5.721
+        },
+        {
+          "offset": 5.775,
+          "duration": 5.233
+        }
+      ]
+    },
+    {
+      "id": "bg_22",
+      "label": "Creature Attack x2",
+      "icon": "modules/tabletop-audio-soundpads/audio-cache/atlantis/icons/shark_icon.png",
+      "iconRemote": "https://images.tabletopaudio.com/sb/dungeon/shark_icon.png",
+      "category": "events",
+      "type": "oneshot",
+      "loop": false,
+      "gain": 0.4,
+      "repeatDefault": 0,
+      "url": "https://sounds.tabletopaudio.com/atlantis/Atlantis-creature_attack_x2.ogg",
+      "ogg": "https://sounds.tabletopaudio.com/atlantis/Atlantis-creature_attack_x2.ogg",
+      "mp3": "https://sounds.tabletopaudio.com/atlantis/Atlantis-creature_attack_x2.mp3",
+      "local": "modules/tabletop-audio-soundpads/audio-cache/atlantis/Atlantis-creature_attack_x2.ogg",
+      "sprites": [
+        {
+          "offset": 0,
+          "duration": 5.766
+        },
+        {
+          "offset": 5.775,
+          "duration": 5.233
+        },
+        {
+          "offset": 0,
+          "duration": 5.766
+        },
+        {
+          "offset": 5.775,
+          "duration": 5.233
+        }
+      ]
+    },
+    {
+      "id": "bg_7",
+      "label": "Leviathan x4",
+      "icon": "modules/tabletop-audio-soundpads/audio-cache/atlantis/icons/whale_icon.png",
+      "iconRemote": "https://images.tabletopaudio.com/sb/dungeon/whale_icon.png",
+      "category": "events",
+      "type": "oneshot",
+      "loop": false,
+      "gain": 0.5,
+      "repeatDefault": 0,
+      "url": "https://sounds.tabletopaudio.com/atlantis/Atlantis-leviathan_x4.ogg",
+      "ogg": "https://sounds.tabletopaudio.com/atlantis/Atlantis-leviathan_x4.ogg",
+      "mp3": "https://sounds.tabletopaudio.com/atlantis/Atlantis-leviathan_x4.mp3",
+      "local": "modules/tabletop-audio-soundpads/audio-cache/atlantis/Atlantis-leviathan_x4.ogg",
+      "sprites": [
+        {
+          "offset": 0,
+          "duration": 4.327
+        },
+        {
+          "offset": 4.815,
+          "duration": 3.383
+        },
+        {
+          "offset": 8.261,
+          "duration": 4.831
+        },
+        {
+          "offset": 13.313,
+          "duration": 5.686
+        }
+      ]
+    },
+    {
+      "id": "bg_17",
+      "label": "Metal Groans",
+      "icon": "modules/tabletop-audio-soundpads/audio-cache/atlantis/icons/rumble_icon.png",
+      "iconRemote": "https://images.tabletopaudio.com/sb/dungeon/rumble_icon.png",
+      "category": "events",
+      "type": "oneshot",
+      "loop": false,
+      "gain": 0.4,
+      "repeatDefault": 0,
+      "url": "https://sounds.tabletopaudio.com/atlantis/Atlantis-metal_groans.ogg",
+      "ogg": "https://sounds.tabletopaudio.com/atlantis/Atlantis-metal_groans.ogg",
+      "mp3": "https://sounds.tabletopaudio.com/atlantis/Atlantis-metal_groans.mp3",
+      "local": "modules/tabletop-audio-soundpads/audio-cache/atlantis/Atlantis-metal_groans.ogg"
+    },
+    {
+      "id": "bg_21",
+      "label": "Rock Slide x2",
+      "icon": "modules/tabletop-audio-soundpads/audio-cache/atlantis/icons/rubble_icon.png",
+      "iconRemote": "https://images.tabletopaudio.com/sb/dungeon/rubble_icon.png",
+      "category": "events",
+      "type": "oneshot",
+      "loop": false,
+      "gain": 0.3,
+      "repeatDefault": 0,
+      "url": "https://sounds.tabletopaudio.com/atlantis/Atlantis-rock_slide_x2.ogg",
+      "ogg": "https://sounds.tabletopaudio.com/atlantis/Atlantis-rock_slide_x2.ogg",
+      "mp3": "https://sounds.tabletopaudio.com/atlantis/Atlantis-rock_slide_x2.mp3",
+      "local": "modules/tabletop-audio-soundpads/audio-cache/atlantis/Atlantis-rock_slide_x2.ogg",
+      "sprites": [
+        {
+          "offset": 0,
+          "duration": 6.809
+        },
+        {
+          "offset": 6.874,
+          "duration": 7.737
+        },
+        {
+          "offset": 0,
+          "duration": 6.809
+        },
+        {
+          "offset": 6.874,
+          "duration": 7.737
+        }
+      ]
+    },
+    {
+      "id": "bg_16",
+      "label": "Projectile x2",
+      "icon": "modules/tabletop-audio-soundpads/audio-cache/atlantis/icons/torpedo_icon.png",
+      "iconRemote": "https://images.tabletopaudio.com/sb/dungeon/torpedo_icon.png",
+      "category": "events",
+      "type": "oneshot",
+      "loop": false,
+      "gain": 0.3,
+      "repeatDefault": 0,
+      "url": "https://sounds.tabletopaudio.com/atlantis/Atlantis-projectile_x2.ogg",
+      "ogg": "https://sounds.tabletopaudio.com/atlantis/Atlantis-projectile_x2.ogg",
+      "mp3": "https://sounds.tabletopaudio.com/atlantis/Atlantis-projectile_x2.mp3",
+      "local": "modules/tabletop-audio-soundpads/audio-cache/atlantis/Atlantis-projectile_x2.ogg",
+      "sprites": [
+        {
+          "offset": 0,
+          "duration": 3.561
+        },
+        {
+          "offset": 3.625,
+          "duration": 3.637
+        },
+        {
+          "offset": 0,
+          "duration": 3.561
+        },
+        {
+          "offset": 3.625,
+          "duration": 3.637
+        }
+      ]
+    },
+    {
+      "id": "bg_32",
+      "label": "Impact",
+      "icon": "modules/tabletop-audio-soundpads/audio-cache/atlantis/icons/plasma_explosion_icon.png",
+      "iconRemote": "https://images.tabletopaudio.com/sb/dungeon/plasma_explosion_icon.png",
+      "category": "events",
+      "type": "oneshot",
+      "loop": false,
+      "gain": 0.4,
+      "repeatDefault": 0,
+      "url": "https://sounds.tabletopaudio.com/atlantis/Atlantis-impact.ogg",
+      "ogg": "https://sounds.tabletopaudio.com/atlantis/Atlantis-impact.ogg",
+      "mp3": "https://sounds.tabletopaudio.com/atlantis/Atlantis-impact.mp3",
+      "local": "modules/tabletop-audio-soundpads/audio-cache/atlantis/Atlantis-impact.ogg"
+    },
+    {
+      "id": "bg_33",
+      "label": "Crystalline Orb",
+      "icon": "modules/tabletop-audio-soundpads/audio-cache/atlantis/icons/crystal_icon.png",
+      "iconRemote": "https://images.tabletopaudio.com/sb/dungeon/crystal_icon.png",
+      "category": "backgrounds",
+      "type": "loop",
+      "loop": true,
+      "gain": 0.4,
+      "repeatDefault": 0,
+      "url": "https://sounds.tabletopaudio.com/atlantis/Atlantis-crystalline_orb.ogg",
+      "ogg": "https://sounds.tabletopaudio.com/atlantis/Atlantis-crystalline_orb.ogg",
+      "mp3": "https://sounds.tabletopaudio.com/atlantis/Atlantis-crystalline_orb.mp3",
+      "local": "modules/tabletop-audio-soundpads/audio-cache/atlantis/Atlantis-crystalline_orb.ogg"
+    },
+    {
+      "id": "bg_24",
+      "label": "Drone Pulse",
+      "icon": "modules/tabletop-audio-soundpads/audio-cache/atlantis/icons/bass_tone.png",
+      "iconRemote": "https://images.tabletopaudio.com/sb/dungeon/bass_tone.png",
+      "category": "tones",
+      "type": "loop",
+      "loop": true,
+      "gain": 0.1,
+      "repeatDefault": 0,
+      "url": "https://sounds.tabletopaudio.com/atlantis/Atlantis-drone_pulse.ogg",
+      "ogg": "https://sounds.tabletopaudio.com/atlantis/Atlantis-drone_pulse.ogg",
+      "mp3": "https://sounds.tabletopaudio.com/atlantis/Atlantis-drone_pulse.mp3",
+      "local": "modules/tabletop-audio-soundpads/audio-cache/atlantis/Atlantis-drone_pulse.ogg"
+    },
+    {
+      "id": "bg_25",
+      "label": "Strings Tone",
+      "icon": "modules/tabletop-audio-soundpads/audio-cache/atlantis/icons/treble_tone.png",
+      "iconRemote": "https://images.tabletopaudio.com/sb/dungeon/treble_tone.png",
+      "category": "tones",
+      "type": "loop",
+      "loop": true,
+      "gain": 0.3,
+      "repeatDefault": 0,
+      "url": "https://sounds.tabletopaudio.com/atlantis/Atlantis-strings_tone.ogg",
+      "ogg": "https://sounds.tabletopaudio.com/atlantis/Atlantis-strings_tone.ogg",
+      "mp3": "https://sounds.tabletopaudio.com/atlantis/Atlantis-strings_tone.mp3",
+      "local": "modules/tabletop-audio-soundpads/audio-cache/atlantis/Atlantis-strings_tone.ogg"
+    },
+    {
+      "id": "bg_27",
+      "label": "Vocal Tone",
+      "icon": "modules/tabletop-audio-soundpads/audio-cache/atlantis/icons/treble_tone.png",
+      "iconRemote": "https://images.tabletopaudio.com/sb/dungeon/treble_tone.png",
+      "category": "tones",
+      "type": "loop",
+      "loop": true,
+      "gain": 0.2,
+      "repeatDefault": 0,
+      "url": "https://sounds.tabletopaudio.com/atlantis/Atlantis-vocal_tone.ogg",
+      "ogg": "https://sounds.tabletopaudio.com/atlantis/Atlantis-vocal_tone.ogg",
+      "mp3": "https://sounds.tabletopaudio.com/atlantis/Atlantis-vocal_tone.mp3",
+      "local": "modules/tabletop-audio-soundpads/audio-cache/atlantis/Atlantis-vocal_tone.ogg"
+    },
+    {
+      "id": "bg_26",
+      "label": "Percussive Tone",
+      "icon": "modules/tabletop-audio-soundpads/audio-cache/atlantis/icons/drum_icon.png",
+      "iconRemote": "https://images.tabletopaudio.com/sb/dungeon/drum_icon.png",
+      "category": "tones",
+      "type": "loop",
+      "loop": true,
+      "gain": 0.2,
+      "repeatDefault": 0,
+      "url": "https://sounds.tabletopaudio.com/atlantis/Atlantis-percussive_tone.ogg",
+      "ogg": "https://sounds.tabletopaudio.com/atlantis/Atlantis-percussive_tone.ogg",
+      "mp3": "https://sounds.tabletopaudio.com/atlantis/Atlantis-percussive_tone.mp3",
+      "local": "modules/tabletop-audio-soundpads/audio-cache/atlantis/Atlantis-percussive_tone.ogg"
+    },
+    {
+      "id": "bg_38",
+      "label": "The Depths",
+      "icon": "modules/tabletop-audio-soundpads/audio-cache/atlantis/icons/music.png",
+      "iconRemote": "https://images.tabletopaudio.com/sb/dungeon/music.png",
+      "category": "music",
+      "type": "music",
+      "loop": true,
+      "gain": 0.6,
+      "repeatDefault": 0,
+      "url": "https://sounds.tabletopaudio.com/atlantis/Atlantis-music_the_depths.ogg",
+      "ogg": "https://sounds.tabletopaudio.com/atlantis/Atlantis-music_the_depths.ogg",
+      "mp3": "https://sounds.tabletopaudio.com/atlantis/Atlantis-music_the_depths.mp3",
+      "local": "modules/tabletop-audio-soundpads/audio-cache/atlantis/Atlantis-music_the_depths.ogg"
+    },
+    {
+      "id": "bg_39",
+      "label": "Lost City",
+      "icon": "modules/tabletop-audio-soundpads/audio-cache/atlantis/icons/music.png",
+      "iconRemote": "https://images.tabletopaudio.com/sb/dungeon/music.png",
+      "category": "music",
+      "type": "music",
+      "loop": true,
+      "gain": 0.4,
+      "repeatDefault": 0,
+      "url": "https://sounds.tabletopaudio.com/atlantis/Atlantis-music_lost_city.ogg",
+      "ogg": "https://sounds.tabletopaudio.com/atlantis/Atlantis-music_lost_city.ogg",
+      "mp3": "https://sounds.tabletopaudio.com/atlantis/Atlantis-music_lost_city.mp3",
+      "local": "modules/tabletop-audio-soundpads/audio-cache/atlantis/Atlantis-music_lost_city.ogg"
+    },
+    {
+      "id": "bg_40",
+      "label": "Deep Drums",
+      "icon": "modules/tabletop-audio-soundpads/audio-cache/atlantis/icons/music.png",
+      "iconRemote": "https://images.tabletopaudio.com/sb/dungeon/music.png",
+      "category": "music",
+      "type": "music",
+      "loop": true,
+      "gain": 0.4,
+      "repeatDefault": 0,
+      "url": "https://sounds.tabletopaudio.com/atlantis/Atlantis-music_deep_drums.ogg",
+      "ogg": "https://sounds.tabletopaudio.com/atlantis/Atlantis-music_deep_drums.ogg",
+      "mp3": "https://sounds.tabletopaudio.com/atlantis/Atlantis-music_deep_drums.mp3",
+      "local": "modules/tabletop-audio-soundpads/audio-cache/atlantis/Atlantis-music_deep_drums.ogg"
+    }
+  ]
+}

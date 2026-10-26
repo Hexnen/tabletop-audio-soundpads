@@ -1,0 +1,460 @@
+{
+  "generated": null,
+  "pads": [
+    {
+      "id": "age_of_sail",
+      "name": "Age Of Sail",
+      "cover": "modules/tabletop-audio-soundpads/audio-cache/age_of_sail/age_of_sail_sp2.jpg",
+      "header": "modules/tabletop-audio-soundpads/audio-cache/age_of_sail/age_of_sail_header1.png",
+      "layerCount": 28,
+      "categories": [
+        "backgrounds",
+        "events",
+        "music"
+      ],
+      "downloaded": true
+    },
+    {
+      "id": "alien_starship",
+      "name": "Alien Starship",
+      "cover": "modules/tabletop-audio-soundpads/audio-cache/alien_starship/alien_starship_sp2.jpg",
+      "header": "modules/tabletop-audio-soundpads/audio-cache/alien_starship/alien_starship_header1.png",
+      "layerCount": 36,
+      "categories": [
+        "backgrounds",
+        "events",
+        "tones",
+        "music"
+      ],
+      "downloaded": true
+    },
+    {
+      "id": "ancient_greece",
+      "name": "Ancient Greece",
+      "cover": "modules/tabletop-audio-soundpads/audio-cache/ancient_greece/ancient_greece_sp2.jpg",
+      "header": "modules/tabletop-audio-soundpads/audio-cache/ancient_greece/ancient_greece_header1.png",
+      "layerCount": 36,
+      "categories": [
+        "backgrounds",
+        "tones",
+        "events",
+        "music"
+      ],
+      "downloaded": true
+    },
+    {
+      "id": "atlantis",
+      "name": "Atlantis",
+      "cover": "modules/tabletop-audio-soundpads/audio-cache/atlantis/atlantis_sp2.jpg",
+      "header": "modules/tabletop-audio-soundpads/audio-cache/atlantis/atlantis_soundpad_header.png",
+      "layerCount": 40,
+      "categories": [
+        "backgrounds",
+        "events",
+        "tones",
+        "music"
+      ],
+      "downloaded": true
+    },
+    {
+      "id": "bleakwater_docks",
+      "name": "Bleakwater Docks",
+      "cover": "modules/tabletop-audio-soundpads/audio-cache/bleakwater_docks/bleakwater_docks_sp2.jpg",
+      "header": "modules/tabletop-audio-soundpads/audio-cache/bleakwater_docks/bleakwater_docks_header1.png",
+      "layerCount": 32,
+      "categories": [
+        "backgrounds",
+        "events",
+        "tones"
+      ],
+      "downloaded": true
+    },
+    {
+      "id": "castle_raven",
+      "name": "Castle Raven",
+      "cover": "modules/tabletop-audio-soundpads/audio-cache/castle_raven/castle_raven_sp2.jpg",
+      "header": "modules/tabletop-audio-soundpads/audio-cache/castle_raven/castle_raven1a.png",
+      "layerCount": 40,
+      "categories": [
+        "backgrounds",
+        "events",
+        "tones",
+        "music"
+      ],
+      "downloaded": true
+    },
+    {
+      "id": "combat",
+      "name": "Combat",
+      "cover": "modules/tabletop-audio-soundpads/audio-cache/combat/combat_sp2.jpg",
+      "header": "modules/tabletop-audio-soundpads/audio-cache/combat/combat_header_1a.png",
+      "layerCount": 38,
+      "categories": [
+        "backgrounds",
+        "events"
+      ],
+      "downloaded": true
+    },
+    {
+      "id": "combat_future",
+      "name": "Combat Future",
+      "cover": "modules/tabletop-audio-soundpads/audio-cache/combat_future/combat_future_sp2.jpg",
+      "header": "modules/tabletop-audio-soundpads/audio-cache/combat_future/combat_future_header2.png",
+      "layerCount": 32,
+      "categories": [
+        "backgrounds",
+        "events"
+      ],
+      "downloaded": true
+    },
+    {
+      "id": "combat_siege",
+      "name": "Combat Siege",
+      "cover": "modules/tabletop-audio-soundpads/audio-cache/combat_siege/combat_siege_sp2.jpg",
+      "header": "modules/tabletop-audio-soundpads/audio-cache/combat_siege/siege1.png",
+      "layerCount": 36,
+      "categories": [
+        "backgrounds",
+        "events",
+        "tones",
+        "music"
+      ],
+      "downloaded": true
+    },
+    {
+      "id": "cthulhu",
+      "name": "Cthulhu",
+      "cover": "modules/tabletop-audio-soundpads/audio-cache/cthulhu/cthulhu_sp2.jpg",
+      "header": "modules/tabletop-audio-soundpads/audio-cache/cthulhu/cthulhu_header1b.png",
+      "layerCount": 40,
+      "categories": [
+        "backgrounds",
+        "events",
+        "tones",
+        "music"
+      ],
+      "downloaded": true
+    },
+    {
+      "id": "darkforest",
+      "name": "Darkforest",
+      "cover": "modules/tabletop-audio-soundpads/audio-cache/darkforest/dark_forest_sp2.jpg",
+      "header": "modules/tabletop-audio-soundpads/audio-cache/darkforest/dark_forest_header1.png",
+      "layerCount": 32,
+      "categories": [
+        "backgrounds",
+        "tones",
+        "creatures",
+        "events",
+        "music"
+      ],
+      "downloaded": true
+    },
+    {
+      "id": "deep_six",
+      "name": "Deep Six",
+      "cover": "modules/tabletop-audio-soundpads/audio-cache/deep_six/deep_six_sp2.jpg",
+      "header": "modules/tabletop-audio-soundpads/audio-cache/deep_six/deep_six_header1.png",
+      "layerCount": 36,
+      "categories": [
+        "backgrounds",
+        "events",
+        "tones",
+        "music"
+      ],
+      "downloaded": true
+    },
+    {
+      "id": "desert_planet",
+      "name": "Desert Planet",
+      "cover": "modules/tabletop-audio-soundpads/audio-cache/desert_planet/desert_planet_sp2.jpg",
+      "header": "modules/tabletop-audio-soundpads/audio-cache/desert_planet/desert_planet_header1a.png",
+      "layerCount": 36,
+      "categories": [
+        "backgrounds",
+        "events",
+        "creatures",
+        "tones",
+        "music"
+      ],
+      "downloaded": true
+    },
+    {
+      "id": "dungeon",
+      "name": "Dungeon",
+      "cover": "modules/tabletop-audio-soundpads/audio-cache/dungeon/the_dungeon_sp2.jpg",
+      "header": "modules/tabletop-audio-soundpads/audio-cache/dungeon/dungeon_header.png",
+      "layerCount": 36,
+      "categories": [
+        "backgrounds",
+        "tones",
+        "events",
+        "creatures",
+        "music"
+      ],
+      "downloaded": true
+    },
+    {
+      "id": "film_noir",
+      "name": "Film Noir",
+      "cover": "modules/tabletop-audio-soundpads/audio-cache/film_noir/film_noir_sp2.jpg",
+      "header": "modules/tabletop-audio-soundpads/audio-cache/film_noir/noir_header1c.png",
+      "layerCount": 36,
+      "categories": [
+        "backgrounds",
+        "events",
+        "tones",
+        "music"
+      ],
+      "downloaded": true
+    },
+    {
+      "id": "future_city",
+      "name": "Future City",
+      "cover": "modules/tabletop-audio-soundpads/audio-cache/future_city/future_city_sp2.jpg",
+      "header": "modules/tabletop-audio-soundpads/audio-cache/future_city/future_city_header1.png",
+      "layerCount": 32,
+      "categories": [
+        "backgrounds",
+        "events",
+        "tones",
+        "music"
+      ],
+      "downloaded": true
+    },
+    {
+      "id": "hell_planet",
+      "name": "Hell Planet",
+      "cover": "modules/tabletop-audio-soundpads/audio-cache/hell_planet/hell_planet_sp2.jpg",
+      "header": "modules/tabletop-audio-soundpads/audio-cache/hell_planet/hell_planet2a.png",
+      "layerCount": 40,
+      "categories": [
+        "backgrounds",
+        "events",
+        "tones",
+        "music"
+      ],
+      "downloaded": true
+    },
+    {
+      "id": "house_on_the_hill",
+      "name": "House On The Hill",
+      "cover": "modules/tabletop-audio-soundpads/audio-cache/house_on_the_hill/house_on_the_hill_sp2.jpg",
+      "header": "modules/tabletop-audio-soundpads/audio-cache/house_on_the_hill/house_on_the_hil_header1.png",
+      "layerCount": 32,
+      "categories": [
+        "backgrounds",
+        "events",
+        "tones",
+        "music"
+      ],
+      "downloaded": true
+    },
+    {
+      "id": "ice_planet",
+      "name": "Ice Planet",
+      "cover": "modules/tabletop-audio-soundpads/audio-cache/ice_planet/ice_planet_sp2.jpg",
+      "header": "modules/tabletop-audio-soundpads/audio-cache/ice_planet/ice_planet_header.png",
+      "layerCount": 36,
+      "categories": [
+        "backgrounds",
+        "events",
+        "tones",
+        "music"
+      ],
+      "downloaded": true
+    },
+    {
+      "id": "jungle_planet",
+      "name": "Jungle Planet",
+      "cover": "modules/tabletop-audio-soundpads/audio-cache/jungle_planet/jungle_planet_sp2.jpg",
+      "header": "modules/tabletop-audio-soundpads/audio-cache/jungle_planet/jungle_planet_header1.png",
+      "layerCount": 32,
+      "categories": [
+        "backgrounds",
+        "events",
+        "tones",
+        "music"
+      ],
+      "downloaded": true
+    },
+    {
+      "id": "monsters",
+      "name": "Monsters",
+      "cover": "modules/tabletop-audio-soundpads/audio-cache/monsters/monster_pack_sp2.jpg",
+      "header": "modules/tabletop-audio-soundpads/audio-cache/monsters/monster_pack_header1.png",
+      "layerCount": 32,
+      "categories": [
+        "backgrounds"
+      ],
+      "downloaded": true
+    },
+    {
+      "id": "olde_towne",
+      "name": "Olde Towne",
+      "cover": "modules/tabletop-audio-soundpads/audio-cache/olde_towne/olde_towne_sp2.jpg",
+      "header": "modules/tabletop-audio-soundpads/audio-cache/olde_towne/OldeTowneLogo1c.png",
+      "layerCount": 36,
+      "categories": [
+        "backgrounds",
+        "events",
+        "creatures",
+        "tones",
+        "music"
+      ],
+      "downloaded": true
+    },
+    {
+      "id": "sanctum",
+      "name": "Sanctum",
+      "cover": "modules/tabletop-audio-soundpads/audio-cache/sanctum/sanctum_sp2.jpg",
+      "header": "modules/tabletop-audio-soundpads/audio-cache/sanctum/sanctum_header1a.png",
+      "layerCount": 36,
+      "categories": [
+        "backgrounds",
+        "events",
+        "tones",
+        "music"
+      ],
+      "downloaded": true
+    },
+    {
+      "id": "secret_agent",
+      "name": "Secret Agent",
+      "cover": "modules/tabletop-audio-soundpads/audio-cache/secret_agent/secret_agent_sp2.jpg",
+      "header": "modules/tabletop-audio-soundpads/audio-cache/secret_agent/secret_agent_header1a.png",
+      "layerCount": 36,
+      "categories": [
+        "backgrounds",
+        "events",
+        "tones",
+        "music"
+      ],
+      "downloaded": true
+    },
+    {
+      "id": "starship",
+      "name": "Starship",
+      "cover": "modules/tabletop-audio-soundpads/audio-cache/starship/starship_sp2.jpg",
+      "header": "modules/tabletop-audio-soundpads/audio-cache/starship/starship1a.png",
+      "layerCount": 32,
+      "categories": [
+        "backgrounds",
+        "tones",
+        "events",
+        "creatures",
+        "music"
+      ],
+      "downloaded": true
+    },
+    {
+      "id": "steampunk",
+      "name": "Steampunk",
+      "cover": "modules/tabletop-audio-soundpads/audio-cache/steampunk/steampunk_sp2.jpg",
+      "header": "modules/tabletop-audio-soundpads/audio-cache/steampunk/steampunk_header1a.png",
+      "layerCount": 40,
+      "categories": [
+        "backgrounds",
+        "tones",
+        "events",
+        "music"
+      ],
+      "downloaded": true
+    },
+    {
+      "id": "tavern",
+      "name": "Tavern",
+      "cover": "modules/tabletop-audio-soundpads/audio-cache/tavern/the_tavern_sp2.jpg",
+      "header": "modules/tabletop-audio-soundpads/audio-cache/tavern/tavern_header1.png",
+      "layerCount": 28,
+      "categories": [
+        "backgrounds",
+        "events",
+        "music"
+      ],
+      "downloaded": true
+    },
+    {
+      "id": "true_west",
+      "name": "True West",
+      "cover": "modules/tabletop-audio-soundpads/audio-cache/true_west/true_west_sp2.jpg",
+      "header": "modules/tabletop-audio-soundpads/audio-cache/true_west/true_west_header1.png",
+      "layerCount": 36,
+      "categories": [
+        "backgrounds",
+        "events",
+        "music"
+      ],
+      "downloaded": true
+    },
+    {
+      "id": "vampire",
+      "name": "Vampire",
+      "cover": "modules/tabletop-audio-soundpads/audio-cache/vampire/vampire_sp2.jpg",
+      "header": "modules/tabletop-audio-soundpads/audio-cache/vampire/vampire_header1a.png",
+      "layerCount": 40,
+      "categories": [
+        "backgrounds",
+        "events",
+        "tones",
+        "music"
+      ],
+      "downloaded": true
+    },
+    {
+      "id": "vikings",
+      "name": "Vikings",
+      "cover": "modules/tabletop-audio-soundpads/audio-cache/vikings/vikings_sp2.jpg",
+      "header": "modules/tabletop-audio-soundpads/audio-cache/vikings/vikings_soundpad_header1.png",
+      "layerCount": 40,
+      "categories": [
+        "backgrounds",
+        "events",
+        "tones",
+        "music"
+      ],
+      "downloaded": true
+    },
+    {
+      "id": "wasteland",
+      "name": "Wasteland",
+      "cover": "modules/tabletop-audio-soundpads/audio-cache/wasteland/wasteland_sp2.jpg",
+      "header": "modules/tabletop-audio-soundpads/audio-cache/wasteland/post_apocalypse_header1a.png",
+      "layerCount": 32,
+      "categories": [
+        "backgrounds",
+        "events",
+        "tones"
+      ],
+      "downloaded": true
+    },
+    {
+      "id": "weirder_things",
+      "name": "Weirder Things",
+      "cover": "modules/tabletop-audio-soundpads/audio-cache/weirder_things/weirder_things_sp2.jpg",
+      "header": "modules/tabletop-audio-soundpads/audio-cache/weirder_things/weirder_things_sp1.png",
+      "layerCount": 40,
+      "categories": [
+        "backgrounds",
+        "events",
+        "tones",
+        "music"
+      ],
+      "downloaded": true
+    },
+    {
+      "id": "wuxia",
+      "name": "Wuxia",
+      "cover": "modules/tabletop-audio-soundpads/audio-cache/wuxia/wuxia_sp2.jpg",
+      "header": "modules/tabletop-audio-soundpads/audio-cache/wuxia/wuxia_header1b.png",
+      "layerCount": 36,
+      "categories": [
+        "backgrounds",
+        "events",
+        "tones",
+        "music"
+      ],
+      "downloaded": true
+    }
+  ]
+}

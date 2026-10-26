@@ -1,0 +1,648 @@
+{
+  "id": "ice_planet",
+  "name": "Ice Planet",
+  "source": "https://tabletopaudio.com/ice_planet_sp.html",
+  "coverRemote": "https://images.tabletopaudio.com/sb/ice_planet_sp2.jpg",
+  "cover": "modules/tabletop-audio-soundpads/audio-cache/ice_planet/ice_planet_sp2.jpg",
+  "headerRemote": "https://images.tabletopaudio.com/sb/ice_planet_header.png",
+  "header": "modules/tabletop-audio-soundpads/audio-cache/ice_planet/ice_planet_header.png",
+  "categories": [
+    "backgrounds",
+    "events",
+    "tones",
+    "music"
+  ],
+  "layerCount": 36,
+  "layers": [
+    {
+      "id": "bg_1",
+      "label": "Wind: Tundra",
+      "icon": "modules/tabletop-audio-soundpads/audio-cache/ice_planet/icons/wind_icon2.png",
+      "iconRemote": "https://images.tabletopaudio.com/sb/dungeon/wind_icon2.png",
+      "category": "backgrounds",
+      "type": "loop",
+      "loop": true,
+      "gain": 0.2,
+      "repeatDefault": 0,
+      "url": "https://sounds.tabletopaudio.com/ice_planet/wind_tundra.ogg",
+      "ogg": "https://sounds.tabletopaudio.com/ice_planet/wind_tundra.ogg",
+      "mp3": "https://sounds.tabletopaudio.com/ice_planet/wind_tundra.mp3",
+      "local": "modules/tabletop-audio-soundpads/audio-cache/ice_planet/wind_tundra.ogg"
+    },
+    {
+      "id": "bg_2",
+      "label": "Wind: Howl",
+      "icon": "modules/tabletop-audio-soundpads/audio-cache/ice_planet/icons/wind_icon2.png",
+      "iconRemote": "https://images.tabletopaudio.com/sb/dungeon/wind_icon2.png",
+      "category": "backgrounds",
+      "type": "loop",
+      "loop": true,
+      "gain": 0.2,
+      "repeatDefault": 0,
+      "url": "https://sounds.tabletopaudio.com/ice_planet/wind_howl.ogg",
+      "ogg": "https://sounds.tabletopaudio.com/ice_planet/wind_howl.ogg",
+      "mp3": "https://sounds.tabletopaudio.com/ice_planet/wind_howl.mp3",
+      "local": "modules/tabletop-audio-soundpads/audio-cache/ice_planet/wind_howl.ogg"
+    },
+    {
+      "id": "bg_3",
+      "label": "Wind: Ice Cave",
+      "icon": "modules/tabletop-audio-soundpads/audio-cache/ice_planet/icons/wind_icon2.png",
+      "iconRemote": "https://images.tabletopaudio.com/sb/dungeon/wind_icon2.png",
+      "category": "backgrounds",
+      "type": "loop",
+      "loop": true,
+      "gain": 0.3,
+      "repeatDefault": 0,
+      "url": "https://sounds.tabletopaudio.com/ice_planet/wind_ice_cave_lp.ogg",
+      "ogg": "https://sounds.tabletopaudio.com/ice_planet/wind_ice_cave_lp.ogg",
+      "mp3": "https://sounds.tabletopaudio.com/ice_planet/wind_ice_cave_lp.mp3",
+      "local": "modules/tabletop-audio-soundpads/audio-cache/ice_planet/wind_ice_cave_lp.ogg"
+    },
+    {
+      "id": "bg_11",
+      "label": "Singing Crystals",
+      "icon": "modules/tabletop-audio-soundpads/audio-cache/ice_planet/icons/crystal_icon.png",
+      "iconRemote": "https://images.tabletopaudio.com/sb/dungeon/crystal_icon.png",
+      "category": "backgrounds",
+      "type": "loop",
+      "loop": true,
+      "gain": 0.3,
+      "repeatDefault": 0,
+      "url": "https://sounds.tabletopaudio.com/ice_planet/singing_crystal_lp.ogg",
+      "ogg": "https://sounds.tabletopaudio.com/ice_planet/singing_crystal_lp.ogg",
+      "mp3": "https://sounds.tabletopaudio.com/ice_planet/singing_crystal_lp.mp3",
+      "local": "modules/tabletop-audio-soundpads/audio-cache/ice_planet/singing_crystal_lp.ogg"
+    },
+    {
+      "id": "bg_5",
+      "label": "Ice Creaks",
+      "icon": "modules/tabletop-audio-soundpads/audio-cache/ice_planet/icons/ice_crack_icon.png",
+      "iconRemote": "https://images.tabletopaudio.com/sb/dungeon/ice_crack_icon.png",
+      "category": "backgrounds",
+      "type": "loop",
+      "loop": true,
+      "gain": 0.4,
+      "repeatDefault": 0,
+      "url": "https://sounds.tabletopaudio.com/ice_planet/ice_creaking_lp.ogg",
+      "ogg": "https://sounds.tabletopaudio.com/ice_planet/ice_creaking_lp.ogg",
+      "mp3": "https://sounds.tabletopaudio.com/ice_planet/ice_creaking_lp.mp3",
+      "local": "modules/tabletop-audio-soundpads/audio-cache/ice_planet/ice_creaking_lp.ogg"
+    },
+    {
+      "id": "bg_4",
+      "label": "Ice Creaks x4",
+      "icon": "modules/tabletop-audio-soundpads/audio-cache/ice_planet/icons/ice_crack_icon.png",
+      "iconRemote": "https://images.tabletopaudio.com/sb/dungeon/ice_crack_icon.png",
+      "category": "events",
+      "type": "oneshot",
+      "loop": false,
+      "gain": 0.5,
+      "repeatDefault": 0,
+      "url": "https://sounds.tabletopaudio.com/ice_planet/ice_creaking_x4.ogg",
+      "ogg": "https://sounds.tabletopaudio.com/ice_planet/ice_creaking_x4.ogg",
+      "mp3": "https://sounds.tabletopaudio.com/ice_planet/ice_creaking_x4.mp3",
+      "local": "modules/tabletop-audio-soundpads/audio-cache/ice_planet/ice_creaking_x4.ogg",
+      "sprites": [
+        {
+          "offset": 0,
+          "duration": 4.458
+        },
+        {
+          "offset": 4.516,
+          "duration": 5.863
+        },
+        {
+          "offset": 10.464,
+          "duration": 5.393
+        },
+        {
+          "offset": 15.922,
+          "duration": 5.845
+        }
+      ]
+    },
+    {
+      "id": "bg_7",
+      "label": "Ice Axe",
+      "icon": "modules/tabletop-audio-soundpads/audio-cache/ice_planet/icons/ice_axe_icon.png",
+      "iconRemote": "https://images.tabletopaudio.com/sb/dungeon/ice_axe_icon.png",
+      "category": "events",
+      "type": "oneshot",
+      "loop": false,
+      "gain": 0.4,
+      "repeatDefault": 0,
+      "url": "https://sounds.tabletopaudio.com/ice_planet/ice_axe.ogg",
+      "ogg": "https://sounds.tabletopaudio.com/ice_planet/ice_axe.ogg",
+      "mp3": "https://sounds.tabletopaudio.com/ice_planet/ice_axe.mp3",
+      "local": "modules/tabletop-audio-soundpads/audio-cache/ice_planet/ice_axe.ogg"
+    },
+    {
+      "id": "bg_22",
+      "label": "Falling Ice",
+      "icon": "modules/tabletop-audio-soundpads/audio-cache/ice_planet/icons/rubble_icon.png",
+      "iconRemote": "https://images.tabletopaudio.com/sb/dungeon/rubble_icon.png",
+      "category": "events",
+      "type": "oneshot",
+      "loop": false,
+      "gain": 0.2,
+      "repeatDefault": 0,
+      "url": "https://sounds.tabletopaudio.com/ice_planet/falling_ice.ogg",
+      "ogg": "https://sounds.tabletopaudio.com/ice_planet/falling_ice.ogg",
+      "mp3": "https://sounds.tabletopaudio.com/ice_planet/falling_ice.mp3",
+      "local": "modules/tabletop-audio-soundpads/audio-cache/ice_planet/falling_ice.ogg"
+    },
+    {
+      "id": "bg_9",
+      "label": "Ice Door: Open",
+      "icon": "modules/tabletop-audio-soundpads/audio-cache/ice_planet/icons/door_open_icon.png",
+      "iconRemote": "https://images.tabletopaudio.com/sb/dungeon/door_open_icon.png",
+      "category": "events",
+      "type": "oneshot",
+      "loop": false,
+      "gain": 0.4,
+      "repeatDefault": 0,
+      "url": "https://sounds.tabletopaudio.com/ice_planet/ice_door_open.ogg",
+      "ogg": "https://sounds.tabletopaudio.com/ice_planet/ice_door_open.ogg",
+      "mp3": "https://sounds.tabletopaudio.com/ice_planet/ice_door_open.mp3",
+      "local": "modules/tabletop-audio-soundpads/audio-cache/ice_planet/ice_door_open.ogg"
+    },
+    {
+      "id": "bg_10",
+      "label": "Ice Door: Close",
+      "icon": "modules/tabletop-audio-soundpads/audio-cache/ice_planet/icons/door_icon.png",
+      "iconRemote": "https://images.tabletopaudio.com/sb/dungeon/door_icon.png",
+      "category": "events",
+      "type": "oneshot",
+      "loop": false,
+      "gain": 0.4,
+      "repeatDefault": 0,
+      "url": "https://sounds.tabletopaudio.com/ice_planet/ice_door_close.ogg",
+      "ogg": "https://sounds.tabletopaudio.com/ice_planet/ice_door_close.ogg",
+      "mp3": "https://sounds.tabletopaudio.com/ice_planet/ice_door_close.mp3",
+      "local": "modules/tabletop-audio-soundpads/audio-cache/ice_planet/ice_door_close.ogg"
+    },
+    {
+      "id": "bg_28",
+      "label": "Snow Boulder",
+      "icon": "modules/tabletop-audio-soundpads/audio-cache/ice_planet/icons/boulder_icon.png",
+      "iconRemote": "https://images.tabletopaudio.com/sb/dungeon/boulder_icon.png",
+      "category": "events",
+      "type": "oneshot",
+      "loop": false,
+      "gain": 0.4,
+      "repeatDefault": 0,
+      "url": "https://sounds.tabletopaudio.com/ice_planet/snow_boulder_roll.ogg",
+      "ogg": "https://sounds.tabletopaudio.com/ice_planet/snow_boulder_roll.ogg",
+      "mp3": "https://sounds.tabletopaudio.com/ice_planet/snow_boulder_roll.mp3",
+      "local": "modules/tabletop-audio-soundpads/audio-cache/ice_planet/snow_boulder_roll.ogg"
+    },
+    {
+      "id": "bg_6",
+      "label": "Footsteps: Snow",
+      "icon": "modules/tabletop-audio-soundpads/audio-cache/ice_planet/icons/boots.png",
+      "iconRemote": "https://images.tabletopaudio.com/sb/dungeon/boots.png",
+      "category": "events",
+      "type": "loop",
+      "loop": true,
+      "gain": 0.4,
+      "repeatDefault": 0,
+      "url": "https://sounds.tabletopaudio.com/ice_planet/footsteps_snow.ogg",
+      "ogg": "https://sounds.tabletopaudio.com/ice_planet/footsteps_snow.ogg",
+      "mp3": "https://sounds.tabletopaudio.com/ice_planet/footsteps_snow.mp3",
+      "local": "modules/tabletop-audio-soundpads/audio-cache/ice_planet/footsteps_snow.ogg"
+    },
+    {
+      "id": "bg_23",
+      "label": "Torch Movement",
+      "icon": "modules/tabletop-audio-soundpads/audio-cache/ice_planet/icons/torch_icon.png",
+      "iconRemote": "https://images.tabletopaudio.com/sb/dungeon/torch_icon.png",
+      "category": "backgrounds",
+      "type": "loop",
+      "loop": true,
+      "gain": 0.2,
+      "repeatDefault": 0,
+      "url": "https://sounds.tabletopaudio.com/ice_planet/torch_lp.ogg",
+      "ogg": "https://sounds.tabletopaudio.com/ice_planet/torch_lp.ogg",
+      "mp3": "https://sounds.tabletopaudio.com/ice_planet/torch_lp.mp3",
+      "local": "modules/tabletop-audio-soundpads/audio-cache/ice_planet/torch_lp.ogg"
+    },
+    {
+      "id": "bg_13",
+      "label": "Lightning Pillars",
+      "icon": "modules/tabletop-audio-soundpads/audio-cache/ice_planet/icons/lightning_pillars_icon.png",
+      "iconRemote": "https://images.tabletopaudio.com/sb/dungeon/lightning_pillars_icon.png",
+      "category": "backgrounds",
+      "type": "loop",
+      "loop": true,
+      "gain": 0.3,
+      "repeatDefault": 0,
+      "url": "https://sounds.tabletopaudio.com/ice_planet/lightning_pillars_lp.ogg",
+      "ogg": "https://sounds.tabletopaudio.com/ice_planet/lightning_pillars_lp.ogg",
+      "mp3": "https://sounds.tabletopaudio.com/ice_planet/lightning_pillars_lp.mp3",
+      "local": "modules/tabletop-audio-soundpads/audio-cache/ice_planet/lightning_pillars_lp.ogg"
+    },
+    {
+      "id": "bg_31",
+      "label": "Coldfire",
+      "icon": "modules/tabletop-audio-soundpads/audio-cache/ice_planet/icons/fire.png",
+      "iconRemote": "https://images.tabletopaudio.com/sb/dungeon/fire.png",
+      "category": "backgrounds",
+      "type": "loop",
+      "loop": true,
+      "gain": 0.2,
+      "repeatDefault": 0,
+      "url": "https://sounds.tabletopaudio.com/ice_planet/coldfire_lp.ogg",
+      "ogg": "https://sounds.tabletopaudio.com/ice_planet/coldfire_lp.ogg",
+      "mp3": "https://sounds.tabletopaudio.com/ice_planet/coldfire_lp.mp3",
+      "local": "modules/tabletop-audio-soundpads/audio-cache/ice_planet/coldfire_lp.ogg"
+    },
+    {
+      "id": "bg_14",
+      "label": "Faerie Frost",
+      "icon": "modules/tabletop-audio-soundpads/audio-cache/ice_planet/icons/ice_spell_icon.png",
+      "iconRemote": "https://images.tabletopaudio.com/sb/dungeon/ice_spell_icon.png",
+      "category": "backgrounds",
+      "type": "loop",
+      "loop": true,
+      "gain": 0.2,
+      "repeatDefault": 0,
+      "url": "https://sounds.tabletopaudio.com/ice_planet/faerie_frost_lp.ogg",
+      "ogg": "https://sounds.tabletopaudio.com/ice_planet/faerie_frost_lp.ogg",
+      "mp3": "https://sounds.tabletopaudio.com/ice_planet/faerie_frost_lp.mp3",
+      "local": "modules/tabletop-audio-soundpads/audio-cache/ice_planet/faerie_frost_lp.ogg"
+    },
+    {
+      "id": "bg_17",
+      "label": "Lo Tone",
+      "icon": "modules/tabletop-audio-soundpads/audio-cache/ice_planet/icons/bass_tone.png",
+      "iconRemote": "https://images.tabletopaudio.com/sb/dungeon/bass_tone.png",
+      "category": "tones",
+      "type": "loop",
+      "loop": true,
+      "gain": 0.4,
+      "repeatDefault": 0,
+      "url": "https://sounds.tabletopaudio.com/ice_planet/tone3_lp.ogg",
+      "ogg": "https://sounds.tabletopaudio.com/ice_planet/tone3_lp.ogg",
+      "mp3": "https://sounds.tabletopaudio.com/ice_planet/tone3_lp.mp3",
+      "local": "modules/tabletop-audio-soundpads/audio-cache/ice_planet/tone3_lp.ogg"
+    },
+    {
+      "id": "bg_15",
+      "label": "Mid Tone",
+      "icon": "modules/tabletop-audio-soundpads/audio-cache/ice_planet/icons/treble_tone.png",
+      "iconRemote": "https://images.tabletopaudio.com/sb/dungeon/treble_tone.png",
+      "category": "tones",
+      "type": "loop",
+      "loop": true,
+      "gain": 0.5,
+      "repeatDefault": 0,
+      "url": "https://sounds.tabletopaudio.com/ice_planet/tone1_lp.ogg",
+      "ogg": "https://sounds.tabletopaudio.com/ice_planet/tone1_lp.ogg",
+      "mp3": "https://sounds.tabletopaudio.com/ice_planet/tone1_lp.mp3",
+      "local": "modules/tabletop-audio-soundpads/audio-cache/ice_planet/tone1_lp.ogg"
+    },
+    {
+      "id": "bg_16",
+      "label": "Choir Tone",
+      "icon": "modules/tabletop-audio-soundpads/audio-cache/ice_planet/icons/treble_tone.png",
+      "iconRemote": "https://images.tabletopaudio.com/sb/dungeon/treble_tone.png",
+      "category": "tones",
+      "type": "loop",
+      "loop": true,
+      "gain": 0.2,
+      "repeatDefault": 0,
+      "url": "https://sounds.tabletopaudio.com/ice_planet/choir3all_lp.ogg",
+      "ogg": "https://sounds.tabletopaudio.com/ice_planet/choir3all_lp.ogg",
+      "mp3": "https://sounds.tabletopaudio.com/ice_planet/choir3all_lp.mp3",
+      "local": "modules/tabletop-audio-soundpads/audio-cache/ice_planet/choir3all_lp.ogg"
+    },
+    {
+      "id": "bg_18",
+      "label": "Rhythm Tone",
+      "icon": "modules/tabletop-audio-soundpads/audio-cache/ice_planet/icons/drum_icon.png",
+      "iconRemote": "https://images.tabletopaudio.com/sb/dungeon/drum_icon.png",
+      "category": "tones",
+      "type": "loop",
+      "loop": true,
+      "gain": 0.1,
+      "repeatDefault": 0,
+      "url": "https://sounds.tabletopaudio.com/ice_planet/rhythm_tone2.ogg",
+      "ogg": "https://sounds.tabletopaudio.com/ice_planet/rhythm_tone2.ogg",
+      "mp3": "https://sounds.tabletopaudio.com/ice_planet/rhythm_tone2.mp3",
+      "local": "modules/tabletop-audio-soundpads/audio-cache/ice_planet/rhythm_tone2.ogg"
+    },
+    {
+      "id": "bg_8",
+      "label": "Avalanche",
+      "icon": "modules/tabletop-audio-soundpads/audio-cache/ice_planet/icons/rubble_icon.png",
+      "iconRemote": "https://images.tabletopaudio.com/sb/dungeon/rubble_icon.png",
+      "category": "events",
+      "type": "oneshot",
+      "loop": false,
+      "gain": 0.6,
+      "repeatDefault": 0,
+      "url": "https://sounds.tabletopaudio.com/ice_planet/avalanche.ogg",
+      "ogg": "https://sounds.tabletopaudio.com/ice_planet/avalanche.ogg",
+      "mp3": "https://sounds.tabletopaudio.com/ice_planet/avalanche.mp3",
+      "local": "modules/tabletop-audio-soundpads/audio-cache/ice_planet/avalanche.ogg"
+    },
+    {
+      "id": "bg_19",
+      "label": "Horse: Walk Ice",
+      "icon": "modules/tabletop-audio-soundpads/audio-cache/ice_planet/icons/horse_icon.png",
+      "iconRemote": "https://images.tabletopaudio.com/sb/dungeon/horse_icon.png",
+      "category": "events",
+      "type": "loop",
+      "loop": true,
+      "gain": 0.2,
+      "repeatDefault": 0,
+      "url": "https://sounds.tabletopaudio.com/ice_planet/horse_snow_walk.ogg",
+      "ogg": "https://sounds.tabletopaudio.com/ice_planet/horse_snow_walk.ogg",
+      "mp3": "https://sounds.tabletopaudio.com/ice_planet/horse_snow_walk.mp3",
+      "local": "modules/tabletop-audio-soundpads/audio-cache/ice_planet/horse_snow_walk.ogg"
+    },
+    {
+      "id": "bg_20",
+      "label": "Horse: Canter Ice",
+      "icon": "modules/tabletop-audio-soundpads/audio-cache/ice_planet/icons/horse_icon.png",
+      "iconRemote": "https://images.tabletopaudio.com/sb/dungeon/horse_icon.png",
+      "category": "events",
+      "type": "loop",
+      "loop": true,
+      "gain": 0.2,
+      "repeatDefault": 0,
+      "url": "https://sounds.tabletopaudio.com/ice_planet/horse_snow_canter.ogg",
+      "ogg": "https://sounds.tabletopaudio.com/ice_planet/horse_snow_canter.ogg",
+      "mp3": "https://sounds.tabletopaudio.com/ice_planet/horse_snow_canter.mp3",
+      "local": "modules/tabletop-audio-soundpads/audio-cache/ice_planet/horse_snow_canter.ogg"
+    },
+    {
+      "id": "bg_12",
+      "label": "Creature Roar x2",
+      "icon": "modules/tabletop-audio-soundpads/audio-cache/ice_planet/icons/teeth.png",
+      "iconRemote": "https://images.tabletopaudio.com/sb/dungeon/teeth.png",
+      "category": "events",
+      "type": "oneshot",
+      "loop": false,
+      "gain": 0.5,
+      "repeatDefault": 0,
+      "url": "https://sounds.tabletopaudio.com/ice_planet/roars_x2.ogg",
+      "ogg": "https://sounds.tabletopaudio.com/ice_planet/roars_x2.ogg",
+      "mp3": "https://sounds.tabletopaudio.com/ice_planet/roars_x2.mp3",
+      "local": "modules/tabletop-audio-soundpads/audio-cache/ice_planet/roars_x2.ogg",
+      "sprites": [
+        {
+          "offset": 0,
+          "duration": 4.035
+        },
+        {
+          "offset": 4.755,
+          "duration": 4.088
+        },
+        {
+          "offset": 0,
+          "duration": 4.035
+        },
+        {
+          "offset": 4.755,
+          "duration": 4.088
+        }
+      ]
+    },
+    {
+      "id": "bg_34",
+      "label": "Distant Howls",
+      "icon": "modules/tabletop-audio-soundpads/audio-cache/ice_planet/icons/wolf_icon.png",
+      "iconRemote": "https://images.tabletopaudio.com/sb/dungeon/wolf_icon.png",
+      "category": "events",
+      "type": "oneshot",
+      "loop": false,
+      "gain": 0.3,
+      "repeatDefault": 0,
+      "url": "https://sounds.tabletopaudio.com/ice_planet/distant_howls.ogg",
+      "ogg": "https://sounds.tabletopaudio.com/ice_planet/distant_howls.ogg",
+      "mp3": "https://sounds.tabletopaudio.com/ice_planet/distant_howls.mp3",
+      "local": "modules/tabletop-audio-soundpads/audio-cache/ice_planet/distant_howls.ogg"
+    },
+    {
+      "id": "bg_21",
+      "label": "Ghost Whisper",
+      "icon": "modules/tabletop-audio-soundpads/audio-cache/ice_planet/icons/noise.png",
+      "iconRemote": "https://images.tabletopaudio.com/sb/dungeon/noise.png",
+      "category": "events",
+      "type": "oneshot",
+      "loop": false,
+      "gain": 0.3,
+      "repeatDefault": 0,
+      "url": "https://sounds.tabletopaudio.com/ice_planet/whisper_wind.ogg",
+      "ogg": "https://sounds.tabletopaudio.com/ice_planet/whisper_wind.ogg",
+      "mp3": "https://sounds.tabletopaudio.com/ice_planet/whisper_wind.mp3",
+      "local": "modules/tabletop-audio-soundpads/audio-cache/ice_planet/whisper_wind.ogg"
+    },
+    {
+      "id": "bg_24",
+      "label": "Humanoid Camp",
+      "icon": "modules/tabletop-audio-soundpads/audio-cache/ice_planet/icons/humanoid_icon.png",
+      "iconRemote": "https://images.tabletopaudio.com/sb/dungeon/humanoid_icon.png",
+      "category": "backgrounds",
+      "type": "loop",
+      "loop": true,
+      "gain": 0.2,
+      "repeatDefault": 0,
+      "url": "https://sounds.tabletopaudio.com/ice_planet/humanoid_camp.ogg",
+      "ogg": "https://sounds.tabletopaudio.com/ice_planet/humanoid_camp.ogg",
+      "mp3": "https://sounds.tabletopaudio.com/ice_planet/humanoid_camp.mp3",
+      "local": "modules/tabletop-audio-soundpads/audio-cache/ice_planet/humanoid_camp.ogg"
+    },
+    {
+      "id": "bg_25",
+      "label": "Ice Artifact",
+      "icon": "modules/tabletop-audio-soundpads/audio-cache/ice_planet/icons/ice_spell_icon.png",
+      "iconRemote": "https://images.tabletopaudio.com/sb/dungeon/ice_spell_icon.png",
+      "category": "events",
+      "type": "oneshot",
+      "loop": false,
+      "gain": 0.4,
+      "repeatDefault": 0,
+      "url": "https://sounds.tabletopaudio.com/ice_planet/ice_artifact.ogg",
+      "ogg": "https://sounds.tabletopaudio.com/ice_planet/ice_artifact.ogg",
+      "mp3": "https://sounds.tabletopaudio.com/ice_planet/ice_artifact.mp3",
+      "local": "modules/tabletop-audio-soundpads/audio-cache/ice_planet/ice_artifact.ogg"
+    },
+    {
+      "id": "bg_26",
+      "label": "Giant Foosteps",
+      "icon": "modules/tabletop-audio-soundpads/audio-cache/ice_planet/icons/giant_foot_icon.png",
+      "iconRemote": "https://images.tabletopaudio.com/sb/dungeon/giant_foot_icon.png",
+      "category": "events",
+      "type": "oneshot",
+      "loop": false,
+      "gain": 0.4,
+      "repeatDefault": 0,
+      "url": "https://sounds.tabletopaudio.com/ice_planet/frost_giant_footsteps.ogg",
+      "ogg": "https://sounds.tabletopaudio.com/ice_planet/frost_giant_footsteps.ogg",
+      "mp3": "https://sounds.tabletopaudio.com/ice_planet/frost_giant_footsteps.mp3",
+      "local": "modules/tabletop-audio-soundpads/audio-cache/ice_planet/frost_giant_footsteps.ogg"
+    },
+    {
+      "id": "bg_27",
+      "label": "Giant Roar x2",
+      "icon": "modules/tabletop-audio-soundpads/audio-cache/ice_planet/icons/teeth.png",
+      "iconRemote": "https://images.tabletopaudio.com/sb/dungeon/teeth.png",
+      "category": "events",
+      "type": "oneshot",
+      "loop": false,
+      "gain": 0.5,
+      "repeatDefault": 0,
+      "url": "https://sounds.tabletopaudio.com/ice_planet/frost_giant_roar_x2.ogg",
+      "ogg": "https://sounds.tabletopaudio.com/ice_planet/frost_giant_roar_x2.ogg",
+      "mp3": "https://sounds.tabletopaudio.com/ice_planet/frost_giant_roar_x2.mp3",
+      "local": "modules/tabletop-audio-soundpads/audio-cache/ice_planet/frost_giant_roar_x2.ogg",
+      "sprites": [
+        {
+          "offset": 0,
+          "duration": 3.082
+        },
+        {
+          "offset": 3.099,
+          "duration": 3.01
+        },
+        {
+          "offset": 0,
+          "duration": 3.082
+        },
+        {
+          "offset": 3.099,
+          "duration": 3.01
+        }
+      ]
+    },
+    {
+      "id": "bg_29",
+      "label": "Wolves Growling",
+      "icon": "modules/tabletop-audio-soundpads/audio-cache/ice_planet/icons/wolf2_icon.png",
+      "iconRemote": "https://images.tabletopaudio.com/sb/dungeon/wolf2_icon.png",
+      "category": "backgrounds",
+      "type": "loop",
+      "loop": true,
+      "gain": 0.3,
+      "repeatDefault": 0,
+      "url": "https://sounds.tabletopaudio.com/ice_planet/wolfpack_growl_lp.ogg",
+      "ogg": "https://sounds.tabletopaudio.com/ice_planet/wolfpack_growl_lp.ogg",
+      "mp3": "https://sounds.tabletopaudio.com/ice_planet/wolfpack_growl_lp.mp3",
+      "local": "modules/tabletop-audio-soundpads/audio-cache/ice_planet/wolfpack_growl_lp.ogg"
+    },
+    {
+      "id": "bg_30",
+      "label": "Wolf Attack x4",
+      "icon": "modules/tabletop-audio-soundpads/audio-cache/ice_planet/icons/wolf2_icon.png",
+      "iconRemote": "https://images.tabletopaudio.com/sb/dungeon/wolf2_icon.png",
+      "category": "events",
+      "type": "oneshot",
+      "loop": false,
+      "gain": 0.5,
+      "repeatDefault": 0,
+      "url": "https://sounds.tabletopaudio.com/ice_planet/wolf_attack_x4.ogg",
+      "ogg": "https://sounds.tabletopaudio.com/ice_planet/wolf_attack_x4.ogg",
+      "mp3": "https://sounds.tabletopaudio.com/ice_planet/wolf_attack_x4.mp3",
+      "local": "modules/tabletop-audio-soundpads/audio-cache/ice_planet/wolf_attack_x4.ogg",
+      "sprites": [
+        {
+          "offset": 0,
+          "duration": 2.176
+        },
+        {
+          "offset": 2.275,
+          "duration": 2.504
+        },
+        {
+          "offset": 4.902,
+          "duration": 2.615
+        },
+        {
+          "offset": 7.546,
+          "duration": 2.643
+        }
+      ]
+    },
+    {
+      "id": "bg_32",
+      "label": "Frost Spider Idle",
+      "icon": "modules/tabletop-audio-soundpads/audio-cache/ice_planet/icons/spider_icon.png",
+      "iconRemote": "https://images.tabletopaudio.com/sb/dungeon/spider_icon.png",
+      "category": "backgrounds",
+      "type": "loop",
+      "loop": true,
+      "gain": 0.3,
+      "repeatDefault": 0,
+      "url": "https://sounds.tabletopaudio.com/ice_planet/frost_spider_idle_lp.ogg",
+      "ogg": "https://sounds.tabletopaudio.com/ice_planet/frost_spider_idle_lp.ogg",
+      "mp3": "https://sounds.tabletopaudio.com/ice_planet/frost_spider_idle_lp.mp3",
+      "local": "modules/tabletop-audio-soundpads/audio-cache/ice_planet/frost_spider_idle_lp.ogg"
+    },
+    {
+      "id": "bg_33",
+      "label": "Frost Spider Atk x2",
+      "icon": "modules/tabletop-audio-soundpads/audio-cache/ice_planet/icons/spider_icon.png",
+      "iconRemote": "https://images.tabletopaudio.com/sb/dungeon/spider_icon.png",
+      "category": "events",
+      "type": "oneshot",
+      "loop": false,
+      "gain": 0.5,
+      "repeatDefault": 0,
+      "url": "https://sounds.tabletopaudio.com/ice_planet/frost_spider_attack_x2.ogg",
+      "ogg": "https://sounds.tabletopaudio.com/ice_planet/frost_spider_attack_x2.ogg",
+      "mp3": "https://sounds.tabletopaudio.com/ice_planet/frost_spider_attack_x2.mp3",
+      "local": "modules/tabletop-audio-soundpads/audio-cache/ice_planet/frost_spider_attack_x2.ogg",
+      "sprites": [
+        {
+          "offset": 0,
+          "duration": 2.068
+        },
+        {
+          "offset": 2.245,
+          "duration": 2.435
+        },
+        {
+          "offset": 0,
+          "duration": 2.068
+        },
+        {
+          "offset": 2.245,
+          "duration": 2.465
+        }
+      ]
+    },
+    {
+      "id": "bg_35",
+      "label": "Music Tension",
+      "icon": "modules/tabletop-audio-soundpads/audio-cache/ice_planet/icons/music.png",
+      "iconRemote": "https://images.tabletopaudio.com/sb/dungeon/music.png",
+      "category": "music",
+      "type": "music",
+      "loop": true,
+      "gain": 0.4,
+      "repeatDefault": 0,
+      "url": "https://sounds.tabletopaudio.com/ice_planet/music1.ogg",
+      "ogg": "https://sounds.tabletopaudio.com/ice_planet/music1.ogg",
+      "mp3": "https://sounds.tabletopaudio.com/ice_planet/music1.mp3",
+      "local": "modules/tabletop-audio-soundpads/audio-cache/ice_planet/music1.ogg"
+    },
+    {
+      "id": "bg_36",
+      "label": "Music Action",
+      "icon": "modules/tabletop-audio-soundpads/audio-cache/ice_planet/icons/music.png",
+      "iconRemote": "https://images.tabletopaudio.com/sb/dungeon/music.png",
+      "category": "music",
+      "type": "music",
+      "loop": true,
+      "gain": 0.4,
+      "repeatDefault": 0,
+      "url": "https://sounds.tabletopaudio.com/ice_planet/music2.ogg",
+      "ogg": "https://sounds.tabletopaudio.com/ice_planet/music2.ogg",
+      "mp3": "https://sounds.tabletopaudio.com/ice_planet/music2.mp3",
+      "local": "modules/tabletop-audio-soundpads/audio-cache/ice_planet/music2.ogg"
+    }
+  ]
+}

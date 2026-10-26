@@ -1,0 +1,684 @@
+{
+  "id": "alien_starship",
+  "name": "Alien Starship",
+  "source": "https://tabletopaudio.com/alien_starship_sp.html",
+  "coverRemote": "https://images.tabletopaudio.com/sb/alien_starship_sp2.jpg",
+  "cover": "modules/tabletop-audio-soundpads/audio-cache/alien_starship/alien_starship_sp2.jpg",
+  "headerRemote": "https://images.tabletopaudio.com/sb/alien_starship_header1.png",
+  "header": "modules/tabletop-audio-soundpads/audio-cache/alien_starship/alien_starship_header1.png",
+  "categories": [
+    "backgrounds",
+    "events",
+    "tones",
+    "music"
+  ],
+  "layerCount": 36,
+  "layers": [
+    {
+      "id": "bg_2",
+      "label": "Eerie Noise",
+      "icon": "modules/tabletop-audio-soundpads/audio-cache/alien_starship/icons/noise.png",
+      "iconRemote": "https://images.tabletopaudio.com/sb/dungeon/noise.png",
+      "category": "backgrounds",
+      "type": "loop",
+      "loop": true,
+      "gain": 0.3,
+      "repeatDefault": 0,
+      "url": "https://sounds.tabletopaudio.com/alien_starship/background1_lp.ogg",
+      "ogg": "https://sounds.tabletopaudio.com/alien_starship/background1_lp.ogg",
+      "mp3": "https://sounds.tabletopaudio.com/alien_starship/background1_lp.mp3",
+      "local": "modules/tabletop-audio-soundpads/audio-cache/alien_starship/background1_lp.ogg"
+    },
+    {
+      "id": "bg_14",
+      "label": "Machine Hum",
+      "icon": "modules/tabletop-audio-soundpads/audio-cache/alien_starship/icons/machine_icon.png",
+      "iconRemote": "https://images.tabletopaudio.com/sb/dungeon/machine_icon.png",
+      "category": "backgrounds",
+      "type": "loop",
+      "loop": true,
+      "gain": 0.2,
+      "repeatDefault": 0,
+      "url": "https://sounds.tabletopaudio.com/alien_starship/machine_hum_hi_lp.ogg",
+      "ogg": "https://sounds.tabletopaudio.com/alien_starship/machine_hum_hi_lp.ogg",
+      "mp3": "https://sounds.tabletopaudio.com/alien_starship/machine_hum_hi_lp.mp3",
+      "local": "modules/tabletop-audio-soundpads/audio-cache/alien_starship/machine_hum_hi_lp.ogg"
+    },
+    {
+      "id": "bg_8",
+      "label": "Background Drone",
+      "icon": "modules/tabletop-audio-soundpads/audio-cache/alien_starship/icons/rumble_icon.png",
+      "iconRemote": "https://images.tabletopaudio.com/sb/dungeon/rumble_icon.png",
+      "category": "backgrounds",
+      "type": "loop",
+      "loop": true,
+      "gain": 0.3,
+      "repeatDefault": 0,
+      "url": "https://sounds.tabletopaudio.com/alien_starship/background2_lp.ogg",
+      "ogg": "https://sounds.tabletopaudio.com/alien_starship/background2_lp.ogg",
+      "mp3": "https://sounds.tabletopaudio.com/alien_starship/background2_lp.mp3",
+      "local": "modules/tabletop-audio-soundpads/audio-cache/alien_starship/background2_lp.ogg"
+    },
+    {
+      "id": "bg_28",
+      "label": "Computer Noises",
+      "icon": "modules/tabletop-audio-soundpads/audio-cache/alien_starship/icons/computer_icon.png",
+      "iconRemote": "https://images.tabletopaudio.com/sb/dungeon/computer_icon.png",
+      "category": "backgrounds",
+      "type": "loop",
+      "loop": true,
+      "gain": 0.2,
+      "repeatDefault": 0,
+      "url": "https://sounds.tabletopaudio.com/alien_starship/computer_noises_lp.ogg",
+      "ogg": "https://sounds.tabletopaudio.com/alien_starship/computer_noises_lp.ogg",
+      "mp3": "https://sounds.tabletopaudio.com/alien_starship/computer_noises_lp.mp3",
+      "local": "modules/tabletop-audio-soundpads/audio-cache/alien_starship/computer_noises_lp.ogg"
+    },
+    {
+      "id": "bg_9",
+      "label": "Biomatter",
+      "icon": "modules/tabletop-audio-soundpads/audio-cache/alien_starship/icons/ooze.png",
+      "iconRemote": "https://images.tabletopaudio.com/sb/dungeon/ooze.png",
+      "category": "backgrounds",
+      "type": "loop",
+      "loop": true,
+      "gain": 0.3,
+      "repeatDefault": 0,
+      "url": "https://sounds.tabletopaudio.com/alien_starship/organic_noise_lp.ogg",
+      "ogg": "https://sounds.tabletopaudio.com/alien_starship/organic_noise_lp.ogg",
+      "mp3": "https://sounds.tabletopaudio.com/alien_starship/organic_noise_lp.mp3",
+      "local": "modules/tabletop-audio-soundpads/audio-cache/alien_starship/organic_noise_lp.ogg"
+    },
+    {
+      "id": "bg_6",
+      "label": "Wind: Interior",
+      "icon": "modules/tabletop-audio-soundpads/audio-cache/alien_starship/icons/wind_icon2.png",
+      "iconRemote": "https://images.tabletopaudio.com/sb/dungeon/wind_icon2.png",
+      "category": "backgrounds",
+      "type": "loop",
+      "loop": true,
+      "gain": 0.3,
+      "repeatDefault": 0,
+      "url": "https://sounds.tabletopaudio.com/alien_starship/wind_int_lp.ogg",
+      "ogg": "https://sounds.tabletopaudio.com/alien_starship/wind_int_lp.ogg",
+      "mp3": "https://sounds.tabletopaudio.com/alien_starship/wind_int_lp.mp3",
+      "local": "modules/tabletop-audio-soundpads/audio-cache/alien_starship/wind_int_lp.ogg"
+    },
+    {
+      "id": "bg_15",
+      "label": "Wind: Outside",
+      "icon": "modules/tabletop-audio-soundpads/audio-cache/alien_starship/icons/wind_icon2.png",
+      "iconRemote": "https://images.tabletopaudio.com/sb/dungeon/wind_icon2.png",
+      "category": "backgrounds",
+      "type": "loop",
+      "loop": true,
+      "gain": 0.2,
+      "repeatDefault": 0,
+      "url": "https://sounds.tabletopaudio.com/alien_starship/wind_outside_lp.ogg",
+      "ogg": "https://sounds.tabletopaudio.com/alien_starship/wind_outside_lp.ogg",
+      "mp3": "https://sounds.tabletopaudio.com/alien_starship/wind_outside_lp.mp3",
+      "local": "modules/tabletop-audio-soundpads/audio-cache/alien_starship/wind_outside_lp.ogg"
+    },
+    {
+      "id": "bg_17",
+      "label": "Thunder: Alien",
+      "icon": "modules/tabletop-audio-soundpads/audio-cache/alien_starship/icons/thunder_icon.png",
+      "iconRemote": "https://images.tabletopaudio.com/sb/dungeon/thunder_icon.png",
+      "category": "events",
+      "type": "loop",
+      "loop": true,
+      "gain": 0.4,
+      "repeatDefault": 0,
+      "url": "https://sounds.tabletopaudio.com/alien_starship/alien_storm2_lp.ogg",
+      "ogg": "https://sounds.tabletopaudio.com/alien_starship/alien_storm2_lp.ogg",
+      "mp3": "https://sounds.tabletopaudio.com/alien_starship/alien_storm2_lp.mp3",
+      "local": "modules/tabletop-audio-soundpads/audio-cache/alien_starship/alien_storm2_lp.ogg"
+    },
+    {
+      "id": "bg_3",
+      "label": "Low Chatter x4",
+      "icon": "modules/tabletop-audio-soundpads/audio-cache/alien_starship/icons/noise.png",
+      "iconRemote": "https://images.tabletopaudio.com/sb/dungeon/noise.png",
+      "category": "events",
+      "type": "oneshot",
+      "loop": false,
+      "gain": 0.6,
+      "repeatDefault": 0,
+      "url": "https://sounds.tabletopaudio.com/alien_starship/low_chatter_x4.ogg",
+      "ogg": "https://sounds.tabletopaudio.com/alien_starship/low_chatter_x4.ogg",
+      "mp3": "https://sounds.tabletopaudio.com/alien_starship/low_chatter_x4.mp3",
+      "local": "modules/tabletop-audio-soundpads/audio-cache/alien_starship/low_chatter_x4.ogg",
+      "sprites": [
+        {
+          "offset": 0,
+          "duration": 3.549
+        },
+        {
+          "offset": 3.682,
+          "duration": 3.131
+        },
+        {
+          "offset": 6.89,
+          "duration": 4.638
+        },
+        {
+          "offset": 11.588,
+          "duration": 5.254
+        }
+      ]
+    },
+    {
+      "id": "bg_4",
+      "label": "Drips: Metal",
+      "icon": "modules/tabletop-audio-soundpads/audio-cache/alien_starship/icons/drips_icon2.png",
+      "iconRemote": "https://images.tabletopaudio.com/sb/dungeon/drips_icon2.png",
+      "category": "backgrounds",
+      "type": "loop",
+      "loop": true,
+      "gain": 0.2,
+      "repeatDefault": 0,
+      "url": "https://sounds.tabletopaudio.com/alien_starship/metallic_drips_lp.ogg",
+      "ogg": "https://sounds.tabletopaudio.com/alien_starship/metallic_drips_lp.ogg",
+      "mp3": "https://sounds.tabletopaudio.com/alien_starship/metallic_drips_lp.mp3",
+      "local": "modules/tabletop-audio-soundpads/audio-cache/alien_starship/metallic_drips_lp.ogg"
+    },
+    {
+      "id": "bg_5",
+      "label": "Motion Tracker",
+      "icon": "modules/tabletop-audio-soundpads/audio-cache/alien_starship/icons/motion_tracker_icon.png",
+      "iconRemote": "https://images.tabletopaudio.com/sb/dungeon/motion_tracker_icon.png",
+      "category": "events",
+      "type": "loop",
+      "loop": true,
+      "gain": 0.4,
+      "repeatDefault": 0,
+      "url": "https://sounds.tabletopaudio.com/alien_starship/motion_tracker1rev_lp.ogg",
+      "ogg": "https://sounds.tabletopaudio.com/alien_starship/motion_tracker1rev_lp.ogg",
+      "mp3": "https://sounds.tabletopaudio.com/alien_starship/motion_tracker1rev_lp.mp3",
+      "local": "modules/tabletop-audio-soundpads/audio-cache/alien_starship/motion_tracker1rev_lp.ogg"
+    },
+    {
+      "id": "bg_7",
+      "label": "Motion Detected",
+      "icon": "modules/tabletop-audio-soundpads/audio-cache/alien_starship/icons/motion_detected_icon.png",
+      "iconRemote": "https://images.tabletopaudio.com/sb/dungeon/motion_detected_icon.png",
+      "category": "events",
+      "type": "loop",
+      "loop": true,
+      "gain": 0.2,
+      "repeatDefault": 0,
+      "url": "https://sounds.tabletopaudio.com/alien_starship/motion_detected_lp.ogg",
+      "ogg": "https://sounds.tabletopaudio.com/alien_starship/motion_detected_lp.ogg",
+      "mp3": "https://sounds.tabletopaudio.com/alien_starship/motion_detected_lp.mp3",
+      "local": "modules/tabletop-audio-soundpads/audio-cache/alien_starship/motion_detected_lp.ogg"
+    },
+    {
+      "id": "bg_10",
+      "label": "Egg Hatch x4",
+      "icon": "modules/tabletop-audio-soundpads/audio-cache/alien_starship/icons/egg_hatch_icon.png",
+      "iconRemote": "https://images.tabletopaudio.com/sb/dungeon/egg_hatch_icon.png",
+      "category": "events",
+      "type": "oneshot",
+      "loop": false,
+      "gain": 0.6,
+      "repeatDefault": 0,
+      "url": "https://sounds.tabletopaudio.com/alien_starship/egg_sac_x4.ogg",
+      "ogg": "https://sounds.tabletopaudio.com/alien_starship/egg_sac_x4.ogg",
+      "mp3": "https://sounds.tabletopaudio.com/alien_starship/egg_sac_x4.mp3",
+      "local": "modules/tabletop-audio-soundpads/audio-cache/alien_starship/egg_sac_x4.ogg",
+      "sprites": [
+        {
+          "offset": 0,
+          "duration": 2.819
+        },
+        {
+          "offset": 2.893,
+          "duration": 3.078
+        },
+        {
+          "offset": 6.021,
+          "duration": 2.265
+        },
+        {
+          "offset": 8.335,
+          "duration": 2.585
+        }
+      ]
+    },
+    {
+      "id": "bg_11",
+      "label": "Door Open",
+      "icon": "modules/tabletop-audio-soundpads/audio-cache/alien_starship/icons/starship_door_open_icon.png",
+      "iconRemote": "https://images.tabletopaudio.com/sb/dungeon/starship_door_open_icon.png",
+      "category": "events",
+      "type": "oneshot",
+      "loop": false,
+      "gain": 0.6,
+      "repeatDefault": 0,
+      "url": "https://sounds.tabletopaudio.com/alien_starship/door_open.ogg",
+      "ogg": "https://sounds.tabletopaudio.com/alien_starship/door_open.ogg",
+      "mp3": "https://sounds.tabletopaudio.com/alien_starship/door_open.mp3",
+      "local": "modules/tabletop-audio-soundpads/audio-cache/alien_starship/door_open.ogg"
+    },
+    {
+      "id": "bg_12",
+      "label": "Door Close",
+      "icon": "modules/tabletop-audio-soundpads/audio-cache/alien_starship/icons/starship_door_close_icon.png",
+      "iconRemote": "https://images.tabletopaudio.com/sb/dungeon/starship_door_close_icon.png",
+      "category": "events",
+      "type": "oneshot",
+      "loop": false,
+      "gain": 0.6,
+      "repeatDefault": 0,
+      "url": "https://sounds.tabletopaudio.com/alien_starship/door_close.ogg",
+      "ogg": "https://sounds.tabletopaudio.com/alien_starship/door_close.ogg",
+      "mp3": "https://sounds.tabletopaudio.com/alien_starship/door_close.mp3",
+      "local": "modules/tabletop-audio-soundpads/audio-cache/alien_starship/door_close.ogg"
+    },
+    {
+      "id": "bg_22",
+      "label": "Steam Hiss",
+      "icon": "modules/tabletop-audio-soundpads/audio-cache/alien_starship/icons/steam.png",
+      "iconRemote": "https://images.tabletopaudio.com/sb/dungeon/steam.png",
+      "category": "events",
+      "type": "oneshot",
+      "loop": false,
+      "gain": 0.2,
+      "repeatDefault": 0,
+      "url": "https://sounds.tabletopaudio.com/alien_starship/steam_lp.ogg",
+      "ogg": "https://sounds.tabletopaudio.com/alien_starship/steam_lp.ogg",
+      "mp3": "https://sounds.tabletopaudio.com/alien_starship/steam_lp.mp3",
+      "local": "modules/tabletop-audio-soundpads/audio-cache/alien_starship/steam_lp.ogg"
+    },
+    {
+      "id": "bg_13",
+      "label": "Helmet Radio x4",
+      "icon": "modules/tabletop-audio-soundpads/audio-cache/alien_starship/icons/helmet_icon.png",
+      "iconRemote": "https://images.tabletopaudio.com/sb/dungeon/helmet_icon.png",
+      "category": "events",
+      "type": "oneshot",
+      "loop": false,
+      "gain": 0.3,
+      "repeatDefault": 0,
+      "url": "https://sounds.tabletopaudio.com/alien_starship/helmet_radio_x4.ogg",
+      "ogg": "https://sounds.tabletopaudio.com/alien_starship/helmet_radio_x4.ogg",
+      "mp3": "https://sounds.tabletopaudio.com/alien_starship/helmet_radio_x4.mp3",
+      "local": "modules/tabletop-audio-soundpads/audio-cache/alien_starship/helmet_radio_x4.ogg",
+      "sprites": [
+        {
+          "offset": 0,
+          "duration": 1.302
+        },
+        {
+          "offset": 1.356,
+          "duration": 0.801
+        },
+        {
+          "offset": 2.214,
+          "duration": 1.462
+        },
+        {
+          "offset": 3.735,
+          "duration": 1.484
+        }
+      ]
+    },
+    {
+      "id": "bg_18",
+      "label": "Heartbeat Tone",
+      "icon": "modules/tabletop-audio-soundpads/audio-cache/alien_starship/icons/heartbeat_icon.png",
+      "iconRemote": "https://images.tabletopaudio.com/sb/dungeon/heartbeat_icon.png",
+      "category": "tones",
+      "type": "loop",
+      "loop": true,
+      "gain": 0.4,
+      "repeatDefault": 0,
+      "url": "https://sounds.tabletopaudio.com/alien_starship/heart_beat_tone_lp.ogg",
+      "ogg": "https://sounds.tabletopaudio.com/alien_starship/heart_beat_tone_lp.ogg",
+      "mp3": "https://sounds.tabletopaudio.com/alien_starship/heart_beat_tone_lp.mp3",
+      "local": "modules/tabletop-audio-soundpads/audio-cache/alien_starship/heart_beat_tone_lp.ogg"
+    },
+    {
+      "id": "bg_1",
+      "label": "Throb Tone",
+      "icon": "modules/tabletop-audio-soundpads/audio-cache/alien_starship/icons/bass_tone.png",
+      "iconRemote": "https://images.tabletopaudio.com/sb/dungeon/bass_tone.png",
+      "category": "tones",
+      "type": "loop",
+      "loop": true,
+      "gain": 0.4,
+      "repeatDefault": 0,
+      "url": "https://sounds.tabletopaudio.com/alien_starship/throb_tone_lp.ogg",
+      "ogg": "https://sounds.tabletopaudio.com/alien_starship/throb_tone_lp.ogg",
+      "mp3": "https://sounds.tabletopaudio.com/alien_starship/throb_tone_lp.mp3",
+      "local": "modules/tabletop-audio-soundpads/audio-cache/alien_starship/throb_tone_lp.ogg"
+    },
+    {
+      "id": "bg_16",
+      "label": "Strings Tone",
+      "icon": "modules/tabletop-audio-soundpads/audio-cache/alien_starship/icons/treble_tone.png",
+      "iconRemote": "https://images.tabletopaudio.com/sb/dungeon/treble_tone.png",
+      "category": "tones",
+      "type": "loop",
+      "loop": true,
+      "gain": 0.6,
+      "repeatDefault": 0,
+      "url": "https://sounds.tabletopaudio.com/alien_starship/string_tone1a.ogg",
+      "ogg": "https://sounds.tabletopaudio.com/alien_starship/string_tone1a.ogg",
+      "mp3": "https://sounds.tabletopaudio.com/alien_starship/string_tone1a.mp3",
+      "local": "modules/tabletop-audio-soundpads/audio-cache/alien_starship/string_tone1a.ogg"
+    },
+    {
+      "id": "bg_30",
+      "label": "Synth Tone",
+      "icon": "modules/tabletop-audio-soundpads/audio-cache/alien_starship/icons/treble_tone.png",
+      "iconRemote": "https://images.tabletopaudio.com/sb/dungeon/treble_tone.png",
+      "category": "tones",
+      "type": "loop",
+      "loop": true,
+      "gain": 0.3,
+      "repeatDefault": 0,
+      "url": "https://sounds.tabletopaudio.com/alien_starship/mid_tone_lp.ogg",
+      "ogg": "https://sounds.tabletopaudio.com/alien_starship/mid_tone_lp.ogg",
+      "mp3": "https://sounds.tabletopaudio.com/alien_starship/mid_tone_lp.mp3",
+      "local": "modules/tabletop-audio-soundpads/audio-cache/alien_starship/mid_tone_lp.ogg"
+    },
+    {
+      "id": "bg_31",
+      "label": "Glitch Tone",
+      "icon": "modules/tabletop-audio-soundpads/audio-cache/alien_starship/icons/rumble_icon.png",
+      "iconRemote": "https://images.tabletopaudio.com/sb/dungeon/rumble_icon.png",
+      "category": "tones",
+      "type": "loop",
+      "loop": true,
+      "gain": 0.2,
+      "repeatDefault": 0,
+      "url": "https://sounds.tabletopaudio.com/alien_starship/glitch_tone_lp.ogg",
+      "ogg": "https://sounds.tabletopaudio.com/alien_starship/glitch_tone_lp.ogg",
+      "mp3": "https://sounds.tabletopaudio.com/alien_starship/glitch_tone_lp.mp3",
+      "local": "modules/tabletop-audio-soundpads/audio-cache/alien_starship/glitch_tone_lp.ogg"
+    },
+    {
+      "id": "bg_19",
+      "label": "Footsteps: Metal",
+      "icon": "modules/tabletop-audio-soundpads/audio-cache/alien_starship/icons/boots.png",
+      "iconRemote": "https://images.tabletopaudio.com/sb/dungeon/boots.png",
+      "category": "events",
+      "type": "loop",
+      "loop": true,
+      "gain": 0.2,
+      "repeatDefault": 0,
+      "url": "https://sounds.tabletopaudio.com/alien_starship/footsteps_metal_lp.ogg",
+      "ogg": "https://sounds.tabletopaudio.com/alien_starship/footsteps_metal_lp.ogg",
+      "mp3": "https://sounds.tabletopaudio.com/alien_starship/footsteps_metal_lp.mp3",
+      "local": "modules/tabletop-audio-soundpads/audio-cache/alien_starship/footsteps_metal_lp.ogg"
+    },
+    {
+      "id": "bg_20",
+      "label": "Footsteps: Ooze",
+      "icon": "modules/tabletop-audio-soundpads/audio-cache/alien_starship/icons/boots.png",
+      "iconRemote": "https://images.tabletopaudio.com/sb/dungeon/boots.png",
+      "category": "events",
+      "type": "loop",
+      "loop": true,
+      "gain": 0.5,
+      "repeatDefault": 0,
+      "url": "https://sounds.tabletopaudio.com/alien_starship/footsteps_bio_lp.ogg",
+      "ogg": "https://sounds.tabletopaudio.com/alien_starship/footsteps_bio_lp.ogg",
+      "mp3": "https://sounds.tabletopaudio.com/alien_starship/footsteps_bio_lp.mp3",
+      "local": "modules/tabletop-audio-soundpads/audio-cache/alien_starship/footsteps_bio_lp.ogg"
+    },
+    {
+      "id": "bg_21",
+      "label": "Shriek x4",
+      "icon": "modules/tabletop-audio-soundpads/audio-cache/alien_starship/icons/alien_shriek_icon.png",
+      "iconRemote": "https://images.tabletopaudio.com/sb/dungeon/alien_shriek_icon.png",
+      "category": "backgrounds",
+      "type": "oneshot",
+      "loop": false,
+      "gain": 0.3,
+      "repeatDefault": 0,
+      "url": "https://sounds.tabletopaudio.com/alien_starship/alien_shriek_x4.ogg",
+      "ogg": "https://sounds.tabletopaudio.com/alien_starship/alien_shriek_x4.ogg",
+      "mp3": "https://sounds.tabletopaudio.com/alien_starship/alien_shriek_x4.mp3",
+      "local": "modules/tabletop-audio-soundpads/audio-cache/alien_starship/alien_shriek_x4.ogg",
+      "sprites": [
+        {
+          "offset": 0,
+          "duration": 3.729
+        },
+        {
+          "offset": 3.888,
+          "duration": 3.192
+        },
+        {
+          "offset": 7.12,
+          "duration": 3.22
+        },
+        {
+          "offset": 10.425,
+          "duration": 3.535
+        }
+      ]
+    },
+    {
+      "id": "bg_27",
+      "label": "Shrieks: Multiple",
+      "icon": "modules/tabletop-audio-soundpads/audio-cache/alien_starship/icons/alien_shriek_icon.png",
+      "iconRemote": "https://images.tabletopaudio.com/sb/dungeon/alien_shriek_icon.png",
+      "category": "backgrounds",
+      "type": "oneshot",
+      "loop": false,
+      "gain": 0.4,
+      "repeatDefault": 0,
+      "url": "https://sounds.tabletopaudio.com/alien_starship/shrieks_mult.ogg",
+      "ogg": "https://sounds.tabletopaudio.com/alien_starship/shrieks_mult.ogg",
+      "mp3": "https://sounds.tabletopaudio.com/alien_starship/shrieks_mult.mp3",
+      "local": "modules/tabletop-audio-soundpads/audio-cache/alien_starship/shrieks_mult.ogg"
+    },
+    {
+      "id": "bg_25",
+      "label": "Creature: Lurk",
+      "icon": "modules/tabletop-audio-soundpads/audio-cache/alien_starship/icons/alien_icon.png",
+      "iconRemote": "https://images.tabletopaudio.com/sb/dungeon/alien_icon.png",
+      "category": "backgrounds",
+      "type": "loop",
+      "loop": true,
+      "gain": 0.3,
+      "repeatDefault": 0,
+      "url": "https://sounds.tabletopaudio.com/alien_starship/creature_moving_lp.ogg",
+      "ogg": "https://sounds.tabletopaudio.com/alien_starship/creature_moving_lp.ogg",
+      "mp3": "https://sounds.tabletopaudio.com/alien_starship/creature_moving_lp.mp3",
+      "local": "modules/tabletop-audio-soundpads/audio-cache/alien_starship/creature_moving_lp.ogg"
+    },
+    {
+      "id": "bg_29",
+      "label": "Creature: Breathe",
+      "icon": "modules/tabletop-audio-soundpads/audio-cache/alien_starship/icons/alien_icon.png",
+      "iconRemote": "https://images.tabletopaudio.com/sb/dungeon/alien_icon.png",
+      "category": "backgrounds",
+      "type": "loop",
+      "loop": true,
+      "gain": 0.2,
+      "repeatDefault": 0,
+      "url": "https://sounds.tabletopaudio.com/alien_starship/breath_sounds_lp.ogg",
+      "ogg": "https://sounds.tabletopaudio.com/alien_starship/breath_sounds_lp.ogg",
+      "mp3": "https://sounds.tabletopaudio.com/alien_starship/breath_sounds_lp.mp3",
+      "local": "modules/tabletop-audio-soundpads/audio-cache/alien_starship/breath_sounds_lp.ogg"
+    },
+    {
+      "id": "bg_26",
+      "label": "Creature: Clicks x4",
+      "icon": "modules/tabletop-audio-soundpads/audio-cache/alien_starship/icons/alien_skitter_icon.png",
+      "iconRemote": "https://images.tabletopaudio.com/sb/dungeon/alien_skitter_icon.png",
+      "category": "backgrounds",
+      "type": "oneshot",
+      "loop": false,
+      "gain": 0.3,
+      "repeatDefault": 0,
+      "url": "https://sounds.tabletopaudio.com/alien_starship/creature_clicks_x4.ogg",
+      "ogg": "https://sounds.tabletopaudio.com/alien_starship/creature_clicks_x4.ogg",
+      "mp3": "https://sounds.tabletopaudio.com/alien_starship/creature_clicks_x4.mp3",
+      "local": "modules/tabletop-audio-soundpads/audio-cache/alien_starship/creature_clicks_x4.ogg",
+      "sprites": [
+        {
+          "offset": 0,
+          "duration": 4.408
+        },
+        {
+          "offset": 4.444,
+          "duration": 3.072
+        },
+        {
+          "offset": 7.525,
+          "duration": 3.292
+        },
+        {
+          "offset": 10.833,
+          "duration": 3.918
+        }
+      ]
+    },
+    {
+      "id": "bg_34",
+      "label": "Skitter x4",
+      "icon": "modules/tabletop-audio-soundpads/audio-cache/alien_starship/icons/alien_skitter_icon.png",
+      "iconRemote": "https://images.tabletopaudio.com/sb/dungeon/alien_skitter_icon.png",
+      "category": "backgrounds",
+      "type": "oneshot",
+      "loop": false,
+      "gain": 0.4,
+      "repeatDefault": 0,
+      "url": "https://sounds.tabletopaudio.com/alien_starship/skitter_x4.ogg",
+      "ogg": "https://sounds.tabletopaudio.com/alien_starship/skitter_x4.ogg",
+      "mp3": "https://sounds.tabletopaudio.com/alien_starship/skitter_x4.mp3",
+      "local": "modules/tabletop-audio-soundpads/audio-cache/alien_starship/skitter_x4.ogg",
+      "sprites": [
+        {
+          "offset": 0,
+          "duration": 2.229
+        },
+        {
+          "offset": 2.247,
+          "duration": 3.178
+        },
+        {
+          "offset": 5.498,
+          "duration": 2.817
+        },
+        {
+          "offset": 8.348,
+          "duration": 3.121
+        }
+      ]
+    },
+    {
+      "id": "bg_32",
+      "label": "Acid Attack",
+      "icon": "modules/tabletop-audio-soundpads/audio-cache/alien_starship/icons/acid_attack_icon.png",
+      "iconRemote": "https://images.tabletopaudio.com/sb/dungeon/acid_attack_icon.png",
+      "category": "backgrounds",
+      "type": "oneshot",
+      "loop": false,
+      "gain": 0.3,
+      "repeatDefault": 0,
+      "url": "https://sounds.tabletopaudio.com/alien_starship/spit_attack.ogg",
+      "ogg": "https://sounds.tabletopaudio.com/alien_starship/spit_attack.ogg",
+      "mp3": "https://sounds.tabletopaudio.com/alien_starship/spit_attack.mp3",
+      "local": "modules/tabletop-audio-soundpads/audio-cache/alien_starship/spit_attack.ogg"
+    },
+    {
+      "id": "bg_33",
+      "label": "Load Weapon",
+      "icon": "modules/tabletop-audio-soundpads/audio-cache/alien_starship/icons/reload_icon.png",
+      "iconRemote": "https://images.tabletopaudio.com/sb/dungeon/reload_icon.png",
+      "category": "events",
+      "type": "oneshot",
+      "loop": false,
+      "gain": 0.3,
+      "repeatDefault": 0,
+      "url": "https://sounds.tabletopaudio.com/alien_starship/load_weapon.ogg",
+      "ogg": "https://sounds.tabletopaudio.com/alien_starship/load_weapon.ogg",
+      "mp3": "https://sounds.tabletopaudio.com/alien_starship/load_weapon.mp3",
+      "local": "modules/tabletop-audio-soundpads/audio-cache/alien_starship/load_weapon.ogg"
+    },
+    {
+      "id": "bg_23",
+      "label": "Assault Weapon x4",
+      "icon": "modules/tabletop-audio-soundpads/audio-cache/alien_starship/icons/assault_weapon_icon.png",
+      "iconRemote": "https://images.tabletopaudio.com/sb/dungeon/assault_weapon_icon.png",
+      "category": "events",
+      "type": "oneshot",
+      "loop": false,
+      "gain": 0.5,
+      "repeatDefault": 0,
+      "url": "https://sounds.tabletopaudio.com/alien_starship/weapons_fire_x4.ogg",
+      "ogg": "https://sounds.tabletopaudio.com/alien_starship/weapons_fire_x4.ogg",
+      "mp3": "https://sounds.tabletopaudio.com/alien_starship/weapons_fire_x4.mp3",
+      "local": "modules/tabletop-audio-soundpads/audio-cache/alien_starship/weapons_fire_x4.ogg",
+      "sprites": [
+        {
+          "offset": 0,
+          "duration": 1.124
+        },
+        {
+          "offset": 1.152,
+          "duration": 1.009
+        },
+        {
+          "offset": 2.184,
+          "duration": 1.639
+        },
+        {
+          "offset": 3.855,
+          "duration": 2.496
+        }
+      ]
+    },
+    {
+      "id": "bg_24",
+      "label": "Flame / Thrusters",
+      "icon": "modules/tabletop-audio-soundpads/audio-cache/alien_starship/icons/fire.png",
+      "iconRemote": "https://images.tabletopaudio.com/sb/dungeon/fire.png",
+      "category": "events",
+      "type": "oneshot",
+      "loop": false,
+      "gain": 0.3,
+      "repeatDefault": 0,
+      "url": "https://sounds.tabletopaudio.com/alien_starship/thruster_noise2_lp.ogg",
+      "ogg": "https://sounds.tabletopaudio.com/alien_starship/thruster_noise2_lp.ogg",
+      "mp3": "https://sounds.tabletopaudio.com/alien_starship/thruster_noise2_lp.mp3",
+      "local": "modules/tabletop-audio-soundpads/audio-cache/alien_starship/thruster_noise2_lp.ogg"
+    },
+    {
+      "id": "bg_35",
+      "label": "Tension",
+      "icon": "modules/tabletop-audio-soundpads/audio-cache/alien_starship/icons/music.png",
+      "iconRemote": "https://images.tabletopaudio.com/sb/dungeon/music.png",
+      "category": "music",
+      "type": "music",
+      "loop": true,
+      "gain": 0.5,
+      "repeatDefault": 0,
+      "url": "https://sounds.tabletopaudio.com/alien_starship/tension1.ogg",
+      "ogg": "https://sounds.tabletopaudio.com/alien_starship/tension1.ogg",
+      "mp3": "https://sounds.tabletopaudio.com/alien_starship/tension1.mp3",
+      "local": "modules/tabletop-audio-soundpads/audio-cache/alien_starship/tension1.ogg"
+    },
+    {
+      "id": "bg_36",
+      "label": "Action",
+      "icon": "modules/tabletop-audio-soundpads/audio-cache/alien_starship/icons/music.png",
+      "iconRemote": "https://images.tabletopaudio.com/sb/dungeon/music.png",
+      "category": "music",
+      "type": "music",
+      "loop": true,
+      "gain": 0.5,
+      "repeatDefault": 0,
+      "url": "https://sounds.tabletopaudio.com/alien_starship/alien_action2.ogg",
+      "ogg": "https://sounds.tabletopaudio.com/alien_starship/alien_action2.ogg",
+      "mp3": "https://sounds.tabletopaudio.com/alien_starship/alien_action2.mp3",
+      "local": "modules/tabletop-audio-soundpads/audio-cache/alien_starship/alien_action2.ogg"
+    }
+  ]
+}

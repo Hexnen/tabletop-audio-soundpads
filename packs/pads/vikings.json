@@ -1,0 +1,744 @@
+{
+  "id": "vikings",
+  "name": "Vikings",
+  "source": "https://tabletopaudio.com/vikings_sp.html",
+  "coverRemote": "https://images.tabletopaudio.com/sb/vikings_sp2.jpg",
+  "cover": "modules/tabletop-audio-soundpads/audio-cache/vikings/vikings_sp2.jpg",
+  "headerRemote": "https://images.tabletopaudio.com/sb/vikings_soundpad_header1.png",
+  "header": "modules/tabletop-audio-soundpads/audio-cache/vikings/vikings_soundpad_header1.png",
+  "categories": [
+    "backgrounds",
+    "events",
+    "tones",
+    "music"
+  ],
+  "layerCount": 40,
+  "layers": [
+    {
+      "id": "bg_1",
+      "label": "Dark Wind",
+      "icon": "modules/tabletop-audio-soundpads/audio-cache/vikings/icons/wind_icon2.png",
+      "iconRemote": "https://images.tabletopaudio.com/sb/dungeon/wind_icon2.png",
+      "category": "backgrounds",
+      "type": "loop",
+      "loop": true,
+      "gain": 0.3,
+      "repeatDefault": 0,
+      "url": "https://sounds.tabletopaudio.com/vikings/Vikings-dark_wind.ogg",
+      "ogg": "https://sounds.tabletopaudio.com/vikings/Vikings-dark_wind.ogg",
+      "mp3": "https://sounds.tabletopaudio.com/vikings/Vikings-dark_wind.mp3",
+      "local": "modules/tabletop-audio-soundpads/audio-cache/vikings/Vikings-dark_wind.ogg"
+    },
+    {
+      "id": "bg_3",
+      "label": "Frozen Wind",
+      "icon": "modules/tabletop-audio-soundpads/audio-cache/vikings/icons/wind_icon2.png",
+      "iconRemote": "https://images.tabletopaudio.com/sb/dungeon/wind_icon2.png",
+      "category": "backgrounds",
+      "type": "loop",
+      "loop": true,
+      "gain": 0.2,
+      "repeatDefault": 0,
+      "url": "https://sounds.tabletopaudio.com/vikings/Vikings-frozen_wind.ogg",
+      "ogg": "https://sounds.tabletopaudio.com/vikings/Vikings-frozen_wind.ogg",
+      "mp3": "https://sounds.tabletopaudio.com/vikings/Vikings-frozen_wind.mp3",
+      "local": "modules/tabletop-audio-soundpads/audio-cache/vikings/Vikings-frozen_wind.ogg"
+    },
+    {
+      "id": "bg_27",
+      "label": "Glacial River",
+      "icon": "modules/tabletop-audio-soundpads/audio-cache/vikings/icons/water.png",
+      "iconRemote": "https://images.tabletopaudio.com/sb/dungeon/water.png",
+      "category": "backgrounds",
+      "type": "loop",
+      "loop": true,
+      "gain": 0.2,
+      "repeatDefault": 0,
+      "url": "https://sounds.tabletopaudio.com/vikings/Vikings-glacial_river.ogg",
+      "ogg": "https://sounds.tabletopaudio.com/vikings/Vikings-glacial_river.ogg",
+      "mp3": "https://sounds.tabletopaudio.com/vikings/Vikings-glacial_river.mp3",
+      "local": "modules/tabletop-audio-soundpads/audio-cache/vikings/Vikings-glacial_river.ogg"
+    },
+    {
+      "id": "bg_37",
+      "label": "Rocky Shore",
+      "icon": "modules/tabletop-audio-soundpads/audio-cache/vikings/icons/wave_icon.png",
+      "iconRemote": "https://images.tabletopaudio.com/sb/dungeon/wave_icon.png",
+      "category": "backgrounds",
+      "type": "loop",
+      "loop": true,
+      "gain": 0.2,
+      "repeatDefault": 0,
+      "url": "https://sounds.tabletopaudio.com/vikings/Vikings-rocky_shore.ogg",
+      "ogg": "https://sounds.tabletopaudio.com/vikings/Vikings-rocky_shore.ogg",
+      "mp3": "https://sounds.tabletopaudio.com/vikings/Vikings-rocky_shore.mp3",
+      "local": "modules/tabletop-audio-soundpads/audio-cache/vikings/Vikings-rocky_shore.ogg"
+    },
+    {
+      "id": "bg_4",
+      "label": "Singing Ice",
+      "icon": "modules/tabletop-audio-soundpads/audio-cache/vikings/icons/ice_spell_icon.png",
+      "iconRemote": "https://images.tabletopaudio.com/sb/dungeon/ice_spell_icon.png",
+      "category": "backgrounds",
+      "type": "loop",
+      "loop": true,
+      "gain": 0.4,
+      "repeatDefault": 0,
+      "url": "https://sounds.tabletopaudio.com/vikings/Vikings-singing_ice.ogg",
+      "ogg": "https://sounds.tabletopaudio.com/vikings/Vikings-singing_ice.ogg",
+      "mp3": "https://sounds.tabletopaudio.com/vikings/Vikings-singing_ice.mp3",
+      "local": "modules/tabletop-audio-soundpads/audio-cache/vikings/Vikings-singing_ice.ogg"
+    },
+    {
+      "id": "bg_2",
+      "label": "Footsteps: Snow",
+      "icon": "modules/tabletop-audio-soundpads/audio-cache/vikings/icons/boots.png",
+      "iconRemote": "https://images.tabletopaudio.com/sb/dungeon/boots.png",
+      "category": "events",
+      "type": "loop",
+      "loop": true,
+      "gain": 0.4,
+      "repeatDefault": 0,
+      "url": "https://sounds.tabletopaudio.com/vikings/Vikings-footsteps_snow.ogg",
+      "ogg": "https://sounds.tabletopaudio.com/vikings/Vikings-footsteps_snow.ogg",
+      "mp3": "https://sounds.tabletopaudio.com/vikings/Vikings-footsteps_snow.mp3",
+      "local": "modules/tabletop-audio-soundpads/audio-cache/vikings/Vikings-footsteps_snow.ogg"
+    },
+    {
+      "id": "bg_28",
+      "label": "Horn:Near",
+      "icon": "modules/tabletop-audio-soundpads/audio-cache/vikings/icons/war_horn_icon.png",
+      "iconRemote": "https://images.tabletopaudio.com/sb/dungeon/war_horn_icon.png",
+      "category": "events",
+      "type": "oneshot",
+      "loop": false,
+      "gain": 0.5,
+      "repeatDefault": 0,
+      "url": "https://sounds.tabletopaudio.com/vikings/Vikings-horn_near.ogg",
+      "ogg": "https://sounds.tabletopaudio.com/vikings/Vikings-horn_near.ogg",
+      "mp3": "https://sounds.tabletopaudio.com/vikings/Vikings-horn_near.mp3",
+      "local": "modules/tabletop-audio-soundpads/audio-cache/vikings/Vikings-horn_near.ogg"
+    },
+    {
+      "id": "bg_29",
+      "label": "Horn:Distant",
+      "icon": "modules/tabletop-audio-soundpads/audio-cache/vikings/icons/war_horn_icon.png",
+      "iconRemote": "https://images.tabletopaudio.com/sb/dungeon/war_horn_icon.png",
+      "category": "events",
+      "type": "oneshot",
+      "loop": false,
+      "gain": 0.4,
+      "repeatDefault": 0,
+      "url": "https://sounds.tabletopaudio.com/vikings/Vikings-horn_distant.ogg",
+      "ogg": "https://sounds.tabletopaudio.com/vikings/Vikings-horn_distant.ogg",
+      "mp3": "https://sounds.tabletopaudio.com/vikings/Vikings-horn_distant.mp3",
+      "local": "modules/tabletop-audio-soundpads/audio-cache/vikings/Vikings-horn_distant.ogg"
+    },
+    {
+      "id": "bg_5",
+      "label": "Longship: Fast",
+      "icon": "modules/tabletop-audio-soundpads/audio-cache/vikings/icons/longship_icon.png",
+      "iconRemote": "https://images.tabletopaudio.com/sb/dungeon/longship_icon.png",
+      "category": "backgrounds",
+      "type": "loop",
+      "loop": true,
+      "gain": 0.4,
+      "repeatDefault": 0,
+      "url": "https://sounds.tabletopaudio.com/vikings/Vikings-longship_fast.ogg",
+      "ogg": "https://sounds.tabletopaudio.com/vikings/Vikings-longship_fast.ogg",
+      "mp3": "https://sounds.tabletopaudio.com/vikings/Vikings-longship_fast.mp3",
+      "local": "modules/tabletop-audio-soundpads/audio-cache/vikings/Vikings-longship_fast.ogg"
+    },
+    {
+      "id": "bg_6",
+      "label": "Longship: Slow",
+      "icon": "modules/tabletop-audio-soundpads/audio-cache/vikings/icons/longship_icon.png",
+      "iconRemote": "https://images.tabletopaudio.com/sb/dungeon/longship_icon.png",
+      "category": "backgrounds",
+      "type": "loop",
+      "loop": true,
+      "gain": 0.5,
+      "repeatDefault": 0,
+      "url": "https://sounds.tabletopaudio.com/vikings/Vikings-longship_slow.ogg",
+      "ogg": "https://sounds.tabletopaudio.com/vikings/Vikings-longship_slow.ogg",
+      "mp3": "https://sounds.tabletopaudio.com/vikings/Vikings-longship_slow.mp3",
+      "local": "modules/tabletop-audio-soundpads/audio-cache/vikings/Vikings-longship_slow.ogg"
+    },
+    {
+      "id": "bg_8",
+      "label": "Docks",
+      "icon": "modules/tabletop-audio-soundpads/audio-cache/vikings/icons/dock_icon.png",
+      "iconRemote": "https://images.tabletopaudio.com/sb/dungeon/dock_icon.png",
+      "category": "backgrounds",
+      "type": "loop",
+      "loop": true,
+      "gain": 0.4,
+      "repeatDefault": 0,
+      "url": "https://sounds.tabletopaudio.com/vikings/Vikings-docks.ogg",
+      "ogg": "https://sounds.tabletopaudio.com/vikings/Vikings-docks.ogg",
+      "mp3": "https://sounds.tabletopaudio.com/vikings/Vikings-docks.mp3",
+      "local": "modules/tabletop-audio-soundpads/audio-cache/vikings/Vikings-docks.ogg"
+    },
+    {
+      "id": "bg_7",
+      "label": "Village",
+      "icon": "modules/tabletop-audio-soundpads/audio-cache/vikings/icons/crowd_sm.png",
+      "iconRemote": "https://images.tabletopaudio.com/sb/dungeon/crowd_sm.png",
+      "category": "backgrounds",
+      "type": "loop",
+      "loop": true,
+      "gain": 0.5,
+      "repeatDefault": 0,
+      "url": "https://sounds.tabletopaudio.com/vikings/Vikings-village.ogg",
+      "ogg": "https://sounds.tabletopaudio.com/vikings/Vikings-village.ogg",
+      "mp3": "https://sounds.tabletopaudio.com/vikings/Vikings-village.mp3",
+      "local": "modules/tabletop-audio-soundpads/audio-cache/vikings/Vikings-village.ogg"
+    },
+    {
+      "id": "bg_35",
+      "label": "Training",
+      "icon": "modules/tabletop-audio-soundpads/audio-cache/vikings/icons/blades_icon.png",
+      "iconRemote": "https://images.tabletopaudio.com/sb/dungeon/blades_icon.png",
+      "category": "backgrounds",
+      "type": "oneshot",
+      "loop": false,
+      "gain": 0.3,
+      "repeatDefault": 0,
+      "url": "https://sounds.tabletopaudio.com/vikings/Vikings-training.ogg",
+      "ogg": "https://sounds.tabletopaudio.com/vikings/Vikings-training.ogg",
+      "mp3": "https://sounds.tabletopaudio.com/vikings/Vikings-training.mp3",
+      "local": "modules/tabletop-audio-soundpads/audio-cache/vikings/Vikings-training.ogg"
+    },
+    {
+      "id": "bg_36",
+      "label": "Forging Iron",
+      "icon": "modules/tabletop-audio-soundpads/audio-cache/vikings/icons/blacksmith_icon.png",
+      "iconRemote": "https://images.tabletopaudio.com/sb/dungeon/blacksmith_icon.png",
+      "category": "events",
+      "type": "oneshot",
+      "loop": false,
+      "gain": 0.2,
+      "repeatDefault": 0,
+      "url": "https://sounds.tabletopaudio.com/vikings/Vikings-forging_iron.ogg",
+      "ogg": "https://sounds.tabletopaudio.com/vikings/Vikings-forging_iron.ogg",
+      "mp3": "https://sounds.tabletopaudio.com/vikings/Vikings-forging_iron.mp3",
+      "local": "modules/tabletop-audio-soundpads/audio-cache/vikings/Vikings-forging_iron.ogg"
+    },
+    {
+      "id": "bg_23",
+      "label": "Village Bell",
+      "icon": "modules/tabletop-audio-soundpads/audio-cache/vikings/icons/bell_icon.png",
+      "iconRemote": "https://images.tabletopaudio.com/sb/dungeon/bell_icon.png",
+      "category": "events",
+      "type": "oneshot",
+      "loop": false,
+      "gain": 0.3,
+      "repeatDefault": 0,
+      "url": "https://sounds.tabletopaudio.com/vikings/Vikings-village_bell.ogg",
+      "ogg": "https://sounds.tabletopaudio.com/vikings/Vikings-village_bell.ogg",
+      "mp3": "https://sounds.tabletopaudio.com/vikings/Vikings-village_bell.mp3",
+      "local": "modules/tabletop-audio-soundpads/audio-cache/vikings/Vikings-village_bell.ogg"
+    },
+    {
+      "id": "bg_30",
+      "label": "Door:Open",
+      "icon": "modules/tabletop-audio-soundpads/audio-cache/vikings/icons/door_open_icon.png",
+      "iconRemote": "https://images.tabletopaudio.com/sb/dungeon/door_open_icon.png",
+      "category": "events",
+      "type": "oneshot",
+      "loop": false,
+      "gain": 0.3,
+      "repeatDefault": 0,
+      "url": "https://sounds.tabletopaudio.com/vikings/Vikings-door_open.ogg",
+      "ogg": "https://sounds.tabletopaudio.com/vikings/Vikings-door_open.ogg",
+      "mp3": "https://sounds.tabletopaudio.com/vikings/Vikings-door_open.mp3",
+      "local": "modules/tabletop-audio-soundpads/audio-cache/vikings/Vikings-door_open.ogg"
+    },
+    {
+      "id": "bg_31",
+      "label": "Door:Close",
+      "icon": "modules/tabletop-audio-soundpads/audio-cache/vikings/icons/door_icon.png",
+      "iconRemote": "https://images.tabletopaudio.com/sb/dungeon/door_icon.png",
+      "category": "events",
+      "type": "oneshot",
+      "loop": false,
+      "gain": 0.3,
+      "repeatDefault": 0,
+      "url": "https://sounds.tabletopaudio.com/vikings/Vikings-door_close.ogg",
+      "ogg": "https://sounds.tabletopaudio.com/vikings/Vikings-door_close.ogg",
+      "mp3": "https://sounds.tabletopaudio.com/vikings/Vikings-door_close.mp3",
+      "local": "modules/tabletop-audio-soundpads/audio-cache/vikings/Vikings-door_close.ogg"
+    },
+    {
+      "id": "bg_9",
+      "label": "Longhouse:Banquet",
+      "icon": "modules/tabletop-audio-soundpads/audio-cache/vikings/icons/feast_icon.png",
+      "iconRemote": "https://images.tabletopaudio.com/sb/dungeon/feast_icon.png",
+      "category": "backgrounds",
+      "type": "loop",
+      "loop": true,
+      "gain": 0.3,
+      "repeatDefault": 0,
+      "url": "https://sounds.tabletopaudio.com/vikings/Vikings-longhouse_banquet.ogg",
+      "ogg": "https://sounds.tabletopaudio.com/vikings/Vikings-longhouse_banquet.ogg",
+      "mp3": "https://sounds.tabletopaudio.com/vikings/Vikings-longhouse_banquet.mp3",
+      "local": "modules/tabletop-audio-soundpads/audio-cache/vikings/Vikings-longhouse_banquet.ogg"
+    },
+    {
+      "id": "bg_25",
+      "label": "Longhouse:Empty",
+      "icon": "modules/tabletop-audio-soundpads/audio-cache/vikings/icons/wind_icon2.png",
+      "iconRemote": "https://images.tabletopaudio.com/sb/dungeon/wind_icon2.png",
+      "category": "backgrounds",
+      "type": "loop",
+      "loop": true,
+      "gain": 0.3,
+      "repeatDefault": 0,
+      "url": "https://sounds.tabletopaudio.com/vikings/Vikings-longhouse_empty.ogg",
+      "ogg": "https://sounds.tabletopaudio.com/vikings/Vikings-longhouse_empty.ogg",
+      "mp3": "https://sounds.tabletopaudio.com/vikings/Vikings-longhouse_empty.mp3",
+      "local": "modules/tabletop-audio-soundpads/audio-cache/vikings/Vikings-longhouse_empty.ogg"
+    },
+    {
+      "id": "bg_33",
+      "label": "Funeral Pyre",
+      "icon": "modules/tabletop-audio-soundpads/audio-cache/vikings/icons/fire.png",
+      "iconRemote": "https://images.tabletopaudio.com/sb/dungeon/fire.png",
+      "category": "backgrounds",
+      "type": "loop",
+      "loop": true,
+      "gain": 0.2,
+      "repeatDefault": 0,
+      "url": "https://sounds.tabletopaudio.com/vikings/Vikings-funeral_pyre.ogg",
+      "ogg": "https://sounds.tabletopaudio.com/vikings/Vikings-funeral_pyre.ogg",
+      "mp3": "https://sounds.tabletopaudio.com/vikings/Vikings-funeral_pyre.mp3",
+      "local": "modules/tabletop-audio-soundpads/audio-cache/vikings/Vikings-funeral_pyre.ogg"
+    },
+    {
+      "id": "bg_10",
+      "label": "Wolves: Close",
+      "icon": "modules/tabletop-audio-soundpads/audio-cache/vikings/icons/wolf_icon.png",
+      "iconRemote": "https://images.tabletopaudio.com/sb/dungeon/wolf_icon.png",
+      "category": "events",
+      "type": "oneshot",
+      "loop": false,
+      "gain": 0.4,
+      "repeatDefault": 0,
+      "url": "https://sounds.tabletopaudio.com/vikings/Vikings-wolves_close.ogg",
+      "ogg": "https://sounds.tabletopaudio.com/vikings/Vikings-wolves_close.ogg",
+      "mp3": "https://sounds.tabletopaudio.com/vikings/Vikings-wolves_close.mp3",
+      "local": "modules/tabletop-audio-soundpads/audio-cache/vikings/Vikings-wolves_close.ogg"
+    },
+    {
+      "id": "bg_11",
+      "label": "Ravens x2",
+      "icon": "modules/tabletop-audio-soundpads/audio-cache/vikings/icons/crow_icon.png",
+      "iconRemote": "https://images.tabletopaudio.com/sb/dungeon/crow_icon.png",
+      "category": "events",
+      "type": "oneshot",
+      "loop": false,
+      "gain": 0.4,
+      "repeatDefault": 0,
+      "url": "https://sounds.tabletopaudio.com/vikings/Vikings-ravens_x2.ogg",
+      "ogg": "https://sounds.tabletopaudio.com/vikings/Vikings-ravens_x2.ogg",
+      "mp3": "https://sounds.tabletopaudio.com/vikings/Vikings-ravens_x2.mp3",
+      "local": "modules/tabletop-audio-soundpads/audio-cache/vikings/Vikings-ravens_x2.ogg",
+      "sprites": [
+        {
+          "offset": 0,
+          "duration": 4.139
+        },
+        {
+          "offset": 4.193,
+          "duration": 5.052
+        },
+        {
+          "offset": 0,
+          "duration": 4.139
+        },
+        {
+          "offset": 4.193,
+          "duration": 5.052
+        }
+      ]
+    },
+    {
+      "id": "bg_32",
+      "label": "Thor's Thunder x2",
+      "icon": "modules/tabletop-audio-soundpads/audio-cache/vikings/icons/thunder_icon.png",
+      "iconRemote": "https://images.tabletopaudio.com/sb/dungeon/thunder_icon.png",
+      "category": "events",
+      "type": "oneshot",
+      "loop": false,
+      "gain": 0.4,
+      "repeatDefault": 0,
+      "url": "https://sounds.tabletopaudio.com/vikings/Vikings-thors_thunder_x2.ogg",
+      "ogg": "https://sounds.tabletopaudio.com/vikings/Vikings-thors_thunder_x2.ogg",
+      "mp3": "https://sounds.tabletopaudio.com/vikings/Vikings-thors_thunder_x2.mp3",
+      "local": "modules/tabletop-audio-soundpads/audio-cache/vikings/Vikings-thors_thunder_x2.ogg",
+      "sprites": [
+        {
+          "offset": 0,
+          "duration": 10.191
+        },
+        {
+          "offset": 10.555,
+          "duration": 10.444
+        },
+        {
+          "offset": 0,
+          "duration": 10.191
+        },
+        {
+          "offset": 10.555,
+          "duration": 10.444
+        }
+      ]
+    },
+    {
+      "id": "bg_12",
+      "label": "Drum Tone",
+      "icon": "modules/tabletop-audio-soundpads/audio-cache/vikings/icons/drum_icon.png",
+      "iconRemote": "https://images.tabletopaudio.com/sb/dungeon/drum_icon.png",
+      "category": "tones",
+      "type": "loop",
+      "loop": true,
+      "gain": 0.3,
+      "repeatDefault": 0,
+      "url": "https://sounds.tabletopaudio.com/vikings/Vikings-drum_tone.ogg",
+      "ogg": "https://sounds.tabletopaudio.com/vikings/Vikings-drum_tone.ogg",
+      "mp3": "https://sounds.tabletopaudio.com/vikings/Vikings-drum_tone.mp3",
+      "local": "modules/tabletop-audio-soundpads/audio-cache/vikings/Vikings-drum_tone.ogg"
+    },
+    {
+      "id": "bg_34",
+      "label": "Flute Tone",
+      "icon": "modules/tabletop-audio-soundpads/audio-cache/vikings/icons/treble_tone.png",
+      "iconRemote": "https://images.tabletopaudio.com/sb/dungeon/treble_tone.png",
+      "category": "tones",
+      "type": "loop",
+      "loop": true,
+      "gain": 0.3,
+      "repeatDefault": 0,
+      "url": "https://sounds.tabletopaudio.com/vikings/Vikings-flute_tone.ogg",
+      "ogg": "https://sounds.tabletopaudio.com/vikings/Vikings-flute_tone.ogg",
+      "mp3": "https://sounds.tabletopaudio.com/vikings/Vikings-flute_tone.mp3",
+      "local": "modules/tabletop-audio-soundpads/audio-cache/vikings/Vikings-flute_tone.ogg"
+    },
+    {
+      "id": "bg_22",
+      "label": "Drone Tone",
+      "icon": "modules/tabletop-audio-soundpads/audio-cache/vikings/icons/bass_tone.png",
+      "iconRemote": "https://images.tabletopaudio.com/sb/dungeon/bass_tone.png",
+      "category": "tones",
+      "type": "loop",
+      "loop": true,
+      "gain": 0.4,
+      "repeatDefault": 0,
+      "url": "https://sounds.tabletopaudio.com/vikings/Vikings-drone_tone.ogg",
+      "ogg": "https://sounds.tabletopaudio.com/vikings/Vikings-drone_tone.ogg",
+      "mp3": "https://sounds.tabletopaudio.com/vikings/Vikings-drone_tone.mp3",
+      "local": "modules/tabletop-audio-soundpads/audio-cache/vikings/Vikings-drone_tone.ogg"
+    },
+    {
+      "id": "bg_13",
+      "label": "War Horn",
+      "icon": "modules/tabletop-audio-soundpads/audio-cache/vikings/icons/war_horn_icon.png",
+      "iconRemote": "https://images.tabletopaudio.com/sb/dungeon/war_horn_icon.png",
+      "category": "events",
+      "type": "oneshot",
+      "loop": false,
+      "gain": 0.4,
+      "repeatDefault": 0,
+      "url": "https://sounds.tabletopaudio.com/vikings/Vikings-war_horn.ogg",
+      "ogg": "https://sounds.tabletopaudio.com/vikings/Vikings-war_horn.ogg",
+      "mp3": "https://sounds.tabletopaudio.com/vikings/Vikings-war_horn.mp3",
+      "local": "modules/tabletop-audio-soundpads/audio-cache/vikings/Vikings-war_horn.ogg"
+    },
+    {
+      "id": "bg_14",
+      "label": "Raid",
+      "icon": "modules/tabletop-audio-soundpads/audio-cache/vikings/icons/blades_icon.png",
+      "iconRemote": "https://images.tabletopaudio.com/sb/dungeon/blades_icon.png",
+      "category": "backgrounds",
+      "type": "loop",
+      "loop": true,
+      "gain": 0.4,
+      "repeatDefault": 0,
+      "url": "https://sounds.tabletopaudio.com/vikings/Vikings-raid.ogg",
+      "ogg": "https://sounds.tabletopaudio.com/vikings/Vikings-raid.ogg",
+      "mp3": "https://sounds.tabletopaudio.com/vikings/Vikings-raid.mp3",
+      "local": "modules/tabletop-audio-soundpads/audio-cache/vikings/Vikings-raid.ogg"
+    },
+    {
+      "id": "bg_21",
+      "label": "Village: Burning",
+      "icon": "modules/tabletop-audio-soundpads/audio-cache/vikings/icons/burning_house_icon.png",
+      "iconRemote": "https://images.tabletopaudio.com/sb/dungeon/burning_house_icon.png",
+      "category": "backgrounds",
+      "type": "loop",
+      "loop": true,
+      "gain": 0.4,
+      "repeatDefault": 0,
+      "url": "https://sounds.tabletopaudio.com/vikings/Vikings-village_burning.ogg",
+      "ogg": "https://sounds.tabletopaudio.com/vikings/Vikings-village_burning.ogg",
+      "mp3": "https://sounds.tabletopaudio.com/vikings/Vikings-village_burning.mp3",
+      "local": "modules/tabletop-audio-soundpads/audio-cache/vikings/Vikings-village_burning.ogg"
+    },
+    {
+      "id": "bg_18",
+      "label": "Battle Cry x2",
+      "icon": "modules/tabletop-audio-soundpads/audio-cache/vikings/icons/shouts.png",
+      "iconRemote": "https://images.tabletopaudio.com/sb/dungeon/shouts.png",
+      "category": "events",
+      "type": "oneshot",
+      "loop": false,
+      "gain": 0.2,
+      "repeatDefault": 0,
+      "url": "https://sounds.tabletopaudio.com/vikings/Vikings-battle_cry_x2.ogg",
+      "ogg": "https://sounds.tabletopaudio.com/vikings/Vikings-battle_cry_x2.ogg",
+      "mp3": "https://sounds.tabletopaudio.com/vikings/Vikings-battle_cry_x2.mp3",
+      "local": "modules/tabletop-audio-soundpads/audio-cache/vikings/Vikings-battle_cry_x2.ogg",
+      "sprites": [
+        {
+          "offset": 0,
+          "duration": 2.693
+        },
+        {
+          "offset": 2.721,
+          "duration": 2.462
+        },
+        {
+          "offset": 0,
+          "duration": 2.693
+        },
+        {
+          "offset": 2.721,
+          "duration": 2.462
+        }
+      ]
+    },
+    {
+      "id": "bg_24",
+      "label": "War Banner",
+      "icon": "modules/tabletop-audio-soundpads/audio-cache/vikings/icons/flag_icon.png",
+      "iconRemote": "https://images.tabletopaudio.com/sb/dungeon/flag_icon.png",
+      "category": "backgrounds",
+      "type": "loop",
+      "loop": true,
+      "gain": 0.4,
+      "repeatDefault": 0,
+      "url": "https://sounds.tabletopaudio.com/vikings/Vikings-war_banner.ogg",
+      "ogg": "https://sounds.tabletopaudio.com/vikings/Vikings-war_banner.ogg",
+      "mp3": "https://sounds.tabletopaudio.com/vikings/Vikings-war_banner.mp3",
+      "local": "modules/tabletop-audio-soundpads/audio-cache/vikings/Vikings-war_banner.ogg"
+    },
+    {
+      "id": "bg_26",
+      "label": "War Hounds",
+      "icon": "modules/tabletop-audio-soundpads/audio-cache/vikings/icons/wolf2_icon.png",
+      "iconRemote": "https://images.tabletopaudio.com/sb/dungeon/wolf2_icon.png",
+      "category": "events",
+      "type": "oneshot",
+      "loop": false,
+      "gain": 0.4,
+      "repeatDefault": 0,
+      "url": "https://sounds.tabletopaudio.com/vikings/Vikings-war_hounds.ogg",
+      "ogg": "https://sounds.tabletopaudio.com/vikings/Vikings-war_hounds.ogg",
+      "mp3": "https://sounds.tabletopaudio.com/vikings/Vikings-war_hounds.mp3",
+      "local": "modules/tabletop-audio-soundpads/audio-cache/vikings/Vikings-war_hounds.ogg"
+    },
+    {
+      "id": "bg_19",
+      "label": "Horseback",
+      "icon": "modules/tabletop-audio-soundpads/audio-cache/vikings/icons/horse_icon.png",
+      "iconRemote": "https://images.tabletopaudio.com/sb/dungeon/horse_icon.png",
+      "category": "backgrounds",
+      "type": "loop",
+      "loop": true,
+      "gain": 0.4,
+      "repeatDefault": 0,
+      "url": "https://sounds.tabletopaudio.com/vikings/Vikings-horseback.ogg",
+      "ogg": "https://sounds.tabletopaudio.com/vikings/Vikings-horseback.ogg",
+      "mp3": "https://sounds.tabletopaudio.com/vikings/Vikings-horseback.mp3",
+      "local": "modules/tabletop-audio-soundpads/audio-cache/vikings/Vikings-horseback.ogg"
+    },
+    {
+      "id": "bg_15",
+      "label": "Axe Attack x4",
+      "icon": "modules/tabletop-audio-soundpads/audio-cache/vikings/icons/throwing_axe_icon.png",
+      "iconRemote": "https://images.tabletopaudio.com/sb/dungeon/throwing_axe_icon.png",
+      "category": "events",
+      "type": "oneshot",
+      "loop": false,
+      "gain": 0.4,
+      "repeatDefault": 0,
+      "url": "https://sounds.tabletopaudio.com/vikings/Vikings-axe_attack_x4.ogg",
+      "ogg": "https://sounds.tabletopaudio.com/vikings/Vikings-axe_attack_x4.ogg",
+      "mp3": "https://sounds.tabletopaudio.com/vikings/Vikings-axe_attack_x4.mp3",
+      "local": "modules/tabletop-audio-soundpads/audio-cache/vikings/Vikings-axe_attack_x4.ogg",
+      "sprites": [
+        {
+          "offset": 0,
+          "duration": 1.166
+        },
+        {
+          "offset": 1.406,
+          "duration": 1.236
+        },
+        {
+          "offset": 2.782,
+          "duration": 1.262
+        },
+        {
+          "offset": 4.14,
+          "duration": 0.986
+        }
+      ]
+    },
+    {
+      "id": "bg_16",
+      "label": "Arrow Shot x2",
+      "icon": "modules/tabletop-audio-soundpads/audio-cache/vikings/icons/bow_single_icon.png",
+      "iconRemote": "https://images.tabletopaudio.com/sb/dungeon/bow_single_icon.png",
+      "category": "events",
+      "type": "oneshot",
+      "loop": false,
+      "gain": 0.5,
+      "repeatDefault": 0,
+      "url": "https://sounds.tabletopaudio.com/vikings/Vikings-arrow_shot_x2.ogg",
+      "ogg": "https://sounds.tabletopaudio.com/vikings/Vikings-arrow_shot_x2.ogg",
+      "mp3": "https://sounds.tabletopaudio.com/vikings/Vikings-arrow_shot_x2.mp3",
+      "local": "modules/tabletop-audio-soundpads/audio-cache/vikings/Vikings-arrow_shot_x2.ogg",
+      "sprites": [
+        {
+          "offset": 0,
+          "duration": 2.164
+        },
+        {
+          "offset": 2.331,
+          "duration": 2.35
+        },
+        {
+          "offset": 0,
+          "duration": 2.164
+        },
+        {
+          "offset": 2.331,
+          "duration": 2.35
+        }
+      ]
+    },
+    {
+      "id": "bg_17",
+      "label": "Fire Arrow x2",
+      "icon": "modules/tabletop-audio-soundpads/audio-cache/vikings/icons/fire.png",
+      "iconRemote": "https://images.tabletopaudio.com/sb/dungeon/fire.png",
+      "category": "events",
+      "type": "oneshot",
+      "loop": false,
+      "gain": 0.5,
+      "repeatDefault": 0,
+      "url": "https://sounds.tabletopaudio.com/vikings/Vikings-fire_arrow_x2.ogg",
+      "ogg": "https://sounds.tabletopaudio.com/vikings/Vikings-fire_arrow_x2.ogg",
+      "mp3": "https://sounds.tabletopaudio.com/vikings/Vikings-fire_arrow_x2.mp3",
+      "local": "modules/tabletop-audio-soundpads/audio-cache/vikings/Vikings-fire_arrow_x2.ogg",
+      "sprites": [
+        {
+          "offset": 0,
+          "duration": 2.33
+        },
+        {
+          "offset": 2.364,
+          "duration": 2.527
+        },
+        {
+          "offset": 0,
+          "duration": 2.33
+        },
+        {
+          "offset": 2.364,
+          "duration": 2.527
+        }
+      ]
+    },
+    {
+      "id": "bg_20",
+      "label": "Shield Block x2",
+      "icon": "modules/tabletop-audio-soundpads/audio-cache/vikings/icons/shield_icon_a.png",
+      "iconRemote": "https://images.tabletopaudio.com/sb/dungeon/shield_icon_a.png",
+      "category": "events",
+      "type": "oneshot",
+      "loop": false,
+      "gain": 0.5,
+      "repeatDefault": 0,
+      "url": "https://sounds.tabletopaudio.com/vikings/Vikings-shield_block_x2.ogg",
+      "ogg": "https://sounds.tabletopaudio.com/vikings/Vikings-shield_block_x2.ogg",
+      "mp3": "https://sounds.tabletopaudio.com/vikings/Vikings-shield_block_x2.mp3",
+      "local": "modules/tabletop-audio-soundpads/audio-cache/vikings/Vikings-shield_block_x2.ogg",
+      "sprites": [
+        {
+          "offset": 0,
+          "duration": 1.557
+        },
+        {
+          "offset": 1.567,
+          "duration": 1.768
+        },
+        {
+          "offset": 0,
+          "duration": 1.557
+        },
+        {
+          "offset": 1.567,
+          "duration": 1.768
+        }
+      ]
+    },
+    {
+      "id": "bg_38",
+      "label": "Code of the Raven",
+      "icon": "modules/tabletop-audio-soundpads/audio-cache/vikings/icons/music.png",
+      "iconRemote": "https://images.tabletopaudio.com/sb/dungeon/music.png",
+      "category": "music",
+      "type": "music",
+      "loop": true,
+      "gain": 0.3,
+      "repeatDefault": 0,
+      "url": "https://sounds.tabletopaudio.com/vikings/Vikings-music_code_of_the_raven.ogg",
+      "ogg": "https://sounds.tabletopaudio.com/vikings/Vikings-music_code_of_the_raven.ogg",
+      "mp3": "https://sounds.tabletopaudio.com/vikings/Vikings-music_code_of_the_raven.mp3",
+      "local": "modules/tabletop-audio-soundpads/audio-cache/vikings/Vikings-music_code_of_the_raven.ogg"
+    },
+    {
+      "id": "bg_39",
+      "label": "Endless Night",
+      "icon": "modules/tabletop-audio-soundpads/audio-cache/vikings/icons/music.png",
+      "iconRemote": "https://images.tabletopaudio.com/sb/dungeon/music.png",
+      "category": "music",
+      "type": "music",
+      "loop": true,
+      "gain": 0.3,
+      "repeatDefault": 0,
+      "url": "https://sounds.tabletopaudio.com/vikings/Vikings-music_endless_night.ogg",
+      "ogg": "https://sounds.tabletopaudio.com/vikings/Vikings-music_endless_night.ogg",
+      "mp3": "https://sounds.tabletopaudio.com/vikings/Vikings-music_endless_night.mp3",
+      "local": "modules/tabletop-audio-soundpads/audio-cache/vikings/Vikings-music_endless_night.ogg"
+    },
+    {
+      "id": "bg_40",
+      "label": "Feast of Odin",
+      "icon": "modules/tabletop-audio-soundpads/audio-cache/vikings/icons/music.png",
+      "iconRemote": "https://images.tabletopaudio.com/sb/dungeon/music.png",
+      "category": "music",
+      "type": "music",
+      "loop": true,
+      "gain": 0.3,
+      "repeatDefault": 0,
+      "url": "https://sounds.tabletopaudio.com/vikings/Vikings-music_feast_of_odin.ogg",
+      "ogg": "https://sounds.tabletopaudio.com/vikings/Vikings-music_feast_of_odin.ogg",
+      "mp3": "https://sounds.tabletopaudio.com/vikings/Vikings-music_feast_of_odin.mp3",
+      "local": "modules/tabletop-audio-soundpads/audio-cache/vikings/Vikings-music_feast_of_odin.ogg"
+    }
+  ]
+}

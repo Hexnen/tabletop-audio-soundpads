@@ -1,0 +1,206 @@
+<div class="tas-root">
+<div class="tas-main">
+{{#if browse}}
+
+  <div class="tas-tabs">
+    <button type="button" class="tas-tab {{#if tabPads}}active{{/if}}" data-action="switchTab" data-tab="pads">
+      <i class="fa-solid fa-grip"></i> {{localize "TAS.Tab.Pads"}}
+    </button>
+    <button type="button" class="tas-tab {{#if tabSS}}active{{/if}}" data-action="switchTab" data-tab="soundscapes">
+      <i class="fa-solid fa-compact-disc"></i> {{localize "TAS.Tab.Soundscapes"}}
+    </button>
+    <div class="tas-toolbar-right">
+      {{#if tabSS}}
+        <button type="button" class="tas-toggle {{#if ssLoop}}on{{/if}}" data-action="ssLoop"
+                data-tooltip="{{localize 'TAS.SsLoopTip'}}"><i class="fa-solid fa-repeat"></i></button>
+        <button type="button" class="tas-toggle {{#if ssFade}}on{{/if}}" data-action="ssFade"
+                data-tooltip="{{localize 'TAS.SsFadeTip'}}"><i class="fa-solid fa-right-left"></i></button>
+      {{/if}}
+      {{#if isGM}}
+        <button type="button" class="tas-broadcast {{#if broadcasting}}on{{/if}}" data-action="toggleBroadcast"
+                data-tooltip="{{localize 'TAS.BroadcastTip'}}">
+          <i class="fa-solid {{#if broadcasting}}fa-tower-broadcast{{else}}fa-tower-cell{{/if}}"></i>
+        </button>
+      {{/if}}
+      <button type="button" class="tas-stop" data-action="stopAll" data-tooltip="{{localize 'TAS.StopAll'}}">
+        <i class="fa-solid fa-stop"></i>
+      </button>
+      <button type="button" class="tas-np-btn {{#if nowPlayingOpen}}on{{/if}}" data-action="toggleNowPlaying"
+              data-tooltip="{{localize 'TAS.NowPlayingTip'}}">
+        <i class="fa-solid fa-headphones"></i>{{#if npCount}} {{npCount}}{{/if}}
+      </button>
+      {{#if tabSS}}
+        <input type="text" class="tas-search" placeholder="{{localize 'TAS.SearchPlaceholder'}}" value="{{ssSearch}}">
+      {{/if}}
+    </div>
+  </div>
+
+  {{#if tabPads}}
+    {{#if pads.length}}
+    <div class="tas-pad-grid">
+      {{#each pads}}
+        <button type="button"
+                class="tas-pad-card {{#if this.selected}}current{{/if}} {{#unless this.downloaded}}undownloaded{{/unless}}"
+                data-action="openPad" data-pad-id="{{this.id}}">
+          {{#if this.cover}}
+            <img class="tas-cover" src="{{this.cover}}" alt="">
+          {{else if this.header}}
+            <img class="tas-cover tas-pad-art" src="{{this.header}}" alt="">
+          {{/if}}
+          <span class="tas-pad-name">{{this.name}}</span>
+        </button>
+      {{/each}}
+    </div>
+    {{else}}
+    <p class="tas-empty">{{localize "TAS.NoPads"}}</p>
+    {{/if}}
+  {{else}}
+    {{#if soundscapes.length}}
+    {{#if ssNeedsDownload}}
+    <div class="tas-banner">
+      <i class="fa-solid fa-cloud-arrow-down"></i>
+      {{localize "TAS.SsDownload"}}
+      <code>node scrape_soundscapes.mjs --audio {{ssDownloadArg}}</code>
+    </div>
+    {{/if}}
+    <div class="tas-ss-filterbar">
+      <button type="button" class="tas-filters-toggle {{#if ssFiltersOpen}}on{{/if}}" data-action="toggleSsFilters">
+        <i class="fa-solid fa-filter"></i> {{localize "TAS.Filters"}}: <b>{{ssActiveGenre}}</b>
+        <i class="fa-solid fa-chevron-{{#if ssFiltersOpen}}up{{else}}down{{/if}}"></i>
+      </button>
+    </div>
+    {{#if ssFiltersOpen}}
+    <nav class="tas-ss-filters">
+      {{#each ssGenres}}
+        <a class="tas-filter {{#if this.active}}active{{/if}}" data-action="ssFilter" data-genre="{{this.key}}">{{this.key}}</a>
+      {{/each}}
+    </nav>
+    {{/if}}
+    <div class="tas-pad-grid">
+      {{#each soundscapes}}
+        <button type="button"
+                class="tas-pad-card tas-ss-card {{#if this.active}}current{{/if}} {{#unless this.downloaded}}undownloaded{{/unless}}"
+                data-action="playSoundscape" data-num="{{this.num}}" data-search="{{this.search}}"
+                data-tooltip="{{this.tip}}">
+          {{#if this.thumb}}<img class="tas-cover" src="{{this.thumb}}" alt="">{{/if}}
+          {{#if this.active}}<i class="tas-ss-playing fa-solid fa-circle-stop"></i>{{/if}}
+          <span class="tas-pad-name">{{this.title}}</span>
+          <div class="tas-progress"></div>
+        </button>
+      {{/each}}
+    </div>
+    {{else}}
+    <p class="tas-empty">{{localize "TAS.NoSoundscapes"}}</p>
+    {{/if}}
+  {{/if}}
+
+{{else}}
+
+  <div class="tas-toolbar">
+    <button type="button" class="tas-back" data-action="browse" data-tooltip="{{localize 'TAS.BackTip'}}">
+      <i class="fa-solid fa-table-cells-large"></i>
+    </button>
+    <span class="tas-current-pad">
+      {{#if pad.header}}
+        <img class="tas-pad-header" src="{{pad.header}}" alt="{{pad.name}}" data-tooltip="{{pad.name}}">
+      {{else}}{{pad.name}}{{/if}}
+    </span>
+    <div class="tas-toolbar-right">
+      {{#if isGM}}
+        <button type="button" class="tas-broadcast {{#if broadcasting}}on{{/if}}" data-action="toggleBroadcast"
+                data-tooltip="{{localize 'TAS.BroadcastTip'}}">
+          <i class="fa-solid {{#if broadcasting}}fa-tower-broadcast{{else}}fa-tower-cell{{/if}}"></i>
+        </button>
+      {{/if}}
+      <button type="button" class="tas-stop" data-action="stopAll" data-tooltip="{{localize 'TAS.StopAll'}}">
+        <i class="fa-solid fa-stop"></i>
+      </button>
+      <button type="button" class="tas-np-btn {{#if nowPlayingOpen}}on{{/if}}" data-action="toggleNowPlaying"
+              data-tooltip="{{localize 'TAS.NowPlayingTip'}}">
+        <i class="fa-solid fa-headphones"></i>{{#if npCount}} {{npCount}}{{/if}}
+      </button>
+    </div>
+  </div>
+
+  {{#if notDownloaded}}
+  <div class="tas-banner">
+    <i class="fa-solid fa-cloud-arrow-down"></i>
+    {{localize "TAS.NotDownloaded"}}
+    <code>node scrape_pads.mjs {{padId}} --download</code>
+  </div>
+  {{/if}}
+
+  <nav class="tas-filters">
+    {{#each categories}}
+      <a class="tas-filter {{#if this.active}}active{{/if}}" data-action="filterCat" data-cat="{{this.key}}">
+        {{this.label}}
+      </a>
+    {{/each}}
+  </nav>
+
+  <div class="tas-grid">
+    {{#each tiles}}
+      <div class="tas-tile cat-{{this.category}} type-{{this.type}} {{#if this.active}}active{{/if}} {{#if this.looped}}looped{{else}}{{#if this.repeatSec}}repeating{{/if}}{{/if}}"
+           data-layer-id="{{this.id}}" {{#unless this.shown}}style="display:none"{{/unless}}>
+        <div class="tas-progress-top"></div>
+        <div class="tas-tile-top">
+          <button type="button" class="tas-loop {{#if this.looped}}on{{/if}}" data-action="loopToggle"
+                  data-layer-id="{{this.id}}" data-tooltip="{{localize 'TAS.LoopTip'}}">
+            <i class="fa-solid fa-repeat"></i>
+          </button>
+          <select class="tas-repeat" data-layer-id="{{this.id}}" data-current="{{this.repeatSec}}"
+                  data-tooltip="{{localize 'TAS.RepeatTip'}}" {{#if this.looped}}disabled{{/if}}>
+            {{#each ../repeatOptions}}<option value="{{this.sec}}">{{this.label}}</option>{{/each}}
+          </select>
+          <i class="tas-state fa-solid {{this.stateIcon}}"></i>
+        </div>
+        <button type="button" class="tas-tile-btn" data-action="tile" data-layer-id="{{this.id}}">
+          <span class="tas-icon-wrap">
+            {{#if this.icon}}<img class="tas-icon" src="{{this.icon}}" alt="">{{/if}}
+          </span>
+          <span class="tas-label">{{this.label}}</span>
+        </button>
+        <div class="tas-tile-foot">
+          <input class="tas-vol" type="range" min="0" max="100" value="{{this.pct}}" data-layer-id="{{this.id}}">
+          <span class="tas-pct">{{this.pct}}%</span>
+        </div>
+        <div class="tas-progress"></div>
+      </div>
+    {{/each}}
+  </div>
+
+{{/if}}
+</div>
+
+{{#if nowPlayingOpen}}
+<aside class="tas-nowplaying">
+  <div class="tas-np-head">
+    <span><i class="fa-solid fa-headphones"></i> {{localize "TAS.NowPlaying"}}</span>
+    <button type="button" class="tas-np-close" data-action="toggleNowPlaying"><i class="fa-solid fa-xmark"></i></button>
+  </div>
+  <div class="tas-np-list">
+    {{#each nowPlaying}}
+      <div class="tas-np-item kind-{{this.kind}} {{#if this.soundscape}}soundscape{{/if}}">
+        <button type="button" class="tas-np-go" data-action="goToItem"
+                data-pad-id="{{this.padId}}" data-layer-id="{{this.layerId}}">
+          <span class="tas-np-label">{{this.label}}</span>
+          <span class="tas-np-source">{{this.source}}{{#if this.badge}} · {{this.badge}}{{/if}}</span>
+        </button>
+        <div class="tas-np-ctrl">
+          <button type="button" class="tas-np-stop" data-action="stopItem"
+                  data-key="{{this.key}}" data-pad-id="{{this.padId}}" data-layer-id="{{this.layerId}}"
+                  data-tooltip="{{localize 'TAS.StopOne'}}"><i class="fa-solid fa-stop"></i></button>
+          {{#if this.canLoop}}
+          <button type="button" class="tas-np-loop {{#if this.looping}}on{{/if}}" data-action="loopItem"
+                  data-pad-id="{{this.padId}}" data-layer-id="{{this.layerId}}"
+                  data-tooltip="{{localize 'TAS.LoopTip'}}"><i class="fa-solid fa-repeat"></i></button>
+          {{/if}}
+        </div>
+      </div>
+    {{else}}
+      <p class="tas-np-empty">{{localize "TAS.NowPlayingEmpty"}}</p>
+    {{/each}}
+  </div>
+</aside>
+{{/if}}
+</div>

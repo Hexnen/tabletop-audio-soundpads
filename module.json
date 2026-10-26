@@ -1,0 +1,43 @@
+{
+  "id": "tabletop-audio-soundpads",
+  "title": "Tabletop Audio SoundPads",
+  "description": "Native, in-Foundry recreation of the Tabletop Audio SoundPads: layered ambience, one-shots and music mixed live and broadcast to your players. Pad layouts are pre-cached as local data; audio streams from Tabletop Audio's CDN or an optional local copy. For personal use — support Tabletop Audio on Patreon.",
+  "version": "0.1.0",
+  "compatibility": {
+    "minimum": "13",
+    "verified": "14"
+  },
+  "authors": [
+    {
+      "name": "hexerpegi"
+    }
+  ],
+  "esmodules": [
+    "scripts/module.mjs"
+  ],
+  "styles": [
+    "styles/soundpads.css"
+  ],
+  "languages": [
+    {
+      "lang": "en",
+      "name": "English",
+      "path": "lang/en.json"
+    },
+    {
+      "lang": "pl",
+      "name": "Polski",
+      "path": "lang/pl.json"
+    }
+  ],
+  "socket": true,
+  "flags": {
+    "tabletop-audio-soundpads": {
+      "note": "SoundPad descriptors live in packs/pads/*.json, generated offline by tools/scrape_pads.mjs."
+    }
+  },
+  "url": "https://github.com/Hexnen/tabletop-audio-soundpads",
+  "manifest": "https://github.com/Hexnen/tabletop-audio-soundpads/releases/latest/download/module.json",
+  "download": "https://github.com/Hexnen/tabletop-audio-soundpads/releases/download/v0.1.0/module.zip",
+  "bugs": "https://github.com/Hexnen/tabletop-audio-soundpads/issues"
+}

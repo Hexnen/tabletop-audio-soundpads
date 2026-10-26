@@ -1,0 +1,666 @@
+{
+  "id": "wuxia",
+  "name": "Wuxia",
+  "source": "https://tabletopaudio.com/wuxia_sp.html",
+  "coverRemote": "https://images.tabletopaudio.com/sb/wuxia_sp2.jpg",
+  "cover": "modules/tabletop-audio-soundpads/audio-cache/wuxia/wuxia_sp2.jpg",
+  "headerRemote": "https://images.tabletopaudio.com/sb/wuxia_header1b.png",
+  "header": "modules/tabletop-audio-soundpads/audio-cache/wuxia/wuxia_header1b.png",
+  "categories": [
+    "backgrounds",
+    "events",
+    "tones",
+    "music"
+  ],
+  "layerCount": 36,
+  "layers": [
+    {
+      "id": "bg_20",
+      "label": "Gentle Breeze",
+      "icon": "modules/tabletop-audio-soundpads/audio-cache/wuxia/icons/wind_icon2.png",
+      "iconRemote": "https://images.tabletopaudio.com/sb/dungeon/wind_icon2.png",
+      "category": "backgrounds",
+      "type": "loop",
+      "loop": true,
+      "gain": 0.4,
+      "repeatDefault": 0,
+      "url": "https://sounds.tabletopaudio.com/wuxia/breeze.ogg",
+      "ogg": "https://sounds.tabletopaudio.com/wuxia/breeze.ogg",
+      "mp3": "https://sounds.tabletopaudio.com/wuxia/breeze.mp3",
+      "local": "modules/tabletop-audio-soundpads/audio-cache/wuxia/breeze.ogg"
+    },
+    {
+      "id": "bg_13",
+      "label": "Peaceful Water",
+      "icon": "modules/tabletop-audio-soundpads/audio-cache/wuxia/icons/water.png",
+      "iconRemote": "https://images.tabletopaudio.com/sb/dungeon/water.png",
+      "category": "backgrounds",
+      "type": "loop",
+      "loop": true,
+      "gain": 0.4,
+      "repeatDefault": 0,
+      "url": "https://sounds.tabletopaudio.com/wuxia/water_breeze.ogg",
+      "ogg": "https://sounds.tabletopaudio.com/wuxia/water_breeze.ogg",
+      "mp3": "https://sounds.tabletopaudio.com/wuxia/water_breeze.mp3",
+      "local": "modules/tabletop-audio-soundpads/audio-cache/wuxia/water_breeze.ogg"
+    },
+    {
+      "id": "bg_21",
+      "label": "Rain on Bamboo",
+      "icon": "modules/tabletop-audio-soundpads/audio-cache/wuxia/icons/rain_icon.png",
+      "iconRemote": "https://images.tabletopaudio.com/sb/dungeon/rain_icon.png",
+      "category": "backgrounds",
+      "type": "loop",
+      "loop": true,
+      "gain": 0.1,
+      "repeatDefault": 0,
+      "url": "https://sounds.tabletopaudio.com/wuxia/rain_lp.ogg",
+      "ogg": "https://sounds.tabletopaudio.com/wuxia/rain_lp.ogg",
+      "mp3": "https://sounds.tabletopaudio.com/wuxia/rain_lp.mp3",
+      "local": "modules/tabletop-audio-soundpads/audio-cache/wuxia/rain_lp.ogg"
+    },
+    {
+      "id": "bg_23",
+      "label": "Thunder: Valley",
+      "icon": "modules/tabletop-audio-soundpads/audio-cache/wuxia/icons/thunder_icon.png",
+      "iconRemote": "https://images.tabletopaudio.com/sb/dungeon/thunder_icon.png",
+      "category": "events",
+      "type": "oneshot",
+      "loop": false,
+      "gain": 0.2,
+      "repeatDefault": 0,
+      "url": "https://sounds.tabletopaudio.com/wuxia/thunder.ogg",
+      "ogg": "https://sounds.tabletopaudio.com/wuxia/thunder.ogg",
+      "mp3": "https://sounds.tabletopaudio.com/wuxia/thunder.mp3",
+      "local": "modules/tabletop-audio-soundpads/audio-cache/wuxia/thunder.ogg"
+    },
+    {
+      "id": "bg_14",
+      "label": "Birdsong",
+      "icon": "modules/tabletop-audio-soundpads/audio-cache/wuxia/icons/bird_icon.png",
+      "iconRemote": "https://images.tabletopaudio.com/sb/dungeon/bird_icon.png",
+      "category": "backgrounds",
+      "type": "loop",
+      "loop": true,
+      "gain": 0.1,
+      "repeatDefault": 0,
+      "url": "https://sounds.tabletopaudio.com/wuxia/birdsong.ogg",
+      "ogg": "https://sounds.tabletopaudio.com/wuxia/birdsong.ogg",
+      "mp3": "https://sounds.tabletopaudio.com/wuxia/birdsong.mp3",
+      "local": "modules/tabletop-audio-soundpads/audio-cache/wuxia/birdsong.ogg"
+    },
+    {
+      "id": "bg_15",
+      "label": "Bamboo Chimes",
+      "icon": "modules/tabletop-audio-soundpads/audio-cache/wuxia/icons/chimes_icon.png",
+      "iconRemote": "https://images.tabletopaudio.com/sb/dungeon/chimes_icon.png",
+      "category": "events",
+      "type": "loop",
+      "loop": true,
+      "gain": 0.3,
+      "repeatDefault": 0,
+      "url": "https://sounds.tabletopaudio.com/wuxia/chimes2_lp.ogg",
+      "ogg": "https://sounds.tabletopaudio.com/wuxia/chimes2_lp.ogg",
+      "mp3": "https://sounds.tabletopaudio.com/wuxia/chimes2_lp.mp3",
+      "local": "modules/tabletop-audio-soundpads/audio-cache/wuxia/chimes2_lp.ogg"
+    },
+    {
+      "id": "bg_30",
+      "label": "Footsteps: Wood",
+      "icon": "modules/tabletop-audio-soundpads/audio-cache/wuxia/icons/boots.png",
+      "iconRemote": "https://images.tabletopaudio.com/sb/dungeon/boots.png",
+      "category": "events",
+      "type": "oneshot",
+      "loop": false,
+      "gain": 0.3,
+      "repeatDefault": 0,
+      "url": "https://sounds.tabletopaudio.com/wuxia/footsteps_wood.ogg",
+      "ogg": "https://sounds.tabletopaudio.com/wuxia/footsteps_wood.ogg",
+      "mp3": "https://sounds.tabletopaudio.com/wuxia/footsteps_wood.mp3",
+      "local": "modules/tabletop-audio-soundpads/audio-cache/wuxia/footsteps_wood.ogg"
+    },
+    {
+      "id": "bg_24",
+      "label": "Broom: Sweep",
+      "icon": "modules/tabletop-audio-soundpads/audio-cache/wuxia/icons/broom_icon.png",
+      "iconRemote": "https://images.tabletopaudio.com/sb/dungeon/broom_icon.png",
+      "category": "events",
+      "type": "oneshot",
+      "loop": false,
+      "gain": 0.1,
+      "repeatDefault": 0,
+      "url": "https://sounds.tabletopaudio.com/wuxia/broom_sweep.ogg",
+      "ogg": "https://sounds.tabletopaudio.com/wuxia/broom_sweep.ogg",
+      "mp3": "https://sounds.tabletopaudio.com/wuxia/broom_sweep.mp3",
+      "local": "modules/tabletop-audio-soundpads/audio-cache/wuxia/broom_sweep.ogg"
+    },
+    {
+      "id": "bg_31",
+      "label": "Pour Tea",
+      "icon": "modules/tabletop-audio-soundpads/audio-cache/wuxia/icons/teapot_icon.png",
+      "iconRemote": "https://images.tabletopaudio.com/sb/dungeon/teapot_icon.png",
+      "category": "events",
+      "type": "oneshot",
+      "loop": false,
+      "gain": 0.2,
+      "repeatDefault": 0,
+      "url": "https://sounds.tabletopaudio.com/wuxia/pour_tea.ogg",
+      "ogg": "https://sounds.tabletopaudio.com/wuxia/pour_tea.ogg",
+      "mp3": "https://sounds.tabletopaudio.com/wuxia/pour_tea.mp3",
+      "local": "modules/tabletop-audio-soundpads/audio-cache/wuxia/pour_tea.ogg"
+    },
+    {
+      "id": "bg_28",
+      "label": "Outdoor Market",
+      "icon": "modules/tabletop-audio-soundpads/audio-cache/wuxia/icons/market_icon.png",
+      "iconRemote": "https://images.tabletopaudio.com/sb/dungeon/market_icon.png",
+      "category": "backgrounds",
+      "type": "loop",
+      "loop": true,
+      "gain": 0.3,
+      "repeatDefault": 0,
+      "url": "https://sounds.tabletopaudio.com/wuxia/market.ogg",
+      "ogg": "https://sounds.tabletopaudio.com/wuxia/market.ogg",
+      "mp3": "https://sounds.tabletopaudio.com/wuxia/market.mp3",
+      "local": "modules/tabletop-audio-soundpads/audio-cache/wuxia/market.ogg"
+    },
+    {
+      "id": "bg_19",
+      "label": "Cloth Banners",
+      "icon": "modules/tabletop-audio-soundpads/audio-cache/wuxia/icons/flag_icon.png",
+      "iconRemote": "https://images.tabletopaudio.com/sb/dungeon/flag_icon.png",
+      "category": "backgrounds",
+      "type": "loop",
+      "loop": true,
+      "gain": 0.3,
+      "repeatDefault": 0,
+      "url": "https://sounds.tabletopaudio.com/wuxia/cloth_banners_lp.ogg",
+      "ogg": "https://sounds.tabletopaudio.com/wuxia/cloth_banners_lp.ogg",
+      "mp3": "https://sounds.tabletopaudio.com/wuxia/cloth_banners_lp.mp3",
+      "local": "modules/tabletop-audio-soundpads/audio-cache/wuxia/cloth_banners_lp.ogg"
+    },
+    {
+      "id": "bg_32",
+      "label": "Horse: Trot",
+      "icon": "modules/tabletop-audio-soundpads/audio-cache/wuxia/icons/horse_icon.png",
+      "iconRemote": "https://images.tabletopaudio.com/sb/dungeon/horse_icon.png",
+      "category": "backgrounds",
+      "type": "loop",
+      "loop": true,
+      "gain": 0.4,
+      "repeatDefault": 0,
+      "url": "https://sounds.tabletopaudio.com/wuxia/horse_trot.ogg",
+      "ogg": "https://sounds.tabletopaudio.com/wuxia/horse_trot.ogg",
+      "mp3": "https://sounds.tabletopaudio.com/wuxia/horse_trot.mp3",
+      "local": "modules/tabletop-audio-soundpads/audio-cache/wuxia/horse_trot.ogg"
+    },
+    {
+      "id": "bg_33",
+      "label": "Horse: Gallop",
+      "icon": "modules/tabletop-audio-soundpads/audio-cache/wuxia/icons/horse_icon.png",
+      "iconRemote": "https://images.tabletopaudio.com/sb/dungeon/horse_icon.png",
+      "category": "backgrounds",
+      "type": "loop",
+      "loop": true,
+      "gain": 0.4,
+      "repeatDefault": 0,
+      "url": "https://sounds.tabletopaudio.com/wuxia/horse_gallop.ogg",
+      "ogg": "https://sounds.tabletopaudio.com/wuxia/horse_gallop.ogg",
+      "mp3": "https://sounds.tabletopaudio.com/wuxia/horse_gallop.mp3",
+      "local": "modules/tabletop-audio-soundpads/audio-cache/wuxia/horse_gallop.ogg"
+    },
+    {
+      "id": "bg_16",
+      "label": "Hawk Cry",
+      "icon": "modules/tabletop-audio-soundpads/audio-cache/wuxia/icons/hawk_icon.png",
+      "iconRemote": "https://images.tabletopaudio.com/sb/dungeon/hawk_icon.png",
+      "category": "events",
+      "type": "oneshot",
+      "loop": false,
+      "gain": 0.3,
+      "repeatDefault": 0,
+      "url": "https://sounds.tabletopaudio.com/wuxia/hawk_cry.ogg",
+      "ogg": "https://sounds.tabletopaudio.com/wuxia/hawk_cry.ogg",
+      "mp3": "https://sounds.tabletopaudio.com/wuxia/hawk_cry.mp3",
+      "local": "modules/tabletop-audio-soundpads/audio-cache/wuxia/hawk_cry.ogg"
+    },
+    {
+      "id": "bg_25",
+      "label": "Bowl Tone",
+      "icon": "modules/tabletop-audio-soundpads/audio-cache/wuxia/icons/treble_tone.png",
+      "iconRemote": "https://images.tabletopaudio.com/sb/dungeon/treble_tone.png",
+      "category": "tones",
+      "type": "loop",
+      "loop": true,
+      "gain": 0.5,
+      "repeatDefault": 0,
+      "url": "https://sounds.tabletopaudio.com/wuxia/bowl.ogg",
+      "ogg": "https://sounds.tabletopaudio.com/wuxia/bowl.ogg",
+      "mp3": "https://sounds.tabletopaudio.com/wuxia/bowl.mp3",
+      "local": "modules/tabletop-audio-soundpads/audio-cache/wuxia/bowl.ogg"
+    },
+    {
+      "id": "bg_26",
+      "label": "Drum Tone",
+      "icon": "modules/tabletop-audio-soundpads/audio-cache/wuxia/icons/drum_icon.png",
+      "iconRemote": "https://images.tabletopaudio.com/sb/dungeon/drum_icon.png",
+      "category": "tones",
+      "type": "loop",
+      "loop": true,
+      "gain": 0.5,
+      "repeatDefault": 0,
+      "url": "https://sounds.tabletopaudio.com/wuxia/drum.ogg",
+      "ogg": "https://sounds.tabletopaudio.com/wuxia/drum.ogg",
+      "mp3": "https://sounds.tabletopaudio.com/wuxia/drum.mp3",
+      "local": "modules/tabletop-audio-soundpads/audio-cache/wuxia/drum.ogg"
+    },
+    {
+      "id": "bg_27",
+      "label": "Gong Tone",
+      "icon": "modules/tabletop-audio-soundpads/audio-cache/wuxia/icons/gong_icon.png",
+      "iconRemote": "https://images.tabletopaudio.com/sb/dungeon/gong_icon.png",
+      "category": "tones",
+      "type": "loop",
+      "loop": true,
+      "gain": 0.5,
+      "repeatDefault": 0,
+      "url": "https://sounds.tabletopaudio.com/wuxia/gong.ogg",
+      "ogg": "https://sounds.tabletopaudio.com/wuxia/gong.ogg",
+      "mp3": "https://sounds.tabletopaudio.com/wuxia/gong.mp3",
+      "local": "modules/tabletop-audio-soundpads/audio-cache/wuxia/gong.ogg"
+    },
+    {
+      "id": "bg_8",
+      "label": "Hand to Hand",
+      "icon": "modules/tabletop-audio-soundpads/audio-cache/wuxia/icons/unarmed_icon.png",
+      "iconRemote": "https://images.tabletopaudio.com/sb/dungeon/unarmed_icon.png",
+      "category": "backgrounds",
+      "type": "loop",
+      "loop": true,
+      "gain": 0.6,
+      "repeatDefault": 0,
+      "url": "https://sounds.tabletopaudio.com/wuxia/hand_to_hand_a.ogg",
+      "ogg": "https://sounds.tabletopaudio.com/wuxia/hand_to_hand_a.ogg",
+      "mp3": "https://sounds.tabletopaudio.com/wuxia/hand_to_hand_a.mp3",
+      "local": "modules/tabletop-audio-soundpads/audio-cache/wuxia/hand_to_hand_a.ogg"
+    },
+    {
+      "id": "bg_2",
+      "label": "Feet: Scuffle",
+      "icon": "modules/tabletop-audio-soundpads/audio-cache/wuxia/icons/boots.png",
+      "iconRemote": "https://images.tabletopaudio.com/sb/dungeon/boots.png",
+      "category": "backgrounds",
+      "type": "loop",
+      "loop": true,
+      "gain": 0.5,
+      "repeatDefault": 0,
+      "url": "https://sounds.tabletopaudio.com/wuxia/scuffle1.ogg",
+      "ogg": "https://sounds.tabletopaudio.com/wuxia/scuffle1.ogg",
+      "mp3": "https://sounds.tabletopaudio.com/wuxia/scuffle1.mp3",
+      "local": "modules/tabletop-audio-soundpads/audio-cache/wuxia/scuffle1.ogg"
+    },
+    {
+      "id": "bg_3",
+      "label": "Fight Yells: Female",
+      "icon": "modules/tabletop-audio-soundpads/audio-cache/wuxia/icons/shouts.png",
+      "iconRemote": "https://images.tabletopaudio.com/sb/dungeon/shouts.png",
+      "category": "backgrounds",
+      "type": "loop",
+      "loop": true,
+      "gain": 0.4,
+      "repeatDefault": 0,
+      "url": "https://sounds.tabletopaudio.com/wuxia/fight_yells_female.ogg",
+      "ogg": "https://sounds.tabletopaudio.com/wuxia/fight_yells_female.ogg",
+      "mp3": "https://sounds.tabletopaudio.com/wuxia/fight_yells_female.mp3",
+      "local": "modules/tabletop-audio-soundpads/audio-cache/wuxia/fight_yells_female.ogg"
+    },
+    {
+      "id": "bg_4",
+      "label": "Fight Yells: Male",
+      "icon": "modules/tabletop-audio-soundpads/audio-cache/wuxia/icons/shouts.png",
+      "iconRemote": "https://images.tabletopaudio.com/sb/dungeon/shouts.png",
+      "category": "backgrounds",
+      "type": "loop",
+      "loop": true,
+      "gain": 0.4,
+      "repeatDefault": 0,
+      "url": "https://sounds.tabletopaudio.com/wuxia/fight_yells_male.ogg",
+      "ogg": "https://sounds.tabletopaudio.com/wuxia/fight_yells_male.ogg",
+      "mp3": "https://sounds.tabletopaudio.com/wuxia/fight_yells_male.mp3",
+      "local": "modules/tabletop-audio-soundpads/audio-cache/wuxia/fight_yells_male.ogg"
+    },
+    {
+      "id": "bg_1",
+      "label": "Blade Fight",
+      "icon": "modules/tabletop-audio-soundpads/audio-cache/wuxia/icons/blades_icon.png",
+      "iconRemote": "https://images.tabletopaudio.com/sb/dungeon/blades_icon.png",
+      "category": "backgrounds",
+      "type": "loop",
+      "loop": true,
+      "gain": 0.4,
+      "repeatDefault": 0,
+      "url": "https://sounds.tabletopaudio.com/wuxia/sword_fight1a.ogg",
+      "ogg": "https://sounds.tabletopaudio.com/wuxia/sword_fight1a.ogg",
+      "mp3": "https://sounds.tabletopaudio.com/wuxia/sword_fight1a.mp3",
+      "local": "modules/tabletop-audio-soundpads/audio-cache/wuxia/sword_fight1a.ogg"
+    },
+    {
+      "id": "bg_5",
+      "label": "Stick Fight",
+      "icon": "modules/tabletop-audio-soundpads/audio-cache/wuxia/icons/sticks_icon.png",
+      "iconRemote": "https://images.tabletopaudio.com/sb/dungeon/sticks_icon.png",
+      "category": "backgrounds",
+      "type": "loop",
+      "loop": true,
+      "gain": 0.6,
+      "repeatDefault": 0,
+      "url": "https://sounds.tabletopaudio.com/wuxia/stick_fight.ogg",
+      "ogg": "https://sounds.tabletopaudio.com/wuxia/stick_fight.ogg",
+      "mp3": "https://sounds.tabletopaudio.com/wuxia/stick_fight.mp3",
+      "local": "modules/tabletop-audio-soundpads/audio-cache/wuxia/stick_fight.ogg"
+    },
+    {
+      "id": "bg_29",
+      "label": "Punch/Kick x3",
+      "icon": "modules/tabletop-audio-soundpads/audio-cache/wuxia/icons/unarmed_icon.png",
+      "iconRemote": "https://images.tabletopaudio.com/sb/dungeon/unarmed_icon.png",
+      "category": "events",
+      "type": "oneshot",
+      "loop": false,
+      "gain": 0.5,
+      "repeatDefault": 0,
+      "url": "https://sounds.tabletopaudio.com/wuxia/punch_kick_x3.ogg",
+      "ogg": "https://sounds.tabletopaudio.com/wuxia/punch_kick_x3.ogg",
+      "mp3": "https://sounds.tabletopaudio.com/wuxia/punch_kick_x3.mp3",
+      "local": "modules/tabletop-audio-soundpads/audio-cache/wuxia/punch_kick_x3.ogg",
+      "sprites": [
+        {
+          "offset": 0,
+          "duration": 0.664
+        },
+        {
+          "offset": 0.678,
+          "duration": 0.749
+        },
+        {
+          "offset": 1.469,
+          "duration": 0.718
+        },
+        {
+          "offset": 1.469,
+          "duration": 0.718
+        }
+      ]
+    },
+    {
+      "id": "bg_6",
+      "label": "Blow Dart x2",
+      "icon": "modules/tabletop-audio-soundpads/audio-cache/wuxia/icons/blowgun_icon.png",
+      "iconRemote": "https://images.tabletopaudio.com/sb/dungeon/blowgun_icon.png",
+      "category": "events",
+      "type": "oneshot",
+      "loop": false,
+      "gain": 0.5,
+      "repeatDefault": 0,
+      "url": "https://sounds.tabletopaudio.com/wuxia/blowdart_x2.ogg",
+      "ogg": "https://sounds.tabletopaudio.com/wuxia/blowdart_x2.ogg",
+      "mp3": "https://sounds.tabletopaudio.com/wuxia/blowdart_x2.mp3",
+      "local": "modules/tabletop-audio-soundpads/audio-cache/wuxia/blowdart_x2.ogg",
+      "sprites": [
+        {
+          "offset": 0,
+          "duration": 1.36
+        },
+        {
+          "offset": 1.562,
+          "duration": 0.98
+        },
+        {
+          "offset": 0,
+          "duration": 1.36
+        },
+        {
+          "offset": 1.562,
+          "duration": 0.98
+        }
+      ]
+    },
+    {
+      "id": "bg_7",
+      "label": "Throwing Star x2",
+      "icon": "modules/tabletop-audio-soundpads/audio-cache/wuxia/icons/throwing_star_icon.png",
+      "iconRemote": "https://images.tabletopaudio.com/sb/dungeon/throwing_star_icon.png",
+      "category": "events",
+      "type": "oneshot",
+      "loop": false,
+      "gain": 0.5,
+      "repeatDefault": 0,
+      "url": "https://sounds.tabletopaudio.com/wuxia/throwing_star_x2.ogg",
+      "ogg": "https://sounds.tabletopaudio.com/wuxia/throwing_star_x2.ogg",
+      "mp3": "https://sounds.tabletopaudio.com/wuxia/throwing_star_x2.mp3",
+      "local": "modules/tabletop-audio-soundpads/audio-cache/wuxia/throwing_star_x2.ogg",
+      "sprites": [
+        {
+          "offset": 0,
+          "duration": 1.765
+        },
+        {
+          "offset": 1.79,
+          "duration": 2.213
+        },
+        {
+          "offset": 0,
+          "duration": 1.765
+        },
+        {
+          "offset": 1.79,
+          "duration": 2.213
+        }
+      ]
+    },
+    {
+      "id": "bg_9",
+      "label": "Leap/Fly x4",
+      "icon": "modules/tabletop-audio-soundpads/audio-cache/wuxia/icons/swoop_in_icon.png",
+      "iconRemote": "https://images.tabletopaudio.com/sb/dungeon/swoop_in_icon.png",
+      "category": "events",
+      "type": "oneshot",
+      "loop": false,
+      "gain": 0.5,
+      "repeatDefault": 0,
+      "url": "https://sounds.tabletopaudio.com/wuxia/leap_fly_2_x4.ogg",
+      "ogg": "https://sounds.tabletopaudio.com/wuxia/leap_fly_2_x4.ogg",
+      "mp3": "https://sounds.tabletopaudio.com/wuxia/leap_fly_2_x4.mp3",
+      "local": "modules/tabletop-audio-soundpads/audio-cache/wuxia/leap_fly_2_x4.ogg",
+      "sprites": [
+        {
+          "offset": 0,
+          "duration": 2.192
+        },
+        {
+          "offset": 2.357,
+          "duration": 2.113
+        },
+        {
+          "offset": 4.643,
+          "duration": 1.691
+        },
+        {
+          "offset": 6.434,
+          "duration": 1.59
+        }
+      ]
+    },
+    {
+      "id": "bg_10",
+      "label": "Destruction x4",
+      "icon": "modules/tabletop-audio-soundpads/audio-cache/wuxia/icons/rubble_icon.png",
+      "iconRemote": "https://images.tabletopaudio.com/sb/dungeon/rubble_icon.png",
+      "category": "events",
+      "type": "oneshot",
+      "loop": false,
+      "gain": 0.4,
+      "repeatDefault": 0,
+      "url": "https://sounds.tabletopaudio.com/wuxia/destruction_x4.ogg",
+      "ogg": "https://sounds.tabletopaudio.com/wuxia/destruction_x4.ogg",
+      "mp3": "https://sounds.tabletopaudio.com/wuxia/destruction_x4.mp3",
+      "local": "modules/tabletop-audio-soundpads/audio-cache/wuxia/destruction_x4.ogg",
+      "sprites": [
+        {
+          "offset": 0,
+          "duration": 3.28
+        },
+        {
+          "offset": 3.648,
+          "duration": 4.399
+        },
+        {
+          "offset": 8.63,
+          "duration": 3.832
+        },
+        {
+          "offset": 12.569,
+          "duration": 4.796
+        }
+      ]
+    },
+    {
+      "id": "bg_11",
+      "label": "Spin Attack",
+      "icon": "modules/tabletop-audio-soundpads/audio-cache/wuxia/icons/spin_icon.png",
+      "iconRemote": "https://images.tabletopaudio.com/sb/dungeon/spin_icon.png",
+      "category": "events",
+      "type": "oneshot",
+      "loop": false,
+      "gain": 0.4,
+      "repeatDefault": 0,
+      "url": "https://sounds.tabletopaudio.com/wuxia/spin_attack2.ogg",
+      "ogg": "https://sounds.tabletopaudio.com/wuxia/spin_attack2.ogg",
+      "mp3": "https://sounds.tabletopaudio.com/wuxia/spin_attack2.mp3",
+      "local": "modules/tabletop-audio-soundpads/audio-cache/wuxia/spin_attack2.ogg"
+    },
+    {
+      "id": "bg_12",
+      "label": "Singing Blade Atk",
+      "icon": "modules/tabletop-audio-soundpads/audio-cache/wuxia/icons/sword_icon.png",
+      "iconRemote": "https://images.tabletopaudio.com/sb/dungeon/sword_icon.png",
+      "category": "events",
+      "type": "oneshot",
+      "loop": false,
+      "gain": 0.4,
+      "repeatDefault": 0,
+      "url": "https://sounds.tabletopaudio.com/wuxia/singing_blade_atk.ogg",
+      "ogg": "https://sounds.tabletopaudio.com/wuxia/singing_blade_atk.ogg",
+      "mp3": "https://sounds.tabletopaudio.com/wuxia/singing_blade_atk.mp3",
+      "local": "modules/tabletop-audio-soundpads/audio-cache/wuxia/singing_blade_atk.ogg"
+    },
+    {
+      "id": "bg_22",
+      "label": "Fireball x2",
+      "icon": "modules/tabletop-audio-soundpads/audio-cache/wuxia/icons/fire.png",
+      "iconRemote": "https://images.tabletopaudio.com/sb/dungeon/fire.png",
+      "category": "events",
+      "type": "oneshot",
+      "loop": false,
+      "gain": 0.4,
+      "repeatDefault": 0,
+      "url": "https://sounds.tabletopaudio.com/wuxia/fireball_x2.ogg",
+      "ogg": "https://sounds.tabletopaudio.com/wuxia/fireball_x2.ogg",
+      "mp3": "https://sounds.tabletopaudio.com/wuxia/fireball_x2.mp3",
+      "local": "modules/tabletop-audio-soundpads/audio-cache/wuxia/fireball_x2.ogg",
+      "sprites": [
+        {
+          "offset": 0,
+          "duration": 1.976
+        },
+        {
+          "offset": 2.2,
+          "duration": 1.803
+        },
+        {
+          "offset": 0,
+          "duration": 1.976
+        },
+        {
+          "offset": 2.2,
+          "duration": 1.803
+        }
+      ]
+    },
+    {
+      "id": "bg_17",
+      "label": "Hvy Atk: Fem.",
+      "icon": "modules/tabletop-audio-soundpads/audio-cache/wuxia/icons/power_icon.png",
+      "iconRemote": "https://images.tabletopaudio.com/sb/dungeon/power_icon.png",
+      "category": "events",
+      "type": "oneshot",
+      "loop": false,
+      "gain": 0.4,
+      "repeatDefault": 0,
+      "url": "https://sounds.tabletopaudio.com/wuxia/female_hvy_atk.ogg",
+      "ogg": "https://sounds.tabletopaudio.com/wuxia/female_hvy_atk.ogg",
+      "mp3": "https://sounds.tabletopaudio.com/wuxia/female_hvy_atk.mp3",
+      "local": "modules/tabletop-audio-soundpads/audio-cache/wuxia/female_hvy_atk.ogg"
+    },
+    {
+      "id": "bg_18",
+      "label": "Hvy Atk: Male",
+      "icon": "modules/tabletop-audio-soundpads/audio-cache/wuxia/icons/power_icon.png",
+      "iconRemote": "https://images.tabletopaudio.com/sb/dungeon/power_icon.png",
+      "category": "events",
+      "type": "oneshot",
+      "loop": false,
+      "gain": 0.4,
+      "repeatDefault": 0,
+      "url": "https://sounds.tabletopaudio.com/wuxia/male_hvy_atk.ogg",
+      "ogg": "https://sounds.tabletopaudio.com/wuxia/male_hvy_atk.ogg",
+      "mp3": "https://sounds.tabletopaudio.com/wuxia/male_hvy_atk.mp3",
+      "local": "modules/tabletop-audio-soundpads/audio-cache/wuxia/male_hvy_atk.ogg"
+    },
+    {
+      "id": "bg_34",
+      "label": "Music: Memory",
+      "icon": "modules/tabletop-audio-soundpads/audio-cache/wuxia/icons/music.png",
+      "iconRemote": "https://images.tabletopaudio.com/sb/dungeon/music.png",
+      "category": "music",
+      "type": "music",
+      "loop": true,
+      "gain": 0.4,
+      "repeatDefault": 0,
+      "url": "https://sounds.tabletopaudio.com/wuxia/music_sad_lp.ogg",
+      "ogg": "https://sounds.tabletopaudio.com/wuxia/music_sad_lp.ogg",
+      "mp3": "https://sounds.tabletopaudio.com/wuxia/music_sad_lp.mp3",
+      "local": "modules/tabletop-audio-soundpads/audio-cache/wuxia/music_sad_lp.ogg"
+    },
+    {
+      "id": "bg_35",
+      "label": "Music: Peace",
+      "icon": "modules/tabletop-audio-soundpads/audio-cache/wuxia/icons/music.png",
+      "iconRemote": "https://images.tabletopaudio.com/sb/dungeon/music.png",
+      "category": "music",
+      "type": "music",
+      "loop": true,
+      "gain": 0.2,
+      "repeatDefault": 0,
+      "url": "https://sounds.tabletopaudio.com/wuxia/music_calm_lp.ogg",
+      "ogg": "https://sounds.tabletopaudio.com/wuxia/music_calm_lp.ogg",
+      "mp3": "https://sounds.tabletopaudio.com/wuxia/music_calm_lp.mp3",
+      "local": "modules/tabletop-audio-soundpads/audio-cache/wuxia/music_calm_lp.ogg"
+    },
+    {
+      "id": "bg_36",
+      "label": "Music: War",
+      "icon": "modules/tabletop-audio-soundpads/audio-cache/wuxia/icons/music.png",
+      "iconRemote": "https://images.tabletopaudio.com/sb/dungeon/music.png",
+      "category": "music",
+      "type": "music",
+      "loop": true,
+      "gain": 0.2,
+      "repeatDefault": 0,
+      "url": "https://sounds.tabletopaudio.com/wuxia/music_drums.ogg",
+      "ogg": "https://sounds.tabletopaudio.com/wuxia/music_drums.ogg",
+      "mp3": "https://sounds.tabletopaudio.com/wuxia/music_drums.mp3",
+      "local": "modules/tabletop-audio-soundpads/audio-cache/wuxia/music_drums.ogg"
+    }
+  ]
+}

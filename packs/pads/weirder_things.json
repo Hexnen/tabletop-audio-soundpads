@@ -1,0 +1,744 @@
+{
+  "id": "weirder_things",
+  "name": "Weirder Things",
+  "source": "https://tabletopaudio.com/weirder_things_sp.html",
+  "coverRemote": "https://images.tabletopaudio.com/sb/weirder_things_sp2.jpg",
+  "cover": "modules/tabletop-audio-soundpads/audio-cache/weirder_things/weirder_things_sp2.jpg",
+  "headerRemote": "https://images.tabletopaudio.com/sb/weirder_things_sp1.png",
+  "header": "modules/tabletop-audio-soundpads/audio-cache/weirder_things/weirder_things_sp1.png",
+  "categories": [
+    "backgrounds",
+    "events",
+    "tones",
+    "music"
+  ],
+  "layerCount": 40,
+  "layers": [
+    {
+      "id": "bg_1",
+      "label": "Suburbs: Day",
+      "icon": "modules/tabletop-audio-soundpads/audio-cache/weirder_things/icons/houses_icon.png",
+      "iconRemote": "https://images.tabletopaudio.com/sb/dungeon/houses_icon.png",
+      "category": "backgrounds",
+      "type": "loop",
+      "loop": true,
+      "gain": 0.4,
+      "repeatDefault": 0,
+      "url": "https://sounds.tabletopaudio.com/weirder_things/neighborhood_day_lp.ogg",
+      "ogg": "https://sounds.tabletopaudio.com/weirder_things/neighborhood_day_lp.ogg",
+      "mp3": "https://sounds.tabletopaudio.com/weirder_things/neighborhood_day_lp.mp3",
+      "local": "modules/tabletop-audio-soundpads/audio-cache/weirder_things/neighborhood_day_lp.ogg"
+    },
+    {
+      "id": "bg_2",
+      "label": "Suburbs: Night",
+      "icon": "modules/tabletop-audio-soundpads/audio-cache/weirder_things/icons/houses_icon.png",
+      "iconRemote": "https://images.tabletopaudio.com/sb/dungeon/houses_icon.png",
+      "category": "backgrounds",
+      "type": "loop",
+      "loop": true,
+      "gain": 0.4,
+      "repeatDefault": 0,
+      "url": "https://sounds.tabletopaudio.com/weirder_things/neighborhood_night_lp.ogg",
+      "ogg": "https://sounds.tabletopaudio.com/weirder_things/neighborhood_night_lp.ogg",
+      "mp3": "https://sounds.tabletopaudio.com/weirder_things/neighborhood_night_lp.mp3",
+      "local": "modules/tabletop-audio-soundpads/audio-cache/weirder_things/neighborhood_night_lp.ogg"
+    },
+    {
+      "id": "bg_4",
+      "label": "Sprinkler",
+      "icon": "modules/tabletop-audio-soundpads/audio-cache/weirder_things/icons/sprinkler_icon.png",
+      "iconRemote": "https://images.tabletopaudio.com/sb/dungeon/sprinkler_icon.png",
+      "category": "backgrounds",
+      "type": "loop",
+      "loop": true,
+      "gain": 0.2,
+      "repeatDefault": 0,
+      "url": "https://sounds.tabletopaudio.com/weirder_things/sprinkler.ogg",
+      "ogg": "https://sounds.tabletopaudio.com/weirder_things/sprinkler.ogg",
+      "mp3": "https://sounds.tabletopaudio.com/weirder_things/sprinkler.mp3",
+      "local": "modules/tabletop-audio-soundpads/audio-cache/weirder_things/sprinkler.ogg"
+    },
+    {
+      "id": "bg_9",
+      "label": "Bicycles",
+      "icon": "modules/tabletop-audio-soundpads/audio-cache/weirder_things/icons/bicycle_icon.png",
+      "iconRemote": "https://images.tabletopaudio.com/sb/dungeon/bicycle_icon.png",
+      "category": "backgrounds",
+      "type": "loop",
+      "loop": true,
+      "gain": 0.3,
+      "repeatDefault": 0,
+      "url": "https://sounds.tabletopaudio.com/weirder_things/bicycles_lp.ogg",
+      "ogg": "https://sounds.tabletopaudio.com/weirder_things/bicycles_lp.ogg",
+      "mp3": "https://sounds.tabletopaudio.com/weirder_things/bicycles_lp.mp3",
+      "local": "modules/tabletop-audio-soundpads/audio-cache/weirder_things/bicycles_lp.ogg"
+    },
+    {
+      "id": "bg_7",
+      "label": "Garage: Open",
+      "icon": "modules/tabletop-audio-soundpads/audio-cache/weirder_things/icons/garage_open_icon.png",
+      "iconRemote": "https://images.tabletopaudio.com/sb/dungeon/garage_open_icon.png",
+      "category": "events",
+      "type": "oneshot",
+      "loop": false,
+      "gain": 0.4,
+      "repeatDefault": 0,
+      "url": "https://sounds.tabletopaudio.com/weirder_things/garage_door_open.ogg",
+      "ogg": "https://sounds.tabletopaudio.com/weirder_things/garage_door_open.ogg",
+      "mp3": "https://sounds.tabletopaudio.com/weirder_things/garage_door_open.mp3",
+      "local": "modules/tabletop-audio-soundpads/audio-cache/weirder_things/garage_door_open.ogg"
+    },
+    {
+      "id": "bg_8",
+      "label": "Garage: Close",
+      "icon": "modules/tabletop-audio-soundpads/audio-cache/weirder_things/icons/garage_close_icon.png",
+      "iconRemote": "https://images.tabletopaudio.com/sb/dungeon/garage_close_icon.png",
+      "category": "events",
+      "type": "oneshot",
+      "loop": false,
+      "gain": 0.4,
+      "repeatDefault": 0,
+      "url": "https://sounds.tabletopaudio.com/weirder_things/garage_door_close.ogg",
+      "ogg": "https://sounds.tabletopaudio.com/weirder_things/garage_door_close.ogg",
+      "mp3": "https://sounds.tabletopaudio.com/weirder_things/garage_door_close.mp3",
+      "local": "modules/tabletop-audio-soundpads/audio-cache/weirder_things/garage_door_close.ogg"
+    },
+    {
+      "id": "bg_22",
+      "label": "Rain: Outside",
+      "icon": "modules/tabletop-audio-soundpads/audio-cache/weirder_things/icons/rain_icon.png",
+      "iconRemote": "https://images.tabletopaudio.com/sb/dungeon/rain_icon.png",
+      "category": "backgrounds",
+      "type": "loop",
+      "loop": true,
+      "gain": 0.4,
+      "repeatDefault": 0,
+      "url": "https://sounds.tabletopaudio.com/weirder_things/rain_outside.ogg",
+      "ogg": "https://sounds.tabletopaudio.com/weirder_things/rain_outside.ogg",
+      "mp3": "https://sounds.tabletopaudio.com/weirder_things/rain_outside.mp3",
+      "local": "modules/tabletop-audio-soundpads/audio-cache/weirder_things/rain_outside.ogg"
+    },
+    {
+      "id": "bg_20",
+      "label": "Rain: Inside",
+      "icon": "modules/tabletop-audio-soundpads/audio-cache/weirder_things/icons/rain_roof_icon.png",
+      "iconRemote": "https://images.tabletopaudio.com/sb/dungeon/rain_roof_icon.png",
+      "category": "backgrounds",
+      "type": "loop",
+      "loop": true,
+      "gain": 0.4,
+      "repeatDefault": 0,
+      "url": "https://sounds.tabletopaudio.com/weirder_things/rain_inside.ogg",
+      "ogg": "https://sounds.tabletopaudio.com/weirder_things/rain_inside.ogg",
+      "mp3": "https://sounds.tabletopaudio.com/weirder_things/rain_inside.mp3",
+      "local": "modules/tabletop-audio-soundpads/audio-cache/weirder_things/rain_inside.ogg"
+    },
+    {
+      "id": "bg_21",
+      "label": "Thunder Clap",
+      "icon": "modules/tabletop-audio-soundpads/audio-cache/weirder_things/icons/thunder_icon.png",
+      "iconRemote": "https://images.tabletopaudio.com/sb/dungeon/thunder_icon.png",
+      "category": "events",
+      "type": "oneshot",
+      "loop": false,
+      "gain": 0.3,
+      "repeatDefault": 0,
+      "url": "https://sounds.tabletopaudio.com/weirder_things/thunder_clap.ogg",
+      "ogg": "https://sounds.tabletopaudio.com/weirder_things/thunder_clap.ogg",
+      "mp3": "https://sounds.tabletopaudio.com/weirder_things/thunder_clap.mp3",
+      "local": "modules/tabletop-audio-soundpads/audio-cache/weirder_things/thunder_clap.ogg"
+    },
+    {
+      "id": "bg_3",
+      "label": "Swimming Pool",
+      "icon": "modules/tabletop-audio-soundpads/audio-cache/weirder_things/icons/bubbles.png",
+      "iconRemote": "https://images.tabletopaudio.com/sb/dungeon/bubbles.png",
+      "category": "backgrounds",
+      "type": "loop",
+      "loop": true,
+      "gain": 0.2,
+      "repeatDefault": 0,
+      "url": "https://sounds.tabletopaudio.com/weirder_things/swimming_pool_lp.ogg",
+      "ogg": "https://sounds.tabletopaudio.com/weirder_things/swimming_pool_lp.ogg",
+      "mp3": "https://sounds.tabletopaudio.com/weirder_things/swimming_pool_lp.mp3",
+      "local": "modules/tabletop-audio-soundpads/audio-cache/weirder_things/swimming_pool_lp.ogg"
+    },
+    {
+      "id": "bg_5",
+      "label": "School Hallway",
+      "icon": "modules/tabletop-audio-soundpads/audio-cache/weirder_things/icons/school_icon.png",
+      "iconRemote": "https://images.tabletopaudio.com/sb/dungeon/school_icon.png",
+      "category": "backgrounds",
+      "type": "loop",
+      "loop": true,
+      "gain": 0.2,
+      "repeatDefault": 0,
+      "url": "https://sounds.tabletopaudio.com/weirder_things/school_hall_lp.ogg",
+      "ogg": "https://sounds.tabletopaudio.com/weirder_things/school_hall_lp.ogg",
+      "mp3": "https://sounds.tabletopaudio.com/weirder_things/school_hall_lp.mp3",
+      "local": "modules/tabletop-audio-soundpads/audio-cache/weirder_things/school_hall_lp.ogg"
+    },
+    {
+      "id": "bg_6",
+      "label": "Arcade",
+      "icon": "modules/tabletop-audio-soundpads/audio-cache/weirder_things/icons/arcade_icon.png",
+      "iconRemote": "https://images.tabletopaudio.com/sb/dungeon/arcade_icon.png",
+      "category": "backgrounds",
+      "type": "loop",
+      "loop": true,
+      "gain": 0.3,
+      "repeatDefault": 0,
+      "url": "https://sounds.tabletopaudio.com/weirder_things/arcade2_lp.ogg",
+      "ogg": "https://sounds.tabletopaudio.com/weirder_things/arcade2_lp.ogg",
+      "mp3": "https://sounds.tabletopaudio.com/weirder_things/arcade2_lp.mp3",
+      "local": "modules/tabletop-audio-soundpads/audio-cache/weirder_things/arcade2_lp.ogg"
+    },
+    {
+      "id": "bg_35",
+      "label": "Shopping Mall",
+      "icon": "modules/tabletop-audio-soundpads/audio-cache/weirder_things/icons/mall_icon.png",
+      "iconRemote": "https://images.tabletopaudio.com/sb/dungeon/mall_icon.png",
+      "category": "backgrounds",
+      "type": "loop",
+      "loop": true,
+      "gain": 0.4,
+      "repeatDefault": 0,
+      "url": "https://sounds.tabletopaudio.com/weirder_things/shopping_mall_lp.ogg",
+      "ogg": "https://sounds.tabletopaudio.com/weirder_things/shopping_mall_lp.ogg",
+      "mp3": "https://sounds.tabletopaudio.com/weirder_things/shopping_mall_lp.mp3",
+      "local": "modules/tabletop-audio-soundpads/audio-cache/weirder_things/shopping_mall_lp.ogg"
+    },
+    {
+      "id": "bg_36",
+      "label": "Isolation Tank",
+      "icon": "modules/tabletop-audio-soundpads/audio-cache/weirder_things/icons/forcefield_up_icon.png",
+      "iconRemote": "https://images.tabletopaudio.com/sb/dungeon/forcefield_up_icon.png",
+      "category": "backgrounds",
+      "type": "loop",
+      "loop": true,
+      "gain": 0.3,
+      "repeatDefault": 0,
+      "url": "https://sounds.tabletopaudio.com/weirder_things/isolation_tank_lp.ogg",
+      "ogg": "https://sounds.tabletopaudio.com/weirder_things/isolation_tank_lp.ogg",
+      "mp3": "https://sounds.tabletopaudio.com/weirder_things/isolation_tank_lp.mp3",
+      "local": "modules/tabletop-audio-soundpads/audio-cache/weirder_things/isolation_tank_lp.ogg"
+    },
+    {
+      "id": "bg_26",
+      "label": "Otherside BG",
+      "icon": "modules/tabletop-audio-soundpads/audio-cache/weirder_things/icons/otherside_icon.png",
+      "iconRemote": "https://images.tabletopaudio.com/sb/dungeon/otherside_icon.png",
+      "category": "backgrounds",
+      "type": "loop",
+      "loop": true,
+      "gain": 0.4,
+      "repeatDefault": 0,
+      "url": "https://sounds.tabletopaudio.com/weirder_things/other_side_lp.ogg",
+      "ogg": "https://sounds.tabletopaudio.com/weirder_things/other_side_lp.ogg",
+      "mp3": "https://sounds.tabletopaudio.com/weirder_things/other_side_lp.mp3",
+      "local": "modules/tabletop-audio-soundpads/audio-cache/weirder_things/other_side_lp.ogg"
+    },
+    {
+      "id": "bg_14",
+      "label": "Empty Facility",
+      "icon": "modules/tabletop-audio-soundpads/audio-cache/weirder_things/icons/facility_icon.png",
+      "iconRemote": "https://images.tabletopaudio.com/sb/dungeon/facility_icon.png",
+      "category": "backgrounds",
+      "type": "loop",
+      "loop": true,
+      "gain": 0.3,
+      "repeatDefault": 0,
+      "url": "https://sounds.tabletopaudio.com/weirder_things/facility_lp.ogg",
+      "ogg": "https://sounds.tabletopaudio.com/weirder_things/facility_lp.ogg",
+      "mp3": "https://sounds.tabletopaudio.com/weirder_things/facility_lp.mp3",
+      "local": "modules/tabletop-audio-soundpads/audio-cache/weirder_things/facility_lp.ogg"
+    },
+    {
+      "id": "bg_18",
+      "label": "Alarm",
+      "icon": "modules/tabletop-audio-soundpads/audio-cache/weirder_things/icons/alarm_icon.png",
+      "iconRemote": "https://images.tabletopaudio.com/sb/dungeon/alarm_icon.png",
+      "category": "events",
+      "type": "oneshot",
+      "loop": false,
+      "gain": 0.2,
+      "repeatDefault": 0,
+      "url": "https://sounds.tabletopaudio.com/weirder_things/alarm2.ogg",
+      "ogg": "https://sounds.tabletopaudio.com/weirder_things/alarm2.ogg",
+      "mp3": "https://sounds.tabletopaudio.com/weirder_things/alarm2.mp3",
+      "local": "modules/tabletop-audio-soundpads/audio-cache/weirder_things/alarm2.ogg"
+    },
+    {
+      "id": "bg_27",
+      "label": "Suit Breaths",
+      "icon": "modules/tabletop-audio-soundpads/audio-cache/weirder_things/icons/helmet_icon.png",
+      "iconRemote": "https://images.tabletopaudio.com/sb/dungeon/helmet_icon.png",
+      "category": "events",
+      "type": "loop",
+      "loop": true,
+      "gain": 0.3,
+      "repeatDefault": 0,
+      "url": "https://sounds.tabletopaudio.com/weirder_things/suit_breath.ogg",
+      "ogg": "https://sounds.tabletopaudio.com/weirder_things/suit_breath.ogg",
+      "mp3": "https://sounds.tabletopaudio.com/weirder_things/suit_breath.mp3",
+      "local": "modules/tabletop-audio-soundpads/audio-cache/weirder_things/suit_breath.ogg"
+    },
+    {
+      "id": "bg_28",
+      "label": "Footsteps: Facility",
+      "icon": "modules/tabletop-audio-soundpads/audio-cache/weirder_things/icons/boots.png",
+      "iconRemote": "https://images.tabletopaudio.com/sb/dungeon/boots.png",
+      "category": "events",
+      "type": "loop",
+      "loop": true,
+      "gain": 0.3,
+      "repeatDefault": 0,
+      "url": "https://sounds.tabletopaudio.com/weirder_things/footsteps_facility.ogg",
+      "ogg": "https://sounds.tabletopaudio.com/weirder_things/footsteps_facility.ogg",
+      "mp3": "https://sounds.tabletopaudio.com/weirder_things/footsteps_facility.mp3",
+      "local": "modules/tabletop-audio-soundpads/audio-cache/weirder_things/footsteps_facility.ogg"
+    },
+    {
+      "id": "bg_16",
+      "label": "Boom Tone",
+      "icon": "modules/tabletop-audio-soundpads/audio-cache/weirder_things/icons/drum_icon.png",
+      "iconRemote": "https://images.tabletopaudio.com/sb/dungeon/drum_icon.png",
+      "category": "tones",
+      "type": "loop",
+      "loop": true,
+      "gain": 0.4,
+      "repeatDefault": 0,
+      "url": "https://sounds.tabletopaudio.com/weirder_things/boom.ogg",
+      "ogg": "https://sounds.tabletopaudio.com/weirder_things/boom.ogg",
+      "mp3": "https://sounds.tabletopaudio.com/weirder_things/boom.mp3",
+      "local": "modules/tabletop-audio-soundpads/audio-cache/weirder_things/boom.ogg"
+    },
+    {
+      "id": "bg_23",
+      "label": "Braam Tone",
+      "icon": "modules/tabletop-audio-soundpads/audio-cache/weirder_things/icons/bass_tone.png",
+      "iconRemote": "https://images.tabletopaudio.com/sb/dungeon/bass_tone.png",
+      "category": "tones",
+      "type": "oneshot",
+      "loop": false,
+      "gain": 0.4,
+      "repeatDefault": 0,
+      "url": "https://sounds.tabletopaudio.com/weirder_things/braam2b_short.ogg",
+      "ogg": "https://sounds.tabletopaudio.com/weirder_things/braam2b_short.ogg",
+      "mp3": "https://sounds.tabletopaudio.com/weirder_things/braam2b_short.mp3",
+      "local": "modules/tabletop-audio-soundpads/audio-cache/weirder_things/braam2b_short.ogg"
+    },
+    {
+      "id": "bg_11",
+      "label": "Pulse Tone",
+      "icon": "modules/tabletop-audio-soundpads/audio-cache/weirder_things/icons/bass_tone.png",
+      "iconRemote": "https://images.tabletopaudio.com/sb/dungeon/bass_tone.png",
+      "category": "tones",
+      "type": "loop",
+      "loop": true,
+      "gain": 0.3,
+      "repeatDefault": 0,
+      "url": "https://sounds.tabletopaudio.com/weirder_things/tone_low_lp.ogg",
+      "ogg": "https://sounds.tabletopaudio.com/weirder_things/tone_low_lp.ogg",
+      "mp3": "https://sounds.tabletopaudio.com/weirder_things/tone_low_lp.mp3",
+      "local": "modules/tabletop-audio-soundpads/audio-cache/weirder_things/tone_low_lp.ogg"
+    },
+    {
+      "id": "bg_12",
+      "label": "Hi Tone",
+      "icon": "modules/tabletop-audio-soundpads/audio-cache/weirder_things/icons/treble_tone.png",
+      "iconRemote": "https://images.tabletopaudio.com/sb/dungeon/treble_tone.png",
+      "category": "tones",
+      "type": "loop",
+      "loop": true,
+      "gain": 0.2,
+      "repeatDefault": 0,
+      "url": "https://sounds.tabletopaudio.com/weirder_things/hitone2.ogg",
+      "ogg": "https://sounds.tabletopaudio.com/weirder_things/hitone2.ogg",
+      "mp3": "https://sounds.tabletopaudio.com/weirder_things/hitone2.mp3",
+      "local": "modules/tabletop-audio-soundpads/audio-cache/weirder_things/hitone2.ogg"
+    },
+    {
+      "id": "bg_13",
+      "label": "Drone Tone",
+      "icon": "modules/tabletop-audio-soundpads/audio-cache/weirder_things/icons/bass_tone.png",
+      "iconRemote": "https://images.tabletopaudio.com/sb/dungeon/bass_tone.png",
+      "category": "tones",
+      "type": "loop",
+      "loop": true,
+      "gain": 0.3,
+      "repeatDefault": 0,
+      "url": "https://sounds.tabletopaudio.com/weirder_things/drone1_lp.ogg",
+      "ogg": "https://sounds.tabletopaudio.com/weirder_things/drone1_lp.ogg",
+      "mp3": "https://sounds.tabletopaudio.com/weirder_things/drone1_lp.mp3",
+      "local": "modules/tabletop-audio-soundpads/audio-cache/weirder_things/drone1_lp.ogg"
+    },
+    {
+      "id": "bg_24",
+      "label": "Chaotic Tone",
+      "icon": "modules/tabletop-audio-soundpads/audio-cache/weirder_things/icons/treble_tone.png",
+      "iconRemote": "https://images.tabletopaudio.com/sb/dungeon/treble_tone.png",
+      "category": "tones",
+      "type": "loop",
+      "loop": true,
+      "gain": 0.3,
+      "repeatDefault": 0,
+      "url": "https://sounds.tabletopaudio.com/weirder_things/random_tone2_lp.ogg",
+      "ogg": "https://sounds.tabletopaudio.com/weirder_things/random_tone2_lp.ogg",
+      "mp3": "https://sounds.tabletopaudio.com/weirder_things/random_tone2_lp.mp3",
+      "local": "modules/tabletop-audio-soundpads/audio-cache/weirder_things/random_tone2_lp.ogg"
+    },
+    {
+      "id": "bg_15",
+      "label": "Analog Static",
+      "icon": "modules/tabletop-audio-soundpads/audio-cache/weirder_things/icons/electrical_icon.png",
+      "iconRemote": "https://images.tabletopaudio.com/sb/dungeon/electrical_icon.png",
+      "category": "events",
+      "type": "oneshot",
+      "loop": false,
+      "gain": 0.2,
+      "repeatDefault": 0,
+      "url": "https://sounds.tabletopaudio.com/weirder_things/tv_static.ogg",
+      "ogg": "https://sounds.tabletopaudio.com/weirder_things/tv_static.ogg",
+      "mp3": "https://sounds.tabletopaudio.com/weirder_things/tv_static.mp3",
+      "local": "modules/tabletop-audio-soundpads/audio-cache/weirder_things/tv_static.ogg"
+    },
+    {
+      "id": "bg_25",
+      "label": "Lightbulb Glitch",
+      "icon": "modules/tabletop-audio-soundpads/audio-cache/weirder_things/icons/electrical_icon.png",
+      "iconRemote": "https://images.tabletopaudio.com/sb/dungeon/electrical_icon.png",
+      "category": "events",
+      "type": "oneshot",
+      "loop": false,
+      "gain": 0.3,
+      "repeatDefault": 0,
+      "url": "https://sounds.tabletopaudio.com/weirder_things/electrical_glitches.ogg",
+      "ogg": "https://sounds.tabletopaudio.com/weirder_things/electrical_glitches.ogg",
+      "mp3": "https://sounds.tabletopaudio.com/weirder_things/electrical_glitches.mp3",
+      "local": "modules/tabletop-audio-soundpads/audio-cache/weirder_things/electrical_glitches.ogg"
+    },
+    {
+      "id": "bg_10",
+      "label": "Power Surge x4",
+      "icon": "modules/tabletop-audio-soundpads/audio-cache/weirder_things/icons/electrical_icon.png",
+      "iconRemote": "https://images.tabletopaudio.com/sb/dungeon/electrical_icon.png",
+      "category": "events",
+      "type": "oneshot",
+      "loop": false,
+      "gain": 0.3,
+      "repeatDefault": 0,
+      "url": "https://sounds.tabletopaudio.com/weirder_things/power_surge_x4.ogg",
+      "ogg": "https://sounds.tabletopaudio.com/weirder_things/power_surge_x4.ogg",
+      "mp3": "https://sounds.tabletopaudio.com/weirder_things/power_surge_x4.mp3",
+      "local": "modules/tabletop-audio-soundpads/audio-cache/weirder_things/power_surge_x4.ogg",
+      "sprites": [
+        {
+          "offset": 0,
+          "duration": 2.676
+        },
+        {
+          "offset": 3.092,
+          "duration": 2.834
+        },
+        {
+          "offset": 6.062,
+          "duration": 3.002
+        },
+        {
+          "offset": 9.11,
+          "duration": 2.755
+        }
+      ]
+    },
+    {
+      "id": "bg_19",
+      "label": "Walkie Talkie x4",
+      "icon": "modules/tabletop-audio-soundpads/audio-cache/weirder_things/icons/data_comms_icon.png",
+      "iconRemote": "https://images.tabletopaudio.com/sb/dungeon/data_comms_icon.png",
+      "category": "events",
+      "type": "oneshot",
+      "loop": false,
+      "gain": 0.2,
+      "repeatDefault": 0,
+      "url": "https://sounds.tabletopaudio.com/weirder_things/walkie_talkie_x4.ogg",
+      "ogg": "https://sounds.tabletopaudio.com/weirder_things/walkie_talkie_x4.ogg",
+      "mp3": "https://sounds.tabletopaudio.com/weirder_things/walkie_talkie_x4.mp3",
+      "local": "modules/tabletop-audio-soundpads/audio-cache/weirder_things/walkie_talkie_x4.ogg",
+      "sprites": [
+        {
+          "offset": 0,
+          "duration": 0.455
+        },
+        {
+          "offset": 0.691,
+          "duration": 0.512
+        },
+        {
+          "offset": 1.436,
+          "duration": 0.556
+        },
+        {
+          "offset": 2.161,
+          "duration": 0.356
+        }
+      ]
+    },
+    {
+      "id": "bg_17",
+      "label": "Creature Lurk x4",
+      "icon": "modules/tabletop-audio-soundpads/audio-cache/weirder_things/icons/demon_icon.png",
+      "iconRemote": "https://images.tabletopaudio.com/sb/dungeon/demon_icon.png",
+      "category": "events",
+      "type": "oneshot",
+      "loop": false,
+      "gain": 0.3,
+      "repeatDefault": 0,
+      "url": "https://sounds.tabletopaudio.com/weirder_things/creature_lurk_x4.ogg",
+      "ogg": "https://sounds.tabletopaudio.com/weirder_things/creature_lurk_x4.ogg",
+      "mp3": "https://sounds.tabletopaudio.com/weirder_things/creature_lurk_x4.mp3",
+      "local": "modules/tabletop-audio-soundpads/audio-cache/weirder_things/creature_lurk_x4.ogg",
+      "sprites": [
+        {
+          "offset": 0,
+          "duration": 6.931
+        },
+        {
+          "offset": 6.974,
+          "duration": 6.582
+        },
+        {
+          "offset": 13.601,
+          "duration": 7.148
+        },
+        {
+          "offset": 20.88,
+          "duration": 6.802
+        }
+      ]
+    },
+    {
+      "id": "bg_32",
+      "label": "Roars x4",
+      "icon": "modules/tabletop-audio-soundpads/audio-cache/weirder_things/icons/teeth.png",
+      "iconRemote": "https://images.tabletopaudio.com/sb/dungeon/teeth.png",
+      "category": "events",
+      "type": "oneshot",
+      "loop": false,
+      "gain": 0.4,
+      "repeatDefault": 0,
+      "url": "https://sounds.tabletopaudio.com/weirder_things/roars_x4.ogg",
+      "ogg": "https://sounds.tabletopaudio.com/weirder_things/roars_x4.ogg",
+      "mp3": "https://sounds.tabletopaudio.com/weirder_things/roars_x4.mp3",
+      "local": "modules/tabletop-audio-soundpads/audio-cache/weirder_things/roars_x4.ogg",
+      "sprites": [
+        {
+          "offset": 0,
+          "duration": 3.498
+        },
+        {
+          "offset": 3.523,
+          "duration": 3.645
+        },
+        {
+          "offset": 7.233,
+          "duration": 3.494
+        },
+        {
+          "offset": 11.081,
+          "duration": 2.351
+        }
+      ]
+    },
+    {
+      "id": "bg_29",
+      "label": "Risers x4",
+      "icon": "modules/tabletop-audio-soundpads/audio-cache/weirder_things/icons/screams.png",
+      "iconRemote": "https://images.tabletopaudio.com/sb/dungeon/screams.png",
+      "category": "events",
+      "type": "oneshot",
+      "loop": false,
+      "gain": 0.5,
+      "repeatDefault": 0,
+      "url": "https://sounds.tabletopaudio.com/weirder_things/risers_x4a.ogg",
+      "ogg": "https://sounds.tabletopaudio.com/weirder_things/risers_x4a.ogg",
+      "mp3": "https://sounds.tabletopaudio.com/weirder_things/risers_x4a.mp3",
+      "local": "modules/tabletop-audio-soundpads/audio-cache/weirder_things/risers_x4a.ogg",
+      "sprites": [
+        {
+          "offset": 0,
+          "duration": 6.19
+        },
+        {
+          "offset": 6.412,
+          "duration": 8.095
+        },
+        {
+          "offset": 14.888,
+          "duration": 11.238
+        },
+        {
+          "offset": 26.88,
+          "duration": 6.619
+        }
+      ]
+    },
+    {
+      "id": "bg_30",
+      "label": "Twisting Metal",
+      "icon": "modules/tabletop-audio-soundpads/audio-cache/weirder_things/icons/rumble_icon.png",
+      "iconRemote": "https://images.tabletopaudio.com/sb/dungeon/rumble_icon.png",
+      "category": "events",
+      "type": "oneshot",
+      "loop": false,
+      "gain": 0.3,
+      "repeatDefault": 0,
+      "url": "https://sounds.tabletopaudio.com/weirder_things/metal_groan.ogg",
+      "ogg": "https://sounds.tabletopaudio.com/weirder_things/metal_groan.ogg",
+      "mp3": "https://sounds.tabletopaudio.com/weirder_things/metal_groan.mp3",
+      "local": "modules/tabletop-audio-soundpads/audio-cache/weirder_things/metal_groan.ogg"
+    },
+    {
+      "id": "bg_31",
+      "label": "Shotgun Fire x2",
+      "icon": "modules/tabletop-audio-soundpads/audio-cache/weirder_things/icons/shotgun_icon.png",
+      "iconRemote": "https://images.tabletopaudio.com/sb/dungeon/shotgun_icon.png",
+      "category": "events",
+      "type": "oneshot",
+      "loop": false,
+      "gain": 0.3,
+      "repeatDefault": 0,
+      "url": "https://sounds.tabletopaudio.com/weirder_things/shotgun_2x.ogg",
+      "ogg": "https://sounds.tabletopaudio.com/weirder_things/shotgun_2x.ogg",
+      "mp3": "https://sounds.tabletopaudio.com/weirder_things/shotgun_2x.mp3",
+      "local": "modules/tabletop-audio-soundpads/audio-cache/weirder_things/shotgun_2x.ogg",
+      "sprites": [
+        {
+          "offset": 0,
+          "duration": 3.628
+        },
+        {
+          "offset": 3.722,
+          "duration": 3.92
+        },
+        {
+          "offset": 0,
+          "duration": 3.628
+        },
+        {
+          "offset": 3.722,
+          "duration": 3.92
+        }
+      ]
+    },
+    {
+      "id": "bg_33",
+      "label": "Power Blast",
+      "icon": "modules/tabletop-audio-soundpads/audio-cache/weirder_things/icons/explosion_icon.png",
+      "iconRemote": "https://images.tabletopaudio.com/sb/dungeon/explosion_icon.png",
+      "category": "events",
+      "type": "oneshot",
+      "loop": false,
+      "gain": 0.4,
+      "repeatDefault": 0,
+      "url": "https://sounds.tabletopaudio.com/weirder_things/power_blast.ogg",
+      "ogg": "https://sounds.tabletopaudio.com/weirder_things/power_blast.ogg",
+      "mp3": "https://sounds.tabletopaudio.com/weirder_things/power_blast.mp3",
+      "local": "modules/tabletop-audio-soundpads/audio-cache/weirder_things/power_blast.ogg"
+    },
+    {
+      "id": "bg_34",
+      "label": "Psychic Blast x2",
+      "icon": "modules/tabletop-audio-soundpads/audio-cache/weirder_things/icons/screams.png",
+      "iconRemote": "https://images.tabletopaudio.com/sb/dungeon/screams.png",
+      "category": "events",
+      "type": "oneshot",
+      "loop": false,
+      "gain": 0.4,
+      "repeatDefault": 0,
+      "url": "https://sounds.tabletopaudio.com/weirder_things/mind_blast_x2.ogg",
+      "ogg": "https://sounds.tabletopaudio.com/weirder_things/mind_blast_x2.ogg",
+      "mp3": "https://sounds.tabletopaudio.com/weirder_things/mind_blast_x2.mp3",
+      "local": "modules/tabletop-audio-soundpads/audio-cache/weirder_things/mind_blast_x2.ogg",
+      "sprites": [
+        {
+          "offset": 0,
+          "duration": 3.996
+        },
+        {
+          "offset": 4.008,
+          "duration": 4.333
+        },
+        {
+          "offset": 0,
+          "duration": 3.996
+        },
+        {
+          "offset": 4.008,
+          "duration": 4.333
+        }
+      ]
+    },
+    {
+      "id": "bg_37",
+      "label": "Synth: Dawn",
+      "icon": "modules/tabletop-audio-soundpads/audio-cache/weirder_things/icons/music.png",
+      "iconRemote": "https://images.tabletopaudio.com/sb/dungeon/music.png",
+      "category": "music",
+      "type": "music",
+      "loop": true,
+      "gain": 0.3,
+      "repeatDefault": 0,
+      "url": "https://sounds.tabletopaudio.com/weirder_things/moody1_lp.ogg",
+      "ogg": "https://sounds.tabletopaudio.com/weirder_things/moody1_lp.ogg",
+      "mp3": "https://sounds.tabletopaudio.com/weirder_things/moody1_lp.mp3",
+      "local": "modules/tabletop-audio-soundpads/audio-cache/weirder_things/moody1_lp.ogg"
+    },
+    {
+      "id": "bg_38",
+      "label": "Synth: Mall",
+      "icon": "modules/tabletop-audio-soundpads/audio-cache/weirder_things/icons/music.png",
+      "iconRemote": "https://images.tabletopaudio.com/sb/dungeon/music.png",
+      "category": "music",
+      "type": "music",
+      "loop": true,
+      "gain": 0.3,
+      "repeatDefault": 0,
+      "url": "https://sounds.tabletopaudio.com/weirder_things/weirder_things_3c_lp.ogg",
+      "ogg": "https://sounds.tabletopaudio.com/weirder_things/weirder_things_3c_lp.ogg",
+      "mp3": "https://sounds.tabletopaudio.com/weirder_things/weirder_things_3c_lp.mp3",
+      "local": "modules/tabletop-audio-soundpads/audio-cache/weirder_things/weirder_things_3c_lp.ogg"
+    },
+    {
+      "id": "bg_39",
+      "label": "Synth: Drama",
+      "icon": "modules/tabletop-audio-soundpads/audio-cache/weirder_things/icons/music.png",
+      "iconRemote": "https://images.tabletopaudio.com/sb/dungeon/music.png",
+      "category": "music",
+      "type": "music",
+      "loop": true,
+      "gain": 0.3,
+      "repeatDefault": 0,
+      "url": "https://sounds.tabletopaudio.com/weirder_things/music_uplift_lp.ogg",
+      "ogg": "https://sounds.tabletopaudio.com/weirder_things/music_uplift_lp.ogg",
+      "mp3": "https://sounds.tabletopaudio.com/weirder_things/music_uplift_lp.mp3",
+      "local": "modules/tabletop-audio-soundpads/audio-cache/weirder_things/music_uplift_lp.ogg"
+    },
+    {
+      "id": "bg_40",
+      "label": "Synth: Tension",
+      "icon": "modules/tabletop-audio-soundpads/audio-cache/weirder_things/icons/music.png",
+      "iconRemote": "https://images.tabletopaudio.com/sb/dungeon/music.png",
+      "category": "music",
+      "type": "music",
+      "loop": true,
+      "gain": 0.3,
+      "repeatDefault": 0,
+      "url": "https://sounds.tabletopaudio.com/weirder_things/music_tension_lp.ogg",
+      "ogg": "https://sounds.tabletopaudio.com/weirder_things/music_tension_lp.ogg",
+      "mp3": "https://sounds.tabletopaudio.com/weirder_things/music_tension_lp.mp3",
+      "local": "modules/tabletop-audio-soundpads/audio-cache/weirder_things/music_tension_lp.ogg"
+    }
+  ]
+}

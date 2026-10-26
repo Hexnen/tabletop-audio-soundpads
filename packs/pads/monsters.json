@@ -1,0 +1,783 @@
+{
+  "id": "monsters",
+  "name": "Monsters",
+  "source": "https://tabletopaudio.com/monsters_sp.html",
+  "coverRemote": "https://images.tabletopaudio.com/sb/monster_pack_sp2.jpg",
+  "cover": "modules/tabletop-audio-soundpads/audio-cache/monsters/monster_pack_sp2.jpg",
+  "headerRemote": "https://images.tabletopaudio.com/sb/monster_pack_header1.png",
+  "header": "modules/tabletop-audio-soundpads/audio-cache/monsters/monster_pack_header1.png",
+  "categories": [
+    "backgrounds"
+  ],
+  "layerCount": 32,
+  "layers": [
+    {
+      "id": "bg_1",
+      "label": "Humanoid Idle",
+      "icon": "modules/tabletop-audio-soundpads/audio-cache/monsters/icons/humanoid_icon.png",
+      "iconRemote": "https://images.tabletopaudio.com/sb/dungeon/humanoid_icon.png",
+      "category": "backgrounds",
+      "type": "loop",
+      "loop": true,
+      "gain": 0.2,
+      "repeatDefault": 0,
+      "url": "https://sounds.tabletopaudio.com/monsters1/humanoid_idle_lp.ogg",
+      "ogg": "https://sounds.tabletopaudio.com/monsters1/humanoid_idle_lp.ogg",
+      "mp3": "https://sounds.tabletopaudio.com/monsters1/humanoid_idle_lp.mp3",
+      "local": "modules/tabletop-audio-soundpads/audio-cache/monsters/humanoid_idle_lp.ogg"
+    },
+    {
+      "id": "bg_2",
+      "label": "Humanoid Attack x4",
+      "icon": "modules/tabletop-audio-soundpads/audio-cache/monsters/icons/humanoid_icon.png",
+      "iconRemote": "https://images.tabletopaudio.com/sb/dungeon/humanoid_icon.png",
+      "category": "backgrounds",
+      "type": "oneshot",
+      "loop": false,
+      "gain": 0.8,
+      "repeatDefault": 0,
+      "url": "https://sounds.tabletopaudio.com/monsters1/humanoid_attack_x4.ogg",
+      "ogg": "https://sounds.tabletopaudio.com/monsters1/humanoid_attack_x4.ogg",
+      "mp3": "https://sounds.tabletopaudio.com/monsters1/humanoid_attack_x4.mp3",
+      "local": "modules/tabletop-audio-soundpads/audio-cache/monsters/humanoid_attack_x4.ogg",
+      "sprites": [
+        {
+          "offset": 0,
+          "duration": 1.764
+        },
+        {
+          "offset": 1.799,
+          "duration": 1.799
+        },
+        {
+          "offset": 3.633,
+          "duration": 2.107
+        },
+        {
+          "offset": 5.839,
+          "duration": 1.593
+        }
+      ]
+    },
+    {
+      "id": "bg_3",
+      "label": "Skeleton Idle",
+      "icon": "modules/tabletop-audio-soundpads/audio-cache/monsters/icons/skeleton_icon.png",
+      "iconRemote": "https://images.tabletopaudio.com/sb/dungeon/skeleton_icon.png",
+      "category": "backgrounds",
+      "type": "loop",
+      "loop": true,
+      "gain": 0.2,
+      "repeatDefault": 0,
+      "url": "https://sounds.tabletopaudio.com/monsters1/skeleton_idle2.ogg",
+      "ogg": "https://sounds.tabletopaudio.com/monsters1/skeleton_idle2.ogg",
+      "mp3": "https://sounds.tabletopaudio.com/monsters1/skeleton_idle2.mp3",
+      "local": "modules/tabletop-audio-soundpads/audio-cache/monsters/skeleton_idle2.ogg"
+    },
+    {
+      "id": "bg_4",
+      "label": "Skeleton Attack x4",
+      "icon": "modules/tabletop-audio-soundpads/audio-cache/monsters/icons/skeleton_icon.png",
+      "iconRemote": "https://images.tabletopaudio.com/sb/dungeon/skeleton_icon.png",
+      "category": "backgrounds",
+      "type": "oneshot",
+      "loop": false,
+      "gain": 0.8,
+      "repeatDefault": 0,
+      "url": "https://sounds.tabletopaudio.com/monsters1/skeleton_attack_b_x4.ogg",
+      "ogg": "https://sounds.tabletopaudio.com/monsters1/skeleton_attack_b_x4.ogg",
+      "mp3": "https://sounds.tabletopaudio.com/monsters1/skeleton_attack_b_x4.mp3",
+      "local": "modules/tabletop-audio-soundpads/audio-cache/monsters/skeleton_attack_b_x4.ogg",
+      "sprites": [
+        {
+          "offset": 0,
+          "duration": 2.102
+        },
+        {
+          "offset": 2.175,
+          "duration": 2.309
+        },
+        {
+          "offset": 4.545,
+          "duration": 2.248
+        },
+        {
+          "offset": 6.903,
+          "duration": 2.126
+        }
+      ]
+    },
+    {
+      "id": "bg_5",
+      "label": "Goblins Idle",
+      "icon": "modules/tabletop-audio-soundpads/audio-cache/monsters/icons/goblin_icon.png",
+      "iconRemote": "https://images.tabletopaudio.com/sb/dungeon/goblin_icon.png",
+      "category": "backgrounds",
+      "type": "loop",
+      "loop": true,
+      "gain": 0.2,
+      "repeatDefault": 0,
+      "url": "https://sounds.tabletopaudio.com/monsters1/goblins_idle_lp.ogg",
+      "ogg": "https://sounds.tabletopaudio.com/monsters1/goblins_idle_lp.ogg",
+      "mp3": "https://sounds.tabletopaudio.com/monsters1/goblins_idle_lp.mp3",
+      "local": "modules/tabletop-audio-soundpads/audio-cache/monsters/goblins_idle_lp.ogg"
+    },
+    {
+      "id": "bg_6",
+      "label": "Goblin Attack x4",
+      "icon": "modules/tabletop-audio-soundpads/audio-cache/monsters/icons/goblin_icon.png",
+      "iconRemote": "https://images.tabletopaudio.com/sb/dungeon/goblin_icon.png",
+      "category": "backgrounds",
+      "type": "oneshot",
+      "loop": false,
+      "gain": 0.8,
+      "repeatDefault": 0,
+      "url": "https://sounds.tabletopaudio.com/monsters1/goblin_attack_x4.ogg",
+      "ogg": "https://sounds.tabletopaudio.com/monsters1/goblin_attack_x4.ogg",
+      "mp3": "https://sounds.tabletopaudio.com/monsters1/goblin_attack_x4.mp3",
+      "local": "modules/tabletop-audio-soundpads/audio-cache/monsters/goblin_attack_x4.ogg",
+      "sprites": [
+        {
+          "offset": 0,
+          "duration": 2.307
+        },
+        {
+          "offset": 2.368,
+          "duration": 1.372
+        },
+        {
+          "offset": 4.101,
+          "duration": 1.941
+        },
+        {
+          "offset": 6.086,
+          "duration": 2.426
+        }
+      ]
+    },
+    {
+      "id": "bg_7",
+      "label": "Spider Idle",
+      "icon": "modules/tabletop-audio-soundpads/audio-cache/monsters/icons/spider_icon.png",
+      "iconRemote": "https://images.tabletopaudio.com/sb/dungeon/spider_icon.png",
+      "category": "backgrounds",
+      "type": "loop",
+      "loop": true,
+      "gain": 0.2,
+      "repeatDefault": 0,
+      "url": "https://sounds.tabletopaudio.com/monsters1/spider_idle_lp.ogg",
+      "ogg": "https://sounds.tabletopaudio.com/monsters1/spider_idle_lp.ogg",
+      "mp3": "https://sounds.tabletopaudio.com/monsters1/spider_idle_lp.mp3",
+      "local": "modules/tabletop-audio-soundpads/audio-cache/monsters/spider_idle_lp.ogg"
+    },
+    {
+      "id": "bg_8",
+      "label": "Spider Attack x3",
+      "icon": "modules/tabletop-audio-soundpads/audio-cache/monsters/icons/spider_icon.png",
+      "iconRemote": "https://images.tabletopaudio.com/sb/dungeon/spider_icon.png",
+      "category": "backgrounds",
+      "type": "oneshot",
+      "loop": false,
+      "gain": 0.8,
+      "repeatDefault": 0,
+      "url": "https://sounds.tabletopaudio.com/monsters1/spider_attack_x3.ogg",
+      "ogg": "https://sounds.tabletopaudio.com/monsters1/spider_attack_x3.ogg",
+      "mp3": "https://sounds.tabletopaudio.com/monsters1/spider_attack_x3.mp3",
+      "local": "modules/tabletop-audio-soundpads/audio-cache/monsters/spider_attack_x3.ogg",
+      "sprites": [
+        {
+          "offset": 0,
+          "duration": 2.748
+        },
+        {
+          "offset": 3.034,
+          "duration": 2.645
+        },
+        {
+          "offset": 5.764,
+          "duration": 2.996
+        },
+        {
+          "offset": 3.034,
+          "duration": 2.645
+        }
+      ]
+    },
+    {
+      "id": "bg_19",
+      "label": "Sm. Beast Idle",
+      "icon": "modules/tabletop-audio-soundpads/audio-cache/monsters/icons/sm_beast_icon.png",
+      "iconRemote": "https://images.tabletopaudio.com/sb/dungeon/sm_beast_icon.png",
+      "category": "backgrounds",
+      "type": "loop",
+      "loop": true,
+      "gain": 0.2,
+      "repeatDefault": 0,
+      "url": "https://sounds.tabletopaudio.com/monsters1/small_beast_idle_lp.ogg",
+      "ogg": "https://sounds.tabletopaudio.com/monsters1/small_beast_idle_lp.ogg",
+      "mp3": "https://sounds.tabletopaudio.com/monsters1/small_beast_idle_lp.mp3",
+      "local": "modules/tabletop-audio-soundpads/audio-cache/monsters/small_beast_idle_lp.ogg"
+    },
+    {
+      "id": "bg_20",
+      "label": "Sm. Beast Attack x3",
+      "icon": "modules/tabletop-audio-soundpads/audio-cache/monsters/icons/sm_beast_icon.png",
+      "iconRemote": "https://images.tabletopaudio.com/sb/dungeon/sm_beast_icon.png",
+      "category": "backgrounds",
+      "type": "oneshot",
+      "loop": false,
+      "gain": 0.8,
+      "repeatDefault": 0,
+      "url": "https://sounds.tabletopaudio.com/monsters1/small_beast_attack_x3.ogg",
+      "ogg": "https://sounds.tabletopaudio.com/monsters1/small_beast_attack_x3.ogg",
+      "mp3": "https://sounds.tabletopaudio.com/monsters1/small_beast_attack_x3.mp3",
+      "local": "modules/tabletop-audio-soundpads/audio-cache/monsters/small_beast_attack_x3.ogg",
+      "sprites": [
+        {
+          "offset": 0,
+          "duration": 1.196
+        },
+        {
+          "offset": 1.265,
+          "duration": 1.166
+        },
+        {
+          "offset": 2.486,
+          "duration": 1.3
+        },
+        {
+          "offset": 1.265,
+          "duration": 1.166
+        }
+      ]
+    },
+    {
+      "id": "bg_11",
+      "label": "Med. Beast Idle",
+      "icon": "modules/tabletop-audio-soundpads/audio-cache/monsters/icons/med_beast_icon.png",
+      "iconRemote": "https://images.tabletopaudio.com/sb/dungeon/med_beast_icon.png",
+      "category": "backgrounds",
+      "type": "loop",
+      "loop": true,
+      "gain": 0.2,
+      "repeatDefault": 0,
+      "url": "https://sounds.tabletopaudio.com/monsters1/medium_beast_idle_lp.ogg",
+      "ogg": "https://sounds.tabletopaudio.com/monsters1/medium_beast_idle_lp.ogg",
+      "mp3": "https://sounds.tabletopaudio.com/monsters1/medium_beast_idle_lp.mp3",
+      "local": "modules/tabletop-audio-soundpads/audio-cache/monsters/medium_beast_idle_lp.ogg"
+    },
+    {
+      "id": "bg_12",
+      "label": "Med. Beast Atk x3",
+      "icon": "modules/tabletop-audio-soundpads/audio-cache/monsters/icons/med_beast_icon.png",
+      "iconRemote": "https://images.tabletopaudio.com/sb/dungeon/med_beast_icon.png",
+      "category": "backgrounds",
+      "type": "oneshot",
+      "loop": false,
+      "gain": 0.8,
+      "repeatDefault": 0,
+      "url": "https://sounds.tabletopaudio.com/monsters1/medium_beast_attack_a3x.ogg",
+      "ogg": "https://sounds.tabletopaudio.com/monsters1/medium_beast_attack_a3x.ogg",
+      "mp3": "https://sounds.tabletopaudio.com/monsters1/medium_beast_attack_a3x.mp3",
+      "local": "modules/tabletop-audio-soundpads/audio-cache/monsters/medium_beast_attack_a3x.ogg",
+      "sprites": [
+        {
+          "offset": 0,
+          "duration": 2.688
+        },
+        {
+          "offset": 2.727,
+          "duration": 2.255
+        },
+        {
+          "offset": 5.117,
+          "duration": 2.28
+        },
+        {
+          "offset": 2.727,
+          "duration": 2.255
+        }
+      ]
+    },
+    {
+      "id": "bg_13",
+      "label": "Lg. Beast Idle",
+      "icon": "modules/tabletop-audio-soundpads/audio-cache/monsters/icons/lg_beast_icon.png",
+      "iconRemote": "https://images.tabletopaudio.com/sb/dungeon/lg_beast_icon.png",
+      "category": "backgrounds",
+      "type": "loop",
+      "loop": true,
+      "gain": 0.2,
+      "repeatDefault": 0,
+      "url": "https://sounds.tabletopaudio.com/monsters1/large_beast_idle.ogg",
+      "ogg": "https://sounds.tabletopaudio.com/monsters1/large_beast_idle.ogg",
+      "mp3": "https://sounds.tabletopaudio.com/monsters1/large_beast_idle.mp3",
+      "local": "modules/tabletop-audio-soundpads/audio-cache/monsters/large_beast_idle.ogg"
+    },
+    {
+      "id": "bg_14",
+      "label": "Lg. Beast Attack x3",
+      "icon": "modules/tabletop-audio-soundpads/audio-cache/monsters/icons/lg_beast_icon.png",
+      "iconRemote": "https://images.tabletopaudio.com/sb/dungeon/lg_beast_icon.png",
+      "category": "backgrounds",
+      "type": "oneshot",
+      "loop": false,
+      "gain": 0.8,
+      "repeatDefault": 0,
+      "url": "https://sounds.tabletopaudio.com/monsters1/large_beast_attack.ogg",
+      "ogg": "https://sounds.tabletopaudio.com/monsters1/large_beast_attack.ogg",
+      "mp3": "https://sounds.tabletopaudio.com/monsters1/large_beast_attack.mp3",
+      "local": "modules/tabletop-audio-soundpads/audio-cache/monsters/large_beast_attack.ogg",
+      "sprites": [
+        {
+          "offset": 0,
+          "duration": 2.781
+        },
+        {
+          "offset": 2.9,
+          "duration": 2.554
+        },
+        {
+          "offset": 5.523,
+          "duration": 2.047
+        },
+        {
+          "offset": 2.9,
+          "duration": 2.554
+        }
+      ]
+    },
+    {
+      "id": "bg_9",
+      "label": "Rocks Idle",
+      "icon": "modules/tabletop-audio-soundpads/audio-cache/monsters/icons/rock_monster_icon.png",
+      "iconRemote": "https://images.tabletopaudio.com/sb/dungeon/rock_monster_icon.png",
+      "category": "backgrounds",
+      "type": "loop",
+      "loop": true,
+      "gain": 0.2,
+      "repeatDefault": 0,
+      "url": "https://sounds.tabletopaudio.com/monsters1/rock_monster_idle_lp.ogg",
+      "ogg": "https://sounds.tabletopaudio.com/monsters1/rock_monster_idle_lp.ogg",
+      "mp3": "https://sounds.tabletopaudio.com/monsters1/rock_monster_idle_lp.mp3",
+      "local": "modules/tabletop-audio-soundpads/audio-cache/monsters/rock_monster_idle_lp.ogg"
+    },
+    {
+      "id": "bg_10",
+      "label": "Rocks Attack x3",
+      "icon": "modules/tabletop-audio-soundpads/audio-cache/monsters/icons/rock_monster_icon.png",
+      "iconRemote": "https://images.tabletopaudio.com/sb/dungeon/rock_monster_icon.png",
+      "category": "backgrounds",
+      "type": "oneshot",
+      "loop": false,
+      "gain": 0.8,
+      "repeatDefault": 0,
+      "url": "https://sounds.tabletopaudio.com/monsters1/rock_monster_attack_a_3x.ogg",
+      "ogg": "https://sounds.tabletopaudio.com/monsters1/rock_monster_attack_a_3x.ogg",
+      "mp3": "https://sounds.tabletopaudio.com/monsters1/rock_monster_attack_a_3x.mp3",
+      "local": "modules/tabletop-audio-soundpads/audio-cache/monsters/rock_monster_attack_a_3x.ogg",
+      "sprites": [
+        {
+          "offset": 0,
+          "duration": 3.061
+        },
+        {
+          "offset": 3.106,
+          "duration": 3.284
+        },
+        {
+          "offset": 6.49,
+          "duration": 3.392
+        },
+        {
+          "offset": 0,
+          "duration": 3.061
+        }
+      ]
+    },
+    {
+      "id": "bg_15",
+      "label": "Dragon Idle",
+      "icon": "modules/tabletop-audio-soundpads/audio-cache/monsters/icons/dragon_icon.png",
+      "iconRemote": "https://images.tabletopaudio.com/sb/dungeon/dragon_icon.png",
+      "category": "backgrounds",
+      "type": "loop",
+      "loop": true,
+      "gain": 0.2,
+      "repeatDefault": 0,
+      "url": "https://sounds.tabletopaudio.com/monsters1/dragon_idle_lp.ogg",
+      "ogg": "https://sounds.tabletopaudio.com/monsters1/dragon_idle_lp.ogg",
+      "mp3": "https://sounds.tabletopaudio.com/monsters1/dragon_idle_lp.mp3",
+      "local": "modules/tabletop-audio-soundpads/audio-cache/monsters/dragon_idle_lp.ogg"
+    },
+    {
+      "id": "bg_16",
+      "label": "Dragon Attack x3",
+      "icon": "modules/tabletop-audio-soundpads/audio-cache/monsters/icons/dragon_icon.png",
+      "iconRemote": "https://images.tabletopaudio.com/sb/dungeon/dragon_icon.png",
+      "category": "backgrounds",
+      "type": "oneshot",
+      "loop": false,
+      "gain": 0.8,
+      "repeatDefault": 0,
+      "url": "https://sounds.tabletopaudio.com/monsters1/dragon_attack_x3.ogg",
+      "ogg": "https://sounds.tabletopaudio.com/monsters1/dragon_attack_x3.ogg",
+      "mp3": "https://sounds.tabletopaudio.com/monsters1/dragon_attack_x3.mp3",
+      "local": "modules/tabletop-audio-soundpads/audio-cache/monsters/dragon_attack_x3.ogg",
+      "sprites": [
+        {
+          "offset": 0,
+          "duration": 6.111
+        },
+        {
+          "offset": 6.114,
+          "duration": 7.14
+        },
+        {
+          "offset": 13.342,
+          "duration": 6.534
+        },
+        {
+          "offset": 6.114,
+          "duration": 7.14
+        }
+      ]
+    },
+    {
+      "id": "bg_17",
+      "label": "Cube Idle",
+      "icon": "modules/tabletop-audio-soundpads/audio-cache/monsters/icons/cube_icon.png",
+      "iconRemote": "https://images.tabletopaudio.com/sb/dungeon/cube_icon.png",
+      "category": "backgrounds",
+      "type": "loop",
+      "loop": true,
+      "gain": 0.2,
+      "repeatDefault": 0,
+      "url": "https://sounds.tabletopaudio.com/monsters1/ooze_idle.ogg",
+      "ogg": "https://sounds.tabletopaudio.com/monsters1/ooze_idle.ogg",
+      "mp3": "https://sounds.tabletopaudio.com/monsters1/ooze_idle.mp3",
+      "local": "modules/tabletop-audio-soundpads/audio-cache/monsters/ooze_idle.ogg"
+    },
+    {
+      "id": "bg_18",
+      "label": "Cube Attack x3",
+      "icon": "modules/tabletop-audio-soundpads/audio-cache/monsters/icons/cube_icon.png",
+      "iconRemote": "https://images.tabletopaudio.com/sb/dungeon/cube_icon.png",
+      "category": "backgrounds",
+      "type": "oneshot",
+      "loop": false,
+      "gain": 0.8,
+      "repeatDefault": 0,
+      "url": "https://sounds.tabletopaudio.com/monsters1/ooze_attack_x3.ogg",
+      "ogg": "https://sounds.tabletopaudio.com/monsters1/ooze_attack_x3.ogg",
+      "mp3": "https://sounds.tabletopaudio.com/monsters1/ooze_attack_x3.mp3",
+      "local": "modules/tabletop-audio-soundpads/audio-cache/monsters/ooze_attack_x3.ogg",
+      "sprites": [
+        {
+          "offset": 0,
+          "duration": 1.486
+        },
+        {
+          "offset": 1.532,
+          "duration": 1.491
+        },
+        {
+          "offset": 3.071,
+          "duration": 1.392
+        },
+        {
+          "offset": 1.532,
+          "duration": 1.491
+        }
+      ]
+    },
+    {
+      "id": "bg_21",
+      "label": "Construct Idle",
+      "icon": "modules/tabletop-audio-soundpads/audio-cache/monsters/icons/construct_icon.png",
+      "iconRemote": "https://images.tabletopaudio.com/sb/dungeon/construct_icon.png",
+      "category": "backgrounds",
+      "type": "loop",
+      "loop": true,
+      "gain": 0.2,
+      "repeatDefault": 0,
+      "url": "https://sounds.tabletopaudio.com/monsters1/construct_idle_lp.ogg",
+      "ogg": "https://sounds.tabletopaudio.com/monsters1/construct_idle_lp.ogg",
+      "mp3": "https://sounds.tabletopaudio.com/monsters1/construct_idle_lp.mp3",
+      "local": "modules/tabletop-audio-soundpads/audio-cache/monsters/construct_idle_lp.ogg"
+    },
+    {
+      "id": "bg_22",
+      "label": "Construct Attack x3",
+      "icon": "modules/tabletop-audio-soundpads/audio-cache/monsters/icons/construct_icon.png",
+      "iconRemote": "https://images.tabletopaudio.com/sb/dungeon/construct_icon.png",
+      "category": "backgrounds",
+      "type": "oneshot",
+      "loop": false,
+      "gain": 0.8,
+      "repeatDefault": 0,
+      "url": "https://sounds.tabletopaudio.com/monsters1/construct_attack_3x.ogg",
+      "ogg": "https://sounds.tabletopaudio.com/monsters1/construct_attack_3x.ogg",
+      "mp3": "https://sounds.tabletopaudio.com/monsters1/construct_attack_3x.mp3",
+      "local": "modules/tabletop-audio-soundpads/audio-cache/monsters/construct_attack_3x.ogg",
+      "sprites": [
+        {
+          "offset": 0,
+          "duration": 2.369
+        },
+        {
+          "offset": 2.406,
+          "duration": 2.172
+        },
+        {
+          "offset": 4.635,
+          "duration": 2.543
+        },
+        {
+          "offset": 2.406,
+          "duration": 2.172
+        }
+      ]
+    },
+    {
+      "id": "bg_23",
+      "label": "Elemental Idle",
+      "icon": "modules/tabletop-audio-soundpads/audio-cache/monsters/icons/elemental_icon.png",
+      "iconRemote": "https://images.tabletopaudio.com/sb/dungeon/elemental_icon.png",
+      "category": "backgrounds",
+      "type": "loop",
+      "loop": true,
+      "gain": 0.2,
+      "repeatDefault": 0,
+      "url": "https://sounds.tabletopaudio.com/monsters1/elemental_idle_lp.ogg",
+      "ogg": "https://sounds.tabletopaudio.com/monsters1/elemental_idle_lp.ogg",
+      "mp3": "https://sounds.tabletopaudio.com/monsters1/elemental_idle_lp.mp3",
+      "local": "modules/tabletop-audio-soundpads/audio-cache/monsters/elemental_idle_lp.ogg"
+    },
+    {
+      "id": "bg_24",
+      "label": "Elemental Attack x3",
+      "icon": "modules/tabletop-audio-soundpads/audio-cache/monsters/icons/elemental_icon.png",
+      "iconRemote": "https://images.tabletopaudio.com/sb/dungeon/elemental_icon.png",
+      "category": "backgrounds",
+      "type": "oneshot",
+      "loop": false,
+      "gain": 0.6,
+      "repeatDefault": 0,
+      "url": "https://sounds.tabletopaudio.com/monsters1/elemental_attack_x3.ogg",
+      "ogg": "https://sounds.tabletopaudio.com/monsters1/elemental_attack_x3.ogg",
+      "mp3": "https://sounds.tabletopaudio.com/monsters1/elemental_attack_x3.mp3",
+      "local": "modules/tabletop-audio-soundpads/audio-cache/monsters/elemental_attack_x3.ogg",
+      "sprites": [
+        {
+          "offset": 0,
+          "duration": 3.185
+        },
+        {
+          "offset": 3.351,
+          "duration": 3.262
+        },
+        {
+          "offset": 0,
+          "duration": 3.185
+        },
+        {
+          "offset": 6.83,
+          "duration": 2.663
+        }
+      ]
+    },
+    {
+      "id": "bg_25",
+      "label": "Swarm Idle",
+      "icon": "modules/tabletop-audio-soundpads/audio-cache/monsters/icons/swarm_icon.png",
+      "iconRemote": "https://images.tabletopaudio.com/sb/dungeon/swarm_icon.png",
+      "category": "backgrounds",
+      "type": "loop",
+      "loop": true,
+      "gain": 0.2,
+      "repeatDefault": 0,
+      "url": "https://sounds.tabletopaudio.com/monsters1/swarm_idle.ogg",
+      "ogg": "https://sounds.tabletopaudio.com/monsters1/swarm_idle.ogg",
+      "mp3": "https://sounds.tabletopaudio.com/monsters1/swarm_idle.mp3",
+      "local": "modules/tabletop-audio-soundpads/audio-cache/monsters/swarm_idle.ogg"
+    },
+    {
+      "id": "bg_26",
+      "label": "Swarm Attack x3",
+      "icon": "modules/tabletop-audio-soundpads/audio-cache/monsters/icons/swarm_icon.png",
+      "iconRemote": "https://images.tabletopaudio.com/sb/dungeon/swarm_icon.png",
+      "category": "backgrounds",
+      "type": "oneshot",
+      "loop": false,
+      "gain": 0.7,
+      "repeatDefault": 0,
+      "url": "https://sounds.tabletopaudio.com/monsters1/swarm_attack_x3.ogg",
+      "ogg": "https://sounds.tabletopaudio.com/monsters1/swarm_attack_x3.ogg",
+      "mp3": "https://sounds.tabletopaudio.com/monsters1/swarm_attack_x3.mp3",
+      "local": "modules/tabletop-audio-soundpads/audio-cache/monsters/swarm_attack_x3.ogg",
+      "sprites": [
+        {
+          "offset": 0,
+          "duration": 2.252
+        },
+        {
+          "offset": 2.258,
+          "duration": 2.078
+        },
+        {
+          "offset": 0,
+          "duration": 2.252
+        },
+        {
+          "offset": 4.365,
+          "duration": 2.134
+        }
+      ]
+    },
+    {
+      "id": "bg_27",
+      "label": "Undead Idle",
+      "icon": "modules/tabletop-audio-soundpads/audio-cache/monsters/icons/undead_icon.png",
+      "iconRemote": "https://images.tabletopaudio.com/sb/dungeon/undead_icon.png",
+      "category": "backgrounds",
+      "type": "loop",
+      "loop": true,
+      "gain": 0.2,
+      "repeatDefault": 0,
+      "url": "https://sounds.tabletopaudio.com/monsters1/undead_idle_a.ogg",
+      "ogg": "https://sounds.tabletopaudio.com/monsters1/undead_idle_a.ogg",
+      "mp3": "https://sounds.tabletopaudio.com/monsters1/undead_idle_a.mp3",
+      "local": "modules/tabletop-audio-soundpads/audio-cache/monsters/undead_idle_a.ogg"
+    },
+    {
+      "id": "bg_28",
+      "label": "Undead Attack x3",
+      "icon": "modules/tabletop-audio-soundpads/audio-cache/monsters/icons/undead_icon.png",
+      "iconRemote": "https://images.tabletopaudio.com/sb/dungeon/undead_icon.png",
+      "category": "backgrounds",
+      "type": "oneshot",
+      "loop": false,
+      "gain": 0.7,
+      "repeatDefault": 0,
+      "url": "https://sounds.tabletopaudio.com/monsters1/undead_attack_a_x3.ogg",
+      "ogg": "https://sounds.tabletopaudio.com/monsters1/undead_attack_a_x3.ogg",
+      "mp3": "https://sounds.tabletopaudio.com/monsters1/undead_attack_a_x3.mp3",
+      "local": "modules/tabletop-audio-soundpads/audio-cache/monsters/undead_attack_a_x3.ogg",
+      "sprites": [
+        {
+          "offset": 0,
+          "duration": 4.024
+        },
+        {
+          "offset": 4.103,
+          "duration": 3.803
+        },
+        {
+          "offset": 8.001,
+          "duration": 3.724
+        },
+        {
+          "offset": 4.103,
+          "duration": 3.803
+        }
+      ]
+    },
+    {
+      "id": "bg_29",
+      "label": "Beholder Idle",
+      "icon": "modules/tabletop-audio-soundpads/audio-cache/monsters/icons/beholder_icon.png",
+      "iconRemote": "https://images.tabletopaudio.com/sb/dungeon/beholder_icon.png",
+      "category": "backgrounds",
+      "type": "loop",
+      "loop": true,
+      "gain": 0.2,
+      "repeatDefault": 0,
+      "url": "https://sounds.tabletopaudio.com/monsters1/beholder_idle_b_lp.ogg",
+      "ogg": "https://sounds.tabletopaudio.com/monsters1/beholder_idle_b_lp.ogg",
+      "mp3": "https://sounds.tabletopaudio.com/monsters1/beholder_idle_b_lp.mp3",
+      "local": "modules/tabletop-audio-soundpads/audio-cache/monsters/beholder_idle_b_lp.ogg"
+    },
+    {
+      "id": "bg_30",
+      "label": "Beholder Attack x4",
+      "icon": "modules/tabletop-audio-soundpads/audio-cache/monsters/icons/beholder_icon.png",
+      "iconRemote": "https://images.tabletopaudio.com/sb/dungeon/beholder_icon.png",
+      "category": "backgrounds",
+      "type": "oneshot",
+      "loop": false,
+      "gain": 0.7,
+      "repeatDefault": 0,
+      "url": "https://sounds.tabletopaudio.com/monsters1/beholder_attack_x4.ogg",
+      "ogg": "https://sounds.tabletopaudio.com/monsters1/beholder_attack_x4.ogg",
+      "mp3": "https://sounds.tabletopaudio.com/monsters1/beholder_attack_x4.mp3",
+      "local": "modules/tabletop-audio-soundpads/audio-cache/monsters/beholder_attack_x4.ogg",
+      "sprites": [
+        {
+          "offset": 0,
+          "duration": 3.907
+        },
+        {
+          "offset": 4.187,
+          "duration": 3.734
+        },
+        {
+          "offset": 8.008,
+          "duration": 4.101
+        },
+        {
+          "offset": 12.196,
+          "duration": 4.374
+        }
+      ]
+    },
+    {
+      "id": "bg_31",
+      "label": "Rust Monster Idle",
+      "icon": "modules/tabletop-audio-soundpads/audio-cache/monsters/icons/rust_monster_icon.png",
+      "iconRemote": "https://images.tabletopaudio.com/sb/dungeon/rust_monster_icon.png",
+      "category": "backgrounds",
+      "type": "loop",
+      "loop": true,
+      "gain": 0.2,
+      "repeatDefault": 0,
+      "url": "https://sounds.tabletopaudio.com/monsters1/rust_monster_idle_lp.ogg",
+      "ogg": "https://sounds.tabletopaudio.com/monsters1/rust_monster_idle_lp.ogg",
+      "mp3": "https://sounds.tabletopaudio.com/monsters1/rust_monster_idle_lp.mp3",
+      "local": "modules/tabletop-audio-soundpads/audio-cache/monsters/rust_monster_idle_lp.ogg"
+    },
+    {
+      "id": "bg_32",
+      "label": "Rust Monster Atk x3",
+      "icon": "modules/tabletop-audio-soundpads/audio-cache/monsters/icons/rust_monster_icon.png",
+      "iconRemote": "https://images.tabletopaudio.com/sb/dungeon/rust_monster_icon.png",
+      "category": "backgrounds",
+      "type": "oneshot",
+      "loop": false,
+      "gain": 0.8,
+      "repeatDefault": 0,
+      "url": "https://sounds.tabletopaudio.com/monsters1/rust_monster_attack_x3.ogg",
+      "ogg": "https://sounds.tabletopaudio.com/monsters1/rust_monster_attack_x3.ogg",
+      "mp3": "https://sounds.tabletopaudio.com/monsters1/rust_monster_attack_x3.mp3",
+      "local": "modules/tabletop-audio-soundpads/audio-cache/monsters/rust_monster_attack_x3.ogg",
+      "sprites": [
+        {
+          "offset": 0,
+          "duration": 3.06
+        },
+        {
+          "offset": 3.082,
+          "duration": 3.444
+        },
+        {
+          "offset": 6.572,
+          "duration": 3.454
+        },
+        {
+          "offset": 3.082,
+          "duration": 3.444
+        }
+      ]
+    }
+  ]
+}

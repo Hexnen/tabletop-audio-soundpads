@@ -1,0 +1,509 @@
+{
+  "id": "age_of_sail",
+  "name": "Age Of Sail",
+  "source": "https://tabletopaudio.com/age_of_sail_sp.html",
+  "coverRemote": "https://images.tabletopaudio.com/sb/age_of_sail_sp2.jpg",
+  "cover": "modules/tabletop-audio-soundpads/audio-cache/age_of_sail/age_of_sail_sp2.jpg",
+  "headerRemote": "https://images.tabletopaudio.com/sb/age_of_sail_header1.png",
+  "header": "modules/tabletop-audio-soundpads/audio-cache/age_of_sail/age_of_sail_header1.png",
+  "categories": [
+    "backgrounds",
+    "events",
+    "music"
+  ],
+  "layerCount": 28,
+  "layers": [
+    {
+      "id": "bg_2",
+      "label": "Bow Wash Light",
+      "icon": "modules/tabletop-audio-soundpads/audio-cache/age_of_sail/icons/bow_wave_light_icon.png",
+      "iconRemote": "https://images.tabletopaudio.com/sb/dungeon/bow_wave_light_icon.png",
+      "category": "backgrounds",
+      "type": "loop",
+      "loop": true,
+      "gain": 0.5,
+      "repeatDefault": 0,
+      "url": "https://sounds.tabletopaudio.com/sail2/seawash_light_b.ogg",
+      "ogg": "https://sounds.tabletopaudio.com/sail2/seawash_light_b.ogg",
+      "mp3": "https://sounds.tabletopaudio.com/sail2/seawash_light_b.mp3",
+      "local": "modules/tabletop-audio-soundpads/audio-cache/age_of_sail/seawash_light_b.ogg"
+    },
+    {
+      "id": "bg_3",
+      "label": "Bow Wash Med",
+      "icon": "modules/tabletop-audio-soundpads/audio-cache/age_of_sail/icons/bow_wave_med_icon.png",
+      "iconRemote": "https://images.tabletopaudio.com/sb/dungeon/bow_wave_med_icon.png",
+      "category": "backgrounds",
+      "type": "loop",
+      "loop": true,
+      "gain": 0.4,
+      "repeatDefault": 0,
+      "url": "https://sounds.tabletopaudio.com/sail2/seawash_med2_b.ogg",
+      "ogg": "https://sounds.tabletopaudio.com/sail2/seawash_med2_b.ogg",
+      "mp3": "https://sounds.tabletopaudio.com/sail2/seawash_med2_b.mp3",
+      "local": "modules/tabletop-audio-soundpads/audio-cache/age_of_sail/seawash_med2_b.ogg"
+    },
+    {
+      "id": "bg_10",
+      "label": "Bow Wash Heavy",
+      "icon": "modules/tabletop-audio-soundpads/audio-cache/age_of_sail/icons/bow_wave_heavy_icon.png",
+      "iconRemote": "https://images.tabletopaudio.com/sb/dungeon/bow_wave_heavy_icon.png",
+      "category": "backgrounds",
+      "type": "loop",
+      "loop": true,
+      "gain": 0.3,
+      "repeatDefault": 0,
+      "url": "https://sounds.tabletopaudio.com/sail2/seawash_heavy2_b.ogg",
+      "ogg": "https://sounds.tabletopaudio.com/sail2/seawash_heavy2_b.ogg",
+      "mp3": "https://sounds.tabletopaudio.com/sail2/seawash_heavy2_b.mp3",
+      "local": "modules/tabletop-audio-soundpads/audio-cache/age_of_sail/seawash_heavy2_b.ogg"
+    },
+    {
+      "id": "bg_5",
+      "label": "Wind",
+      "icon": "modules/tabletop-audio-soundpads/audio-cache/age_of_sail/icons/wind_icon2.png",
+      "iconRemote": "https://images.tabletopaudio.com/sb/dungeon/wind_icon2.png",
+      "category": "backgrounds",
+      "type": "loop",
+      "loop": true,
+      "gain": 0.4,
+      "repeatDefault": 0,
+      "url": "https://sounds.tabletopaudio.com/sail2/wind_strong2_b.ogg",
+      "ogg": "https://sounds.tabletopaudio.com/sail2/wind_strong2_b.ogg",
+      "mp3": "https://sounds.tabletopaudio.com/sail2/wind_strong2_b.mp3",
+      "local": "modules/tabletop-audio-soundpads/audio-cache/age_of_sail/wind_strong2_b.ogg"
+    },
+    {
+      "id": "bg_7",
+      "label": "Wind Strong",
+      "icon": "modules/tabletop-audio-soundpads/audio-cache/age_of_sail/icons/wind_icon2.png",
+      "iconRemote": "https://images.tabletopaudio.com/sb/dungeon/wind_icon2.png",
+      "category": "backgrounds",
+      "type": "loop",
+      "loop": true,
+      "gain": 0.3,
+      "repeatDefault": 0,
+      "url": "https://sounds.tabletopaudio.com/sail2/gale3a.ogg",
+      "ogg": "https://sounds.tabletopaudio.com/sail2/gale3a.ogg",
+      "mp3": "https://sounds.tabletopaudio.com/sail2/gale3a.mp3",
+      "local": "modules/tabletop-audio-soundpads/audio-cache/age_of_sail/gale3a.ogg"
+    },
+    {
+      "id": "bg_16",
+      "label": "Rain",
+      "icon": "modules/tabletop-audio-soundpads/audio-cache/age_of_sail/icons/rain_icon.png",
+      "iconRemote": "https://images.tabletopaudio.com/sb/dungeon/rain_icon.png",
+      "category": "backgrounds",
+      "type": "loop",
+      "loop": true,
+      "gain": 0.2,
+      "repeatDefault": 0,
+      "url": "https://sounds.tabletopaudio.com/dark_forest2/rain3_lp.ogg",
+      "ogg": "https://sounds.tabletopaudio.com/dark_forest2/rain3_lp.ogg",
+      "mp3": "https://sounds.tabletopaudio.com/dark_forest2/rain3_lp.mp3",
+      "local": "modules/tabletop-audio-soundpads/audio-cache/age_of_sail/rain3_lp.ogg"
+    },
+    {
+      "id": "bg_17",
+      "label": "Thunder",
+      "icon": "modules/tabletop-audio-soundpads/audio-cache/age_of_sail/icons/thunder_icon.png",
+      "iconRemote": "https://images.tabletopaudio.com/sb/dungeon/thunder_icon.png",
+      "category": "events",
+      "type": "oneshot",
+      "loop": false,
+      "gain": 0.4,
+      "repeatDefault": 0,
+      "url": "https://sounds.tabletopaudio.com/dark_forest2/thunder2.ogg",
+      "ogg": "https://sounds.tabletopaudio.com/dark_forest2/thunder2.ogg",
+      "mp3": "https://sounds.tabletopaudio.com/dark_forest2/thunder2.mp3",
+      "local": "modules/tabletop-audio-soundpads/audio-cache/age_of_sail/thunder2.ogg"
+    },
+    {
+      "id": "bg_4",
+      "label": "Mast Creaks",
+      "icon": "modules/tabletop-audio-soundpads/audio-cache/age_of_sail/icons/rigging_icon.png",
+      "iconRemote": "https://images.tabletopaudio.com/sb/dungeon/rigging_icon.png",
+      "category": "backgrounds",
+      "type": "loop",
+      "loop": true,
+      "gain": 0.4,
+      "repeatDefault": 0,
+      "url": "https://sounds.tabletopaudio.com/sail2/mast_creaks_b.ogg",
+      "ogg": "https://sounds.tabletopaudio.com/sail2/mast_creaks_b.ogg",
+      "mp3": "https://sounds.tabletopaudio.com/sail2/mast_creaks_b.mp3",
+      "local": "modules/tabletop-audio-soundpads/audio-cache/age_of_sail/mast_creaks_b.ogg"
+    },
+    {
+      "id": "bg_8",
+      "label": "Rigging Groans",
+      "icon": "modules/tabletop-audio-soundpads/audio-cache/age_of_sail/icons/rigging_icon.png",
+      "iconRemote": "https://images.tabletopaudio.com/sb/dungeon/rigging_icon.png",
+      "category": "backgrounds",
+      "type": "loop",
+      "loop": true,
+      "gain": 0.4,
+      "repeatDefault": 0,
+      "url": "https://sounds.tabletopaudio.com/sail2/rope_creaks_b.ogg",
+      "ogg": "https://sounds.tabletopaudio.com/sail2/rope_creaks_b.ogg",
+      "mp3": "https://sounds.tabletopaudio.com/sail2/rope_creaks_b.mp3",
+      "local": "modules/tabletop-audio-soundpads/audio-cache/age_of_sail/rope_creaks_b.ogg"
+    },
+    {
+      "id": "bg_19",
+      "label": "Hoist Sail",
+      "icon": "modules/tabletop-audio-soundpads/audio-cache/age_of_sail/icons/sail_icon.png",
+      "iconRemote": "https://images.tabletopaudio.com/sb/dungeon/sail_icon.png",
+      "category": "events",
+      "type": "oneshot",
+      "loop": false,
+      "gain": 0.5,
+      "repeatDefault": 0,
+      "url": "https://sounds.tabletopaudio.com/sail2/hoist_sail_b.ogg",
+      "ogg": "https://sounds.tabletopaudio.com/sail2/hoist_sail_b.ogg",
+      "mp3": "https://sounds.tabletopaudio.com/sail2/hoist_sail_b.mp3",
+      "local": "modules/tabletop-audio-soundpads/audio-cache/age_of_sail/hoist_sail_b.ogg"
+    },
+    {
+      "id": "bg_13",
+      "label": "Sails Luffing",
+      "icon": "modules/tabletop-audio-soundpads/audio-cache/age_of_sail/icons/sail_icon.png",
+      "iconRemote": "https://images.tabletopaudio.com/sb/dungeon/sail_icon.png",
+      "category": "backgrounds",
+      "type": "loop",
+      "loop": true,
+      "gain": 0.4,
+      "repeatDefault": 0,
+      "url": "https://sounds.tabletopaudio.com/sail2/sails_flapping_b.ogg",
+      "ogg": "https://sounds.tabletopaudio.com/sail2/sails_flapping_b.ogg",
+      "mp3": "https://sounds.tabletopaudio.com/sail2/sails_flapping_b.mp3",
+      "local": "modules/tabletop-audio-soundpads/audio-cache/age_of_sail/sails_flapping_b.ogg"
+    },
+    {
+      "id": "bg_9",
+      "label": "Bilge Pumps",
+      "icon": "modules/tabletop-audio-soundpads/audio-cache/age_of_sail/icons/bilge_pump_icon.png",
+      "iconRemote": "https://images.tabletopaudio.com/sb/dungeon/bilge_pump_icon.png",
+      "category": "backgrounds",
+      "type": "loop",
+      "loop": true,
+      "gain": 0.4,
+      "repeatDefault": 0,
+      "url": "https://sounds.tabletopaudio.com/sail2/bilge_pumps_b.ogg",
+      "ogg": "https://sounds.tabletopaudio.com/sail2/bilge_pumps_b.ogg",
+      "mp3": "https://sounds.tabletopaudio.com/sail2/bilge_pumps_b.mp3",
+      "local": "modules/tabletop-audio-soundpads/audio-cache/age_of_sail/bilge_pumps_b.ogg"
+    },
+    {
+      "id": "bg_14",
+      "label": "Below Decks",
+      "icon": "modules/tabletop-audio-soundpads/audio-cache/age_of_sail/icons/below_decks_icon.png",
+      "iconRemote": "https://images.tabletopaudio.com/sb/dungeon/below_decks_icon.png",
+      "category": "backgrounds",
+      "type": "loop",
+      "loop": true,
+      "gain": 0.4,
+      "repeatDefault": 0,
+      "url": "https://sounds.tabletopaudio.com/sail2/below_decks2_b.ogg",
+      "ogg": "https://sounds.tabletopaudio.com/sail2/below_decks2_b.ogg",
+      "mp3": "https://sounds.tabletopaudio.com/sail2/below_decks2_b.mp3",
+      "local": "modules/tabletop-audio-soundpads/audio-cache/age_of_sail/below_decks2_b.ogg"
+    },
+    {
+      "id": "bg_11",
+      "label": "Seagulls",
+      "icon": "modules/tabletop-audio-soundpads/audio-cache/age_of_sail/icons/seagulls_icon.png",
+      "iconRemote": "https://images.tabletopaudio.com/sb/dungeon/seagulls_icon.png",
+      "category": "backgrounds",
+      "type": "loop",
+      "loop": true,
+      "gain": 0.3,
+      "repeatDefault": 0,
+      "url": "https://sounds.tabletopaudio.com/sail2/seagulls_b.ogg",
+      "ogg": "https://sounds.tabletopaudio.com/sail2/seagulls_b.ogg",
+      "mp3": "https://sounds.tabletopaudio.com/sail2/seagulls_b.mp3",
+      "local": "modules/tabletop-audio-soundpads/audio-cache/age_of_sail/seagulls_b.ogg"
+    },
+    {
+      "id": "bg_22",
+      "label": "Repairs",
+      "icon": "modules/tabletop-audio-soundpads/audio-cache/age_of_sail/icons/construction_icon.png",
+      "iconRemote": "https://images.tabletopaudio.com/sb/dungeon/construction_icon.png",
+      "category": "backgrounds",
+      "type": "loop",
+      "loop": true,
+      "gain": 0.5,
+      "repeatDefault": 0,
+      "url": "https://sounds.tabletopaudio.com/sail2/repairs_b.ogg",
+      "ogg": "https://sounds.tabletopaudio.com/sail2/repairs_b.ogg",
+      "mp3": "https://sounds.tabletopaudio.com/sail2/repairs_b.mp3",
+      "local": "modules/tabletop-audio-soundpads/audio-cache/age_of_sail/repairs_b.ogg"
+    },
+    {
+      "id": "bg_12",
+      "label": "Ship's Bell",
+      "icon": "modules/tabletop-audio-soundpads/audio-cache/age_of_sail/icons/bell_icon.png",
+      "iconRemote": "https://images.tabletopaudio.com/sb/dungeon/bell_icon.png",
+      "category": "events",
+      "type": "oneshot",
+      "loop": false,
+      "gain": 0.6,
+      "repeatDefault": 0,
+      "url": "https://sounds.tabletopaudio.com/sail2/ships_bell_c.ogg",
+      "ogg": "https://sounds.tabletopaudio.com/sail2/ships_bell_c.ogg",
+      "mp3": "https://sounds.tabletopaudio.com/sail2/ships_bell_c.mp3",
+      "local": "modules/tabletop-audio-soundpads/audio-cache/age_of_sail/ships_bell_c.ogg"
+    },
+    {
+      "id": "bg_23",
+      "label": "Bosun's Whistle",
+      "icon": "modules/tabletop-audio-soundpads/audio-cache/age_of_sail/icons/bosuns_whistle_icon.png",
+      "iconRemote": "https://images.tabletopaudio.com/sb/dungeon/bosuns_whistle_icon.png",
+      "category": "events",
+      "type": "oneshot",
+      "loop": false,
+      "gain": 0.3,
+      "repeatDefault": 0,
+      "url": "https://sounds.tabletopaudio.com/sail2/bosun_whistle_b.ogg",
+      "ogg": "https://sounds.tabletopaudio.com/sail2/bosun_whistle_b.ogg",
+      "mp3": "https://sounds.tabletopaudio.com/sail2/bosun_whistle_b.mp3",
+      "local": "modules/tabletop-audio-soundpads/audio-cache/age_of_sail/bosun_whistle_b.ogg"
+    },
+    {
+      "id": "bg_27",
+      "label": "Sailors Shouting",
+      "icon": "modules/tabletop-audio-soundpads/audio-cache/age_of_sail/icons/shouts.png",
+      "iconRemote": "https://images.tabletopaudio.com/sb/dungeon/shouts.png",
+      "category": "backgrounds",
+      "type": "loop",
+      "loop": true,
+      "gain": 0.2,
+      "repeatDefault": 0,
+      "url": "https://sounds.tabletopaudio.com/sail2/sailors_active_b.ogg",
+      "ogg": "https://sounds.tabletopaudio.com/sail2/sailors_active_b.ogg",
+      "mp3": "https://sounds.tabletopaudio.com/sail2/sailors_active_b.mp3",
+      "local": "modules/tabletop-audio-soundpads/audio-cache/age_of_sail/sailors_active_b.ogg"
+    },
+    {
+      "id": "bg_31",
+      "label": "Deck Activity",
+      "icon": "modules/tabletop-audio-soundpads/audio-cache/age_of_sail/icons/shouts.png",
+      "iconRemote": "https://images.tabletopaudio.com/sb/dungeon/shouts.png",
+      "category": "backgrounds",
+      "type": "loop",
+      "loop": true,
+      "gain": 0.4,
+      "repeatDefault": 0,
+      "url": "https://sounds.tabletopaudio.com/sail2/deck_chatter_b.ogg",
+      "ogg": "https://sounds.tabletopaudio.com/sail2/deck_chatter_b.ogg",
+      "mp3": "https://sounds.tabletopaudio.com/sail2/deck_chatter_b.mp3",
+      "local": "modules/tabletop-audio-soundpads/audio-cache/age_of_sail/deck_chatter_b.ogg"
+    },
+    {
+      "id": "bg_32",
+      "label": "Cutlass Fight",
+      "icon": "modules/tabletop-audio-soundpads/audio-cache/age_of_sail/icons/blades_icon.png",
+      "iconRemote": "https://images.tabletopaudio.com/sb/dungeon/blades_icon.png",
+      "category": "events",
+      "type": "loop",
+      "loop": true,
+      "gain": 0.4,
+      "repeatDefault": 0,
+      "url": "https://sounds.tabletopaudio.com/sail2/deck_fight_blades_b.ogg",
+      "ogg": "https://sounds.tabletopaudio.com/sail2/deck_fight_blades_b.ogg",
+      "mp3": "https://sounds.tabletopaudio.com/sail2/deck_fight_blades_b.mp3",
+      "local": "modules/tabletop-audio-soundpads/audio-cache/age_of_sail/deck_fight_blades_b.ogg"
+    },
+    {
+      "id": "bg_26",
+      "label": "Cheer x4",
+      "icon": "modules/tabletop-audio-soundpads/audio-cache/age_of_sail/icons/cheer_icon.png",
+      "iconRemote": "https://images.tabletopaudio.com/sb/dungeon/cheer_icon.png",
+      "category": "events",
+      "type": "oneshot",
+      "loop": false,
+      "gain": 0.4,
+      "repeatDefault": 0,
+      "url": "https://sounds.tabletopaudio.com/sail2/cheer_x4.ogg",
+      "ogg": "https://sounds.tabletopaudio.com/sail2/cheer_x4.ogg",
+      "mp3": "https://sounds.tabletopaudio.com/sail2/cheer_x4.mp3",
+      "local": "modules/tabletop-audio-soundpads/audio-cache/age_of_sail/cheer_x4.ogg",
+      "sprites": [
+        {
+          "offset": 0,
+          "duration": 4.017
+        },
+        {
+          "offset": 4.063,
+          "duration": 4.237
+        },
+        {
+          "offset": 8.344,
+          "duration": 3.512
+        },
+        {
+          "offset": 12.056,
+          "duration": 3.873
+        }
+      ]
+    },
+    {
+      "id": "bg_21",
+      "label": "Beat to Quarters",
+      "icon": "modules/tabletop-audio-soundpads/audio-cache/age_of_sail/icons/snare_drum_icon.png",
+      "iconRemote": "https://images.tabletopaudio.com/sb/dungeon/snare_drum_icon.png",
+      "category": "events",
+      "type": "oneshot",
+      "loop": false,
+      "gain": 0.6,
+      "repeatDefault": 0,
+      "url": "https://sounds.tabletopaudio.com/sail2/beat_to_quarters_b.ogg",
+      "ogg": "https://sounds.tabletopaudio.com/sail2/beat_to_quarters_b.ogg",
+      "mp3": "https://sounds.tabletopaudio.com/sail2/beat_to_quarters_b.mp3",
+      "local": "modules/tabletop-audio-soundpads/audio-cache/age_of_sail/beat_to_quarters_b.ogg"
+    },
+    {
+      "id": "bg_15",
+      "label": "Broadside x4",
+      "icon": "modules/tabletop-audio-soundpads/audio-cache/age_of_sail/icons/broadside_icon.png",
+      "iconRemote": "https://images.tabletopaudio.com/sb/dungeon/broadside_icon.png",
+      "category": "events",
+      "type": "oneshot",
+      "loop": false,
+      "gain": 0.5,
+      "repeatDefault": 0,
+      "url": "https://sounds.tabletopaudio.com/sail2/broadsides_x4.ogg",
+      "ogg": "https://sounds.tabletopaudio.com/sail2/broadsides_x4.ogg",
+      "mp3": "https://sounds.tabletopaudio.com/sail2/broadsides_x4.mp3",
+      "local": "modules/tabletop-audio-soundpads/audio-cache/age_of_sail/broadsides_x4.ogg",
+      "sprites": [
+        {
+          "offset": 0.01,
+          "duration": 7.517
+        },
+        {
+          "offset": 7.59,
+          "duration": 6.405
+        },
+        {
+          "offset": 14.092,
+          "duration": 7.42
+        },
+        {
+          "offset": 21.646,
+          "duration": 6.127
+        }
+      ]
+    },
+    {
+      "id": "bg_18",
+      "label": "Single Cannon x4",
+      "icon": "modules/tabletop-audio-soundpads/audio-cache/age_of_sail/icons/single_cannon_icon.png",
+      "iconRemote": "https://images.tabletopaudio.com/sb/dungeon/single_cannon_icon.png",
+      "category": "events",
+      "type": "oneshot",
+      "loop": false,
+      "gain": 0.5,
+      "repeatDefault": 0,
+      "url": "https://sounds.tabletopaudio.com/sail2/cannon_single_4x_b.ogg",
+      "ogg": "https://sounds.tabletopaudio.com/sail2/cannon_single_4x_b.ogg",
+      "mp3": "https://sounds.tabletopaudio.com/sail2/cannon_single_4x_b.mp3",
+      "local": "modules/tabletop-audio-soundpads/audio-cache/age_of_sail/cannon_single_4x_b.ogg",
+      "sprites": [
+        {
+          "offset": 0,
+          "duration": 3.058
+        },
+        {
+          "offset": 3.076,
+          "duration": 2.814
+        },
+        {
+          "offset": 5.929,
+          "duration": 2.397
+        },
+        {
+          "offset": 8.356,
+          "duration": 2.676
+        }
+      ]
+    },
+    {
+      "id": "bg_20",
+      "label": "Damage x4",
+      "icon": "modules/tabletop-audio-soundpads/audio-cache/age_of_sail/icons/destruction_icon.png",
+      "iconRemote": "https://images.tabletopaudio.com/sb/dungeon/destruction_icon.png",
+      "category": "events",
+      "type": "oneshot",
+      "loop": false,
+      "gain": 0.4,
+      "repeatDefault": 0,
+      "url": "https://sounds.tabletopaudio.com/sail2/destruction_x4.ogg",
+      "ogg": "https://sounds.tabletopaudio.com/sail2/destruction_x4.ogg",
+      "mp3": "https://sounds.tabletopaudio.com/sail2/destruction_x4.mp3",
+      "local": "modules/tabletop-audio-soundpads/audio-cache/age_of_sail/destruction_x4.ogg",
+      "sprites": [
+        {
+          "offset": 0,
+          "duration": 6.176
+        },
+        {
+          "offset": 6.884,
+          "duration": 6.617
+        },
+        {
+          "offset": 13.641,
+          "duration": 5.131
+        },
+        {
+          "offset": 19.226,
+          "duration": 4.934
+        }
+      ]
+    },
+    {
+      "id": "bg_29",
+      "label": "Drunken Sailor",
+      "icon": "modules/tabletop-audio-soundpads/audio-cache/age_of_sail/icons/music.png",
+      "iconRemote": "https://images.tabletopaudio.com/sb/dungeon/music.png",
+      "category": "music",
+      "type": "music",
+      "loop": true,
+      "gain": 0.3,
+      "repeatDefault": 0,
+      "url": "https://sounds.tabletopaudio.com/sail2/drunken_sailor_edit.ogg",
+      "ogg": "https://sounds.tabletopaudio.com/sail2/drunken_sailor_edit.ogg",
+      "mp3": "https://sounds.tabletopaudio.com/sail2/drunken_sailor_edit.mp3",
+      "local": "modules/tabletop-audio-soundpads/audio-cache/age_of_sail/drunken_sailor_edit.ogg"
+    },
+    {
+      "id": "bg_28",
+      "label": "Heart of War",
+      "icon": "modules/tabletop-audio-soundpads/audio-cache/age_of_sail/icons/music.png",
+      "iconRemote": "https://images.tabletopaudio.com/sb/dungeon/music.png",
+      "category": "music",
+      "type": "music",
+      "loop": true,
+      "gain": 0.5,
+      "repeatDefault": 0,
+      "url": "https://sounds.tabletopaudio.com/sail2/drum_music_1c.ogg",
+      "ogg": "https://sounds.tabletopaudio.com/sail2/drum_music_1c.ogg",
+      "mp3": "https://sounds.tabletopaudio.com/sail2/drum_music_1c.mp3",
+      "local": "modules/tabletop-audio-soundpads/audio-cache/age_of_sail/drum_music_1c.ogg"
+    },
+    {
+      "id": "bg_30",
+      "label": "Sirens' Song",
+      "icon": "modules/tabletop-audio-soundpads/audio-cache/age_of_sail/icons/music.png",
+      "iconRemote": "https://images.tabletopaudio.com/sb/dungeon/music.png",
+      "category": "music",
+      "type": "music",
+      "loop": true,
+      "gain": 0.5,
+      "repeatDefault": 0,
+      "url": "https://sounds.tabletopaudio.com/sail2/siren_song_lp.ogg",
+      "ogg": "https://sounds.tabletopaudio.com/sail2/siren_song_lp.ogg",
+      "mp3": "https://sounds.tabletopaudio.com/sail2/siren_song_lp.mp3",
+      "local": "modules/tabletop-audio-soundpads/audio-cache/age_of_sail/siren_song_lp.ogg"
+    }
+  ]
+}

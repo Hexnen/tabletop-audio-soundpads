@@ -1,0 +1,581 @@
+.tabletop-audio-soundpads.tas-app .window-content {
+  padding: 0;
+  background: #1b1b22;
+  color: #e9e6df;
+}
+.tas-app .tas-root {
+  display: flex;
+  flex-direction: row;
+  height: 100%;
+  min-height: 0;
+}
+.tas-app .tas-main {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  padding: 8px;
+  flex: 1 1 auto;
+  min-width: 0;
+  min-height: 0;
+}
+
+/* Toolbar */
+.tas-app .tas-toolbar {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.tas-app .tas-back {
+  flex: 0 0 auto;
+  width: 30px;
+  height: 28px;
+  background: #2a2a33;
+  border: 1px solid #44444f;
+  color: #e9e6df;
+}
+.tas-app .tas-current-pad {
+  display: flex;
+  align-items: center;
+  flex: 1 1 auto;
+  min-width: 0;
+  font-size: 15px;
+  font-weight: 600;
+  color: #f3efe6;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.tas-app .tas-pad-header {
+  max-height: 30px;
+  max-width: 100%;
+  width: auto;
+  object-fit: contain;
+  border: none;
+  background: none;
+}
+.tas-app .tas-toolbar-right {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  flex: 0 1 auto;
+  margin-left: auto;
+}
+.tas-app .tas-toolbar-right button {
+  width: auto;
+  height: 28px;
+  line-height: 1;
+  white-space: nowrap;
+  background: #2a2a33;
+  border: 1px solid #44444f;
+  color: #e9e6df;
+}
+.tas-app .tas-broadcast.on {
+  background: #2d5a3d;
+  border-color: #3f8a5c;
+  color: #d8ffe6;
+}
+.tas-app .tas-stop:hover { background: #5a2d2d; }
+
+/* Category filters */
+.tas-app .tas-filters {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4px;
+  border-bottom: 1px solid #33333d;
+  padding-bottom: 6px;
+}
+.tas-app .tas-filter {
+  padding: 2px 10px;
+  border-radius: 12px;
+  background: #2a2a33;
+  border: 1px solid #3a3a44;
+  font-size: 12px;
+  cursor: pointer;
+  text-transform: capitalize;
+}
+.tas-app .tas-filter.active {
+  background: #c8a24a;
+  border-color: #e3bd62;
+  color: #201a08;
+  font-weight: 600;
+}
+
+/* Browse tabs (SoundPads / Soundscapes) */
+.tas-app .tas-tabs {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+.tas-app .tas-tab {
+  width: auto;
+  height: 28px;
+  padding: 0 12px;
+  font-size: 13px;
+  white-space: nowrap;
+  background: #2a2a33;
+  border: 1px solid #44444f;
+  color: #cfcabf;
+}
+.tas-app .tas-tab.active {
+  background: #c8a24a;
+  border-color: #e3bd62;
+  color: #201a08;
+  font-weight: 600;
+}
+
+/* Loop / cross-fade toggles in the soundscape toolbar */
+.tas-app .tas-toggle {
+  width: 30px;
+  flex: 0 0 auto;
+}
+.tas-app .tas-toggle.on {
+  background: #2d5a3d;
+  border-color: #3f8a5c;
+  color: #d8ffe6;
+}
+
+/* Soundscape search box — sits at the right of the toolbar, after Stop. */
+.tas-app input.tas-search {
+  flex: 1 1 140px;
+  min-width: 90px;
+  max-width: 220px;
+  height: 28px;
+  background: #2a2a33;
+  color: #f3efe6;
+  border: 1px solid #44444f;
+  border-radius: 4px;
+  padding: 0 8px;
+  font-size: 13px;
+}
+
+/* Soundscape genre filters — scrollable chip row */
+.tas-app .tas-ss-filters {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4px;
+  flex: 0 0 auto;
+  border-bottom: 1px solid #33333d;
+  padding-bottom: 6px;
+  text-transform: capitalize;
+}
+
+.tas-app .tas-ss-card .tas-ss-playing {
+  position: absolute;
+  top: 6px;
+  right: 6px;
+  font-size: 18px;
+  color: #e3bd62;
+  text-shadow: 0 1px 3px #000;
+  z-index: 1;
+}
+.tas-app .tas-ss-card.current .tas-pad-name { opacity: 1; }
+
+/* Pad picker (cover-art gallery) */
+.tas-app .tas-pad-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
+  gap: 10px;
+  flex: 1 1 auto;
+  min-height: 0;
+  overflow-y: auto;
+  padding: 4px 2px;
+  align-content: start;
+}
+.tas-app .tas-pad-card {
+  position: relative;
+  display: block;
+  box-sizing: border-box;
+  width: 100%;
+  height: 0;
+  padding: 0;
+  padding-bottom: 75%;            /* 4:3 cover */
+  margin: 0;
+  border: 2px solid #3a3a44;
+  border-radius: 8px;
+  overflow: hidden;
+  background: #25252e;
+  cursor: pointer;
+  box-shadow: none;
+  transition: border-color 0.15s, transform 0.1s;
+}
+.tas-app .tas-pad-card:hover { border-color: #c8a24a; transform: translateY(-2px); }
+.tas-app .tas-pad-card.current { border-color: #e3bd62; }
+.tas-app .tas-pad-card.undownloaded { opacity: 0.55; }
+.tas-app .tas-pad-card .tas-cover {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border: none;
+}
+/* Clean title art (no Tabletop/SoundPad branding) — show it whole on the card. */
+.tas-app .tas-pad-card .tas-pad-art {
+  object-fit: contain;
+  padding: 8px;
+  box-sizing: border-box;
+}
+.tas-app .tas-pad-card .tas-pad-name {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  padding: 12px 6px 5px;
+  font-size: 12px;
+  font-weight: 600;
+  text-align: center;
+  color: #fff;
+  background: linear-gradient(transparent, rgba(0, 0, 0, 0.85));
+  opacity: 0;
+  transition: opacity 0.15s;
+}
+.tas-app .tas-pad-card:hover .tas-pad-name,
+.tas-app .tas-pad-card.current .tas-pad-name { opacity: 1; }
+
+/* Grid */
+.tas-app .tas-grid {
+  display: grid;
+  /* Fixed square cells: the row height equals the column width, so tiles are
+     always squares and never overlap — even when the window is short. */
+  grid-template-columns: repeat(auto-fill, 120px);
+  grid-auto-rows: 120px;
+  justify-content: start;
+  gap: 8px;
+  flex: 1 1 auto;
+  min-height: 0;
+  overflow-y: auto;
+  padding: 4px 2px;
+  align-content: start;
+}
+
+.tas-app .tas-tile {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  min-height: 0;
+  border: 1px solid #3a3a44;
+  border-radius: 8px;
+  background: #25252e;
+  overflow: hidden;
+  transition: border-color 0.15s, box-shadow 0.15s;
+}
+.tas-app .tas-tile.active {
+  border-color: #c8a24a;
+  box-shadow: 0 0 0 1px #c8a24a, 0 0 12px rgba(200, 162, 74, 0.35);
+}
+.tas-app .tas-tile.type-oneshot { background: #2b2630; }
+.tas-app .tas-tile.type-music { background: #232a30; }
+
+.tas-app .tas-tile-btn {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* Bottom-align the icon + label (just above the volume controls). */
+  justify-content: flex-end;
+  gap: 5px;
+  box-sizing: border-box;
+  width: 100%;
+  flex: 1 1 auto;
+  min-height: 0;
+  margin: 0;
+  padding: 8px 6px 4px;
+  background: none;
+  border: none;
+  border-radius: 0;
+  box-shadow: none;
+  color: inherit;
+  line-height: 1.15;
+  cursor: pointer;
+  position: relative;
+}
+.tas-app .tas-tile-btn:hover { background: rgba(255, 255, 255, 0.05); }
+
+/* Icon sits at natural size (bottom-aligned with the label, not stretched). */
+.tas-app .tas-icon-wrap {
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  flex: 0 0 auto;
+  width: 100%;
+  min-height: 0;
+}
+.tas-app .tas-icon {
+  max-width: 100%;
+  max-height: 42px;
+  object-fit: contain;
+  background: none;
+  border: none;
+  filter: drop-shadow(0 1px 2px rgba(0, 0, 0, 0.6));
+}
+.tas-app .tas-label {
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  flex: 0 0 auto;
+  font-size: 12px;
+  text-align: center;
+  line-height: 1.15;
+  /* Reserve just one line (short labels stay 1 line; long ones clamp to 2) so
+     the icon + label fit the 120px tile and sit at the bottom. */
+  min-height: 1.2em;
+  overflow: hidden;
+}
+/* Top control row: loop toggle · repeat dropdown · type/state symbol. */
+.tas-app .tas-tile-top {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  height: 22px;
+  flex: 0 0 auto;
+  padding: 4px 5px 0;
+}
+.tas-app .tas-loop {
+  flex: 0 0 auto;
+  width: 20px;
+  height: 18px;
+  padding: 0;
+  margin: 0;
+  line-height: 1;
+  border: 1px solid #3a3a44;
+  border-radius: 4px;
+  background: #1f1f27;
+  color: #777;
+  font-size: 10px;
+  cursor: pointer;
+}
+.tas-app .tas-loop:hover { color: #cbb; border-color: #55555f; }
+.tas-app .tas-loop.on {
+  background: #2d5a3d;
+  border-color: #3f8a5c;
+  color: #d8ffe6;
+}
+.tas-app .tas-state {
+  flex: 0 0 auto;
+  font-size: 12px;
+  opacity: 0.5;
+  color: #888;
+}
+.tas-app .tas-tile.active .tas-state { opacity: 1; color: #e3bd62; }
+.tas-app .tas-tile.type-oneshot .tas-state { color: #b98ad6; }
+.tas-app .tas-tile.looped .tas-state { color: #e3bd62; }
+
+.tas-app .tas-tile-foot {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  padding: 2px 6px 6px;
+}
+.tas-app input.tas-vol { flex: 1 1 auto; }
+.tas-app .tas-pct {
+  font-size: 10px;
+  width: 30px;
+  text-align: right;
+  opacity: 0.7;
+}
+
+.tas-app .tas-hidden { display: none; }
+
+/* Playback-progress edge — a thin bar growing along the bottom of a tile/card. */
+.tas-app .tas-progress {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  height: 3px;
+  width: 0;
+  background: #e3bd62;
+  box-shadow: 0 0 4px rgba(227, 189, 98, 0.7);
+  pointer-events: none;
+  z-index: 3;
+  transition: width 0.12s linear;
+}
+.tas-app .tas-ss-card .tas-progress { background: #7fd1ff; box-shadow: 0 0 4px rgba(127, 209, 255, 0.7); }
+
+/* Top edge — countdown until the next auto-repeat fire (the "wait" bar). */
+.tas-app .tas-progress-top {
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 3px;
+  width: 0;
+  background: #6a8cc4;
+  pointer-events: none;
+  z-index: 3;
+  transition: width 0.12s linear;
+}
+
+/* Collapsible soundscape filter drawer */
+.tas-app .tas-ss-filterbar { display: flex; }
+.tas-app .tas-filters-toggle {
+  width: auto;
+  height: 26px;
+  padding: 0 10px;
+  font-size: 12px;
+  background: #2a2a33;
+  border: 1px solid #44444f;
+  color: #e9e6df;
+  text-transform: capitalize;
+}
+.tas-app .tas-filters-toggle.on { border-color: #c8a24a; color: #f0d99a; }
+.tas-app .tas-filters-toggle b { color: #e3bd62; font-weight: 600; }
+
+/* "Now playing" toggle button */
+.tas-app .tas-np-btn {
+  width: auto;
+  flex: 0 0 auto;
+  height: 28px;
+  padding: 0 8px;
+  background: #2a2a33;
+  border: 1px solid #44444f;
+  color: #e9e6df;
+  white-space: nowrap;
+}
+.tas-app .tas-np-btn.on { background: #2d4a5a; border-color: #3f7a8a; color: #d8f2ff; }
+
+/* Right "now playing" drawer */
+.tas-app .tas-nowplaying {
+  flex: 0 0 190px;
+  display: flex;
+  flex-direction: column;
+  min-height: 0;
+  border-left: 1px solid #33333d;
+  background: #16161c;
+}
+.tas-app .tas-np-head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 8px 10px;
+  font-size: 13px;
+  font-weight: 600;
+  color: #cfe6f3;
+  border-bottom: 1px solid #2a2a33;
+}
+.tas-app .tas-np-close { width: 24px; height: 24px; background: none; border: none; color: #888; }
+.tas-app .tas-np-close:hover { color: #fff; }
+.tas-app .tas-np-list { flex: 1 1 auto; overflow-y: auto; padding: 6px; }
+.tas-app .tas-np-item {
+  display: flex;
+  align-items: stretch;
+  gap: 4px;
+  margin-bottom: 5px;
+  border: 1px solid #33333d;
+  border-radius: 6px;
+  background: #20202a;
+  overflow: hidden;
+}
+.tas-app .tas-np-item.kind-repeat { border-left: 3px solid #6a8cc4; }
+.tas-app .tas-np-item.soundscape { border-left: 3px solid #7fd1ff; }
+.tas-app .tas-np-item:not(.kind-repeat):not(.soundscape) { border-left: 3px solid #c8a24a; }
+.tas-app .tas-np-go {
+  flex: 1 1 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  justify-content: center;
+  gap: 2px;
+  min-width: 0;
+  height: auto;
+  line-height: 1.25;
+  padding: 6px 8px;
+  background: none;
+  border: none;
+  border-radius: 0;
+  box-shadow: none;
+  color: #e9e6df;
+  text-align: left;
+  cursor: pointer;
+}
+.tas-app .tas-np-go:hover { background: rgba(255, 255, 255, 0.05); }
+.tas-app .tas-np-label {
+  display: block;
+  font-size: 12px;
+  line-height: 1.25;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.tas-app .tas-np-source {
+  display: block;
+  font-size: 10px;
+  line-height: 1.2;
+  opacity: 0.65;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.tas-app .tas-np-ctrl {
+  flex: 0 0 auto;
+  display: flex;
+  flex-direction: column;
+  border-left: 1px solid #2a2a33;
+}
+.tas-app .tas-np-ctrl button {
+  width: 30px;
+  flex: 1 1 0;
+  min-height: 22px;
+  padding: 0;
+  background: none;
+  border: none;
+  font-size: 11px;
+  cursor: pointer;
+}
+.tas-app .tas-np-stop { color: #a06464; }
+.tas-app .tas-np-stop:hover { background: #5a2d2d; color: #ffd8d8; }
+.tas-app .tas-np-loop {
+  color: #777;
+  border-top: 1px solid #2a2a33 !important;
+}
+.tas-app .tas-np-loop:hover { color: #cbb; }
+.tas-app .tas-np-loop.on { color: #d8ffe6; background: #2d5a3d; }
+.tas-app .tas-np-empty { text-align: center; opacity: 0.5; font-size: 12px; padding: 16px 8px; }
+
+.tas-app .tas-banner {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  flex-wrap: wrap;
+  padding: 6px 10px;
+  background: #3a2f1a;
+  border: 1px solid #6b5a2e;
+  border-radius: 6px;
+  font-size: 12px;
+  color: #f0e2b8;
+}
+.tas-app .tas-banner code {
+  background: #1b1b22;
+  padding: 1px 6px;
+  border-radius: 4px;
+  color: #e3bd62;
+  font-size: 11px;
+}
+
+.tas-app select.tas-repeat {
+  flex: 1 1 auto;
+  min-width: 0;
+  height: 18px;
+  font-size: 10px;
+  background: #2a2a33;
+  color: #e9e6df;
+  border: 1px solid #3a3a44;
+  border-radius: 4px;
+  padding: 0 2px;
+}
+.tas-app select.tas-repeat:disabled { opacity: 0.4; cursor: not-allowed; }
+.tas-app .tas-tile.repeating { border-color: #b98ad6; }
+.tas-app .tas-tile.repeating .tas-repeat {
+  border-color: #6b4a86;
+  color: #d9b8f0;
+}
+.tas-app .tas-tile.repeating .tas-state { color: #b98ad6; opacity: 1; }
+
+.tas-app .tas-flash { animation: tas-flash 0.35s ease-out; }
+@keyframes tas-flash {
+  0% { background: rgba(185, 138, 214, 0.55); }
+  100% { background: none; }
+}
+
+.tas-app .tas-empty {
+  text-align: center;
+  opacity: 0.7;
+  padding: 30px;
+}
