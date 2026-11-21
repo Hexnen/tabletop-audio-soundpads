@@ -14,6 +14,8 @@
 
 const MODULE_ID = "tabletop-audio-soundpads";
 const FADE_MS = 600;
+/** Longest a loop toggle may hold the toggle queue (create + playSound round-trips). */
+const TOGGLE_TIMEOUT_MS = 10000;
 
 // Pick the best source URL for this layer given the user's settings + browser.
 const CAN_OGG = (() => {
@@ -236,13 +238,27 @@ export class SoundPadEngine {
     if (pending) return pending;
     // Toggles also run one at a time, so a music/soundscape started while
     // another one is still being created still sees (and stops) it.
-    const run = this.#toggleChain.then(() => this.#toggleLoop(padId, layer, opts));
+    // Each toggle settles within TOGGLE_TIMEOUT_MS even if a server reply never
+    // arrives (an ack lost in a brief disconnect never rejects), so one hung
+    // request cannot block every later loop toggle until a reload.
+    const run = this.#toggleChain.then(() => this.#withTimeout(this.#toggleLoop(padId, layer, opts), padId, layer));
     this.#toggleChain = run.catch(() => {});
     this.#toggling.set(key, run);
     run.finally(() => {
       if (this.#toggling.get(key) === run) this.#toggling.delete(key);
     }).catch(() => {});
     return run;
+  }
+
+  #withTimeout(op, padId, layer) {
+    let timer;
+    const timeout = new Promise((resolve) => {
+      timer = window.setTimeout(() => {
+        console.warn(`${MODULE_ID} | loop toggle for "${layer.label || layer.id}" got no server reply in time`);
+        resolve(this.isActive(padId, layer.id));
+      }, TOGGLE_TIMEOUT_MS);
+    });
+    return Promise.race([op, timeout]).finally(() => window.clearTimeout(timer));
   }
 
   async #toggleLoop(padId, layer, { volume, preferLocal, loop = true, fade = true } = {}) {
@@ -283,6 +299,8 @@ export class SoundPadEngine {
           flags: { [MODULE_ID]: { key, padId, layerId: layer.id, type: layer.type } }
         }
       ]);
+      // A preCreate hook (another module) may veto the creation.
+      if (!snd) return false;
     } else {
       await snd.update({ repeat: loop, volume: gain });
     }
