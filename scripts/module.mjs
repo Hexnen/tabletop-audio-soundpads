@@ -64,7 +64,12 @@ function registerSettings() {
     hint: "TAS.Settings.Broadcast.Hint",
     scope: "world",
     config: true,
-    type: new BooleanField({ initial: true })
+    type: new BooleanField({ initial: true }),
+    // Going "GM only" sends no more clearRepeat/stopManual messages, so players
+    // drop the mirrored one-shots/repeaters they are still running.
+    onChange: (value) => {
+      if (!value && !game.user.isGM) TAS.engine?.stopManual();
+    }
   });
 
   // Remembers the last-opened pad so the window reopens where you left it.
@@ -180,17 +185,28 @@ Hooks.once("ready", async () => {
   }
 
   // Keep the open window in step with native playlist sync on every client.
-  const rerender = (doc, changes) => {
+  const rerender = (doc) => {
     if (!doc?.parent?.getFlag?.(MODULE_ID, "managed")) return;
-    // The 10s position-saver only touches pausedTime — don't re-render for that.
-    if (changes && Object.keys(changes).every((k) => k === "pausedTime" || k === "_id")) return;
     for (const app of foundry.applications.instances.values()) {
       if (app instanceof SoundPadApp) app.render();
     }
   };
-  Hooks.on("createPlaylistSound", rerender);
-  Hooks.on("updatePlaylistSound", rerender);
-  Hooks.on("deletePlaylistSound", rerender);
+  // create/delete hooks receive (doc, options, userId) — no change diff.
+  Hooks.on("createPlaylistSound", (doc) => rerender(doc));
+  Hooks.on("deletePlaylistSound", (doc) => rerender(doc));
+  Hooks.on("updatePlaylistSound", (doc, changes) => {
+    // The 10s position-saver only touches pausedTime — don't re-render for that.
+    if (changes && Object.keys(changes).every((k) => k === "pausedTime" || k === "_id")) return;
+    rerender(doc);
+  });
+
+  // Mirrored repeaters live only in memory on each player; when a GM leaves
+  // (or reloads) the GM-side repeaters are gone and nothing would ever send a
+  // clearRepeat, so players stop their mirrored transient sounds too.
+  Hooks.on("userConnected", (user, connected) => {
+    if (connected || !user?.isGM || game.user.isGM) return;
+    TAS.engine?.stopManual();
+  });
 
   // GM: tidy up managed sounds once they stop (manual stop or a one-shot that
   // reached its end) — delete after the fade so it doesn't cut off.

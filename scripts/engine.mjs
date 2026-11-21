@@ -32,6 +32,10 @@ export class SoundPadEngine {
   #repeaters = new Map();
   /** Currently-sounding one-shots (for progress bars), keyed by tile key. */
   #oneshots = new Map();
+  /** EVERY live manual one-shot Sound (overlapping plays of one tile included), for stopManual. */
+  #liveSounds = new Set();
+  /** In-flight managed-playlist creation (so rapid first clicks create only one). */
+  #plCreating = null;
   /** Debounced PlaylistSound volume writes, keyed by tile key. */
   #volTimers = new Map();
   /** Periodic position-saver interval (GM). */
@@ -67,7 +71,8 @@ export class SoundPadEngine {
   }
 
   get playlist() {
-    if (!this.#pl) {
+    // Re-resolve when the cached playlist was deleted (e.g. by the GM in the sidebar).
+    if (!this.#pl || !game.playlists?.has(this.#pl.id)) {
       this.#pl = game.playlists?.find((p) => p.getFlag(MODULE_ID, "managed")) ?? null;
     }
     return this.#pl;
@@ -96,7 +101,9 @@ export class SoundPadEngine {
     //    here (inside the click gesture) lets loops start immediately, and we
     //    flush anything already queued so it plays now rather than "all at once
     //    on the next click".
-    if (a.locked) {
+    // Only once Foundry has created its contexts (first-gesture handler) — flipping
+    // `locked` earlier would make that handler skip context creation for good.
+    if (a.locked && a.music) {
       try { a.locked = false; } catch {}
       const pending = a.pending;
       if (Array.isArray(pending) && pending.length) {
@@ -128,6 +135,11 @@ export class SoundPadEngine {
 
   isRepeating(padId, layerId) {
     return this.#repeaters.has(this.key(padId, layerId));
+  }
+
+  /** Auto-repeat interval (s) of a running repeater, or 0. */
+  getRepeatInterval(padId, layerId) {
+    return this.#repeaters.get(this.key(padId, layerId))?.interval ?? 0;
   }
 
   isLooping(padId, layerId) {
@@ -330,13 +342,13 @@ export class SoundPadEngine {
 
   async #ensurePlaylist() {
     if (this.playlist) return this.#pl;
-    if (game.user.isGM) {
-      this.#pl = await Playlist.create({
-        name: "Tabletop Audio (live mix)",
-        mode: CONST.PLAYLIST_MODES.SIMULTANEOUS,
-        flags: { [MODULE_ID]: { managed: true } }
-      });
-    }
+    if (!game.user.isGM) return null;
+    this.#plCreating ??= Playlist.create({
+      name: "Tabletop Audio (live mix)",
+      mode: CONST.PLAYLIST_MODES.SIMULTANEOUS,
+      flags: { [MODULE_ID]: { managed: true } }
+    }).finally(() => { this.#plCreating = null; });
+    this.#pl = (await this.#plCreating) ?? null;
     return this.#pl;
   }
 
@@ -369,6 +381,10 @@ export class SoundPadEngine {
   }
 
   async playOneShot(padId, layer, { volume, preferLocal } = {}) {
+    // Before this client's first user gesture Sound#load() waits for the unlock,
+    // so every mirrored one-shot/repeat would pile up and burst out together on
+    // the first click. Transient SFX that can't play now are simply dropped.
+    if (!game.audio || game.audio.locked) return;
     const vol = volume ?? layer.gain ?? 0.7;
     let sound;
     try {
@@ -377,6 +393,8 @@ export class SoundPadEngine {
       console.error(`${MODULE_ID} | failed to load`, layer, err);
       return;
     }
+    // load() swallows errors and marks the Sound failed (play() is then a no-op).
+    if (sound.failed) return;
     const key = this.key(padId, layer.id);
     const play = { loop: false, volume: vol };
     let entry;
@@ -392,7 +410,11 @@ export class SoundPadEngine {
       entry = { sound, padId, layerId: layer.id, offset: 0, duration: sound.duration || 0 };
     }
     this.#oneshots.set(key, entry);
-    const drop = () => { if (this.#oneshots.get(key)?.sound === sound) this.#oneshots.delete(key); };
+    this.#liveSounds.add(sound);
+    const drop = () => {
+      this.#liveSounds.delete(sound);
+      if (this.#oneshots.get(key)?.sound === sound) this.#oneshots.delete(key);
+    };
     sound.addEventListener?.("stop", drop);
     sound.addEventListener?.("end", drop);
   }
@@ -431,7 +453,9 @@ export class SoundPadEngine {
   stopManual() {
     for (const [, r] of [...this.#repeaters]) window.clearTimeout(r.id);
     this.#repeaters.clear();
+    for (const s of [...this.#liveSounds]) { try { s.stop(); } catch {} }
     for (const [, o] of [...this.#oneshots]) { try { o.sound.stop(); } catch {} }
+    this.#liveSounds.clear();
     this.#oneshots.clear();
   }
 
