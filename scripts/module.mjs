@@ -78,8 +78,11 @@ function registerSettings() {
 // --- socket -----------------------------------------------------------------
 
 function wireSocket() {
-  game.socket.on(SOCKET, async (msg) => {
+  // Foundry relays module socket messages with the sender's user id appended.
+  // Only a GM's mix is mirrored — ignore anything a player client emits.
+  game.socket.on(SOCKET, async (msg, senderId) => {
     if (!msg || typeof msg !== "object") return;
+    if (!game.users.get(senderId)?.isGM) return;
     const { action } = msg;
     const eng = TAS.engine;
     const preferLocal = TAS.preferLocal();
@@ -195,7 +198,12 @@ Hooks.once("ready", async () => {
     if (!game.user.isGM) return;
     if (!doc?.parent?.getFlag?.(MODULE_ID, "managed")) return;
     if (changes?.playing === false) {
-      window.setTimeout(() => doc.delete().catch(() => {}), 700);
+      // Re-check: the layer may have been re-toggled on during the fade, or the
+      // document already removed (by another GM / stopAll).
+      window.setTimeout(() => {
+        if (doc.playing || !doc.parent?.sounds.has(doc.id)) return;
+        doc.delete().catch(() => {});
+      }, 700);
     }
   });
 
