@@ -30,7 +30,7 @@
         <i class="fa-solid fa-headphones"></i>{{#if npCount}} {{npCount}}{{/if}}
       </button>
       {{#if tabSS}}
-        <input type="text" class="tas-search" placeholder="{{localize 'TAS.SearchPlaceholder'}}" value="{{ssSearch}}">
+        <input type="text" class="tas-search" name="ssSearch" placeholder="{{localize 'TAS.SearchPlaceholder'}}" value="{{ssSearch}}">
       {{/if}}
     </div>
   </div>
@@ -161,7 +161,7 @@
           <span class="tas-label">{{this.label}}</span>
         </button>
         <div class="tas-tile-foot">
-          <input class="tas-vol" type="range" min="0" max="100" value="{{this.pct}}" data-layer-id="{{this.id}}">
+          <input class="tas-vol" type="range" name="vol-{{this.id}}" min="0" max="100" value="{{this.pct}}" data-layer-id="{{this.id}}">
           <span class="tas-pct">{{this.pct}}%</span>
         </div>
         <div class="tas-progress"></div>

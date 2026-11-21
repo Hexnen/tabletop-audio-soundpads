@@ -34,6 +34,9 @@ export class SoundPadApp extends HandlebarsApplicationMixin(ApplicationV2) {
   #scroll = 0;
   /** Pad ids whose audio has been preloaded (so plays are instant). */
   #preloaded = new Set();
+  /** A volume slider is being dragged: hold re-renders (they would replace it mid-drag). */
+  #dragging = false;
+  #renderQueued = false;
 
   // Tabletop Audio's standard "Every N" choices (seconds).
   static REPEAT_OPTIONS = [0, 10, 15, 30, 60, 120, 180, 300, 900, 1800];
@@ -87,6 +90,34 @@ export class SoundPadApp extends HandlebarsApplicationMixin(ApplicationV2) {
       return existing.render({ force: true });
     }
     return new SoundPadApp().render({ force: true });
+  }
+
+  /**
+   * Defer re-renders while a volume slider is held. Dragging a playing loop's
+   * slider writes the PlaylistSound volume, whose update hook re-renders the
+   * window; replacing the slider under the pointer ends the drag.
+   */
+  async render(options = {}, _options = {}) {
+    if (this.#dragging && this.rendered) {
+      this.#renderQueued = true;
+      return this;
+    }
+    return super.render(options, _options);
+  }
+
+  #onSliderDown() {
+    this.#dragging = true;
+    const end = () => {
+      window.removeEventListener("pointerup", end);
+      window.removeEventListener("pointercancel", end);
+      this.#dragging = false;
+      if (this.#renderQueued) {
+        this.#renderQueued = false;
+        if (this.rendered) this.render();
+      }
+    };
+    window.addEventListener("pointerup", end);
+    window.addEventListener("pointercancel", end);
   }
 
   get padId() {
@@ -212,6 +243,7 @@ export class SoundPadApp extends HandlebarsApplicationMixin(ApplicationV2) {
     // Volume sliders aren't action-based; wire them here.
     for (const slider of this.element.querySelectorAll("input.tas-vol")) {
       slider.addEventListener("input", this.#onVolume.bind(this));
+      slider.addEventListener("pointerdown", this.#onSliderDown.bind(this));
     }
     // Hide images that fail to load (e.g. not downloaded yet) so we don't show
     // broken-image placeholders.
@@ -227,6 +259,8 @@ export class SoundPadApp extends HandlebarsApplicationMixin(ApplicationV2) {
     // Soundscape search — filter cards live, without a re-render (keeps focus).
     const search = this.element.querySelector("input.tas-search");
     if (search) {
+      // Focus was restored by name after a re-render; put the caret back at the end.
+      if (document.activeElement === search) search.setSelectionRange(search.value.length, search.value.length);
       search.addEventListener("input", (ev) => {
         this.#ssSearch = ev.currentTarget.value;
         this.#applySsSearch();
