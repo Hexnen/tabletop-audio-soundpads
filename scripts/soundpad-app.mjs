@@ -3,11 +3,11 @@ import { MODULE_ID, TAS, emit, SOUNDSCAPE_PAD } from "./module.mjs";
 const { ApplicationV2, HandlebarsApplicationMixin } = foundry.applications.api;
 
 export class SoundPadApp extends HandlebarsApplicationMixin(ApplicationV2) {
-  /** Per-layer desired volume (0..1), keyed by layerId, for the current pad. */
+  /** Per-layer desired volume (input space), keyed by `${padId}::${layerId}` (layer ids like bg_3 repeat across pads). */
   #volumes = new Map();
   /** Per-layer auto-repeat interval in seconds (0 = off), keyed by layerId. */
   #repeats = new Map();
-  /** Per-layer loop-mode override (bool), keyed by layerId; default = layer.loop. */
+  /** Per-layer loop-mode override (bool), keyed by `${padId}::${layerId}`; default = layer.loop. */
   #loops = new Map();
   #filter = "all";
   #padId = null;
@@ -133,13 +133,13 @@ export class SoundPadApp extends HandlebarsApplicationMixin(ApplicationV2) {
         label: this.#repeatLabel(sec)
       }));
       context.tiles = pad.layers.map((l) => {
-        const looped = this.#loops.get(l.id) ?? l.loop;
+        const looped = this.#loops.get(this.#lk(padId, l.id)) ?? l.loop;
         const active = TAS.engine.isActive(padId, l.id);
         // Sliders work in Foundry's perceptual "input" space so they read the
         // same as the native "currently playing" sliders. While playing, reflect
         // the live (document-synced) value; otherwise the desired/default.
         const liveVol = active ? TAS.engine.getVolume(padId, l.id) : null;
-        const vol = liveVol ?? this.#volumes.get(l.id) ?? this.#toInput(l.gain ?? 0.5);
+        const vol = liveVol ?? this.#volumes.get(this.#lk(padId, l.id)) ?? this.#toInput(l.gain ?? 0.5);
         return {
           ...l,
           active,
@@ -166,8 +166,11 @@ export class SoundPadApp extends HandlebarsApplicationMixin(ApplicationV2) {
 
   #prepareSoundscapes(context) {
     const cat = TAS.soundscapes ?? { genres: [], tracks: [] };
+    // "all" is our own pseudo-genre — localize it (real genres are TTA data).
+    const genreLabel = (g) => (g === "all" ? game.i18n.localize("TAS.Cat.all") : g);
     context.ssGenres = ["all", ...cat.genres].map((g) => ({
       key: g,
+      label: genreLabel(g),
       active: g === this.#ssGenre
     }));
     // Genre filters in the context (re-render); free-text search filters the
@@ -186,7 +189,7 @@ export class SoundPadApp extends HandlebarsApplicationMixin(ApplicationV2) {
     context.ssFade = this.#ssFade;
     context.ssSearch = this.#ssSearch;
     context.ssFiltersOpen = this.#ssFiltersOpen;
-    context.ssActiveGenre = this.#ssGenre;
+    context.ssActiveGenre = genreLabel(this.#ssGenre);
     context.ssCount = tracks.length;
     context.ssTotal = cat.tracks.length;
     // Hint to download audio when the visible set has undownloaded tracks.
@@ -328,9 +331,14 @@ export class SoundPadApp extends HandlebarsApplicationMixin(ApplicationV2) {
     return foundry.audio.AudioHelper.volumeToInput(gain);
   }
 
+  /** Per-pad key for #volumes/#loops — pads reuse the same layer ids (bg_1, bg_2…). */
+  #lk(padId, layerId) {
+    return `${padId}::${layerId}`;
+  }
+
   /** Raw gain for manual sounds (one-shots/repeats), from the slider or default. */
   #gainFor(layerId, fallbackGain) {
-    const input = this.#volumes.get(layerId);
+    const input = this.#volumes.get(this.#lk(this.padId, layerId));
     return input != null ? foundry.audio.AudioHelper.inputToVolume(input) : (fallbackGain ?? 0.7);
   }
 
@@ -475,7 +483,7 @@ export class SoundPadApp extends HandlebarsApplicationMixin(ApplicationV2) {
     const layer = pad.layers.find((l) => l.id === layerId);
     if (!layer) return;
     const preferLocal = TAS.preferLocal();
-    const looped = this.#loops.get(layerId) ?? layer.loop;
+    const looped = this.#loops.get(this.#lk(this.padId, layerId)) ?? layer.loop;
 
     // Loop mode → toggle a continuous loop; otherwise fire a single one-shot.
     // One-shots use a manual Sound (no document) so they play INSTANTLY — the
@@ -493,7 +501,7 @@ export class SoundPadApp extends HandlebarsApplicationMixin(ApplicationV2) {
     // Looping layers are PlaylistSound documents — Foundry syncs them to every
     // client natively (volume passed in input space; engine defaults from gain).
     await TAS.engine.toggleLoop(this.padId, layer, {
-      volume: this.#volumes.get(layerId), preferLocal, loop: true
+      volume: this.#volumes.get(this.#lk(this.padId, layerId)), preferLocal, loop: true
     });
     this.render();
   }
@@ -503,8 +511,8 @@ export class SoundPadApp extends HandlebarsApplicationMixin(ApplicationV2) {
     const pad = await TAS.getPad(this.padId);
     const layer = pad.layers.find((l) => l.id === layerId);
     if (!layer) return;
-    const looped = !(this.#loops.get(layerId) ?? layer.loop);
-    this.#loops.set(layerId, looped);
+    const looped = !(this.#loops.get(this.#lk(this.padId, layerId)) ?? layer.loop);
+    this.#loops.set(this.#lk(this.padId, layerId), looped);
 
     // Loop takes precedence over auto-repeat: drop a running repeater, or it
     // keeps firing invisibly (its dropdown is disabled while looped).
@@ -536,7 +544,7 @@ export class SoundPadApp extends HandlebarsApplicationMixin(ApplicationV2) {
     const slider = event.currentTarget;
     const layerId = slider.dataset.layerId;
     const volume = Number(slider.value) / 100;
-    this.#volumes.set(layerId, volume);
+    this.#volumes.set(this.#lk(this.padId, layerId), volume);
     const pctEl = slider.closest(".tas-tile")?.querySelector(".tas-pct");
     if (pctEl) pctEl.textContent = `${Math.round(volume * 100)}%`;
     if (TAS.engine.isActive(this.padId, layerId)) {

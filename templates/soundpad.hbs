@@ -72,7 +72,7 @@
     {{#if ssFiltersOpen}}
     <nav class="tas-ss-filters">
       {{#each ssGenres}}
-        <a class="tas-filter {{#if this.active}}active{{/if}}" data-action="ssFilter" data-genre="{{this.key}}">{{this.key}}</a>
+        <a class="tas-filter {{#if this.active}}active{{/if}}" data-action="ssFilter" data-genre="{{this.key}}">{{this.label}}</a>
       {{/each}}
     </nav>
     {{/if}}
