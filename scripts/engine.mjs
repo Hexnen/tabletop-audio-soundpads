@@ -42,6 +42,10 @@ export class SoundPadEngine {
   #posTimer = null;
   /** Counter for unique one-shot-document keys (so rapid clicks overlap). */
   #oneCounter = 0;
+  /** In-flight loop toggles, keyed by tile key (a repeat click is dropped). */
+  #toggling = new Map();
+  /** Serializes loop toggles (music/soundscape exclusivity sees prior creates). */
+  #toggleChain = Promise.resolve();
 
   // --- managed playlist -----------------------------------------------------
 
@@ -221,8 +225,27 @@ export class SoundPadEngine {
    * PlaylistSound so Foundry handles sync + resume for every client.
    * @returns {Promise<boolean>} the new on/off state.
    */
-  async toggleLoop(padId, layer, { volume, preferLocal, loop = true, fade = true } = {}) {
-    if (!game.user.isGM) return this.isActive(padId, layer.id);
+  toggleLoop(padId, layer, opts = {}) {
+    if (!game.user.isGM) return Promise.resolve(this.isActive(padId, layer.id));
+    // A second click on the same layer while its toggle is still in flight
+    // (double-click; the create + playSound round-trips take a while on a remote
+    // server) would not see the new document yet and create a duplicate loop of
+    // the same key — only one of them could then ever be stopped from the tile.
+    const key = this.key(padId, layer.id);
+    const pending = this.#toggling.get(key);
+    if (pending) return pending;
+    // Toggles also run one at a time, so a music/soundscape started while
+    // another one is still being created still sees (and stops) it.
+    const run = this.#toggleChain.then(() => this.#toggleLoop(padId, layer, opts));
+    this.#toggleChain = run.catch(() => {});
+    this.#toggling.set(key, run);
+    run.finally(() => {
+      if (this.#toggling.get(key) === run) this.#toggling.delete(key);
+    }).catch(() => {});
+    return run;
+  }
+
+  async #toggleLoop(padId, layer, { volume, preferLocal, loop = true, fade = true } = {}) {
     const pl = await this.#ensurePlaylist();
     if (!pl) return false;
     const key = this.key(padId, layer.id);
