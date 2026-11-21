@@ -250,7 +250,7 @@ export class SoundPadApp extends HandlebarsApplicationMixin(ApplicationV2) {
       try {
         const src = TAS.engine.resolveSrc(layer, { preferLocal });
         // Creating + loading caches the decoded buffer Foundry reuses on play.
-        game.audio.create({ src, singleInstance: true }).load().catch(() => {});
+        game.audio.create({ src, singleton: true }).load().catch(() => {});
       } catch {}
     }
   }

@@ -373,7 +373,10 @@ export class SoundPadEngine {
     const sound = game.audio.create({
       src: this.resolveSrc(layer, { preferLocal }),
       context: this.#contextFor(layer.type),
-      singleInstance: false,
+      // v14's option is `singleton` (default true): a shared per-src Sound would
+      // ignore play() while already playing (no overlapping hits) and collect a
+      // new pair of stop/end listeners on every play of that tile.
+      singleton: false,
       autoplay: false
     });
     await sound.load();
@@ -415,8 +418,8 @@ export class SoundPadEngine {
       this.#liveSounds.delete(sound);
       if (this.#oneshots.get(key)?.sound === sound) this.#oneshots.delete(key);
     };
-    sound.addEventListener?.("stop", drop);
-    sound.addEventListener?.("end", drop);
+    sound.addEventListener?.("stop", drop, { once: true });
+    sound.addEventListener?.("end", drop, { once: true });
   }
 
   // --- auto-repeat (manual; mirrored to players via socket) ----------------
