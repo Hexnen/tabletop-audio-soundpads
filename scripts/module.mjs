@@ -213,6 +213,9 @@ Hooks.once("ready", async () => {
   Hooks.on("updatePlaylistSound", (doc, changes) => {
     if (!game.user.isGM) return;
     if (!doc?.parent?.getFlag?.(MODULE_ID, "managed")) return;
+    // Only sounds this module created (they carry a key flag) — a track the GM
+    // added to the live-mix playlist by hand must not be deleted when stopped.
+    if (!doc.getFlag(MODULE_ID, "key")) return;
     if (changes?.playing === false) {
       // Re-check: the layer may have been re-toggled on during the fade, or the
       // document already removed (by another GM / stopAll).
