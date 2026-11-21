@@ -152,7 +152,9 @@ export class SoundPadApp extends HandlebarsApplicationMixin(ApplicationV2) {
           // Auto-repeat (TTA's "Every N") only applies when not looping; the
           // loop button takes precedence, exactly like Tabletop Audio.
           repeatable: !looped,
-          repeatSec: this.#repeats.get(l.id) ?? l.repeatDefault ?? 0
+          // The engine's running repeater is the truth (survives close/reopen,
+          // cleared by Stop all / the now-playing drawer).
+          repeatSec: TAS.engine.getRepeatInterval(padId, l.id)
         };
       });
     } else {
@@ -216,7 +218,7 @@ export class SoundPadApp extends HandlebarsApplicationMixin(ApplicationV2) {
     // Repeat-interval dropdowns: set current value (TTA default unless changed)
     // + wire change handler.
     for (const sel of this.element.querySelectorAll("select.tas-repeat")) {
-      sel.value = String(this.#repeats.get(sel.dataset.layerId) ?? sel.dataset.current ?? 0);
+      sel.value = String(sel.dataset.current ?? 0);
       sel.addEventListener("change", this.#onRepeat.bind(this));
     }
     // Soundscape search — filter cards live, without a re-render (keeps focus).
@@ -503,6 +505,14 @@ export class SoundPadApp extends HandlebarsApplicationMixin(ApplicationV2) {
     if (!layer) return;
     const looped = !(this.#loops.get(layerId) ?? layer.loop);
     this.#loops.set(layerId, looped);
+
+    // Loop takes precedence over auto-repeat: drop a running repeater, or it
+    // keeps firing invisibly (its dropdown is disabled while looped).
+    if (looped && TAS.engine.isRepeating(this.padId, layerId)) {
+      TAS.engine.clearRepeat(this.padId, layerId);
+      this.#repeats.delete(layerId);
+      if (TAS.canBroadcast()) emit({ action: "clearRepeat", padId: this.padId, layerId });
+    }
 
     // Turning loop off while it's looping stops it (TTA: "...unless you uncheck").
     if (!looped && TAS.engine.isActive(this.padId, layerId)) {
