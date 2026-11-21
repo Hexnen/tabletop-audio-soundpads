@@ -126,6 +126,21 @@ async function resolveLayer(msg) {
   return pad?.layers.find((l) => l.id === msg.layerId) ?? null;
 }
 
+// GM: delete a stopped module-created sound after its fade.
+function cleanupStopped(doc) {
+  if (!game.user.isGM || !doc) return;
+  if (!doc.parent?.getFlag?.(MODULE_ID, "managed")) return;
+  // Only sounds this module created (they carry a key flag) — a track the GM
+  // added to the live-mix playlist by hand must not be deleted when stopped.
+  if (!doc.getFlag(MODULE_ID, "key")) return;
+  // Re-check: the layer may have been re-toggled on during the fade, or the
+  // document already removed (by another GM / stopAll).
+  window.setTimeout(() => {
+    if (doc.playing || !doc.parent?.sounds.has(doc.id)) return;
+    doc.delete().catch(() => {});
+  }, 700);
+}
+
 // --- scene controls (the toolbar button) ------------------------------------
 
 Hooks.on("getSceneControlButtons", (controls) => {
@@ -194,10 +209,25 @@ Hooks.once("ready", async () => {
   // create/delete hooks receive (doc, options, userId) — no change diff.
   Hooks.on("createPlaylistSound", (doc) => rerender(doc));
   Hooks.on("deletePlaylistSound", (doc) => rerender(doc));
+  // The 10s position-saver only touches pausedTime — don't re-render for that.
+  const onlyPosition = (changes) =>
+    !!changes && Object.keys(changes).every((k) => k === "pausedTime" || k === "_id");
   Hooks.on("updatePlaylistSound", (doc, changes) => {
-    // The 10s position-saver only touches pausedTime — don't re-render for that.
-    if (changes && Object.keys(changes).every((k) => k === "pausedTime" || k === "_id")) return;
+    if (onlyPosition(changes)) return;
     rerender(doc);
+  });
+  // Playlist#playSound / #stopSound / #stopAll and a sound ending on its own
+  // (Playlist#_onSoundEnd) all update the PARENT playlist with a `sounds` diff,
+  // so they fire updatePlaylist only — never updatePlaylistSound.
+  Hooks.on("updatePlaylist", (playlist, changes) => {
+    if (!playlist?.getFlag?.(MODULE_ID, "managed") || !Array.isArray(changes?.sounds)) return;
+    for (const c of changes.sounds) {
+      if (c?.playing === false) cleanupStopped(playlist.sounds.get(c._id));
+    }
+    if (changes.sounds.every(onlyPosition) && Object.keys(changes).every((k) => k === "sounds" || k === "_id")) return;
+    for (const app of foundry.applications.instances.values()) {
+      if (app instanceof SoundPadApp) app.render();
+    }
   });
 
   // Mirrored repeaters live only in memory on each player; when a GM leaves
@@ -210,20 +240,10 @@ Hooks.once("ready", async () => {
 
   // GM: tidy up managed sounds once they stop (manual stop or a one-shot that
   // reached its end) — delete after the fade so it doesn't cut off.
+  // (Stops normally arrive as an updatePlaylist sounds diff — see above; a
+  // direct PlaylistSound update to playing:false is handled here too.)
   Hooks.on("updatePlaylistSound", (doc, changes) => {
-    if (!game.user.isGM) return;
-    if (!doc?.parent?.getFlag?.(MODULE_ID, "managed")) return;
-    // Only sounds this module created (they carry a key flag) — a track the GM
-    // added to the live-mix playlist by hand must not be deleted when stopped.
-    if (!doc.getFlag(MODULE_ID, "key")) return;
-    if (changes?.playing === false) {
-      // Re-check: the layer may have been re-toggled on during the fade, or the
-      // document already removed (by another GM / stopAll).
-      window.setTimeout(() => {
-        if (doc.playing || !doc.parent?.sounds.has(doc.id)) return;
-        doc.delete().catch(() => {});
-      }, 700);
-    }
+    if (changes?.playing === false) cleanupStopped(doc);
   });
 
   console.log(`${MODULE_ID} | ready — ${TAS.index.length} pads`);
