@@ -189,12 +189,28 @@ Hooks.once("ready", async () => {
   const mod = game.modules.get(MODULE_ID);
   if (mod) mod.api = { TAS, open: () => SoundPadApp.open() };
 
+  // The scene-control button exists before "ready" (initializeUI runs while the
+  // canvas is still loading), so a window opened that early rendered with no
+  // pads/soundscapes — refresh it now that the data is in.
+  for (const app of foundry.applications.instances.values()) {
+    if (app instanceof SoundPadApp && app.rendered) app.render();
+  }
+
   // Ensure the managed playlist exists (GM). Foundry then plays/syncs/resumes
   // every looping layer from its documents — including across reloads and for
   // players after the GM disconnects. Nothing else to restore.
   try {
     TAS.engine.initPlaylist();
     TAS.engine.startPositionSaver(); // GM: keep pausedTime fresh for resume + re-sync
+    // A stopped sound's delayed delete (cleanupStopped) is lost if the GM reloads
+    // or closes the tab within its fade window (e.g. Stop all, then F5): sweep
+    // those leftovers once. cleanupStopped re-checks after the fade, so a sound
+    // another GM is creating right now (created stopped, then played) survives.
+    if (game.users.activeGM?.isSelf) {
+      for (const s of TAS.engine.playlist?.sounds ?? []) {
+        if (!s.playing) cleanupStopped(s);
+      }
+    }
   } catch (err) {
     console.error(`${MODULE_ID} | could not init playlist`, err);
   }
