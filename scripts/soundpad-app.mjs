@@ -77,8 +77,15 @@ export class SoundPadApp extends HandlebarsApplicationMixin(ApplicationV2) {
 
   /** Singleton open/focus helper. */
   static open() {
-    const existing = Object.values(ui.windows).find((w) => w instanceof SoundPadApp);
-    if (existing) return existing.bringToFront?.() ?? existing.render({ force: true });
+    // ApplicationV2 instances are not tracked in ui.windows (V1 only).
+    const existing = foundry.applications.instances.get(SoundPadApp.DEFAULT_OPTIONS.id);
+    if (existing instanceof SoundPadApp) {
+      if (existing.rendered) {
+        existing.bringToFront();
+        return existing;
+      }
+      return existing.render({ force: true });
+    }
     return new SoundPadApp().render({ force: true });
   }
 
@@ -186,8 +193,8 @@ export class SoundPadApp extends HandlebarsApplicationMixin(ApplicationV2) {
     context.ssDownloadArg = this.#ssGenre === "all" ? "all" : this.#ssGenre;
   }
 
-  _preRender(context, options) {
-    super._preRender?.(context, options);
+  async _preRender(context, options) {
+    await super._preRender(context, options);
     const grid = this.element?.querySelector(".tas-grid, .tas-pad-grid");
     this.#scroll = grid ? grid.scrollTop : 0;
   }

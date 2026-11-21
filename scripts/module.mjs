@@ -130,8 +130,11 @@ Hooks.on("getSceneControlButtons", (controls) => {
     title: "TAS.OpenPad",
     icon: "fa-solid fa-record-vinyl",
     button: true,
-    onChange: () => SoundPadApp.open(),
-    onClick: () => SoundPadApp.open()
+    // v13+ sorts tools by `order`; without it the sort compares NaN.
+    order: Array.isArray(sounds.tools) ? sounds.tools.length : Object.keys(sounds.tools ?? {}).length,
+    // v13+ calls onChange; a legacy onClick would ALSO be called (with a
+    // deprecation warning), opening the window twice.
+    onChange: () => SoundPadApp.open()
   };
   if (Array.isArray(sounds.tools)) sounds.tools.push(tool);
   else sounds.tools[tool.name] = tool;
