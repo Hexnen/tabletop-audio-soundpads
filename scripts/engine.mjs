@@ -420,6 +420,15 @@ export class SoundPadEngine {
       singleton: false,
       autoplay: false
     });
+    // Optional: follow the "everything" filters of Moinen's Sound Filters (loops are
+    // PlaylistSounds and get them on their own; one-shots are standalone Sounds).
+    try {
+      if (game.modules.get("moinens-sound-filters")?.active) {
+        game.modules.get("moinens-sound-filters").api?.attachGlobal?.(sound);
+      }
+    } catch (err) {
+      console.warn(`${MODULE_ID} | sound filters unavailable`, err);
+    }
     await sound.load();
     return sound;
   }
