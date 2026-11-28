@@ -1,6 +1,6 @@
 {
   "id": "tabletop-audio-soundpads",
-  "title": "Tabletop Audio SoundPads",
+  "title": "Moinen's Tabletop Audio SoundPads",
   "description": "Native, in-Foundry recreation of the Tabletop Audio SoundPads: layered ambience, one-shots and music mixed live and broadcast to your players. Pad layouts are pre-cached as local data; audio streams from Tabletop Audio's CDN or an optional local copy. For personal use — support Tabletop Audio on Patreon.",
   "version": "0.1.11",
   "compatibility": {
